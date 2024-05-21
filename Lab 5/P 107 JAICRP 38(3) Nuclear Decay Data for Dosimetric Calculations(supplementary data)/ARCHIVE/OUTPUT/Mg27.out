@@ -1,0 +1,227 @@
+%%%%  27 MG  12    B-           5.67480E+02 9.458 M    18-07-2007       BALASTAR
+1  27   MG  12 9.458 M         B-         
+1INTENSITY AND ENERGY BALANCE DATA
+
+              27-MAGNESIUM-12
++                                    HALFLIFE = 9.458 MINUTES 
++                                                                  18-07-2007
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  9.9803E+01
+   8.4376E-01  7.1801E+01  7.1803E+01  3.1877E-03                      
+   1.0145E+00  2.9000E+01  2.8801E+01  6.8815E-01                      
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  9.980E+01
+ TOTAL INTENSITY FROM PARENT=  1.000E+02
+ PERCENT ERROR =  1.970E-01                      
+
+
+ TOTAL INTENSITY FROM PARENT =  1.000E+02
+ VALUE IS WITHIN   0.00E+00% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  2.611E+00 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  2.609E+00 MEV
+ PERCENT ERROR =  7.682E-02                      
+%%%%  27 MG  12    B-           5.67480E+02 9.458 M    18-07-2007       BALAEND 
+%%%%  27 MG  12    B-           5.67480E+02 9.458 M    18-07-2007       INPUSTAR
+1                                      **INPUT DATA**
+              27-MAGNESIUM-12
++                                    HALFLIFE = 9.458 MINUTES 
++                                                                  18-07-2007
+
+            MODE OF DECAY: BETA MINUS
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+               BETA MINUS   1   2.90E-01   1.596E+00*  ALLOWED                                  
+               BETA MINUS   2   7.10E-01   1.767E+00*  ALLOWED                                  
+           I.C.E. + GAMMA   1   8.01E-03   1.707E-01   M1 MULTIPOLE                             
+           I.C.E. + GAMMA   2   7.18E-01   8.438E-01   E2 MULTIPOLE                             
+           I.C.E. + GAMMA   3   2.80E-01   1.014E+00   M1 MULTIPOLE                             
+ 
+           * ENDPOINT ENERGY (MEV)
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: Mar-2001
+%%%%  27 MG  12    B-           5.67480E+02 9.458 M    18-07-2007       INPUEND 
+%%%%  27 MG  12    B-           5.67480E+02 9.458 M    18-07-2007       OUTPSTAR
+1                                      **OUTPUT DATA**
+              27-MAGNESIUM-12
++                                    HALFLIFE = 9.458 MINUTES 
++                                                                  18-07-2007
+
+            MODE OF DECAY: BETA MINUS
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           BETA MINUS                     1   2.90E-01    6.462E-01*   1.87E-01
+           BETA MINUS                     2   7.10E-01    7.249E-01*   5.15E-01
+           GAMMA-RAY                      1   8.00E-03    1.707E-01    1.37E-03
+           GAMMA-RAY                      2   7.18E-01    8.438E-01    6.06E-01
+           GAMMA-RAY                      3   2.80E-01    1.014E+00    2.84E-01
+ 
+           ALL LISTED X-RAYS, GAMMA-RAYS AND ANNIHILATION RADIATION    8.91E-01
+           ALL NEGLECTED X-RAYS, GAMMA-RAYS AND ANNIH. RADIATION**     3.44E-09
+           ALL LISTED BETAS, INTERNAL CONVERSION AND AUGER ELECTRONS   7.02E-01
+           ALL NEGLECTED BETAS, INT. CONVERSION AND AUGER ELECTRONS**  3.06E-05
+           ALL LISTED RADIATIONS                                       1.59E+00
+           ALL NEGLECTED RADIATIONS**                                  3.06E-05
+ 
+           *  AVERAGE ENERGY (MEV)
+           ** EACH NEGLECTED TRANSITION CONTRIBUTES LESS THAN  0.010%
+              TO THE TOTAL MEV/TRANSFORMATION FOR THIS CATEGORY.
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 27-ALUMINUM
+             DAUGHTER IS 1.0000E+00 PER TRANSFORMATION OF  27-MAGNESIUM.
+             THIS DAUGHTER GROUND STATE IS STABLE.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: Mar-2001
+%%%%  27 MG  12    B-           5.67480E+02 9.458 M    18-07-2007       OUTPEND 
+%%%%  27 MG  12    B-           5.67480E+02 9.458 M    18-07-2007       BETASTAR
+1
+              27-MAGNESIUM-12
++                                    HALFLIFE = 9.458 MINUTES 
++                                                                  18-07-2007
+
+            BETA SPECTRUM DATA FOR ALL DECAY BRANCHES
+
+                      BETAS PER                BETAS PER                BETAS PER
+            ENERGY    MEV            ENERGY    MEV            ENERGY    MEV
+            (MEV)     PER DECAY      (MEV)     PER DECAY      (MEV)     PER DECAY
+
+            0.00000   2.385E-01      0.00260   2.395E-01      0.07500   4.004E-01
+            0.00010   2.385E-01      0.00280   2.397E-01      0.08000   4.102E-01
+            0.00011   2.385E-01      0.00300   2.399E-01      0.08500   4.199E-01
+            0.00012   2.385E-01      0.00320   2.401E-01      0.09000   4.295E-01
+            0.00013   2.385E-01      0.00360   2.405E-01      0.10000   4.482E-01
+            0.00014   2.385E-01      0.00400   2.410E-01      0.11000   4.664E-01
+            0.00015   2.385E-01      0.00450   2.417E-01      0.12000   4.842E-01
+            0.00016   2.385E-01      0.00500   2.425E-01      0.13000   5.016E-01
+            0.00018   2.385E-01      0.00550   2.434E-01      0.14000   5.186E-01
+            0.00020   2.385E-01      0.00600   2.444E-01      0.15000   5.352E-01
+            0.00022   2.385E-01      0.00650   2.454E-01      0.16000   5.515E-01
+            0.00024   2.385E-01      0.00700   2.464E-01      0.18000   5.831E-01
+            0.00026   2.385E-01      0.00750   2.475E-01      0.20000   6.134E-01
+            0.00028   2.385E-01      0.00800   2.486E-01      0.22000   6.425E-01
+            0.00030   2.385E-01      0.00850   2.498E-01      0.24000   6.703E-01
+            0.00032   2.385E-01      0.00900   2.510E-01      0.26000   6.969E-01
+            0.00036   2.385E-01      0.01000   2.534E-01      0.28000   7.222E-01
+            0.00040   2.385E-01      0.01100   2.558E-01      0.30000   7.462E-01
+            0.00045   2.386E-01      0.01200   2.583E-01      0.32000   7.690E-01
+            0.00050   2.386E-01      0.01300   2.608E-01      0.36000   8.108E-01
+            0.00055   2.386E-01      0.01400   2.634E-01      0.40000   8.472E-01
+            0.00060   2.386E-01      0.01500   2.659E-01      0.45000   8.852E-01
+            0.00065   2.386E-01      0.01600   2.685E-01      0.50000   9.145E-01
+            0.00070   2.386E-01      0.01800   2.736E-01      0.55000   9.351E-01
+            0.00075   2.386E-01      0.02000   2.786E-01      0.60000   9.468E-01
+            0.00080   2.386E-01      0.02200   2.836E-01      0.65000   9.497E-01
+            0.00085   2.386E-01      0.02400   2.886E-01      0.70000   9.438E-01
+            0.00090   2.386E-01      0.02600   2.935E-01      0.75000   9.294E-01
+            0.00100   2.387E-01      0.02800   2.984E-01      0.80000   9.068E-01
+            0.00110   2.387E-01      0.03000   3.032E-01      0.85000   8.764E-01
+            0.00120   2.387E-01      0.03200   3.080E-01      0.90000   8.386E-01
+            0.00130   2.387E-01      0.03600   3.174E-01      1.00000   7.435E-01
+            0.00140   2.388E-01      0.04000   3.265E-01      1.10000   6.274E-01
+            0.00150   2.389E-01      0.04500   3.378E-01      1.20000   4.978E-01
+            0.00160   2.389E-01      0.05000   3.487E-01      1.30000   3.638E-01
+            0.00180   2.390E-01      0.05500   3.595E-01      1.40000   2.362E-01
+            0.00200   2.391E-01      0.06000   3.700E-01      1.50000   1.272E-01
+            0.00220   2.393E-01      0.06500   3.803E-01      1.60000   5.079E-02
+            0.00240   2.394E-01      0.07000   3.904E-01      1.76684   0.000E+00
+
+            AVERAGE BETA ENERGY =   7.020E-01
+
+            TOTAL BETAS PER DECAY FOR ALL BRANCHES =   1.000E+00
+%%%%  27 MG  12    B-           5.67480E+02 9.458 M    18-07-2007       BETAEND 
+%%%%  27 MG  12    B-           5.67480E+02 9.458 M    18-07-2007       SEEISTAR
+ 27.  MAGNESIUM    12.  9.458E+00 MINUTES   37 B-                    27.MG 12.   0
+ 5 1  2.90000E+01  6.46178E-01  1.59614E+00  0.00000E+00             27.MG 12.   1   1
+ 5 2  7.10000E+01  7.24854E-01  1.76684E+00  0.00000E+00             27.MG 12.   2   2
+ 1 1  8.00000E-01  1.70686E-01  1.70686E-01  0.00000E+00             27.MG 12.   3   1
+ 6 1  5.96678E-04  1.69136E-01  1.69136E-01  1.00000E+00             27.MG 12.   4   1
+ 6 5  4.14468E-05  1.70567E-01  1.70567E-01  1.00000E+00             27.MG 12.   5   5
+ 6 6  2.44256E-07  1.70605E-01  1.70605E-01  1.00000E+00             27.MG 12.   6   6
+ 6 7  1.51215E-07  1.70605E-01  1.70605E-01  1.00000E+00             27.MG 12.   7   7
+ 1 2  7.18000E+01  8.43760E-01  8.43760E-01  0.00000E+00             27.MG 12.   8   2
+ 6 1  2.73077E-03  8.42210E-01  8.42210E-01  2.00000E+00             27.MG 12.   9   1
+ 6 5  1.89902E-04  8.43641E-01  8.43641E-01  2.00000E+00             27.MG 12.  10   5
+ 6 6  3.46525E-07  8.43679E-01  8.43679E-01  2.00000E+00             27.MG 12.  11   6
+ 6 7  4.84031E-07  8.43679E-01  8.43679E-01  2.00000E+00             27.MG 12.  12   7
+ 1 3  2.80000E+01  1.01444E+00  1.01444E+00  0.00000E+00             27.MG 12.  13   3
+ 6 1  4.50908E-04  1.01289E+00  1.01289E+00  3.00000E+00             27.MG 12.  14   1
+ 6 5  3.13203E-05  1.01432E+00  1.01432E+00  3.00000E+00             27.MG 12.  15   5
+ 6 6  3.57383E-08  1.01436E+00  1.01436E+00  3.00000E+00             27.MG 12.  16   6
+ 6 7  4.06420E-08  1.01436E+00  1.01436E+00  3.00000E+00             27.MG 12.  17   7
+ 2 1  4.67378E-05  1.46870E-03  1.46870E-03  0.00000E+00             27.MG 12.  18   1
+ 2 2  9.27692E-05  1.46917E-03  1.46917E-03  0.00000E+00             27.MG 12.  19   2
+ 2 3  2.85588E-07  1.54502E-03  1.54502E-03  0.00000E+00             27.MG 12.  20   3
+ 2 4  5.66900E-07  1.54503E-03  1.54503E-03  0.00000E+00             27.MG 12.  21   4
+ 221  1.45823E-07  3.78499E-05  3.78499E-05  0.00000E+00             27.MG 12.  22  21
+ 222  3.14754E-07  3.83200E-05  3.83200E-05  0.00000E+00             27.MG 12.  23  22
+ 223  3.83341E-09  1.14170E-04  1.14170E-04  0.00000E+00             27.MG 12.  24  23
+ 224  7.43796E-09  1.14180E-04  1.14180E-04  0.00000E+00             27.MG 12.  25  24
+ 241  9.61393E-18  4.69998E-07  4.69998E-07  0.00000E+00             27.MG 12.  26  41
+ 242  4.01992E-08  7.10398E-05  7.10398E-05  0.00000E+00             27.MG 12.  27  42
+ 243  4.39753E-13  7.63300E-05  7.63300E-05  0.00000E+00             27.MG 12.  28  43
+ 261  7.43328E-08  7.05700E-05  7.05700E-05  0.00000E+00             27.MG 12.  29  61
+ 262  4.06512E-13  7.58497E-05  7.58497E-05  0.00000E+00             27.MG 12.  30  62
+ 263  4.01463E-13  7.58597E-05  7.58597E-05  0.00000E+00             27.MG 12.  31  63
+ 294  1.69851E-02  8.10344E-06  8.10344E-06  0.00000E+00             27.MG 12.  32  94
+ 7 1  3.45643E-03  1.37132E-03  1.37132E-03  0.00000E+00             27.MG 12.  33   1
+ 7 2  1.78586E-04  1.44735E-03  1.44735E-03  0.00000E+00             27.MG 12.  34   2
+ 7 3  2.98185E-06  1.53097E-03  1.53097E-03  0.00000E+00             27.MG 12.  35   3
+ 7 4  1.81002E-03  2.85013E-05  2.85013E-05  0.00000E+00             27.MG 12.  36   4
+ 7 5  7.49479E-03  6.52477E-05  6.52477E-05  0.00000E+00             27.MG 12.  37   5
+%%%%  27 MG  12    B-           5.67480E+02 9.458 M    18-07-2007       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   8.91228E-01
+    X-ray                           (MeV) =   2.06282E-09
+    Free-bound X-ray                (MeV) =   1.37638E-09
+    Annihilation photon             (MeV) =   0.00000E+00
+    Beta+ particle                  (MeV) =   0.00000E+00
+    Neutrino                        (MeV) =   0.00000E+00
+    Beta- particle                  (MeV) =   7.02038E-01
+    Neutrino-                       (MeV) =   1.01530E+00
+    Internal conv. electron         (MeV) =   3.05741E-05
+    Auger and CK electron           (MeV) =   5.54352E-08
+    Alpha particle                  (MeV) =   0.00000E+00
+    Recoil nucleus                  (MeV) =   0.00000E+00
+  E-total (except unplaced radiat.) (MeV) =   2.60860E+00
+  E-unplaced radiation              (MeV) =   0.00000E+00
+  Q-value from ENSDF data           (MeV) =   2.61060E+00
+  Ratio of E-total/Q-value          ( % ) =   9.99232E+01
+  Ratio of E-unplaced radi./Q-value ( % ) =   0.00000E+00
+
+ 
+  Total yield of
+    Gamma-ray                             =   1.00600E+00
+    X-ray                                 =   1.40946E-06
+    Free-bound X-ray                      =   1.69851E-04
+    Annihilation photon                   =   0.00000E+00
+    Beta+ particle                        =   0.00000E+00
+    Beta- particle                        =   1.00000E+00
+    Internal conv. electron               =   4.04232E-05
+    Auger and CK electron                 =   1.29428E-04
+    Alpha particle                        =   0.00000E+00
+  Yield of unplaced radiation             =   0.00000E+00
+
+

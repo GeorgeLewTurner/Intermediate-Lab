@@ -1,0 +1,175 @@
+%%%% 202 PT  78    B-           1.58400E+05 44 H       02-11-2005       BALASTAR
+1 202   PT  78 44 H            B-         
+1INTENSITY AND ENERGY BALANCE DATA
+
+              202-PLATINUM-78
++                                    HALFLIFE = 44 HOURS   
++                                                                  02-11-2005
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  1.0000E+02
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  1.000E+02
+ TOTAL INTENSITY FROM PARENT=  1.000E+02
+ PERCENT ERROR =  0.000E+00                      
+
+
+ TOTAL INTENSITY FROM PARENT =  1.000E+02
+ VALUE IS WITHIN   0.00E+00% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  1.800E+00 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  1.800E+00 MEV
+ PERCENT ERROR =  0.000E+00                      
+%%%% 202 PT  78    B-           1.58400E+05 44 H       02-11-2005       BALAEND 
+%%%% 202 PT  78    B-           1.58400E+05 44 H       02-11-2005       INPUSTAR
+1                                      **INPUT DATA**
+              202-PLATINUM-78
++                                    HALFLIFE = 44 HOURS   
++                                                                  02-11-2005
+
+            MODE OF DECAY: BETA MINUS
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+               BETA MINUS   1   1.00E+00   1.800E+00*  FIRST FORBIDDEN                          
+ 
+           * ENDPOINT ENERGY (MEV)
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: Apr-1997
+%%%% 202 PT  78    B-           1.58400E+05 44 H       02-11-2005       INPUEND 
+%%%% 202 PT  78    B-           1.58400E+05 44 H       02-11-2005       OUTPSTAR
+1                                      **OUTPUT DATA**
+              202-PLATINUM-78
++                                    HALFLIFE = 44 HOURS   
++                                                                  02-11-2005
+
+            MODE OF DECAY: BETA MINUS
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           BETA MINUS                     1   1.00E+00    6.537E-01*   6.54E-01
+ 
+           ALL LISTED BETAS, INTERNAL CONVERSION AND AUGER ELECTRONS   6.54E-01
+           ALL LISTED RADIATIONS                                       6.54E-01
+ 
+           *  AVERAGE ENERGY (MEV)
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 202-GOLD
+             DAUGHTER IS 1.0000E+00 PER TRANSFORMATION OF 202-PLATINUM.
+             DECAY OF THIS 28.8 SECONDS HALFLIFE LEVEL WILL CONTRIBUTE TO DOSE.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: Apr-1997
+%%%% 202 PT  78    B-           1.58400E+05 44 H       02-11-2005       OUTPEND 
+%%%% 202 PT  78    B-           1.58400E+05 44 H       02-11-2005       BETASTAR
+1
+              202-PLATINUM-78
++                                    HALFLIFE = 44 HOURS   
++                                                                  02-11-2005
+
+            BETA SPECTRUM DATA FOR ALL DECAY BRANCHES
+
+                      BETAS PER                BETAS PER                BETAS PER
+            ENERGY    MEV            ENERGY    MEV            ENERGY    MEV
+            (MEV)     PER DECAY      (MEV)     PER DECAY      (MEV)     PER DECAY
+
+            0.00000   5.889E-01      0.00260   5.902E-01      0.07500   6.598E-01
+            0.00010   5.889E-01      0.00280   5.903E-01      0.08000   6.647E-01
+            0.00011   5.889E-01      0.00300   5.904E-01      0.08500   6.696E-01
+            0.00012   5.889E-01      0.00320   5.905E-01      0.09000   6.744E-01
+            0.00013   5.889E-01      0.00360   5.907E-01      0.10000   6.839E-01
+            0.00014   5.889E-01      0.00400   5.910E-01      0.11000   6.933E-01
+            0.00015   5.889E-01      0.00450   5.912E-01      0.12000   7.025E-01
+            0.00016   5.889E-01      0.00500   5.915E-01      0.13000   7.115E-01
+            0.00018   5.890E-01      0.00550   5.917E-01      0.14000   7.203E-01
+            0.00020   5.890E-01      0.00600   5.920E-01      0.15000   7.289E-01
+            0.00022   5.890E-01      0.00650   5.922E-01      0.16000   7.373E-01
+            0.00024   5.890E-01      0.00700   5.925E-01      0.18000   7.536E-01
+            0.00026   5.890E-01      0.00750   5.928E-01      0.20000   7.690E-01
+            0.00028   5.890E-01      0.00800   5.930E-01      0.22000   7.836E-01
+            0.00030   5.890E-01      0.00850   5.933E-01      0.24000   7.974E-01
+            0.00032   5.890E-01      0.00900   5.935E-01      0.26000   8.102E-01
+            0.00036   5.891E-01      0.01000   5.940E-01      0.28000   8.221E-01
+            0.00040   5.891E-01      0.01100   5.945E-01      0.30000   8.331E-01
+            0.00045   5.891E-01      0.01200   5.950E-01      0.32000   8.431E-01
+            0.00050   5.891E-01      0.01300   5.955E-01      0.36000   8.603E-01
+            0.00055   5.892E-01      0.01400   5.960E-01      0.40000   8.735E-01
+            0.00060   5.892E-01      0.01500   5.965E-01      0.45000   8.845E-01
+            0.00065   5.892E-01      0.01600   5.980E-01      0.50000   8.894E-01
+            0.00070   5.892E-01      0.01800   6.002E-01      0.55000   8.880E-01
+            0.00075   5.893E-01      0.02000   6.024E-01      0.60000   8.807E-01
+            0.00080   5.893E-01      0.02200   6.046E-01      0.65000   8.676E-01
+            0.00085   5.893E-01      0.02400   6.068E-01      0.70000   8.488E-01
+            0.00090   5.893E-01      0.02600   6.090E-01      0.75000   8.247E-01
+            0.00100   5.894E-01      0.02800   6.111E-01      0.80000   7.956E-01
+            0.00110   5.894E-01      0.03000   6.133E-01      0.85000   7.619E-01
+            0.00120   5.895E-01      0.03200   6.154E-01      0.90000   7.240E-01
+            0.00130   5.895E-01      0.03600   6.197E-01      1.00000   6.373E-01
+            0.00140   5.896E-01      0.04000   6.240E-01      1.10000   5.397E-01
+            0.00150   5.897E-01      0.04500   6.292E-01      1.20000   4.358E-01
+            0.00160   5.897E-01      0.05000   6.344E-01      1.30000   3.308E-01
+            0.00180   5.898E-01      0.05500   6.396E-01      1.40000   2.302E-01
+            0.00200   5.899E-01      0.06000   6.447E-01      1.50000   1.402E-01
+            0.00220   5.900E-01      0.06500   6.498E-01      1.60000   6.716E-02
+            0.00240   5.901E-01      0.07000   6.548E-01      1.80000   0.000E+00
+
+            AVERAGE BETA ENERGY =   6.537E-01
+
+            TOTAL BETAS PER DECAY FOR ALL BRANCHES =   1.000E+00
+%%%% 202 PT  78    B-           1.58400E+05 44 H       02-11-2005       BETAEND 
+%%%% 202 PT  78    B-           1.58400E+05 44 H       02-11-2005       SEEISTAR
+202.  PLATINUM     78.  4.400E+01 HOURS      1 B-                   202.PT 78.   0
+ 5 1  1.00000E+02  6.53660E-01  1.80000E+00  0.00000E+00            202.PT 78.   1   1
+%%%% 202 PT  78    B-           1.58400E+05 44 H       02-11-2005       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   0.00000E+00
+    X-ray                           (MeV) =   0.00000E+00
+    Free-bound X-ray                (MeV) =   0.00000E+00
+    Annihilation photon             (MeV) =   0.00000E+00
+    Beta+ particle                  (MeV) =   0.00000E+00
+    Neutrino                        (MeV) =   0.00000E+00
+    Beta- particle                  (MeV) =   6.53660E-01
+    Neutrino-                       (MeV) =   1.14634E+00
+    Internal conv. electron         (MeV) =   0.00000E+00
+    Auger and CK electron           (MeV) =   0.00000E+00
+    Alpha particle                  (MeV) =   0.00000E+00
+    Recoil nucleus                  (MeV) =   0.00000E+00
+  E-total (except unplaced radiat.) (MeV) =   1.80000E+00
+  E-unplaced radiation              (MeV) =   0.00000E+00
+  Q-value from ENSDF data           (MeV) =   1.80000E+00
+  Ratio of E-total/Q-value          ( % ) =   1.00000E+02
+  Ratio of E-unplaced radi./Q-value ( % ) =   0.00000E+00
+
+ 
+  Total yield of
+    Gamma-ray                             =   0.00000E+00
+    X-ray                                 =   0.00000E+00
+    Free-bound X-ray                      =   0.00000E+00
+    Annihilation photon                   =   0.00000E+00
+    Beta+ particle                        =   0.00000E+00
+    Beta- particle                        =   1.00000E+00
+    Internal conv. electron               =   0.00000E+00
+    Auger and CK electron                 =   0.00000E+00
+    Alpha particle                        =   0.00000E+00
+  Yield of unplaced radiation             =   0.00000E+00
+
+

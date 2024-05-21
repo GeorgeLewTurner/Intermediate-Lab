@@ -1,0 +1,477 @@
+%%%%  44 SC  21    EC B+        1.42920E+04  3.97 H    02-11-2005       BALASTAR
+1  44   SC  21  3.97 H         EC B+      
+1INTENSITY AND ENERGY BALANCE DATA
+
+              44-SCANDIUM-21
++                                    HALFLIFE = 3.97 HOURS   
++                                                                  02-11-2005
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  1.0002E+02
+   1.1570E+00  9.9887E+01  9.9906E+01  1.9819E-02                      
+   2.6565E+00  1.0200E+00  1.0200E+00  3.5645E-03                      
+   3.3015E+00  4.4002E-03  4.3957E-03  1.0308E-01                      
+   3.3079E+00  1.1000E-03  1.0989E-03  1.0342E-01                      
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  1.000E+02
+ TOTAL INTENSITY FROM PARENT=  1.000E+02
+ PERCENT ERROR =  1.976E-02                      
+
+
+ TOTAL INTENSITY FROM PARENT =  1.000E+02
+ VALUE IS WITHIN   0.00E+00% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  3.653E+00 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  3.654E+00 MEV
+ PERCENT ERROR =  5.717E-03                      
+%%%%  44 SC  21    EC B+        1.42920E+04  3.97 H    02-11-2005       BALAEND 
+%%%%  44 SC  21    EC B+        1.42920E+04  3.97 H    02-11-2005       INPUSTAR
+1                                      **INPUT DATA**
+              44-SCANDIUM-21
++                                    HALFLIFE = 3.97 HOURS   
++                                                                  02-11-2005
+
+            MODES OF DECAY: ELECTRON CAPTURE, BETA PLUS
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+           ELECT. CAPTURE   1   1.10E-05   3.454E-01   FIRST FORBIDDEN                          
+           ELECT. CAPTURE   2   4.40E-05   3.518E-01   ALLOWED                                  
+           ELECT. CAPTURE   3   1.02E-02   9.968E-01   ALLOWED                                  
+           ELECT. CAPTURE   4   4.62E-02   2.496E+00   ALLOWED                                  
+                BETA PLUS   1   9.44E-01   1.474E+00*  ALLOWED                                  
+           I.C.E. + GAMMA   1   9.99E-01   1.157E+00   E2 MULTIPOLE                             
+           I.C.E. + GAMMA   2   9.08E-03   1.499E+00   M1+E2 MULTIPOLE                          
+                                                       MRS=0.0151                               
+           I.C.E. + GAMMA   3   3.00E-05   2.144E+00   M1 MULTIPOLE                             
+           I.C.E. + GAMMA   4   1.10E-05   2.151E+00   E1 MULTIPOLE                             
+           I.C.E. + GAMMA   5   1.12E-03   2.656E+00   E2 MULTIPOLE                             
+           I.C.E. + GAMMA   6   1.40E-05   3.301E+00   E2 MULTIPOLE                             
+ 
+           * ENDPOINT ENERGY (MEV)
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: Nov-1999
+%%%%  44 SC  21    EC B+        1.42920E+04  3.97 H    02-11-2005       INPUEND 
+%%%%  44 SC  21    EC B+        1.42920E+04  3.97 H    02-11-2005       OUTPSTAR
+1                                      **OUTPUT DATA**
+              44-SCANDIUM-21
++                                    HALFLIFE = 3.97 HOURS   
++                                                                  02-11-2005
+
+            MODES OF DECAY: ELECTRON CAPTURE, BETA PLUS
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           BETA PLUS                      1   9.44E-01    6.315E-01*   5.96E-01
+           ANNIHILATION RADIATION             1.89E+00    5.110E-01    9.64E-01
+           GAMMA-RAY                      1   9.99E-01    1.157E+00    1.16E+00
+           GAMMA-RAY                      2   9.08E-03    1.499E+00    1.36E-02
+           GAMMA-RAY                      5   1.12E-03    2.656E+00    2.97E-03
+ 
+           ALL LISTED X-RAYS, GAMMA-RAYS AND ANNIHILATION RADIATION    2.14E+00
+           ALL NEGLECTED X-RAYS, GAMMA-RAYS AND ANNIH. RADIATION**     1.72E-04
+           ALL LISTED BETAS, INTERNAL CONVERSION AND AUGER ELECTRONS   5.96E-01
+           ALL NEGLECTED BETAS, INT. CONVERSION AND AUGER ELECTRONS**  2.43E-04
+           ALL LISTED RADIATIONS                                       2.73E+00
+           ALL NEGLECTED RADIATIONS**                                  4.15E-04
+ 
+           *  AVERAGE ENERGY (MEV)
+           ** EACH NEGLECTED TRANSITION CONTRIBUTES LESS THAN  0.100%
+              TO THE TOTAL MEV/TRANSFORMATION FOR THIS CATEGORY.
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 44-CALCIUM
+             DAUGHTER IS 1.0000E+00 PER TRANSFORMATION OF  44-SCANDIUM.
+             THIS DAUGHTER GROUND STATE IS STABLE.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: Nov-1999
+%%%%  44 SC  21    EC B+        1.42920E+04  3.97 H    02-11-2005       OUTPEND 
+%%%%  44 SC  21    EC B+        1.42920E+04  3.97 H    02-11-2005       BETASTAR
+1
+              44-SCANDIUM-21
++                                    HALFLIFE = 3.97 HOURS   
++                                                                  02-11-2005
+
+            BETA SPECTRUM DATA FOR ALL DECAY BRANCHES
+
+                      BETAS PER                BETAS PER                BETAS PER
+            ENERGY    MEV            ENERGY    MEV            ENERGY    MEV
+            (MEV)     PER DECAY      (MEV)     PER DECAY      (MEV)     PER DECAY
+
+            0.00000   0.000E+00      0.00260   5.201E-04      0.07500   2.702E-01
+            0.00010   9.090E-21      0.00280   6.906E-04      0.08000   2.880E-01
+            0.00011   7.857E-20      0.00300   8.859E-04      0.08500   3.055E-01
+            0.00012   5.155E-19      0.00320   1.105E-03      0.09000   3.227E-01
+            0.00013   2.711E-18      0.00360   1.612E-03      0.10000   3.564E-01
+            0.00014   1.189E-17      0.00400   2.202E-03      0.11000   3.889E-01
+            0.00015   4.487E-17      0.00450   3.047E-03      0.12000   4.205E-01
+            0.00016   1.492E-16      0.00500   3.999E-03      0.13000   4.511E-01
+            0.00018   1.213E-15      0.00550   5.046E-03      0.14000   4.809E-01
+            0.00020   7.137E-15      0.00600   6.179E-03      0.15000   5.098E-01
+            0.00022   3.280E-14      0.00650   7.390E-03      0.16000   5.378E-01
+            0.00024   1.240E-13      0.00700   8.672E-03      0.18000   5.915E-01
+            0.00026   4.013E-13      0.00750   1.002E-02      0.20000   6.423E-01
+            0.00028   1.143E-12      0.00800   1.142E-02      0.22000   6.901E-01
+            0.00030   2.928E-12      0.00850   1.288E-02      0.24000   7.351E-01
+            0.00032   6.871E-12      0.00900   1.439E-02      0.26000   7.774E-01
+            0.00036   3.059E-11      0.01000   1.755E-02      0.28000   8.169E-01
+            0.00040   1.094E-10      0.01100   2.086E-02      0.30000   8.538E-01
+            0.00045   4.295E-10      0.01200   2.430E-02      0.32000   8.881E-01
+            0.00050   1.399E-09      0.01300   2.786E-02      0.36000   9.487E-01
+            0.00055   3.963E-09      0.01400   3.151E-02      0.40000   9.988E-01
+            0.00060   1.004E-08      0.01500   3.524E-02      0.45000   1.047E+00
+            0.00065   2.325E-08      0.01600   3.905E-02      0.50000   1.079E+00
+            0.00070   4.982E-08      0.01800   4.682E-02      0.55000   1.095E+00
+            0.00075   9.984E-08      0.02000   5.477E-02      0.60000   1.095E+00
+            0.00080   1.886E-07      0.02200   6.283E-02      0.65000   1.081E+00
+            0.00085   3.378E-07      0.02400   7.098E-02      0.70000   1.053E+00
+            0.00090   5.770E-07      0.02600   7.917E-02      0.75000   1.011E+00
+            0.00100   1.487E-06      0.02800   8.739E-02      0.80000   9.570E-01
+            0.00110   3.330E-06      0.03000   9.562E-02      0.85000   8.923E-01
+            0.00120   6.650E-06      0.03200   1.038E-01      0.90000   8.182E-01
+            0.00130   1.208E-05      0.03600   1.202E-01      1.00000   6.486E-01
+            0.00140   2.032E-05      0.04000   1.365E-01      1.10000   4.641E-01
+            0.00150   3.205E-05      0.04500   1.565E-01      1.20000   2.836E-01
+            0.00160   4.791E-05      0.05000   1.763E-01      1.30000   1.292E-01
+            0.00180   9.427E-05      0.05500   1.957E-01      1.40000   2.627E-02
+            0.00200   1.630E-04      0.06000   2.148E-01      1.47426   0.000E+00
+            0.00220   2.563E-04      0.06500   2.336E-01
+            0.00240   3.753E-04      0.07000   2.521E-01
+
+            AVERAGE BETA ENERGY =   6.315E-01
+
+            TOTAL BETAS PER DECAY FOR ALL BRANCHES =   9.435E-01
+%%%%  44 SC  21    EC B+        1.42920E+04  3.97 H    02-11-2005       BETAEND 
+%%%%  44 SC  21    EC B+        1.42920E+04  3.97 H    02-11-2005       SEEISTAR
+ 44.  SCANDIUM     21.  3.970E+00 HOURS     55 EC B+                 44.SC 21.   0
+ 4 1  9.43542E+01  6.31478E-01  1.47426E+00  0.00000E+00             44.SC 21.   1   1
+ 3 3  1.88708E+02  5.11000E-01  5.11000E-01  0.00000E+00             44.SC 21.   2   3
+ 1 1  9.99000E+01  1.15702E+00  1.15702E+00  0.00000E+00             44.SC 21.   3   1
+ 6 1  5.95638E-03  1.15301E+00  1.15301E+00  1.00000E+00             44.SC 21.   4   1
+ 6 5  5.09300E-04  1.15659E+00  1.15659E+00  1.00000E+00             44.SC 21.   5   5
+ 6 6  2.05054E-06  1.15666E+00  1.15666E+00  1.00000E+00             44.SC 21.   6   6
+ 6 7  2.75610E-06  1.15666E+00  1.15666E+00  1.00000E+00             44.SC 21.   7   7
+ 1 2  9.08091E-01  1.49946E+00  1.49946E+00  0.00000E+00             44.SC 21.   8   2
+ 6 1  2.67463E-05  1.49545E+00  1.49545E+00  2.00000E+00             44.SC 21.   9   1
+ 6 5  2.28924E-06  1.49903E+00  1.49903E+00  2.00000E+00             44.SC 21.  10   5
+ 6 6  5.43466E-09  1.49910E+00  1.49910E+00  2.00000E+00             44.SC 21.  11   6
+ 6 7  6.60346E-09  1.49910E+00  1.49910E+00  2.00000E+00             44.SC 21.  12   7
+ 1 3  2.99700E-03  2.14430E+00  2.14430E+00  0.00000E+00             44.SC 21.  13   3
+ 6 1  4.77837E-08  2.14029E+00  2.14029E+00  3.00000E+00             44.SC 21.  14   1
+ 6 5  4.08593E-09  2.14387E+00  2.14387E+00  3.00000E+00             44.SC 21.  15   5
+ 6 6  6.99625E-12  2.14394E+00  2.14394E+00  3.00000E+00             44.SC 21.  16   6
+ 6 7  1.10990E-11  2.14394E+00  2.14394E+00  3.00000E+00             44.SC 21.  17   7
+ 1 4  1.09890E-03  2.15084E+00  2.15084E+00  0.00000E+00             44.SC 21.  18   4
+ 6 1  1.14893E-08  2.14683E+00  2.14683E+00  4.00000E+00             44.SC 21.  19   1
+ 6 5  9.82534E-10  2.15041E+00  2.15041E+00  4.00000E+00             44.SC 21.  20   5
+ 6 6  1.11765E-12  2.15048E+00  2.15048E+00  4.00000E+00             44.SC 21.  21   6
+ 6 7  4.13111E-12  2.15049E+00  2.15049E+00  4.00000E+00             44.SC 21.  22   7
+ 1 5  1.11888E-01  2.65648E+00  2.65648E+00  0.00000E+00             44.SC 21.  23   5
+ 6 1  1.33529E-06  2.65247E+00  2.65247E+00  5.00000E+00             44.SC 21.  24   1
+ 6 5  1.17629E-07  2.65605E+00  2.65605E+00  5.00000E+00             44.SC 21.  25   5
+ 6 6  1.85038E-10  2.65612E+00  2.65612E+00  5.00000E+00             44.SC 21.  26   6
+ 6 7  3.79490E-10  2.65612E+00  2.65612E+00  5.00000E+00             44.SC 21.  27   7
+ 1 6  1.39860E-03  3.30135E+00  3.30135E+00  0.00000E+00             44.SC 21.  28   6
+ 6 1  1.18217E-08  3.29734E+00  3.29734E+00  6.00000E+00             44.SC 21.  29   1
+ 6 5  1.08565E-09  3.30092E+00  3.30092E+00  6.00000E+00             44.SC 21.  30   5
+ 6 6  1.34264E-12  3.30099E+00  3.30099E+00  6.00000E+00             44.SC 21.  31   6
+ 6 7  3.29214E-12  3.30100E+00  3.30100E+00  6.00000E+00             44.SC 21.  32   7
+ 2 1  2.46480E-01  3.65596E-03  3.65596E-03  0.00000E+00             44.SC 21.  33   1
+ 2 2  4.86348E-01  3.65980E-03  3.65980E-03  0.00000E+00             44.SC 21.  34   2
+ 2 3  2.61951E-02  3.98099E-03  3.98099E-03  0.00000E+00             44.SC 21.  35   3
+ 2 4  5.18508E-02  3.98140E-03  3.98140E-03  0.00000E+00             44.SC 21.  36   4
+ 221  2.05417E-04  7.50699E-05  7.50699E-05  0.00000E+00             44.SC 21.  37  21
+ 222  6.07027E-04  7.89100E-05  7.89100E-05  0.00000E+00             44.SC 21.  38  22
+ 223  4.44776E-04  4.00100E-04  4.00100E-04  0.00000E+00             44.SC 21.  39  23
+ 224  6.67011E-04  4.00510E-04  4.00510E-04  0.00000E+00             44.SC 21.  40  24
+ 241  2.57698E-11  3.84000E-06  3.84000E-06  0.00000E+00             44.SC 21.  41  41
+ 242  3.52806E-03  3.05879E-04  3.05879E-04  0.00000E+00             44.SC 21.  42  42
+ 243  2.58081E-06  3.25440E-04  3.25440E-04  0.00000E+00             44.SC 21.  43  43
+ 245  7.48366E-05  3.53589E-04  3.53589E-04  0.00000E+00             44.SC 21.  44  45
+ 261  6.49915E-03  3.02041E-04  3.02041E-04  0.00000E+00             44.SC 21.  45  61
+ 262  2.33225E-06  3.21190E-04  3.21190E-04  0.00000E+00             44.SC 21.  46  62
+ 263  2.29112E-06  3.21600E-04  3.21600E-04  0.00000E+00             44.SC 21.  47  63
+ 266  1.37688E-04  3.49749E-04  3.49749E-04  0.00000E+00             44.SC 21.  48  66
+ 294  2.06851E+01  3.63259E-05  3.63259E-05  0.00000E+00             44.SC 21.  49  94
+ 7 1  3.44348E+00  3.26864E-03  3.26864E-03  0.00000E+00             44.SC 21.  50   1
+ 7 2  7.62572E-01  3.60211E-03  3.60211E-03  0.00000E+00             44.SC 21.  51   2
+ 7 3  4.22325E-02  3.93929E-03  3.93929E-03  0.00000E+00             44.SC 21.  52   3
+ 7 4  1.97714E+00  3.69989E-05  3.69989E-05  0.00000E+00             44.SC 21.  53   4
+ 7 5  8.63463E+00  2.85646E-04  2.85646E-04  0.00000E+00             44.SC 21.  54   5
+ 7 6  2.51114E-01  3.21346E-04  3.21346E-04  0.00000E+00             44.SC 21.  55   6
+%%%%  44 SC  21    EC B+        1.42920E+04  3.97 H    02-11-2005       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   1.17259E+00
+    X-ray                           (MeV) =   2.99541E-05
+    Free-bound X-ray                (MeV) =   7.51406E-06
+    Annihilation photon             (MeV) =   9.64300E-01
+    Beta+ particle                  (MeV) =   5.95826E-01
+    Neutrino                        (MeV) =   9.20476E-01
+    Beta- particle                  (MeV) =   0.00000E+00
+    Neutrino-                       (MeV) =   0.00000E+00
+    Internal conv. electron         (MeV) =   7.50983E-05
+    Auger and CK electron           (MeV) =   1.67890E-04
+    Alpha particle                  (MeV) =   0.00000E+00
+    Recoil nucleus                  (MeV) =   0.00000E+00
+  E-total (except unplaced radiat.) (MeV) =   3.65347E+00
+  E-unplaced radiation              (MeV) =   0.00000E+00
+  Q-value from ENSDF data           (MeV) =   3.65330E+00
+  Ratio of E-total/Q-value          ( % ) =   1.00005E+02
+  Ratio of E-unplaced radi./Q-value ( % ) =   0.00000E+00
+
+ 
+  Total yield of
+    Gamma-ray                             =   1.00925E+00
+    X-ray                                 =   8.23046E-03
+    Free-bound X-ray                      =   2.06851E-01
+    Annihilation photon                   =   1.88708E+00
+    Beta+ particle                        =   9.43542E-01
+    Beta- particle                        =   0.00000E+00
+    Internal conv. electron               =   6.50107E-05
+    Auger and CK electron                 =   1.51112E-01
+    Alpha particle                        =   0.00000E+00
+  Yield of unplaced radiation             =   0.00000E+00
+
+
+%%%%  44 SC  21 M  IT EC        2.10996E+05 58.61 H    02-11-2005       BALASTAR
+1  44M  SC  21 58.61 H         IT EC      
+1INTENSITY AND ENERGY BALANCE DATA
+
+              44M-SCANDIUM-21
++                                    HALFLIFE = 58.61 HOURS   
++                                                                  02-11-2005
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  9.8800E+01
+   2.7095E-01  9.8800E+01  9.8800E+01  0.0000E+00                      
+   0.0000E+00  1.2001E+00
+   1.1570E+00  1.2001E+00  1.2001E+00  4.5694E-04                      
+   2.2831E+00  1.2001E+00  1.2001E+00  2.2052E-03                      
+   3.2850E+00  1.2000E+00  1.2001E+00  9.1390E-03                      
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  1.000E+02
+ TOTAL INTENSITY FROM PARENT=  1.000E+02
+ PERCENT ERROR =  8.392E-05                      
+
+
+ TOTAL INTENSITY FROM PARENT =  1.000E+02
+ VALUE IS WITHIN   7.63E-06% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  3.148E-01 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  3.147E-01 MEV
+ PERCENT ERROR =  1.517E-02                      
+%%%%  44 SC  21 M  IT EC        2.10996E+05 58.61 H    02-11-2005       BALAEND 
+%%%%  44 SC  21 M  IT EC        2.10996E+05 58.61 H    02-11-2005       INPUSTAR
+1                                      **INPUT DATA**
+              44M-SCANDIUM-21
++                                    HALFLIFE = 58.61 HOURS   
++                                                                  02-11-2005
+
+            MODES OF DECAY: ISOMERIC LEVEL, ELECTRON CAPTURE
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+           I.C.E. + GAMMA   1   9.88E-01   2.709E-01   E4 MULTIPOLE                             
++                                                                    AK= 0.127                  
+                                                       AL1=0.0108    AL2=0.00101                
+           ELECT. CAPTURE   1   1.20E-02   6.393E-01   ALLOWED                                  
+           I.C.E. + GAMMA   1   1.20E-02   1.002E+00   E2 MULTIPOLE                             
+           I.C.E. + GAMMA   2   1.20E-02   1.126E+00   E2+M3 MULTIPOLE                          
+                                                       MRS=0.00250                              
+           I.C.E. + GAMMA   3   1.20E-02   1.157E+00   E2 MULTIPOLE                             
+ 
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: Nov-1999
+%%%%  44 SC  21 M  IT EC        2.10996E+05 58.61 H    02-11-2005       INPUEND 
+%%%%  44 SC  21 M  IT EC        2.10996E+05 58.61 H    02-11-2005       OUTPSTAR
+1                                      **OUTPUT DATA**
+              44M-SCANDIUM-21
++                                    HALFLIFE = 58.61 HOURS   
++                                                                  02-11-2005
+
+            MODES OF DECAY: ISOMERIC LEVEL, ELECTRON CAPTURE
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           GAMMA-RAY                      1   8.67E-01    2.709E-01    2.35E-01
+           K CONV. ELECTRON, GAMMA-RAY    1   1.10E-01    2.664E-01    2.93E-02
+           L1 CONV. ELECTRON, GAMMA-RAY   1   9.37E-03    2.704E-01    2.53E-03
+           L2 CONV. ELECTRON, GAMMA-RAY   1   8.74E-04    2.705E-01    2.36E-04
+           L3 CONV. ELECTRON, GAMMA-RAY   1   8.35E-04    2.705E-01    2.26E-04
+           AUGER KLL                          7.23E-02    3.609E-03*   2.61E-04
+           AUGER KLX                          1.64E-02    3.992E-03*   6.55E-05
+           AUGER LMM                          1.85E-01    3.310E-04*   6.13E-05
+           GAMMA-RAY                      1   1.20E-02    1.002E+00    1.20E-02
+           GAMMA-RAY                      2   1.20E-02    1.126E+00    1.35E-02
+           GAMMA-RAY                      3   1.20E-02    1.157E+00    1.39E-02
+ 
+           ALL LISTED X-RAYS, GAMMA-RAYS AND ANNIHILATION RADIATION    2.74E-01
+           ALL NEGLECTED X-RAYS, GAMMA-RAYS AND ANNIH. RADIATION**     9.81E-05
+           ALL LISTED BETAS, INTERNAL CONVERSION AND AUGER ELECTRONS   3.27E-02
+           ALL NEGLECTED BETAS, INT. CONVERSION AND AUGER ELECTRONS**  5.78E-05
+           ALL LISTED RADIATIONS                                       3.07E-01
+           ALL NEGLECTED RADIATIONS**                                  1.56E-04
+ 
+           *  AVERAGE ENERGY (MEV)
+           ** EACH NEGLECTED TRANSITION CONTRIBUTES LESS THAN  0.100%
+              TO THE TOTAL MEV/TRANSFORMATION FOR THIS CATEGORY.
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 44-SCANDIUM
+             DAUGHTER IS 9.8800E-01  PER TRANSFORMATION OF  44M-SCANDIUM.
+             DECAY OF THIS 3.97 HOURS HALFLIFE LEVEL WILL CONTRIBUTE TO DOSE.
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 44-CALCIUM
+             DAUGHTER IS 1.2000E-02  PER TRANSFORMATION OF  44M-SCANDIUM.
+             THIS DAUGHTER GROUND STATE IS STABLE.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: Nov-1999
+%%%%  44 SC  21 M  IT EC        2.10996E+05 58.61 H    02-11-2005       OUTPEND 
+%%%%  44 SC  21 M  IT EC        2.10996E+05 58.61 H    02-11-2005       SEEISTAR
+ 44.M SCANDIUM     21.  5.861E+01 HOURS     75 IT EC                 44.SC 21.   0
+ 1 1  8.66791E+01  2.70900E-01  2.70900E-01  0.00000E+00             44.SC 21.   1   1
+ 6 1  1.10128E+01  2.66434E-01  2.66434E-01  1.00000E+00             44.SC 21.   2   1
+ 6 5  9.37206E-01  2.70406E-01  2.70406E-01  1.00000E+00             44.SC 21.   3   5
+ 6 6  8.73556E-02  2.70486E-01  2.70486E-01  1.00000E+00             44.SC 21.   4   6
+ 6 7  8.35311E-02  2.70491E-01  2.70491E-01  1.00000E+00             44.SC 21.   5   7
+ 2 1  6.20945E-01  4.05212E-03  4.05212E-03  0.00000E+00             44.SC 21.   6   1
+ 2 2  1.22385E+00  4.05694E-03  4.05694E-03  0.00000E+00             44.SC 21.   7   2
+ 2 3  6.85326E-02  4.42620E-03  4.42620E-03  0.00000E+00             44.SC 21.   8   3
+ 2 4  1.35501E-01  4.42674E-03  4.42674E-03  0.00000E+00             44.SC 21.   9   4
+ 2 5  2.15982E-06  4.45872E-03  4.45872E-03  0.00000E+00             44.SC 21.  10   5
+ 2 6  3.18314E-06  4.45875E-03  4.45875E-03  0.00000E+00             44.SC 21.  11   6
+ 221  3.47390E-04  8.06101E-05  8.06101E-05  0.00000E+00             44.SC 21.  12  21
+ 222  1.07156E-03  8.54300E-05  8.54300E-05  0.00000E+00             44.SC 21.  13  22
+ 223  1.16785E-03  4.54690E-04  4.54690E-04  0.00000E+00             44.SC 21.  14  23
+ 224  1.72921E-03  4.55230E-04  4.55230E-04  0.00000E+00             44.SC 21.  15  24
+ 225  6.11657E-07  4.87210E-04  4.87210E-04  0.00000E+00             44.SC 21.  16  25
+ 226  9.12506E-07  4.87250E-04  4.87250E-04  0.00000E+00             44.SC 21.  17  26
+ 241  1.04889E-10  4.82000E-06  4.82000E-06  0.00000E+00             44.SC 21.  18  41
+ 242  9.83507E-03  3.52770E-04  3.52770E-04  0.00000E+00             44.SC 21.  19  42
+ 243  9.00444E-06  3.74619E-04  3.74619E-04  0.00000E+00             44.SC 21.  20  43
+ 244  5.87774E-04  4.06600E-04  4.06600E-04  0.00000E+00             44.SC 21.  21  44
+ 245  1.92545E-04  4.07781E-04  4.07781E-04  0.00000E+00             44.SC 21.  22  45
+ 261  1.80208E-02  3.47950E-04  3.47950E-04  0.00000E+00             44.SC 21.  23  61
+ 262  8.09121E-06  3.69260E-04  3.69260E-04  0.00000E+00             44.SC 21.  24  62
+ 263  7.94290E-06  3.69801E-04  3.69801E-04  0.00000E+00             44.SC 21.  25  63
+ 264  7.97359E-05  4.01781E-04  4.01781E-04  0.00000E+00             44.SC 21.  26  64
+ 265  9.49286E-04  4.01820E-04  4.01820E-04  0.00000E+00             44.SC 21.  27  65
+ 266  3.51832E-04  4.02961E-04  4.02961E-04  0.00000E+00             44.SC 21.  28  66
+ 291  1.49911E-05  2.17685E-05  2.17685E-05  0.00000E+00             44.SC 21.  29  91
+ 294  9.19178E+01  6.75424E-06  6.75424E-06  0.00000E+00             44.SC 21.  30  94
+ 7 1  7.22896E+00  3.60876E-03  3.60876E-03  0.00000E+00             44.SC 21.  31   1
+ 7 2  1.64108E+00  3.99167E-03  3.99167E-03  0.00000E+00             44.SC 21.  32   2
+ 7 3  9.38973E-02  4.37825E-03  4.37825E-03  0.00000E+00             44.SC 21.  33   3
+ 7 4  3.95683E+00  4.16821E-05  4.16821E-05  0.00000E+00             44.SC 21.  34   4
+ 7 5  1.85322E+01  3.31035E-04  3.31035E-04  0.00000E+00             44.SC 21.  35   5
+ 7 6  4.86754E-01  3.71614E-04  3.71614E-04  0.00000E+00             44.SC 21.  36   6
+ 7 8  4.78572E+01  2.43858E-05  2.43858E-05  0.00000E+00             44.SC 21.  37   8
+ 1 1  1.20000E+00  1.00183E+00  1.00183E+00  0.00000E+00             44.SC 21.  38   1
+ 6 1  1.00944E-04  9.97815E-01  9.97815E-01  1.00000E+00             44.SC 21.  39   1
+ 6 5  8.63688E-06  1.00140E+00  1.00140E+00  1.00000E+00             44.SC 21.  40   5
+ 6 6  4.07732E-08  1.00147E+00  1.00147E+00  1.00000E+00             44.SC 21.  41   6
+ 6 7  5.28357E-08  1.00147E+00  1.00147E+00  1.00000E+00             44.SC 21.  42   7
+ 1 2  1.20000E+00  1.12606E+00  1.12606E+00  0.00000E+00             44.SC 21.  43   2
+ 6 1  7.66295E-05  1.12205E+00  1.12205E+00  2.00000E+00             44.SC 21.  44   1
+ 6 5  6.55337E-06  1.12563E+00  1.12563E+00  2.00000E+00             44.SC 21.  45   5
+ 6 6  2.73808E-08  1.12570E+00  1.12570E+00  2.00000E+00             44.SC 21.  46   6
+ 6 7  3.61631E-08  1.12570E+00  1.12570E+00  2.00000E+00             44.SC 21.  47   7
+ 1 3  1.20000E+00  1.15700E+00  1.15700E+00  0.00000E+00             44.SC 21.  48   3
+ 6 1  7.15507E-05  1.15299E+00  1.15299E+00  3.00000E+00             44.SC 21.  49   1
+ 6 5  6.11794E-06  1.15657E+00  1.15657E+00  3.00000E+00             44.SC 21.  50   5
+ 6 6  2.46324E-08  1.15664E+00  1.15664E+00  3.00000E+00             44.SC 21.  51   6
+ 6 7  3.31080E-08  1.15665E+00  1.15665E+00  3.00000E+00             44.SC 21.  52   7
+ 2 1  5.22923E-02  3.65596E-03  3.65596E-03  0.00000E+00             44.SC 21.  53   1
+ 2 2  1.03182E-01  3.65980E-03  3.65980E-03  0.00000E+00             44.SC 21.  54   2
+ 2 3  5.55746E-03  3.98099E-03  3.98099E-03  0.00000E+00             44.SC 21.  55   3
+ 2 4  1.10005E-02  3.98140E-03  3.98140E-03  0.00000E+00             44.SC 21.  56   4
+ 221  4.36687E-05  7.50699E-05  7.50699E-05  0.00000E+00             44.SC 21.  57  21
+ 222  1.29045E-04  7.89100E-05  7.89100E-05  0.00000E+00             44.SC 21.  58  22
+ 223  9.45529E-05  4.00099E-04  4.00099E-04  0.00000E+00             44.SC 21.  59  23
+ 224  1.41797E-04  4.00510E-04  4.00510E-04  0.00000E+00             44.SC 21.  60  24
+ 241  5.46979E-12  3.84000E-06  3.84000E-06  0.00000E+00             44.SC 21.  61  41
+ 242  7.48852E-04  3.05879E-04  3.05879E-04  0.00000E+00             44.SC 21.  62  42
+ 243  5.47793E-07  3.25440E-04  3.25440E-04  0.00000E+00             44.SC 21.  63  43
+ 245  1.58845E-05  3.53590E-04  3.53590E-04  0.00000E+00             44.SC 21.  64  45
+ 261  1.37947E-03  3.02041E-04  3.02041E-04  0.00000E+00             44.SC 21.  65  61
+ 262  4.95028E-07  3.21190E-04  3.21190E-04  0.00000E+00             44.SC 21.  66  62
+ 263  4.86297E-07  3.21600E-04  3.21600E-04  0.00000E+00             44.SC 21.  67  63
+ 266  2.92247E-05  3.49749E-04  3.49749E-04  0.00000E+00             44.SC 21.  68  66
+ 294  4.39120E+00  3.63267E-05  3.63267E-05  0.00000E+00             44.SC 21.  69  94
+ 7 1  7.30556E-01  3.26864E-03  3.26864E-03  0.00000E+00             44.SC 21.  70   1
+ 7 2  1.61784E-01  3.60211E-03  3.60211E-03  0.00000E+00             44.SC 21.  71   2
+ 7 3  8.95990E-03  3.93929E-03  3.93929E-03  0.00000E+00             44.SC 21.  72   3
+ 7 4  4.20312E-01  3.69989E-05  3.69989E-05  0.00000E+00             44.SC 21.  73   4
+ 7 5  1.83280E+00  2.85648E-04  2.85648E-04  0.00000E+00             44.SC 21.  74   5
+ 7 6  5.33063E-02  3.21354E-04  3.21354E-04  0.00000E+00             44.SC 21.  75   6
+%%%%  44 SC  21 M  IT EC        2.10996E+05 58.61 H    02-11-2005       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   2.74233E-01
+    X-ray                           (MeV) =   9.03197E-05
+    Free-bound X-ray                (MeV) =   7.80353E-06
+    Annihilation photon             (MeV) =   0.00000E+00
+    Beta+ particle                  (MeV) =   0.00000E+00
+    Neutrino                        (MeV) =   7.62312E-03
+    Beta- particle                  (MeV) =   0.00000E+00
+    Neutrino-                       (MeV) =   0.00000E+00
+    Internal conv. electron         (MeV) =   3.23412E-02
+    Auger and CK electron           (MeV) =   4.42592E-04
+    Alpha particle                  (MeV) =   0.00000E+00
+    Recoil nucleus                  (MeV) =   0.00000E+00
+  E-total (except unplaced radiat.) (MeV) =   3.14738E-01
+  E-unplaced radiation              (MeV) =   0.00000E+00
+  Q-value from ENSDF data           (MeV) =   3.14790E-01
+  Ratio of E-total/Q-value          ( % ) =   9.99835E+01
+  Ratio of E-unplaced radi./Q-value ( % ) =   0.00000E+00
+
+ 
+  Total yield of
+    Gamma-ray                             =   9.02791E-01
+    X-ray                                 =   2.25782E-02
+    Free-bound X-ray                      =   9.63090E-01
+    Annihilation photon                   =   0.00000E+00
+    Beta+ particle                        =   0.00000E+00
+    Beta- particle                        =   0.00000E+00
+    Internal conv. electron               =   1.21211E-01
+    Auger and CK electron                 =   8.30046E-01
+    Alpha particle                        =   0.00000E+00
+  Yield of unplaced radiation             =   0.00000E+00
+
+

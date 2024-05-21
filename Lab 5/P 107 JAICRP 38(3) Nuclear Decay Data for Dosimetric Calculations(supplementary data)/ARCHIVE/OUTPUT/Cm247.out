@@ -1,0 +1,381 @@
+%%%% 247 CM  96    A            4.92299E+14 1.56E+7 Y  02-11-2005       BALASTAR
+1 247   CM  96 1.56E+7 Y       A          
+           WARNING:                                                                             
+ 243 PU 94  GAMMA-RAY ENERGY =   0.04300 MEV                                                    
+           HALF-LIFE OF INITIAL LEVEL ASSOCIATED WITH GAMMA-RAY TOO SHORT TO BE                 
+           CONSIDERED ISOMERIC, AND INTENSITY = 0.0                                             
+           TRANSITION IGNORED                                                                   
+           WARNING:                                                                             
+ 243 PU 94  GAMMA-RAY ENERGY =   0.05100 MEV                                                    
+           HALF-LIFE OF INITIAL LEVEL ASSOCIATED WITH GAMMA-RAY TOO SHORT TO BE                 
+           CONSIDERED ISOMERIC, AND INTENSITY = 0.0                                             
+           TRANSITION IGNORED                                                                   
+           WARNING:                                                                             
+ 243 PU 94  GAMMA-RAY ENERGY =   0.05640 MEV                                                    
+           HALF-LIFE OF INITIAL LEVEL ASSOCIATED WITH GAMMA-RAY TOO SHORT TO BE                 
+           CONSIDERED ISOMERIC, AND INTENSITY = 0.0                                             
+           TRANSITION IGNORED                                                                   
+           WARNING:                                                                             
+ 243 PU 94  GAMMA-RAY ENERGY =   0.06800 MEV                                                    
+           HALF-LIFE OF INITIAL LEVEL ASSOCIATED WITH GAMMA-RAY TOO SHORT TO BE                 
+           CONSIDERED ISOMERIC, AND INTENSITY = 0.0                                             
+           TRANSITION IGNORED                                                                   
+           WARNING:                                                                             
+ 243 PU 94  GAMMA-RAY ENERGY =   0.12440 MEV                                                    
+           HALF-LIFE OF INITIAL LEVEL ASSOCIATED WITH GAMMA-RAY TOO SHORT TO BE                 
+           CONSIDERED ISOMERIC, AND INTENSITY = 0.0                                             
+           TRANSITION IGNORED                                                                   
+           WARNING:                                                                             
+ 243 PU 94  GAMMA-RAY ENERGY =   0.27400 MEV                                                    
+           HALF-LIFE OF INITIAL LEVEL ASSOCIATED WITH GAMMA-RAY TOO SHORT TO BE                 
+           CONSIDERED ISOMERIC, AND INTENSITY = 0.0                                             
+           TRANSITION IGNORED                                                                   
+           WARNING:                                                                             
+ 243 PU 94  GAMMA-RAY ENERGY =   0.33000 MEV                                                    
+           HALF-LIFE OF INITIAL LEVEL ASSOCIATED WITH GAMMA-RAY TOO SHORT TO BE                 
+           CONSIDERED ISOMERIC, AND INTENSITY = 0.0                                             
+           TRANSITION IGNORED                                                                   
+           WARNING:                                                                             
+ 243 PU 94  GAMMA-RAY ENERGY =   0.33000 MEV                                                    
+           HALF-LIFE OF INITIAL LEVEL ASSOCIATED WITH GAMMA-RAY TOO SHORT TO BE                 
+           CONSIDERED ISOMERIC, AND INTENSITY = 0.0                                             
+           TRANSITION IGNORED                                                                   
+           WARNING:                                                                             
+ 243 PU 94  GAMMA-RAY ENERGY =   0.39800 MEV                                                    
+           HALF-LIFE OF INITIAL LEVEL ASSOCIATED WITH GAMMA-RAY TOO SHORT TO BE                 
+           CONSIDERED ISOMERIC, AND INTENSITY = 0.0                                             
+           TRANSITION IGNORED                                                                   
+1INTENSITY AND ENERGY BALANCE DATA
+
+              247-CURIUM-96
++                                    HALFLIFE = 0.156E+08 YEARS   
++                                                                  02-11-2005
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  9.2359E+01
+   5.6400E-02  7.0946E+00  0.0000E+00  2.0000E+02  ********************
+   1.2440E-01  4.7682E+00  0.0000E+00  2.0000E+02  ********************
+   2.8750E-01  2.0000E+00  4.9887E+00  8.5529E+01  ********************
+   3.3000E-01  1.6000E+00  0.0000E+00  2.0000E+02  ********************
+   4.0240E-01  7.1000E+01  7.8534E+01  1.0076E+01  ********************
+   4.5400E-01  4.7000E+00  0.0000E+00  2.0000E+02  ********************
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  9.236E+01
+ TOTAL INTENSITY FROM PARENT=  1.000E+02
+ PERCENT ERROR =  8.273E+00                      
+
+
+ TOTAL INTENSITY FROM PARENT =  1.000E+02
+ VALUE IS WITHIN   7.63E-06% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  5.352E+00 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  5.354E+00 MEV
+ PERCENT ERROR =  4.401E-02                      
+%%%% 247 CM  96    A            4.92299E+14 1.56E+7 Y  02-11-2005       BALAEND 
+%%%% 247 CM  96    A            4.92299E+14 1.56E+7 Y  02-11-2005       INPUSTAR
+1                                      **INPUT DATA**
+              247-CURIUM-96
++                                    HALFLIFE = 0.156E+08 YEARS   
++                                                                  02-11-2005
+
+            MODE OF DECAY: ALPHA
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+                    ALPHA   1   4.70E-02   4.898E+00                                            
+                    ALPHA   2   7.10E-01   4.950E+00                                            
+                    ALPHA   3   1.60E-02   5.022E+00                                            
+                    ALPHA   4   2.00E-02   5.065E+00                                            
+                    ALPHA   5   1.20E-02   5.228E+00                                            
+                    ALPHA   6   5.70E-02   5.296E+00                                            
+                    ALPHA   7   1.38E-01   5.352E+00                                            
+           I.C.E. + GAMMA   6   5.45E-04   2.311E-01   E2 MULTIPOLE                             
++                                                                    AK= 0.121                  
+                                                       AL1=0.0322    AL2=0.176                  
+                                                       AL3=0.0764    AM= 0.0789                 
+                                                       AN+=0.0284                               
+           I.C.E. + GAMMA   8   3.57E-02   2.780E-01   E1 MULTIPOLE                             
++                                                                    AK= 0.0390                 
+                                                       AL1=0.00524   AL2=0.00163                
+                                                       AL3=0.00102   AM= 0.00192                
+           I.C.E. + GAMMA   9   4.93E-02   2.875E-01   M1 MULTIPOLE                             
++                                                                    AK= 1.16                   
+                                                       AL1=0.203     AL2=0.0228                 
+                                                       AM= 0.0555    AN+=0.0202                 
+           I.C.E. + GAMMA  12   1.34E-02   3.460E-01   E1 MULTIPOLE                             
++                                                                    AK= 0.0245                 
+                                                       AL1=0.00336   AM= 0.00116                
+           I.C.E. + GAMMA  14   7.36E-01   4.024E-01   E1 MULTIPOLE                             
++                                                                    AK= 0.0180                 
+                                                       AL1=0.00250                              
+ 
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: Oct-1993
+%%%% 247 CM  96    A            4.92299E+14 1.56E+7 Y  02-11-2005       INPUEND 
+%%%% 247 CM  96    A            4.92299E+14 1.56E+7 Y  02-11-2005       OUTPSTAR
+1                                      **OUTPUT DATA**
+              247-CURIUM-96
++                                    HALFLIFE = 0.156E+08 YEARS   
++                                                                  02-11-2005
+
+            MODE OF DECAY: ALPHA
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           ALPHA                          1   4.70E-02    4.819E+00    2.26E-01
+           RECOIL ATOM                        4.70E-02    7.937E-02    3.73E-03
+           ALPHA                          2   7.10E-01    4.869E+00    3.46E+00
+           RECOIL ATOM                        7.10E-01    8.021E-02    5.69E-02
+           ALPHA                          3   1.60E-02    4.941E+00    7.90E-02
+           RECOIL ATOM                        1.60E-02    8.138E-02    1.30E-03
+           ALPHA                          4   2.00E-02    4.982E+00    9.96E-02
+           RECOIL ATOM                        2.00E-02    8.207E-02    1.64E-03
+           ALPHA                          5   1.20E-02    5.143E+00    6.17E-02
+           RECOIL ATOM                        1.20E-02    8.471E-02    1.02E-03
+           ALPHA                          6   5.70E-02    5.210E+00    2.97E-01
+           RECOIL ATOM                        5.70E-02    8.581E-02    4.89E-03
+           ALPHA                          7   1.38E-01    5.265E+00    7.27E-01
+           RECOIL ATOM                        1.38E-01    8.673E-02    1.20E-02
+           L2 CONV. ELECTRON, GAMMA-RAY   6   6.32E-05    2.087E-01    1.32E-05
+           GAMMA-RAY                      8   3.40E-02    2.780E-01    9.45E-03
+           K CONV. ELECTRON, GAMMA-RAY    8   1.33E-03    1.557E-01    2.06E-04
+           L1 CONV. ELECTRON, GAMMA-RAY   8   1.78E-04    2.549E-01    4.54E-05
+           L2 CONV. ELECTRON, GAMMA-RAY   8   5.54E-05    2.556E-01    1.42E-05
+           M CONV. ELECTRON, GAMMA-RAY    8   6.52E-05    2.735E-01*   1.78E-05
+           GAMMA-RAY                      9   2.00E-02    2.875E-01    5.75E-03
+           K CONV. ELECTRON, GAMMA-RAY    9   2.33E-02    1.652E-01    3.85E-03
+           L1 CONV. ELECTRON, GAMMA-RAY   9   4.07E-03    2.644E-01    1.08E-03
+           L2 CONV. ELECTRON, GAMMA-RAY   9   4.56E-04    2.651E-01    1.21E-04
+           M CONV. ELECTRON, GAMMA-RAY    9   1.11E-03    2.830E-01*   3.14E-04
+           N+ CONV. ELECTRON, GAMMA-RAY   9   4.05E-04    2.875E-01*   1.16E-04
+           GAMMA-RAY                     12   1.30E-02    3.460E-01    4.50E-03
+           K CONV. ELECTRON, GAMMA-RAY   12   3.19E-04    2.237E-01    7.14E-05
+           L1 CONV. ELECTRON, GAMMA-RAY  12   4.37E-05    3.229E-01    1.41E-05
+           GAMMA-RAY                     14   7.20E-01    4.024E-01    2.90E-01
+           K CONV. ELECTRON, GAMMA-RAY   14   1.30E-02    2.801E-01    3.63E-03
+           L1 CONV. ELECTRON, GAMMA-RAY  14   1.80E-03    3.793E-01    6.82E-04
+           L2 CONV. ELECTRON, GAMMA-RAY  14   4.31E-04    3.800E-01    1.64E-04
+           L3 CONV. ELECTRON, GAMMA-RAY  14   2.41E-04    3.843E-01    9.25E-05
+           M CONV. ELECTRON, GAMMA-RAY   14   5.98E-04    3.979E-01*   2.38E-04
+           N+ CONV. ELECTRON, GAMMA-RAY  14   2.15E-04    4.024E-01*   8.64E-05
+           K -L2 X-RAY                        1.10E-02    9.998E-02    1.10E-03
+           K -L3 X-RAY                        1.75E-02    1.043E-01    1.82E-03
+           K -M3 X-RAY                        3.98E-03    1.178E-01    4.68E-04
+           AUGER KLL                          7.30E-04    7.911E-02*   5.77E-05
+           AUGER KLX                          4.21E-04    9.640E-02*   4.06E-05
+           CK LLX                             7.54E-03    1.692E-03*   1.28E-05
+           AUGER LMM                          1.15E-02    1.052E-02*   1.21E-04
+           AUGER LMX                          5.95E-03    1.405E-02*   8.36E-05
+           AUGER LXY                          7.23E-04    1.761E-02*   1.27E-05
+           CK MMX                             2.05E-02    5.588E-04*   1.15E-05
+           AUGER MNN                          4.48E-02    2.550E-03*   1.14E-04
+           AUGER MNX                          9.16E-03    3.079E-03*   2.82E-05
+           CK NNX                             7.98E-02    1.914E-04*   1.53E-05
+           AUGER NXY                          1.36E-01    2.353E-04*   3.20E-05
+           CK OOX                             1.42E-01    8.910E-05*   1.26E-05
+ 
+           ALL LISTED X-RAYS, GAMMA-RAYS AND ANNIHILATION RADIATION    3.13E-01
+           ALL NEGLECTED X-RAYS, GAMMA-RAYS AND ANNIH. RADIATION**     9.61E-04
+           ALL LISTED BETAS, INTERNAL CONVERSION AND AUGER ELECTRONS   1.13E-02
+           ALL NEGLECTED BETAS, INT. CONVERSION AND AUGER ELECTRONS**  6.40E-05
+           ALL LISTED ALPHA PARTICLES AND  RECOIL NUCLEI               5.03E+00
+           ALL LISTED RADIATIONS                                       5.35E+00
+           ALL NEGLECTED RADIATIONS**                                  1.02E-03
+ 
+           *  AVERAGE ENERGY (MEV)
+           ** EACH NEGLECTED TRANSITION CONTRIBUTES LESS THAN  0.100%
+              TO THE TOTAL MEV/TRANSFORMATION FOR THIS CATEGORY.
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 243-PLUTONIUM
+             DAUGHTER IS 1.0000E+00 PER TRANSFORMATION OF 247-CURIUM.
+             DECAY OF THIS 4.956 HOURS HALFLIFE LEVEL WILL CONTRIBUTE TO DOSE.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: Oct-1993
+%%%% 247 CM  96    A            4.92299E+14 1.56E+7 Y  02-11-2005       OUTPEND 
+%%%% 247 CM  96    A            4.92299E+14 1.56E+7 Y  02-11-2005       SEEISTAR
+247.  CURIUM       96.  1.560E+07 YEARS    131 A                    247.CM 96.   0
+ 8 1  4.70000E+00  4.81863E+00  7.93706E-02  0.00000E+00            247.CM 96.   1   1
+ 8 2  7.10000E+01  4.86939E+00  8.02067E-02  0.00000E+00            247.CM 96.   2   2
+ 8 3  1.60000E+00  4.94062E+00  8.13800E-02  0.00000E+00            247.CM 96.   3   3
+ 8 4  2.00000E+00  4.98243E+00  8.20687E-02  0.00000E+00            247.CM 96.   4   4
+ 8 5  1.20000E+00  5.14289E+00  8.47116E-02  0.00000E+00            247.CM 96.   5   5
+ 8 6  5.70000E+00  5.20979E+00  8.58136E-02  0.00000E+00            247.CM 96.   6   6
+ 8 7  1.38000E+01  5.26527E+00  8.67275E-02  0.00000E+00            247.CM 96.   7   7
+ 1 6  3.60000E-02  2.31100E-01  2.31100E-01  0.00000E+00            247.CM 96.   8   6
+ 6 1  4.36229E-03  1.08750E-01  1.08750E-01  6.00000E+00            247.CM 96.   9   1
+ 6 5  1.15864E-03  2.07978E-01  2.07978E-01  6.00000E+00            247.CM 96.  10   5
+ 6 6  6.32309E-03  2.08729E-01  2.08729E-01  6.00000E+00            247.CM 96.  11   6
+ 6 7  2.74961E-03  2.13029E-01  2.13029E-01  6.00000E+00            247.CM 96.  12   7
+ 6 3  2.83992E-03  2.26550E-01  2.26550E-01  6.00000E+00            247.CM 96.  13   3
+ 6 4  1.02089E-03  2.31100E-01  2.31100E-01  6.00000E+00            247.CM 96.  14   4
+ 1 8  3.40000E+00  2.78000E-01  2.78000E-01  0.00000E+00            247.CM 96.  15   8
+ 6 1  1.32530E-01  1.55650E-01  1.55650E-01  8.00000E+00            247.CM 96.  16   1
+ 6 5  1.78093E-02  2.54878E-01  2.54878E-01  8.00000E+00            247.CM 96.  17   5
+ 6 6  5.53684E-03  2.55629E-01  2.55629E-01  8.00000E+00            247.CM 96.  18   6
+ 6 7  3.45246E-03  2.59929E-01  2.59929E-01  8.00000E+00            247.CM 96.  19   7
+ 6 3  6.52283E-03  2.73450E-01  2.73450E-01  8.00000E+00            247.CM 96.  20   3
+ 6 4  2.33485E-03  2.78000E-01  2.78000E-01  8.00000E+00            247.CM 96.  21   4
+ 1 9  2.00000E+00  2.87500E-01  2.87500E-01  0.00000E+00            247.CM 96.  22   9
+ 6 1  2.32875E+00  1.65150E-01  1.65150E-01  9.00000E+00            247.CM 96.  23   1
+ 6 5  4.06687E-01  2.64378E-01  2.64378E-01  9.00000E+00            247.CM 96.  24   5
+ 6 6  4.56211E-02  2.65129E-01  2.65129E-01  9.00000E+00            247.CM 96.  25   6
+ 6 7  1.78034E-03  2.69429E-01  2.69429E-01  9.00000E+00            247.CM 96.  26   7
+ 6 3  1.10938E-01  2.82950E-01  2.82950E-01  9.00000E+00            247.CM 96.  27   3
+ 6 4  4.04663E-02  2.87500E-01  2.87500E-01  9.00000E+00            247.CM 96.  28   4
+ 112  1.30000E+00  3.46000E-01  3.46000E-01  0.00000E+00            247.CM 96.  29  12
+ 6 1  3.19123E-02  2.23650E-01  2.23650E-01  1.20000E+01            247.CM 96.  30   1
+ 6 5  4.36802E-03  3.22878E-01  3.22878E-01  1.20000E+01            247.CM 96.  31   5
+ 6 6  1.16774E-03  3.23629E-01  3.23629E-01  1.20000E+01            247.CM 96.  32   6
+ 6 7  6.80390E-04  3.27929E-01  3.27929E-01  1.20000E+01            247.CM 96.  33   7
+ 6 3  1.50880E-03  3.41450E-01  3.41450E-01  1.20000E+01            247.CM 96.  34   3
+ 6 4  5.40972E-04  3.46000E-01  3.46000E-01  1.20000E+01            247.CM 96.  35   4
+ 114  7.20000E+01  4.02400E-01  4.02400E-01  0.00000E+00            247.CM 96.  36  14
+ 6 1  1.29697E+00  2.80050E-01  2.80050E-01  1.40000E+01            247.CM 96.  37   1
+ 6 5  1.79689E-01  3.79278E-01  3.79278E-01  1.40000E+01            247.CM 96.  38   5
+ 6 6  4.31446E-02  3.80029E-01  3.80029E-01  1.40000E+01            247.CM 96.  39   6
+ 6 7  2.40578E-02  3.84329E-01  3.84329E-01  1.40000E+01            247.CM 96.  40   7
+ 6 3  5.98412E-02  3.97850E-01  3.97850E-01  1.40000E+01            247.CM 96.  41   3
+ 6 4  2.14736E-02  4.02400E-01  4.02400E-01  1.40000E+01            247.CM 96.  42   4
+ 2 1  1.10420E+00  9.99790E-02  9.99790E-02  0.00000E+00            247.CM 96.  43   1
+ 2 2  1.74790E+00  1.04279E-01  1.04279E-01  0.00000E+00            247.CM 96.  44   2
+ 2 3  2.02691E-01  1.16802E-01  1.16802E-01  0.00000E+00            247.CM 96.  45   3
+ 2 4  3.97624E-01  1.17801E-01  1.17801E-01  0.00000E+00            247.CM 96.  46   4
+ 2 5  7.42661E-03  1.18372E-01  1.18372E-01  0.00000E+00            247.CM 96.  47   5
+ 2 6  8.36078E-03  1.18573E-01  1.18573E-01  0.00000E+00            247.CM 96.  48   6
+ 2 7  5.10625E-02  1.20980E-01  1.20980E-01  0.00000E+00            247.CM 96.  49   7
+ 2 8  1.04083E-01  1.21244E-01  1.21244E-01  0.00000E+00            247.CM 96.  50   8
+ 2 9  2.22293E-03  1.21507E-01  1.21507E-01  0.00000E+00            247.CM 96.  51   9
+ 210  2.51188E-03  1.21556E-01  1.21556E-01  0.00000E+00            247.CM 96.  52  10
+ 211  1.26569E-02  1.22069E-01  1.22069E-01  0.00000E+00            247.CM 96.  53  11
+ 212  2.54167E-02  1.22134E-01  1.22134E-01  0.00000E+00            247.CM 96.  54  12
+ 213  4.69455E-04  1.22230E-01  1.22230E-01  0.00000E+00            247.CM 96.  55  13
+ 214  5.25803E-04  1.22240E-01  1.22240E-01  0.00000E+00            247.CM 96.  56  14
+ 215  2.21565E-03  1.22316E-01  1.22316E-01  0.00000E+00            247.CM 96.  57  15
+ 216  4.11436E-03  1.22326E-01  1.22326E-01  0.00000E+00            247.CM 96.  58  16
+ 221  9.07106E-06  7.51001E-04  7.51001E-04  0.00000E+00            247.CM 96.  59  21
+ 222  7.26643E-03  5.05100E-03  5.05100E-03  0.00000E+00            247.CM 96.  60  22
+ 223  4.14654E-02  1.75735E-02  1.75735E-02  0.00000E+00            247.CM 96.  61  23
+ 224  3.40823E-02  1.85721E-02  1.85721E-02  0.00000E+00            247.CM 96.  62  24
+ 225  2.00675E-03  1.91442E-02  1.91442E-02  0.00000E+00            247.CM 96.  63  25
+ 226  2.98689E-03  1.93451E-02  1.93451E-02  0.00000E+00            247.CM 96.  64  26
+ 227  1.12853E-02  2.17515E-02  2.17515E-02  0.00000E+00            247.CM 96.  65  27
+ 228  1.07534E-02  2.20160E-02  2.20160E-02  0.00000E+00            247.CM 96.  66  28
+ 229  3.48468E-04  2.22794E-02  2.22794E-02  0.00000E+00            247.CM 96.  67  29
+ 230  5.59753E-04  2.23278E-02  2.23278E-02  0.00000E+00            247.CM 96.  68  30
+ 231  2.80186E-03  2.28407E-02  2.28407E-02  0.00000E+00            247.CM 96.  69  31
+ 232  2.70902E-03  2.29056E-02  2.29056E-02  0.00000E+00            247.CM 96.  70  32
+ 233  6.47700E-05  2.30025E-02  2.30025E-02  0.00000E+00            247.CM 96.  71  33
+ 234  1.05076E-04  2.30122E-02  2.30122E-02  0.00000E+00            247.CM 96.  72  34
+ 235  4.95393E-04  2.30881E-02  2.30881E-02  0.00000E+00            247.CM 96.  73  35
+ 236  4.47323E-04  2.30986E-02  2.30986E-02  0.00000E+00            247.CM 96.  74  36
+ 241  6.04561E-05  4.30000E-03  4.30000E-03  0.00000E+00            247.CM 96.  75  41
+ 242  1.37722E-02  1.64689E-02  1.64689E-02  0.00000E+00            247.CM 96.  76  42
+ 243  7.37152E-04  1.78211E-02  1.78211E-02  0.00000E+00            247.CM 96.  77  43
+ 244  4.84552E-01  1.83932E-02  1.83932E-02  0.00000E+00            247.CM 96.  78  44
+ 245  3.76770E-03  2.08373E-02  2.08373E-02  0.00000E+00            247.CM 96.  79  45
+ 246  2.26288E-04  2.12651E-02  2.12651E-02  0.00000E+00            247.CM 96.  80  46
+ 247  1.11826E-01  2.15285E-02  2.15285E-02  0.00000E+00            247.CM 96.  81  47
+ 248  7.38047E-04  2.19249E-02  2.19249E-02  0.00000E+00            247.CM 96.  82  48
+ 249  9.87963E-04  2.20244E-02  2.20244E-02  0.00000E+00            247.CM 96.  83  49
+ 250  5.66975E-05  2.21546E-02  2.21546E-02  0.00000E+00            247.CM 96.  84  50
+ 251  2.23477E-02  2.22514E-02  2.22514E-02  0.00000E+00            247.CM 96.  85  51
+ 252  3.30634E-05  2.23636E-02  2.23636E-02  0.00000E+00            247.CM 96.  86  52
+ 253  1.99003E-04  2.23179E-02  2.23179E-02  0.00000E+00            247.CM 96.  87  53
+ 254  9.18780E-06  2.23476E-02  2.23476E-02  0.00000E+00            247.CM 96.  88  54
+ 255  2.03045E-05  2.23655E-02  2.23655E-02  0.00000E+00            247.CM 96.  89  55
+ 261  5.83708E-02  1.21689E-02  1.21689E-02  0.00000E+00            247.CM 96.  90  61
+ 262  7.52982E-04  1.25225E-02  1.25225E-02  0.00000E+00            247.CM 96.  91  62
+ 263  6.87507E-04  1.35211E-02  1.35211E-02  0.00000E+00            247.CM 96.  92  63
+ 264  9.27730E-02  1.40932E-02  1.40932E-02  0.00000E+00            247.CM 96.  93  64
+ 265  8.14695E-01  1.42941E-02  1.42941E-02  0.00000E+00            247.CM 96.  94  65
+ 266  1.49174E-02  1.65373E-02  1.65373E-02  0.00000E+00            247.CM 96.  95  66
+ 267  1.66096E-04  1.67005E-02  1.67005E-02  0.00000E+00            247.CM 96.  96  67
+ 268  1.88714E-04  1.69650E-02  1.69650E-02  0.00000E+00            247.CM 96.  97  68
+ 269  1.88775E-02  1.72285E-02  1.72285E-02  0.00000E+00            247.CM 96.  98  69
+ 270  1.73324E-01  1.72768E-02  1.72768E-02  0.00000E+00            247.CM 96.  99  70
+ 271  2.61842E-04  1.76249E-02  1.76249E-02  0.00000E+00            247.CM 96. 100  71
+ 272  1.44077E-03  1.76379E-02  1.76379E-02  0.00000E+00            247.CM 96. 101  72
+ 273  3.86214E-03  1.77244E-02  1.77244E-02  0.00000E+00            247.CM 96. 102  73
+ 274  3.92892E-05  1.77897E-02  1.77897E-02  0.00000E+00            247.CM 96. 103  74
+ 275  4.61231E-05  1.78546E-02  1.78546E-02  0.00000E+00            247.CM 96. 104  75
+ 276  3.67587E-03  1.79515E-02  1.79515E-02  0.00000E+00            247.CM 96. 105  76
+ 277  3.37499E-02  1.79611E-02  1.79611E-02  0.00000E+00            247.CM 96. 106  77
+ 278  1.16266E-05  1.80636E-02  1.80636E-02  0.00000E+00            247.CM 96. 107  78
+ 279  6.24030E-05  1.80648E-02  1.80648E-02  0.00000E+00            247.CM 96. 108  79
+ 280  7.99674E-04  1.80179E-02  1.80179E-02  0.00000E+00            247.CM 96. 109  80
+ 281  6.98767E-06  1.80371E-02  1.80371E-02  0.00000E+00            247.CM 96. 110  81
+ 282  7.57435E-06  1.80475E-02  1.80475E-02  0.00000E+00            247.CM 96. 111  82
+ 283  7.77648E-05  1.80656E-02  1.80656E-02  0.00000E+00            247.CM 96. 112  83
+ 291  3.40937E-01  3.44378E-03  3.44378E-03  0.00000E+00            247.CM 96. 113  91
+ 292  8.31613E-03  5.35553E-04  5.35553E-04  0.00000E+00            247.CM 96. 114  92
+ 293  4.10768E-04  1.53003E-04  1.53003E-04  0.00000E+00            247.CM 96. 115  93
+ 294  5.17542E+01  7.19884E-05  7.19884E-05  0.00000E+00            247.CM 96. 116  94
+ 7 1  7.29721E-02  7.91086E-02  7.91086E-02  0.00000E+00            247.CM 96. 117   1
+ 7 2  4.21443E-02  9.64039E-02  9.64039E-02  0.00000E+00            247.CM 96. 118   2
+ 7 3  5.92910E-03  1.13719E-01  1.13719E-01  0.00000E+00            247.CM 96. 119   3
+ 7 4  7.53822E-01  1.69182E-03  1.69182E-03  0.00000E+00            247.CM 96. 120   4
+ 7 5  1.14905E+00  1.05193E-02  1.05193E-02  0.00000E+00            247.CM 96. 121   5
+ 7 6  5.94867E-01  1.40492E-02  1.40492E-02  0.00000E+00            247.CM 96. 122   6
+ 7 7  7.23188E-02  1.76115E-02  1.76115E-02  0.00000E+00            247.CM 96. 123   7
+ 7 8  2.05392E+00  5.58800E-04  5.58800E-04  0.00000E+00            247.CM 96. 124   8
+ 7 9  4.47918E+00  2.54970E-03  2.54970E-03  0.00000E+00            247.CM 96. 125   9
+ 710  9.16142E-01  3.07903E-03  3.07903E-03  0.00000E+00            247.CM 96. 126  10
+ 711  5.49154E-02  3.73345E-03  3.73345E-03  0.00000E+00            247.CM 96. 127  11
+ 712  7.98341E+00  1.91381E-04  1.91381E-04  0.00000E+00            247.CM 96. 128  12
+ 713  1.35948E+01  2.35332E-04  2.35332E-04  0.00000E+00            247.CM 96. 129  13
+ 714  1.41748E+01  8.91013E-05  8.91013E-05  0.00000E+00            247.CM 96. 130  14
+ 715  8.92691E-02  1.76158E-04  1.76158E-04  0.00000E+00            247.CM 96. 131  15
+%%%% 247 CM  96    A            4.92299E+14 1.56E+7 Y  02-11-2005       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   3.09511E-01
+    X-ray                           (MeV) =   4.23526E-03
+    Free-bound X-ray                (MeV) =   3.72570E-05
+    Annihilation photon             (MeV) =   0.00000E+00
+    Beta+ particle                  (MeV) =   0.00000E+00
+    Neutrino                        (MeV) =   0.00000E+00
+    Beta- particle                  (MeV) =   0.00000E+00
+    Neutrino-                       (MeV) =   0.00000E+00
+    Internal conv. electron         (MeV) =   1.08044E-02
+    Auger and CK electron           (MeV) =   5.51034E-04
+    Alpha particle                  (MeV) =   4.94772E+00
+    Recoil nucleus                  (MeV) =   8.14970E-02
+  E-total (except unplaced radiat.) (MeV) =   5.35436E+00
+  E-unplaced radiation              (MeV) =   0.00000E+00
+  Q-value from ENSDF data           (MeV) =   5.35200E+00
+  Ratio of E-total/Q-value          ( % ) =   1.00044E+02
+  Ratio of E-unplaced radi./Q-value ( % ) =   0.00000E+00
+
+ 
+  Total yield of
+    Gamma-ray                             =   7.87360E-01
+    X-ray                                 =   5.99866E-02
+    Free-bound X-ray                      =   5.17542E-01
+    Annihilation photon                   =   0.00000E+00
+    Beta+ particle                        =   0.00000E+00
+    Beta- particle                        =   0.00000E+00
+    Internal conv. electron               =   4.78624E-02
+    Auger and CK electron                 =   4.60376E-01
+    Alpha particle                        =   1.00000E+00
+  Yield of unplaced radiation             =   0.00000E+00
+
+

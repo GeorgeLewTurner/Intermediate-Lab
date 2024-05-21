@@ -1,0 +1,386 @@
+%%%% 212 PO  84 M  A            4.51000E+01  45.1 S    18-07-2007       BALASTAR
+1 212M  PO  84  45.1 S         A          
+1INTENSITY AND ENERGY BALANCE DATA
+
+              212M-POLONIUM-84
++                                    HALFLIFE = 45.1 SECONDS 
++                                                                  18-07-2007
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  9.9484E+01
+   2.6190E+00  3.0421E+00  2.6036E+00  1.5535E+01  ********************
+   3.1900E+00  2.0496E+00  2.0423E+00  3.5513E-01                      
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  9.948E+01
+ TOTAL INTENSITY FROM PARENT=  9.993E+01
+ PERCENT ERROR =  4.481E-01                      
+
+
+ TOTAL INTENSITY FROM PARENT =  9.993E+01
+ VALUE IS WITHIN   7.00E-02% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  1.187E+01 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  1.186E+01 MEV
+ PERCENT ERROR =  1.010E-01                      
+%%%% 212 PO  84 M  A            4.51000E+01  45.1 S    18-07-2007       BALAEND 
+%%%% 212 PO  84 M  A            4.51000E+01  45.1 S    18-07-2007       INPUSTAR
+1                                      **INPUT DATA**
+              212M-POLONIUM-84
++                                    HALFLIFE = 45.1 SECONDS 
++                                                                  18-07-2007
+
+            MODE OF DECAY: ALPHA
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+                    ALPHA   1   2.05E-02   8.685E+00                                            
+                    ALPHA   2   1.00E-02   9.256E+00                                            
+                    ALPHA   3   9.69E-01   1.188E+01                                            
+           I.C.E. + GAMMA   1   2.04E-02   5.700E-01   E2 MULTIPOLE                             
++                                                                    AK= 0.0160                 
+                                                       AL1=0.00236   AL2=0.00156                
+                                                       AM= 0.00110                              
+           I.C.E. + GAMMA   2   2.60E-02   2.610E+00   E3 MULTIPOLE                             
++                                                                    AK= 0.00173                
+ 
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: May-1992
+%%%% 212 PO  84 M  A            4.51000E+01  45.1 S    18-07-2007       INPUEND 
+%%%% 212 PO  84 M  A            4.51000E+01  45.1 S    18-07-2007       OUTPSTAR
+1                                      **OUTPUT DATA**
+              212M-POLONIUM-84
++                                    HALFLIFE = 45.1 SECONDS 
++                                                                  18-07-2007
+
+            MODE OF DECAY: ALPHA
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           ALPHA                          1   2.05E-02    8.521E+00    1.75E-01
+           RECOIL ATOM                        2.05E-02    1.640E-01    3.36E-03
+           ALPHA                          2   1.00E-02    9.082E+00    9.08E-02
+           RECOIL ATOM                        1.00E-02    1.748E-01    1.75E-03
+           ALPHA                          3   9.69E-01    1.165E+01    1.13E+01
+           RECOIL ATOM                        9.69E-01    2.242E-01    2.17E-01
+           GAMMA-RAY                      1   2.00E-02    5.700E-01    1.14E-02
+           K CONV. ELECTRON, GAMMA-RAY    1   3.19E-04    4.817E-01    1.54E-04
+           L1 CONV. ELECTRON, GAMMA-RAY   1   4.71E-05    5.542E-01    2.61E-05
+           L2 CONV. ELECTRON, GAMMA-RAY   1   3.12E-05    5.547E-01    1.73E-05
+           L3 CONV. ELECTRON, GAMMA-RAY   1   1.09E-05    5.570E-01    6.07E-06
+           M CONV. ELECTRON, GAMMA-RAY    1   2.20E-05    5.669E-01*   1.25E-05
+           N+ CONV. ELECTRON, GAMMA-RAY   1   6.96E-06    5.700E-01*   3.97E-06
+           GAMMA-RAY                      2   2.60E-02    2.610E+00    6.78E-02
+           K CONV. ELECTRON, GAMMA-RAY    2   4.50E-05    2.522E+00    1.13E-04
+           L1 CONV. ELECTRON, GAMMA-RAY   2   6.20E-06    2.594E+00    1.61E-05
+           L2 CONV. ELECTRON, GAMMA-RAY   2   7.41E-07    2.595E+00    1.92E-06
+           L3 CONV. ELECTRON, GAMMA-RAY   2   8.53E-08    2.597E+00    2.22E-07
+           M CONV. ELECTRON, GAMMA-RAY    2   1.63E-06    2.607E+00*   4.25E-06
+           N+ CONV. ELECTRON, GAMMA-RAY   2   5.09E-07    2.610E+00*   1.33E-06
+           K -L3 X-RAY                        1.73E-04    7.525E-02    1.30E-05
+           AUGER KLL                          8.70E-06    5.875E-02*   5.11E-07
+           AUGER KLX                          4.76E-06    7.071E-02*   3.36E-07
+           AUGER KXY                          6.27E-07    8.268E-02*   5.19E-08
+           CK LLX                             6.43E-05    1.015E-03*   6.52E-08
+           AUGER LMM                          1.62E-04    8.084E-03*   1.31E-06
+           AUGER LMX                          7.15E-05    1.046E-02*   7.48E-07
+           AUGER LXY                          7.59E-06    1.287E-02*   9.76E-08
+           CK MMX                             2.27E-04    4.239E-04*   9.62E-08
+           AUGER MNN                          5.44E-04    1.912E-03*   1.04E-06
+           AUGER MNX                          6.79E-05    2.173E-03*   1.48E-07
+           CK NNX                             1.02E-03    1.740E-04*   1.78E-07
+           AUGER NXY                          1.94E-03    8.230E-05*   1.60E-07
+           CK OOX                             1.34E-03    4.219E-05*   5.67E-08
+ 
+           ALL LISTED X-RAYS, GAMMA-RAYS AND ANNIHILATION RADIATION    7.92E-02
+           ALL NEGLECTED X-RAYS, GAMMA-RAYS AND ANNIH. RADIATION**     1.59E-05
+           ALL LISTED BETAS, INTERNAL CONVERSION AND AUGER ELECTRONS   3.62E-04
+           ALL NEGLECTED BETAS, INT. CONVERSION AND AUGER ELECTRONS**  9.03E-09
+           ALL LISTED ALPHA PARTICLES AND  RECOIL NUCLEI               1.18E+01
+           ALL LISTED RADIATIONS                                       1.19E+01
+           ALL NEGLECTED RADIATIONS**                                  1.59E-05
+ 
+           *  AVERAGE ENERGY (MEV)
+           ** EACH NEGLECTED TRANSITION CONTRIBUTES LESS THAN  0.010%
+              TO THE TOTAL MEV/TRANSFORMATION FOR THIS CATEGORY.
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 208-LEAD
+             DAUGHTER IS 9.9930E-01  PER TRANSFORMATION OF 212M-POLONIUM.
+             THIS DAUGHTER GROUND STATE IS STABLE.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: May-1992
+%%%% 212 PO  84 M  A            4.51000E+01  45.1 S    18-07-2007       OUTPEND 
+%%%% 212 PO  84 M  A            4.51000E+01  45.1 S    18-07-2007       SEEISTAR
+212.M POLONIUM     84.  4.510E+01 SECONDS  101 A                    212.PO 84.   0
+ 8 1  2.04959E+00  8.52138E+00  1.63979E-01  0.00000E+00            212.PO 84.   1   1
+ 8 2  9.99800E-01  9.08160E+00  1.74760E-01  0.00000E+00            212.PO 84.   2   2
+ 8 3  9.68806E+01  1.16512E+01  2.24206E-01  0.00000E+00            212.PO 84.   3   3
+ 1 1  1.99860E+00  5.70000E-01  5.70000E-01  0.00000E+00            212.PO 84.   4   1
+ 6 1  3.19060E-02  4.81710E-01  4.81710E-01  1.00000E+00            212.PO 84.   5   1
+ 6 5  4.70891E-03  5.54153E-01  5.54153E-01  1.00000E+00            212.PO 84.   6   5
+ 6 6  3.12046E-03  5.54749E-01  5.54749E-01  1.00000E+00            212.PO 84.   7   6
+ 6 7  1.08941E-03  5.56960E-01  5.56960E-01  1.00000E+00            212.PO 84.   8   7
+ 6 3  2.20266E-03  5.66945E-01  5.66945E-01  1.00000E+00            212.PO 84.   9   3
+ 6 4  6.96488E-04  5.70000E-01  5.70000E-01  1.00000E+00            212.PO 84.  10   4
+ 1 2  2.59818E+00  2.61000E+00  2.61000E+00  0.00000E+00            212.PO 84.  11   2
+ 6 1  4.49646E-03  2.52171E+00  2.52171E+00  2.00000E+00            212.PO 84.  12   1
+ 6 5  6.19705E-04  2.59415E+00  2.59415E+00  2.00000E+00            212.PO 84.  13   5
+ 6 6  7.41170E-05  2.59475E+00  2.59475E+00  2.00000E+00            212.PO 84.  14   6
+ 6 7  8.52936E-06  2.59696E+00  2.59696E+00  2.00000E+00            212.PO 84.  15   7
+ 6 3  1.63063E-04  2.60695E+00  2.60695E+00  2.00000E+00            212.PO 84.  16   3
+ 6 4  5.08627E-05  2.61000E+00  2.61000E+00  2.00000E+00            212.PO 84.  17   4
+ 2 1  1.02713E-02  7.30390E-02  7.30390E-02  0.00000E+00            212.PO 84.  18   1
+ 2 2  1.72507E-02  7.52501E-02  7.52501E-02  0.00000E+00            212.PO 84.  19   2
+ 2 3  1.92164E-03  8.47407E-02  8.47407E-02  0.00000E+00            212.PO 84.  20   3
+ 2 4  3.72215E-03  8.52354E-02  8.52354E-02  0.00000E+00            212.PO 84.  21   4
+ 2 5  5.23828E-05  8.56955E-02  8.56955E-02  0.00000E+00            212.PO 84.  22   5
+ 2 6  6.33982E-05  8.58009E-02  8.58009E-02  0.00000E+00            212.PO 84.  23   6
+ 2 7  4.58267E-04  8.75343E-02  8.75343E-02  0.00000E+00            212.PO 84.  24   7
+ 2 8  9.00521E-04  8.76558E-02  8.76558E-02  0.00000E+00            212.PO 84.  25   8
+ 2 9  1.39261E-05  8.78546E-02  8.78546E-02  0.00000E+00            212.PO 84.  26   9
+ 210  1.68288E-05  8.78775E-02  8.78775E-02  0.00000E+00            212.PO 84.  27  10
+ 211  1.06557E-04  8.81791E-02  8.81791E-02  0.00000E+00            212.PO 84.  28  11
+ 212  2.06460E-04  8.82024E-02  8.82024E-02  0.00000E+00            212.PO 84.  29  12
+ 213  1.80425E-06  8.82612E-02  8.82612E-02  0.00000E+00            212.PO 84.  30  13
+ 214  2.10824E-06  8.82640E-02  8.82640E-02  0.00000E+00            212.PO 84.  31  14
+ 215  2.39331E-06  8.82829E-02  8.82829E-02  0.00000E+00            212.PO 84.  32  15
+ 216  3.67046E-06  8.82846E-02  8.82846E-02  0.00000E+00            212.PO 84.  33  16
+ 221  7.29028E-08  5.96000E-04  5.96000E-04  0.00000E+00            212.PO 84.  34  21
+ 222  1.86772E-05  2.80700E-03  2.80700E-03  0.00000E+00            212.PO 84.  35  22
+ 223  2.05209E-04  1.22977E-02  1.22977E-02  0.00000E+00            212.PO 84.  36  23
+ 224  2.24092E-04  1.27924E-02  1.27924E-02  0.00000E+00            212.PO 84.  37  24
+ 225  7.40872E-06  1.32523E-02  1.32523E-02  0.00000E+00            212.PO 84.  38  25
+ 226  1.10867E-05  1.33580E-02  1.33580E-02  0.00000E+00            212.PO 84.  39  26
+ 227  5.28106E-05  1.50910E-02  1.50910E-02  0.00000E+00            212.PO 84.  40  27
+ 228  6.28690E-05  1.52127E-02  1.52127E-02  0.00000E+00            212.PO 84.  41  28
+ 229  1.13844E-06  1.54118E-02  1.54118E-02  0.00000E+00            212.PO 84.  42  29
+ 230  1.80131E-06  1.54345E-02  1.54345E-02  0.00000E+00            212.PO 84.  43  30
+ 231  1.03451E-05  1.57361E-02  1.57361E-02  0.00000E+00            212.PO 84.  44  31
+ 232  1.20994E-05  1.57594E-02  1.57594E-02  0.00000E+00            212.PO 84.  45  32
+ 233  1.32777E-07  1.58182E-02  1.58182E-02  0.00000E+00            212.PO 84.  46  33
+ 234  2.07435E-07  1.58210E-02  1.58210E-02  0.00000E+00            212.PO 84.  47  34
+ 235  2.80251E-07  1.58400E-02  1.58400E-02  0.00000E+00            212.PO 84.  48  35
+ 236  2.64134E-07  1.58417E-02  1.58417E-02  0.00000E+00            212.PO 84.  49  36
+ 241  1.55446E-07  2.21100E-03  2.21100E-03  0.00000E+00            212.PO 84.  50  41
+ 242  1.25121E-04  1.14267E-02  1.14267E-02  0.00000E+00            212.PO 84.  51  42
+ 243  5.13435E-06  1.21964E-02  1.21964E-02  0.00000E+00            212.PO 84.  52  43
+ 244  4.59869E-03  1.26563E-02  1.26563E-02  0.00000E+00            212.PO 84.  53  44
+ 245  3.22981E-05  1.43743E-02  1.43743E-02  0.00000E+00            212.PO 84.  54  45
+ 246  1.42561E-06  1.46167E-02  1.46167E-02  0.00000E+00            212.PO 84.  55  46
+ 247  9.39059E-04  1.48158E-02  1.48158E-02  0.00000E+00            212.PO 84.  56  47
+ 248  3.95916E-06  1.50980E-02  1.50980E-02  0.00000E+00            212.PO 84.  57  48
+ 249  6.88930E-06  1.50981E-02  1.50981E-02  0.00000E+00            212.PO 84.  58  49
+ 250  2.87308E-07  1.51634E-02  1.51634E-02  0.00000E+00            212.PO 84.  59  50
+ 251  1.16211E-04  1.52222E-02  1.52222E-02  0.00000E+00            212.PO 84.  60  51
+ 253  8.94059E-07  1.52359E-02  1.52359E-02  0.00000E+00            212.PO 84.  61  53
+ 254  5.97534E-09  1.52457E-02  1.52457E-02  0.00000E+00            212.PO 84.  62  54
+ 261  4.00090E-04  9.21570E-03  9.21570E-03  0.00000E+00            212.PO 84.  63  61
+ 262  4.20345E-06  9.49069E-03  9.49069E-03  0.00000E+00            212.PO 84.  64  62
+ 263  3.79986E-06  9.98539E-03  9.98539E-03  0.00000E+00            212.PO 84.  65  63
+ 264  6.99888E-04  1.04453E-02  1.04453E-02  0.00000E+00            212.PO 84.  66  64
+ 265  6.16124E-03  1.05510E-02  1.05510E-02  0.00000E+00            212.PO 84.  67  65
+ 266  8.93730E-05  1.21633E-02  1.21633E-02  0.00000E+00            212.PO 84.  68  66
+ 267  9.50469E-07  1.22840E-02  1.22840E-02  0.00000E+00            212.PO 84.  69  67
+ 268  9.74098E-07  1.24057E-02  1.24057E-02  0.00000E+00            212.PO 84.  70  68
+ 269  1.31096E-04  1.26048E-02  1.26048E-02  0.00000E+00            212.PO 84.  71  69
+ 270  1.18573E-03  1.26275E-02  1.26275E-02  0.00000E+00            212.PO 84.  72  70
+ 271  1.03843E-06  1.28869E-02  1.28869E-02  0.00000E+00            212.PO 84.  73  71
+ 272  5.79720E-06  1.28921E-02  1.28921E-02  0.00000E+00            212.PO 84.  74  72
+ 273  1.94107E-05  1.28872E-02  1.28872E-02  0.00000E+00            212.PO 84.  75  73
+ 274  1.98908E-07  1.29291E-02  1.29291E-02  0.00000E+00            212.PO 84.  76  74
+ 275  2.05908E-07  1.29524E-02  1.29524E-02  0.00000E+00            212.PO 84.  77  75
+ 276  1.59900E-05  1.30112E-02  1.30112E-02  0.00000E+00            212.PO 84.  78  76
+ 277  1.41676E-04  1.30140E-02  1.30140E-02  0.00000E+00            212.PO 84.  79  77
+ 280  2.45152E-06  1.30249E-02  1.30249E-02  0.00000E+00            212.PO 84.  80  80
+ 281  4.88883E-09  1.30330E-02  1.30330E-02  0.00000E+00            212.PO 84.  81  81
+ 282  4.01147E-09  1.30347E-02  1.30347E-02  0.00000E+00            212.PO 84.  82  82
+ 291  2.25445E-03  2.38082E-03  2.38082E-03  0.00000E+00            212.PO 84.  83  91
+ 292  4.82919E-05  3.40982E-04  3.40982E-04  0.00000E+00            212.PO 84.  84  92
+ 293  4.63022E-07  7.36310E-05  7.36310E-05  0.00000E+00            212.PO 84.  85  93
+ 294  5.98694E-01  2.66231E-05  2.66231E-05  0.00000E+00            212.PO 84.  86  94
+ 7 1  8.69918E-04  5.87487E-02  5.87487E-02  0.00000E+00            212.PO 84.  87   1
+ 7 2  4.75748E-04  7.07077E-02  7.07077E-02  0.00000E+00            212.PO 84.  88   2
+ 7 3  6.27309E-05  8.26805E-02  8.26805E-02  0.00000E+00            212.PO 84.  89   3
+ 7 4  6.42768E-03  1.01469E-03  1.01469E-03  0.00000E+00            212.PO 84.  90   4
+ 7 5  1.61627E-02  8.08382E-03  8.08382E-03  0.00000E+00            212.PO 84.  91   5
+ 7 6  7.15359E-03  1.04612E-02  1.04612E-02  0.00000E+00            212.PO 84.  92   6
+ 7 7  7.58511E-04  1.28664E-02  1.28664E-02  0.00000E+00            212.PO 84.  93   7
+ 7 8  2.26828E-02  4.23936E-04  4.23936E-04  0.00000E+00            212.PO 84.  94   8
+ 7 9  5.44315E-02  1.91212E-03  1.91212E-03  0.00000E+00            212.PO 84.  95   9
+ 710  6.78944E-03  2.17309E-03  2.17309E-03  0.00000E+00            212.PO 84.  96  10
+ 711  3.44103E-04  2.56332E-03  2.56332E-03  0.00000E+00            212.PO 84.  97  11
+ 712  1.02357E-01  1.73951E-04  1.73951E-04  0.00000E+00            212.PO 84.  98  12
+ 713  1.93859E-01  8.22991E-05  8.22991E-05  0.00000E+00            212.PO 84.  99  13
+ 714  1.34461E-01  4.21925E-05  4.21925E-05  0.00000E+00            212.PO 84. 100  14
+ 715  1.89865E-04  1.08852E-04  1.08852E-04  0.00000E+00            212.PO 84. 101  15
+%%%% 212 PO  84 M  A            4.51000E+01  45.1 S    18-07-2007       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   7.92045E-02
+    X-ray                           (MeV) =   2.87412E-05
+    Free-bound X-ray                (MeV) =   1.59391E-07
+    Annihilation photon             (MeV) =   0.00000E+00
+    Beta+ particle                  (MeV) =   0.00000E+00
+    Neutrino                        (MeV) =   0.00000E+00
+    Beta- particle                  (MeV) =   0.00000E+00
+    Neutrino-                       (MeV) =   0.00000E+00
+    Internal conv. electron         (MeV) =   3.56812E-04
+    Auger and CK electron           (MeV) =   4.80491E-06
+    Alpha particle                  (MeV) =   1.15532E+01
+    Recoil nucleus                  (MeV) =   2.22321E-01
+  E-total (except unplaced radiat.) (MeV) =   1.18551E+01
+  E-unplaced radiation              (MeV) =   0.00000E+00
+  Q-value from ENSDF data           (MeV) =   1.18670E+01
+  Ratio of E-total/Q-value          ( % ) =   9.98991E+01
+  Ratio of E-unplaced radi./Q-value ( % ) =   0.00000E+00
+
+ 
+  Total yield of
+    Gamma-ray                             =   4.59678E-02
+    X-ray                                 =   5.26000E-04
+    Free-bound X-ray                      =   5.98694E-03
+    Annihilation photon                   =   0.00000E+00
+    Beta+ particle                        =   0.00000E+00
+    Beta- particle                        =   0.00000E+00
+    Internal conv. electron               =   4.91367E-04
+    Auger and CK electron                 =   5.47025E-03
+    Alpha particle                        =   9.99300E-01
+  Yield of unplaced radiation             =   0.00000E+00
+
+
+%%%% 212 PO  84    A            2.99000E-07 2.99E-7 S  02-11-2005       BALASTAR
+1 212   PO  84 2.99E-7 S       A          
+1INTENSITY AND ENERGY BALANCE DATA
+
+              212-POLONIUM-84
++                                    HALFLIFE = 0.299E-06 SECONDS 
++                                                                  02-11-2005
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  1.0000E+02
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  1.000E+02
+ TOTAL INTENSITY FROM PARENT=  1.000E+02
+ PERCENT ERROR =  0.000E+00                      
+
+
+ TOTAL INTENSITY FROM PARENT =  1.000E+02
+ VALUE IS WITHIN   0.00E+00% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  8.954E+00 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  8.954E+00 MEV
+ PERCENT ERROR =  0.000E+00                      
+%%%% 212 PO  84    A            2.99000E-07 2.99E-7 S  02-11-2005       BALAEND 
+%%%% 212 PO  84    A            2.99000E-07 2.99E-7 S  02-11-2005       INPUSTAR
+1                                      **INPUT DATA**
+              212-POLONIUM-84
++                                    HALFLIFE = 0.299E-06 SECONDS 
++                                                                  02-11-2005
+
+            MODE OF DECAY: ALPHA
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+                    ALPHA   1   1.00E+00   8.954E+00                                            
+ 
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: May-1998
+%%%% 212 PO  84    A            2.99000E-07 2.99E-7 S  02-11-2005       INPUEND 
+%%%% 212 PO  84    A            2.99000E-07 2.99E-7 S  02-11-2005       OUTPSTAR
+1                                      **OUTPUT DATA**
+              212-POLONIUM-84
++                                    HALFLIFE = 0.299E-06 SECONDS 
++                                                                  02-11-2005
+
+            MODE OF DECAY: ALPHA
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           ALPHA                          1   1.00E+00    8.785E+00    8.79E+00
+           RECOIL ATOM                        1.00E+00    1.691E-01    1.69E-01
+ 
+           ALL LISTED ALPHA PARTICLES AND  RECOIL NUCLEI               8.95E+00
+           ALL LISTED RADIATIONS                                       8.95E+00
+ 
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 208-LEAD
+             DAUGHTER IS 1.0000E+00 PER TRANSFORMATION OF 212-POLONIUM.
+             THIS DAUGHTER GROUND STATE IS STABLE.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: May-1998
+%%%% 212 PO  84    A            2.99000E-07 2.99E-7 S  02-11-2005       OUTPEND 
+%%%% 212 PO  84    A            2.99000E-07 2.99E-7 S  02-11-2005       SEEISTAR
+212.  POLONIUM     84.  2.990E-07 SECONDS    1 A                    212.PO 84.   0
+ 8 1  1.00000E+02  8.78508E+00  1.69054E-01  0.00000E+00            212.PO 84.   1   1
+%%%% 212 PO  84    A            2.99000E-07 2.99E-7 S  02-11-2005       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   0.00000E+00
+    X-ray                           (MeV) =   0.00000E+00
+    Free-bound X-ray                (MeV) =   0.00000E+00
+    Annihilation photon             (MeV) =   0.00000E+00
+    Beta+ particle                  (MeV) =   0.00000E+00
+    Neutrino                        (MeV) =   0.00000E+00
+    Beta- particle                  (MeV) =   0.00000E+00
+    Neutrino-                       (MeV) =   0.00000E+00
+    Internal conv. electron         (MeV) =   0.00000E+00
+    Auger and CK electron           (MeV) =   0.00000E+00
+    Alpha particle                  (MeV) =   8.78508E+00
+    Recoil nucleus                  (MeV) =   1.69054E-01
+  E-total (except unplaced radiat.) (MeV) =   8.95413E+00
+  E-unplaced radiation              (MeV) =   0.00000E+00
+  Q-value from ENSDF data           (MeV) =   8.95413E+00
+  Ratio of E-total/Q-value          ( % ) =   1.00000E+02
+  Ratio of E-unplaced radi./Q-value ( % ) =   0.00000E+00
+
+ 
+  Total yield of
+    Gamma-ray                             =   0.00000E+00
+    X-ray                                 =   0.00000E+00
+    Free-bound X-ray                      =   0.00000E+00
+    Annihilation photon                   =   0.00000E+00
+    Beta+ particle                        =   0.00000E+00
+    Beta- particle                        =   0.00000E+00
+    Internal conv. electron               =   0.00000E+00
+    Auger and CK electron                 =   0.00000E+00
+    Alpha particle                        =   1.00000E+00
+  Yield of unplaced radiation             =   0.00000E+00
+
+

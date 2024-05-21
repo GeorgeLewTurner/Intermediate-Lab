@@ -1,0 +1,214 @@
+%%%% 194 HG  80    EC           1.38853E+10  440 Y     02-11-2005       BALASTAR
+1 194   HG  80  440 Y          EC         
+1INTENSITY AND ENERGY BALANCE DATA
+
+              194-MERCURY-80
++                                    HALFLIFE = 440 YEARS   
++                                                                  02-11-2005
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  1.0000E+02
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  1.000E+02
+ TOTAL INTENSITY FROM PARENT=  1.000E+02
+ PERCENT ERROR =  0.000E+00                      
+
+
+ TOTAL INTENSITY FROM PARENT =  1.000E+02
+ VALUE IS WITHIN   0.00E+00% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  6.900E-02 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  6.900E-02 MEV
+ PERCENT ERROR =  0.000E+00                      
+%%%% 194 HG  80    EC           1.38853E+10  440 Y     02-11-2005       BALAEND 
+%%%% 194 HG  80    EC           1.38853E+10  440 Y     02-11-2005       INPUSTAR
+1                                      **INPUT DATA**
+              194-MERCURY-80
++                                    HALFLIFE = 440 YEARS   
++                                                                  02-11-2005
+
+            MODE OF DECAY: ELECTRON CAPTURE
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+           ELECT. CAPTURE   1   1.00E+00   6.900E-02   FIRST FORBIDDEN                          
+ 
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: Nov-1996
+%%%% 194 HG  80    EC           1.38853E+10  440 Y     02-11-2005       INPUEND 
+%%%% 194 HG  80    EC           1.38853E+10  440 Y     02-11-2005       OUTPSTAR
+1                                      **OUTPUT DATA**
+              194-MERCURY-80
++                                    HALFLIFE = 440 YEARS   
++                                                                  02-11-2005
+
+            MODE OF DECAY: ELECTRON CAPTURE
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           L1-L3 X-RAY                        1.35E-03    2.414E-03    3.25E-06
+           L1-M2 X-RAY                        1.74E-02    1.119E-02    1.94E-04
+           L1-M3 X-RAY                        2.00E-02    1.160E-02    2.32E-04
+           L1-M4 X-RAY                        5.79E-04    1.204E-02    6.97E-06
+           L1-M5 X-RAY                        8.66E-04    1.212E-02    1.05E-05
+           L1-N2 X-RAY                        4.39E-03    1.370E-02    6.02E-05
+           L1-N3 X-RAY                        5.46E-03    1.380E-02    7.53E-05
+           L1-O2 X-RAY                        7.86E-04    1.426E-02    1.12E-05
+           L1-03 X-RAY                        9.48E-04    1.427E-02    1.35E-05
+           L2-M1 X-RAY                        7.07E-04    1.037E-02    7.33E-06
+           L2-M4 X-RAY                        2.61E-02    1.148E-02    2.99E-04
+           L2-N4 X-RAY                        5.14E-03    1.342E-02    6.91E-05
+           L2-O4 X-RAY                        4.70E-04    1.376E-02    6.47E-06
+           L3-M1 X-RAY                        6.66E-03    8.521E-03    5.67E-05
+           L3-M4 X-RAY                        1.16E-02    9.621E-03    1.11E-04
+           L3-M5 X-RAY                        1.02E-01    9.710E-03    9.91E-04
+           L3-N1 X-RAY                        1.40E-03    1.117E-02    1.56E-05
+           L3-N4 X-RAY                        2.12E-03    1.157E-02    2.45E-05
+           L3-N5 X-RAY                        1.91E-02    1.159E-02    2.21E-04
+           L3-O1 X-RAY                        2.95E-04    1.181E-02    3.48E-06
+           L3-O5 X-RAY                        1.65E-03    1.191E-02    1.96E-05
+           M X-RAY                            4.52E-02    2.148E-03*   9.71E-05
+           Free-Bound X-RAY                   1.55E+01    1.110E-05*   1.72E-04
+           CK LLX                             4.99E-01    6.026E-04*   3.01E-04
+           AUGER LMM                          3.07E-01    7.511E-03*   2.31E-03
+           AUGER LMX                          1.29E-01    9.656E-03*   1.25E-03
+           AUGER LXY                          1.33E-02    1.185E-02*   1.57E-04
+           CK MMX                             6.37E-01    4.243E-04*   2.70E-04
+           AUGER MNN                          1.32E+00    1.755E-03*   2.32E-03
+           AUGER MNX                          1.37E-01    1.979E-03*   2.70E-04
+           AUGER MXY                          6.73E-03    2.321E-03*   1.56E-05
+           CK NNX                             2.75E+00    1.749E-04*   4.80E-04
+           AUGER NXY                          5.19E+00    6.540E-05*   3.39E-04
+           CK OOX                             3.46E+00    4.017E-05*   1.39E-04
+ 
+           ALL LISTED X-RAYS, GAMMA-RAYS AND ANNIHILATION RADIATION    2.70E-03
+           ALL NEGLECTED X-RAYS, GAMMA-RAYS AND ANNIH. RADIATION**     1.23E-05
+           ALL LISTED BETAS, INTERNAL CONVERSION AND AUGER ELECTRONS   7.85E-03
+           ALL LISTED RADIATIONS                                       1.05E-02
+           ALL NEGLECTED RADIATIONS**                                  1.23E-05
+ 
+           *  AVERAGE ENERGY (MEV)
+           ** EACH NEGLECTED TRANSITION CONTRIBUTES LESS THAN  0.100%
+              TO THE TOTAL MEV/TRANSFORMATION FOR THIS CATEGORY.
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 194-GOLD
+             DAUGHTER IS 1.0000E+00 PER TRANSFORMATION OF 194-MERCURY.
+             DECAY OF THIS 38.02 HOURS HALFLIFE LEVEL WILL CONTRIBUTE TO DOSE.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: Nov-1996
+%%%% 194 HG  80    EC           1.38853E+10  440 Y     02-11-2005       OUTPEND 
+%%%% 194 HG  80    EC           1.38853E+10  440 Y     02-11-2005       SEEISTAR
+194.  MERCURY      80.  4.400E+02 YEARS     59 EC                   194.HG 80.   0
+ 221  6.96790E-04  5.59999E-04  5.59999E-04  0.00000E+00            194.HG 80.   1  21
+ 222  1.34702E-01  2.41400E-03  2.41400E-03  0.00000E+00            194.HG 80.   2  22
+ 223  1.73605E+00  1.11917E-02  1.11917E-02  0.00000E+00            194.HG 80.   3  23
+ 224  2.00340E+00  1.16020E-02  1.16020E-02  0.00000E+00            194.HG 80.   4  24
+ 225  5.78800E-02  1.20354E-02  1.20354E-02  0.00000E+00            194.HG 80.   5  25
+ 226  8.66353E-02  1.21238E-02  1.21238E-02  0.00000E+00            194.HG 80.   6  26
+ 227  4.39304E-01  1.36997E-02  1.36997E-02  0.00000E+00            194.HG 80.   7  27
+ 228  5.45975E-01  1.37986E-02  1.37986E-02  0.00000E+00            194.HG 80.   8  28
+ 229  8.62052E-03  1.39825E-02  1.39825E-02  0.00000E+00            194.HG 80.   9  29
+ 230  1.35746E-02  1.40010E-02  1.40010E-02  0.00000E+00            194.HG 80.  10  30
+ 231  7.86346E-02  1.42574E-02  1.42574E-02  0.00000E+00            194.HG 80.  11  31
+ 232  9.48193E-02  1.42747E-02  1.42747E-02  0.00000E+00            194.HG 80.  12  32
+ 233  7.48588E-04  1.43238E-02  1.43238E-02  0.00000E+00            194.HG 80.  13  33
+ 234  1.15298E-03  1.43255E-02  1.43255E-02  0.00000E+00            194.HG 80.  14  34
+ 241  6.26300E-05  1.85400E-03  1.85400E-03  0.00000E+00            194.HG 80.  15  41
+ 242  7.06820E-02  1.03746E-02  1.03746E-02  0.00000E+00            194.HG 80.  16  42
+ 243  2.67542E-03  1.10420E-02  1.10420E-02  0.00000E+00            194.HG 80.  17  43
+ 244  2.60628E+00  1.14753E-02  1.14753E-02  0.00000E+00            194.HG 80.  18  44
+ 245  1.79018E-02  1.30286E-02  1.30286E-02  0.00000E+00            194.HG 80.  19  45
+ 246  7.23485E-04  1.32386E-02  1.32386E-02  0.00000E+00            194.HG 80.  20  46
+ 247  5.14485E-01  1.34225E-02  1.34225E-02  0.00000E+00            194.HG 80.  21  47
+ 248  1.86114E-03  1.36786E-02  1.36786E-02  0.00000E+00            194.HG 80.  22  48
+ 249  3.61900E-03  1.36608E-02  1.36608E-02  0.00000E+00            194.HG 80.  23  49
+ 250  1.43770E-04  1.37146E-02  1.37146E-02  0.00000E+00            194.HG 80.  24  50
+ 251  4.70187E-02  1.37638E-02  1.37638E-02  0.00000E+00            194.HG 80.  25  51
+ 253  2.63824E-04  1.37677E-02  1.37677E-02  0.00000E+00            194.HG 80.  26  53
+ 261  6.65817E-01  8.52064E-03  8.52064E-03  0.00000E+00            194.HG 80.  27  61
+ 262  6.47198E-03  8.77770E-03  8.77770E-03  0.00000E+00            194.HG 80.  28  62
+ 263  5.85536E-03  9.18800E-03  9.18800E-03  0.00000E+00            194.HG 80.  29  63
+ 264  1.15861E+00  9.62125E-03  9.62125E-03  0.00000E+00            194.HG 80.  30  64
+ 265  1.02068E+01  9.70980E-03  9.70980E-03  0.00000E+00            194.HG 80.  31  65
+ 266  1.39668E-01  1.11746E-02  1.11746E-02  0.00000E+00            194.HG 80.  32  66
+ 267  1.44319E-03  1.12857E-02  1.12857E-02  0.00000E+00            194.HG 80.  33  67
+ 268  1.45428E-03  1.13846E-02  1.13846E-02  0.00000E+00            194.HG 80.  34  68
+ 269  2.11554E-01  1.15685E-02  1.15685E-02  0.00000E+00            194.HG 80.  35  69
+ 270  1.90677E+00  1.15869E-02  1.15869E-02  0.00000E+00            194.HG 80.  36  70
+ 271  1.40334E-03  1.18246E-02  1.18246E-02  0.00000E+00            194.HG 80.  37  71
+ 272  7.85857E-03  1.18287E-02  1.18287E-02  0.00000E+00            194.HG 80.  38  72
+ 273  2.94940E-02  1.18068E-02  1.18068E-02  0.00000E+00            194.HG 80.  39  73
+ 274  3.02015E-04  1.18434E-02  1.18434E-02  0.00000E+00            194.HG 80.  40  74
+ 275  3.02179E-04  1.18606E-02  1.18606E-02  0.00000E+00            194.HG 80.  41  75
+ 276  1.89668E-02  1.19099E-02  1.19099E-02  0.00000E+00            194.HG 80.  42  76
+ 277  1.64743E-01  1.19115E-02  1.19115E-02  0.00000E+00            194.HG 80.  43  77
+ 280  2.22572E-03  1.19137E-02  1.19137E-02  0.00000E+00            194.HG 80.  44  80
+ 291  4.51814E+00  2.14846E-03  2.14846E-03  0.00000E+00            194.HG 80.  45  91
+ 292  1.02041E-01  3.04929E-04  3.04929E-04  0.00000E+00            194.HG 80.  46  92
+ 293  4.84252E-04  5.59452E-05  5.59452E-05  0.00000E+00            194.HG 80.  47  93
+ 294  1.54846E+03  1.10999E-05  1.10999E-05  0.00000E+00            194.HG 80.  48  94
+ 7 4  4.99314E+01  6.02561E-04  6.02561E-04  0.00000E+00            194.HG 80.  49   4
+ 7 5  3.07062E+01  7.51093E-03  7.51093E-03  0.00000E+00            194.HG 80.  50   5
+ 7 6  1.29311E+01  9.65644E-03  9.65644E-03  0.00000E+00            194.HG 80.  51   6
+ 7 7  1.32544E+00  1.18452E-02  1.18452E-02  0.00000E+00            194.HG 80.  52   7
+ 7 8  6.37216E+01  4.24340E-04  4.24340E-04  0.00000E+00            194.HG 80.  53   8
+ 7 9  1.32168E+02  1.75499E-03  1.75499E-03  0.00000E+00            194.HG 80.  54   9
+ 710  1.36713E+01  1.97854E-03  1.97854E-03  0.00000E+00            194.HG 80.  55  10
+ 711  6.72732E-01  2.32126E-03  2.32126E-03  0.00000E+00            194.HG 80.  56  11
+ 712  2.74547E+02  1.74892E-04  1.74892E-04  0.00000E+00            194.HG 80.  57  12
+ 713  5.18747E+02  6.54030E-05  6.54030E-05  0.00000E+00            194.HG 80.  58  13
+ 714  3.45753E+02  4.01741E-05  4.01741E-05  0.00000E+00            194.HG 80.  59  14
+%%%% 194 HG  80    EC           1.38853E+10  440 Y     02-11-2005       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   0.00000E+00
+    X-ray                           (MeV) =   2.54246E-03
+    Free-bound X-ray                (MeV) =   1.71878E-04
+    Annihilation photon             (MeV) =   0.00000E+00
+    Beta+ particle                  (MeV) =   0.00000E+00
+    Neutrino                        (MeV) =   5.80713E-02
+    Beta- particle                  (MeV) =   0.00000E+00
+    Neutrino-                       (MeV) =   0.00000E+00
+    Internal conv. electron         (MeV) =   0.00000E+00
+    Auger and CK electron           (MeV) =   7.84725E-03
+    Alpha particle                  (MeV) =   0.00000E+00
+    Recoil nucleus                  (MeV) =   0.00000E+00
+  E-total (except unplaced radiat.) (MeV) =   6.86329E-02
+  E-unplaced radiation              (MeV) =   0.00000E+00
+  Q-value from ENSDF data           (MeV) =   6.90000E-02
+  Ratio of E-total/Q-value          ( % ) =   9.94680E+01
+  Ratio of E-unplaced radi./Q-value ( % ) =   0.00000E+00
+
+ 
+  Total yield of
+    Gamma-ray                             =   0.00000E+00
+    X-ray                                 =   2.76183E-01
+    Free-bound X-ray                      =   1.54846E+01
+    Annihilation photon                   =   0.00000E+00
+    Beta+ particle                        =   0.00000E+00
+    Beta- particle                        =   0.00000E+00
+    Internal conv. electron               =   0.00000E+00
+    Auger and CK electron                 =   1.44417E+01
+    Alpha particle                        =   0.00000E+00
+  Yield of unplaced radiation             =   0.00000E+00
+
+

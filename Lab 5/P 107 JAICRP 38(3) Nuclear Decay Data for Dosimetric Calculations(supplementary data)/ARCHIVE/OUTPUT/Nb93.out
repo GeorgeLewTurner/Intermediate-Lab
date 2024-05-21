@@ -1,0 +1,209 @@
+%%%%  93 NB  41 M  IT           5.09024E+08 16.13 Y    02-11-2005       BALASTAR
+1  93M  NB  41 16.13 Y         IT         
+1INTENSITY AND ENERGY BALANCE DATA
+
+              93M-NIOBIUM-41
++                                    HALFLIFE = 16.13 YEARS   
++                                                                  02-11-2005
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  1.0219E+02
+   3.0770E-02  1.0219E+02  1.0219E+02  0.0000E+00                      
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  1.022E+02
+ TOTAL INTENSITY FROM PARENT=  1.022E+02
+ PERCENT ERROR =  0.000E+00                      
+
+
+ TOTAL INTENSITY FROM PARENT =  1.022E+02
+ VALUE IS WITHIN   2.19E+00% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  3.144E-02 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  3.144E-02 MEV
+ PERCENT ERROR =  0.000E+00                      
+%%%%  93 NB  41 M  IT           5.09024E+08 16.13 Y    02-11-2005       BALAEND 
+%%%%  93 NB  41 M  IT           5.09024E+08 16.13 Y    02-11-2005       INPUSTAR
+1                                      **INPUT DATA**
+              93M-NIOBIUM-41
++                                    HALFLIFE = 16.13 YEARS   
++                                                                  02-11-2005
+
+            MODE OF DECAY: ISOMERIC LEVEL
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+           I.C.E. + GAMMA   1   1.02E+00   3.077E-02   M4 MULTIPOLE                             
++                                                                    AK= 2.62E+04               
+                                                       AL1=2.57E+04  AL2=4.92E+03               
+                                                       AL3=9.12E+04  AM= 2.69E+04               
+                                                       AN+=4.01E+03                             
+ 
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: Mar-1997
+%%%%  93 NB  41 M  IT           5.09024E+08 16.13 Y    02-11-2005       INPUEND 
+%%%%  93 NB  41 M  IT           5.09024E+08 16.13 Y    02-11-2005       OUTPSTAR
+1                                      **OUTPUT DATA**
+              93M-NIOBIUM-41
++                                    HALFLIFE = 16.13 YEARS   
++                                                                  02-11-2005
+
+            MODE OF DECAY: ISOMERIC LEVEL
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           K CONV. ELECTRON, GAMMA-RAY    1   1.50E-01    1.182E-02    1.77E-03
+           L1 CONV. ELECTRON, GAMMA-RAY   1   1.47E-01    2.809E-02    4.13E-03
+           L2 CONV. ELECTRON, GAMMA-RAY   1   2.81E-02    2.830E-02    7.95E-04
+           L3 CONV. ELECTRON, GAMMA-RAY   1   5.21E-01    2.840E-02    1.48E-02
+           M CONV. ELECTRON, GAMMA-RAY    1   1.53E-01    3.041E-02*   4.66E-03
+           N+ CONV. ELECTRON, GAMMA-RAY   1   2.29E-02    3.077E-02*   7.05E-04
+           K -L2 X-RAY                        3.25E-02    1.648E-02    5.35E-04
+           K -L3 X-RAY                        6.20E-02    1.658E-02    1.03E-03
+           K -M2 X-RAY                        4.97E-03    1.857E-02    9.23E-05
+           K -M3 X-RAY                        9.68E-03    1.859E-02    1.80E-04
+           K -N2 X-RAY                        8.79E-04    1.891E-02    1.66E-05
+           K -N3 X-RAY                        1.68E-03    1.891E-02    3.18E-05
+           L2-M4 X-RAY                        2.61E-03    2.252E-03    5.88E-06
+           L3-M1 X-RAY                        3.46E-03    1.913E-03    6.62E-06
+           L3-M4 X-RAY                        2.24E-03    2.154E-03    4.83E-06
+           L3-M5 X-RAY                        1.99E-02    2.157E-03    4.30E-05
+           Free-Bound X-RAY                   9.26E+00    5.829E-06*   5.40E-05
+           AUGER KLL                          2.73E-02    1.401E-02*   3.83E-04
+           AUGER KLX                          9.91E-03    1.614E-02*   1.60E-04
+           AUGER LMM                          7.28E-01    1.839E-03*   1.34E-03
+           AUGER LMX                          9.27E-02    2.059E-03*   1.91E-04
+           CK MMX                             7.97E-01    1.024E-04*   8.16E-05
+           AUGER MNN                          1.85E+00    1.490E-04*   2.75E-04
+           CK NNX                             4.57E+00    2.531E-05*   1.16E-04
+ 
+           ALL LISTED X-RAYS, GAMMA-RAYS AND ANNIHILATION RADIATION    2.00E-03
+           ALL NEGLECTED X-RAYS, GAMMA-RAYS AND ANNIH. RADIATION**     6.03E-06
+           ALL LISTED BETAS, INTERNAL CONVERSION AND AUGER ELECTRONS   2.94E-02
+           ALL NEGLECTED BETAS, INT. CONVERSION AND AUGER ELECTRONS**  4.50E-05
+           ALL LISTED RADIATIONS                                       3.14E-02
+           ALL NEGLECTED RADIATIONS**                                  5.10E-05
+ 
+           *  AVERAGE ENERGY (MEV)
+           ** EACH NEGLECTED TRANSITION CONTRIBUTES LESS THAN  0.100%
+              TO THE TOTAL MEV/TRANSFORMATION FOR THIS CATEGORY.
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 93-NIOBIUM
+             DAUGHTER IS 1.0000E+00  PER TRANSFORMATION OF  93M-NIOBIUM.
+             THIS DAUGHTER GROUND STATE IS STABLE.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: Mar-1997
+%%%%  93 NB  41 M  IT           5.09024E+08 16.13 Y    02-11-2005       OUTPEND 
+%%%%  93 NB  41 M  IT           5.09024E+08 16.13 Y    02-11-2005       SEEISTAR
+ 93.M NIOBIUM      41.  1.613E+01 YEARS     58 IT                    93.NB 41.   0
+ 1 1  5.71000E-04  3.07700E-02  3.07700E-02  0.00000E+00             93.NB 41.   1   1
+ 6 1  1.49839E+01  1.18220E-02  1.18220E-02  1.00000E+00             93.NB 41.   2   1
+ 6 5  1.46919E+01  2.80937E-02  2.80937E-02  1.00000E+00             93.NB 41.   3   5
+ 6 6  2.80887E+00  2.83034E-02  2.83034E-02  1.00000E+00             93.NB 41.   4   6
+ 6 7  5.20763E+01  2.84009E-02  2.84009E-02  1.00000E+00             93.NB 41.   5   7
+ 6 3  1.53346E+01  3.04107E-02  3.04107E-02  1.00000E+00             93.NB 41.   6   3
+ 6 4  2.29051E+00  3.07700E-02  3.07700E-02  1.00000E+00             93.NB 41.   7   4
+ 2 1  3.24762E+00  1.64814E-02  1.64814E-02  0.00000E+00             93.NB 41.   8   1
+ 2 2  6.20168E+00  1.65789E-02  1.65789E-02  0.00000E+00             93.NB 41.   9   2
+ 2 3  4.97195E-01  1.85728E-02  1.85728E-02  0.00000E+00             93.NB 41.  10   3
+ 2 4  9.68185E-01  1.85887E-02  1.85887E-02  0.00000E+00             93.NB 41.  11   4
+ 2 5  2.24189E-03  1.87332E-02  1.87332E-02  0.00000E+00             93.NB 41.  12   5
+ 2 6  3.17674E-03  1.87362E-02  1.87362E-02  0.00000E+00             93.NB 41.  13   6
+ 2 7  8.78986E-02  1.89073E-02  1.89073E-02  0.00000E+00             93.NB 41.  14   7
+ 2 8  1.68075E-01  1.89096E-02  1.89096E-02  0.00000E+00             93.NB 41.  15   8
+ 2 9  6.42195E-05  1.89420E-02  1.89420E-02  0.00000E+00             93.NB 41.  16   9
+ 210  9.00188E-05  1.89422E-02  1.89422E-02  0.00000E+00             93.NB 41.  17  10
+ 221  2.34945E-04  2.09700E-04  2.09700E-04  0.00000E+00             93.NB 41.  18  21
+ 222  1.48110E-03  3.07200E-04  3.07200E-04  0.00000E+00             93.NB 41.  19  22
+ 223  2.98922E-02  2.30108E-03  2.30108E-03  0.00000E+00             93.NB 41.  20  23
+ 224  5.17458E-02  2.31702E-03  2.31702E-03  0.00000E+00             93.NB 41.  21  24
+ 225  2.43125E-04  2.46148E-03  2.46148E-03  0.00000E+00             93.NB 41.  22  25
+ 226  3.62233E-04  2.46449E-03  2.46449E-03  0.00000E+00             93.NB 41.  23  26
+ 227  4.46994E-03  2.63572E-03  2.63572E-03  0.00000E+00             93.NB 41.  24  27
+ 228  7.79773E-03  2.63794E-03  2.63794E-03  0.00000E+00             93.NB 41.  25  28
+ 229  5.36469E-06  2.67036E-03  2.67036E-03  0.00000E+00             93.NB 41.  26  29
+ 230  7.96312E-06  2.67054E-03  2.67054E-03  0.00000E+00             93.NB 41.  27  30
+ 241  3.88560E-08  9.74999E-05  9.74999E-05  0.00000E+00             93.NB 41.  28  41
+ 242  2.69740E-02  2.01062E-03  2.01062E-03  0.00000E+00             93.NB 41.  29  42
+ 243  2.53145E-04  2.10732E-03  2.10732E-03  0.00000E+00             93.NB 41.  30  43
+ 244  2.61153E-01  2.25178E-03  2.25178E-03  0.00000E+00             93.NB 41.  31  44
+ 245  2.00040E-03  2.40315E-03  2.40315E-03  0.00000E+00             93.NB 41.  32  45
+ 246  9.39525E-06  2.42824E-03  2.42824E-03  0.00000E+00             93.NB 41.  33  46
+ 247  6.45234E-03  2.46066E-03  2.46066E-03  0.00000E+00             93.NB 41.  34  47
+ 261  3.46031E-01  1.91312E-03  1.91312E-03  0.00000E+00             93.NB 41.  35  61
+ 262  1.43325E-03  1.99388E-03  1.99388E-03  0.00000E+00             93.NB 41.  36  62
+ 263  1.35028E-03  2.00982E-03  2.00982E-03  0.00000E+00             93.NB 41.  37  63
+ 264  2.24214E-01  2.15428E-03  2.15428E-03  0.00000E+00             93.NB 41.  38  64
+ 265  1.99188E+00  2.15729E-03  2.15729E-03  0.00000E+00             93.NB 41.  39  65
+ 266  1.66564E-02  2.30565E-03  2.30565E-03  0.00000E+00             93.NB 41.  40  66
+ 267  4.08624E-05  2.32852E-03  2.32852E-03  0.00000E+00             93.NB 41.  41  67
+ 268  3.91056E-05  2.33074E-03  2.33074E-03  0.00000E+00             93.NB 41.  42  68
+ 269  5.48543E-03  2.36316E-03  2.36316E-03  0.00000E+00             93.NB 41.  43  69
+ 270  4.83834E-02  2.36333E-03  2.36333E-03  0.00000E+00             93.NB 41.  44  70
+ 291  5.53377E-02  2.01815E-04  2.01815E-04  0.00000E+00             93.NB 41.  45  91
+ 292  8.77859E-04  2.62562E-05  2.62562E-05  0.00000E+00             93.NB 41.  46  92
+ 294  9.26184E+02  5.82933E-06  5.82933E-06  0.00000E+00             93.NB 41.  47  94
+ 7 1  2.73043E+00  1.40095E-02  1.40095E-02  0.00000E+00             93.NB 41.  48   1
+ 7 2  9.90578E-01  1.61428E-02  1.61428E-02  0.00000E+00             93.NB 41.  49   2
+ 7 3  8.66976E-02  1.82785E-02  1.82785E-02  0.00000E+00             93.NB 41.  50   3
+ 7 4  1.45788E+01  1.14237E-04  1.14237E-04  0.00000E+00             93.NB 41.  51   4
+ 7 5  7.28072E+01  1.83863E-03  1.83863E-03  0.00000E+00             93.NB 41.  52   5
+ 7 6  9.27122E+00  2.05871E-03  2.05871E-03  0.00000E+00             93.NB 41.  53   6
+ 7 7  3.72486E-01  2.31820E-03  2.31820E-03  0.00000E+00             93.NB 41.  54   7
+ 7 8  7.96648E+01  1.02405E-04  1.02405E-04  0.00000E+00             93.NB 41.  55   8
+ 7 9  1.84820E+02  1.49044E-04  1.49044E-04  0.00000E+00             93.NB 41.  56   9
+ 710  2.03608E+00  1.89352E-04  1.89352E-04  0.00000E+00             93.NB 41.  57  10
+ 712  4.56694E+02  2.53055E-05  2.53055E-05  0.00000E+00             93.NB 41.  58  12
+%%%%  93 NB  41 M  IT           5.09024E+08 16.13 Y    02-11-2005       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   1.75697E-07
+    X-ray                           (MeV) =   1.95030E-03
+    Free-bound X-ray                (MeV) =   5.39903E-05
+    Annihilation photon             (MeV) =   0.00000E+00
+    Beta+ particle                  (MeV) =   0.00000E+00
+    Neutrino                        (MeV) =   0.00000E+00
+    Beta- particle                  (MeV) =   0.00000E+00
+    Neutrino-                       (MeV) =   0.00000E+00
+    Internal conv. electron         (MeV) =   2.68522E-02
+    Auger and CK electron           (MeV) =   2.58955E-03
+    Alpha particle                  (MeV) =   0.00000E+00
+    Recoil nucleus                  (MeV) =   0.00000E+00
+  E-total (except unplaced radiat.) (MeV) =   3.14462E-02
+  E-unplaced radiation              (MeV) =   0.00000E+00
+  Q-value from ENSDF data           (MeV) =   3.07700E-02
+  Ratio of E-total/Q-value          ( % ) =   1.02198E+02
+  Ratio of E-unplaced radi./Q-value ( % ) =   0.00000E+00
+
+ 
+  Total yield of
+    Gamma-ray                             =   5.71000E-06
+    X-ray                                 =   1.42610E-01
+    Free-bound X-ray                      =   9.26184E+00
+    Annihilation photon                   =   0.00000E+00
+    Beta+ particle                        =   0.00000E+00
+    Beta- particle                        =   0.00000E+00
+    Internal conv. electron               =   1.02186E+00
+    Auger and CK electron                 =   8.24053E+00
+    Alpha particle                        =   0.00000E+00
+  Yield of unplaced radiation             =   0.00000E+00
+
+

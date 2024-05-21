@@ -1,0 +1,223 @@
+%%%% 111 CD  48 M  IT           2.91000E+03 48.50 M    02-11-2005       BALASTAR
+1 111M  CD  48 48.50 M         IT         
+1INTENSITY AND ENERGY BALANCE DATA
+
+              111M-CADMIUM-48
++                                    HALFLIFE = 48.5 MINUTES 
++                                                                  02-11-2005
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  1.0001E+02
+   2.4540E-01  9.6387E+01  1.0001E+02  3.6933E+00                      
+   3.9622E-01  9.6387E+01  9.6387E+01  0.0000E+00                      
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  1.000E+02
+ TOTAL INTENSITY FROM PARENT=  9.639E+01
+ PERCENT ERROR =  3.626E+00                      
+
+
+ TOTAL INTENSITY FROM PARENT =  9.639E+01
+ VALUE IS WITHIN   3.61E+00% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  3.819E-01 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  3.908E-01 MEV
+ PERCENT ERROR =  2.277E+00                      
+%%%% 111 CD  48 M  IT           2.91000E+03 48.50 M    02-11-2005       BALAEND 
+%%%% 111 CD  48 M  IT           2.91000E+03 48.50 M    02-11-2005       INPUSTAR
+1                                      **INPUT DATA**
+              111M-CADMIUM-48
++                                    HALFLIFE = 48.5 MINUTES 
++                                                                  02-11-2005
+
+            MODE OF DECAY: ISOMERIC LEVEL
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+           I.C.E. + GAMMA   1   9.64E-01   1.508E-01   E3 MULTIPOLE                             
++                                                                    AK= 1.45                   
+                                                       AL1=0.132     AL2=0.285                  
+                                                       AL3=0.274     AM= 0.142                  
+                                                       AN+=0.0260                               
+           I.C.E. + GAMMA   2   1.00E+00   2.454E-01   E2 MULTIPOLE                             
++                                                                    AK= 0.0535                 
+                                                       AL1=0.00553   AL2=0.00149                
+                                                       AL3=0.00143   AM= 0.00165                
+ 
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: Apr-1996
+%%%% 111 CD  48 M  IT           2.91000E+03 48.50 M    02-11-2005       INPUEND 
+%%%% 111 CD  48 M  IT           2.91000E+03 48.50 M    02-11-2005       OUTPSTAR
+1                                      **OUTPUT DATA**
+              111M-CADMIUM-48
++                                    HALFLIFE = 48.5 MINUTES 
++                                                                  02-11-2005
+
+            MODE OF DECAY: ISOMERIC LEVEL
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           GAMMA-RAY                      1   2.91E-01    1.508E-01    4.40E-02
+           K CONV. ELECTRON, GAMMA-RAY    1   4.22E-01    1.241E-01    5.24E-02
+           L1 CONV. ELECTRON, GAMMA-RAY   1   3.85E-02    1.468E-01    5.66E-03
+           L2 CONV. ELECTRON, GAMMA-RAY   1   8.31E-02    1.471E-01    1.22E-02
+           L3 CONV. ELECTRON, GAMMA-RAY   1   7.98E-02    1.473E-01    1.18E-02
+           M CONV. ELECTRON, GAMMA-RAY    1   4.14E-02    1.502E-01*   6.21E-03
+           N+ CONV. ELECTRON, GAMMA-RAY   1   7.57E-03    1.508E-01*   1.14E-03
+           GAMMA-RAY                      2   9.40E-01    2.454E-01    2.31E-01
+           K CONV. ELECTRON, GAMMA-RAY    2   5.03E-02    2.187E-01    1.10E-02
+           L1 CONV. ELECTRON, GAMMA-RAY   2   5.20E-03    2.414E-01    1.25E-03
+           L2 CONV. ELECTRON, GAMMA-RAY   2   1.40E-03    2.417E-01    3.39E-04
+           L3 CONV. ELECTRON, GAMMA-RAY   2   1.35E-03    2.419E-01    3.26E-04
+           M CONV. ELECTRON, GAMMA-RAY    2   1.55E-03    2.448E-01*   3.80E-04
+           K -L2 X-RAY                        1.15E-01    2.296E-02    2.64E-03
+           K -L3 X-RAY                        2.16E-01    2.315E-02    5.00E-03
+           K -M2 X-RAY                        1.90E-02    2.604E-02    4.96E-04
+           K -M3 X-RAY                        3.70E-02    2.608E-02    9.64E-04
+           AUGER KLL                          5.09E-02    1.928E-02*   9.82E-04
+           AUGER KLX                          2.10E-02    2.242E-02*   4.70E-04
+           AUGER LMM                          4.99E-01    2.611E-03*   1.30E-03
+           AUGER LMX                          1.15E-01    3.053E-03*   3.50E-04
+           AUGER MNN                          1.28E+00    3.451E-04*   4.43E-04
+ 
+           ALL LISTED X-RAYS, GAMMA-RAYS AND ANNIHILATION RADIATION    2.84E-01
+           ALL NEGLECTED X-RAYS, GAMMA-RAYS AND ANNIH. RADIATION**     5.39E-04
+           ALL LISTED BETAS, INTERNAL CONVERSION AND AUGER ELECTRONS   1.06E-01
+           ALL NEGLECTED BETAS, INT. CONVERSION AND AUGER ELECTRONS**  3.10E-04
+           ALL LISTED RADIATIONS                                       3.90E-01
+           ALL NEGLECTED RADIATIONS**                                  8.49E-04
+ 
+           *  AVERAGE ENERGY (MEV)
+           ** EACH NEGLECTED TRANSITION CONTRIBUTES LESS THAN  0.100%
+              TO THE TOTAL MEV/TRANSFORMATION FOR THIS CATEGORY.
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 111-CADMIUM
+             DAUGHTER IS 1.0000E+00  PER TRANSFORMATION OF 111M-CADMIUM.
+             THIS DAUGHTER GROUND STATE IS STABLE.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: Apr-1996
+%%%% 111 CD  48 M  IT           2.91000E+03 48.50 M    02-11-2005       OUTPEND 
+%%%% 111 CD  48 M  IT           2.91000E+03 48.50 M    02-11-2005       SEEISTAR
+111.M CADMIUM      48.  4.850E+01 MINUTES   69 IT                   111.CD 48.   0
+ 1 1  2.91400E+01  1.50825E-01  1.50825E-01  0.00000E+00            111.CD 48.   1   1
+ 6 1  4.22064E+01  1.24137E-01  1.24137E-01  1.00000E+00            111.CD 48.   2   1
+ 6 5  3.85463E+00  1.46831E-01  1.46831E-01  1.00000E+00            111.CD 48.   3   5
+ 6 6  8.31000E+00  1.47094E-01  1.47094E-01  1.00000E+00            111.CD 48.   4   6
+ 6 7  7.98218E+00  1.47290E-01  1.47290E-01  1.00000E+00            111.CD 48.   5   7
+ 6 3  4.13710E+00  1.50212E-01  1.50212E-01  1.00000E+00            111.CD 48.   6   3
+ 6 4  7.56948E-01  1.50825E-01  1.50825E-01  1.00000E+00            111.CD 48.   7   4
+ 1 2  9.40000E+01  2.45395E-01  2.45395E-01  0.00000E+00            111.CD 48.   8   2
+ 6 1  5.03297E+00  2.18707E-01  2.18707E-01  2.00000E+00            111.CD 48.   9   1
+ 6 5  5.19666E-01  2.41401E-01  2.41401E-01  2.00000E+00            111.CD 48.  10   5
+ 6 6  1.40483E-01  2.41664E-01  2.41664E-01  2.00000E+00            111.CD 48.  11   6
+ 6 7  1.34749E-01  2.41860E-01  2.41860E-01  2.00000E+00            111.CD 48.  12   7
+ 6 3  1.55389E-01  2.44782E-01  2.44782E-01  2.00000E+00            111.CD 48.  13   3
+ 6 4  3.08560E-02  2.45395E-01  2.45395E-01  2.00000E+00            111.CD 48.  14   4
+ 2 1  1.14810E+01  2.29571E-02  2.29571E-02  0.00000E+00            111.CD 48.  15   1
+ 2 2  2.15807E+01  2.31527E-02  2.31527E-02  0.00000E+00            111.CD 48.  16   2
+ 2 3  1.90406E+00  2.60401E-02  2.60401E-02  0.00000E+00            111.CD 48.  17   3
+ 2 4  3.69872E+00  2.60753E-02  2.60753E-02  0.00000E+00            111.CD 48.  18   4
+ 2 5  1.36516E-02  2.62679E-02  2.62679E-02  0.00000E+00            111.CD 48.  19   5
+ 2 6  1.90014E-02  2.62751E-02  2.62751E-02  0.00000E+00            111.CD 48.  20   6
+ 2 7  3.87611E-01  2.66098E-02  2.66098E-02  0.00000E+00            111.CD 48.  21   7
+ 2 8  7.52046E-01  2.66158E-02  2.66158E-02  0.00000E+00            111.CD 48.  22   8
+ 2 9  1.70372E-03  2.66703E-02  2.66703E-02  0.00000E+00            111.CD 48.  23   9
+ 210  2.34754E-03  2.66711E-02  2.66711E-02  0.00000E+00            111.CD 48.  24  10
+ 221  1.42091E-04  2.63200E-04  2.63200E-04  0.00000E+00            111.CD 48.  25  21
+ 222  1.24744E-03  4.58700E-04  4.58700E-04  0.00000E+00            111.CD 48.  26  22
+ 223  4.89211E-02  3.34631E-03  3.34631E-03  0.00000E+00            111.CD 48.  27  23
+ 224  8.08065E-02  3.38147E-03  3.38147E-03  0.00000E+00            111.CD 48.  28  24
+ 225  5.66025E-04  3.57404E-03  3.57404E-03  0.00000E+00            111.CD 48.  29  25
+ 226  8.44275E-04  3.58124E-03  3.58124E-03  0.00000E+00            111.CD 48.  30  26
+ 227  9.01545E-03  3.91588E-03  3.91588E-03  0.00000E+00            111.CD 48.  31  27
+ 228  1.50735E-02  3.92191E-03  3.92191E-03  0.00000E+00            111.CD 48.  32  28
+ 229  4.93695E-05  3.97640E-03  3.97640E-03  0.00000E+00            111.CD 48.  33  29
+ 230  7.39137E-05  3.97713E-03  3.97713E-03  0.00000E+00            111.CD 48.  34  30
+ 241  4.58676E-07  1.95500E-04  1.95500E-04  0.00000E+00            111.CD 48.  35  41
+ 242  8.50423E-02  2.97553E-03  2.97553E-03  0.00000E+00            111.CD 48.  36  42
+ 243  1.03767E-03  3.11827E-03  3.11827E-03  0.00000E+00            111.CD 48.  37  43
+ 244  1.20818E+00  3.31084E-03  3.31084E-03  0.00000E+00            111.CD 48.  38  44
+ 245  9.39671E-03  3.61753E-03  3.61753E-03  0.00000E+00            111.CD 48.  39  45
+ 246  7.54217E-05  3.65871E-03  3.65871E-03  0.00000E+00            111.CD 48.  40  46
+ 247  1.24338E-01  3.71319E-03  3.71319E-03  0.00000E+00            111.CD 48.  41  47
+ 249  5.49588E-04  3.72268E-03  3.72268E-03  0.00000E+00            111.CD 48.  42  49
+ 261  2.62042E-01  2.78003E-03  2.78003E-03  0.00000E+00            111.CD 48.  43  61
+ 262  1.27941E-03  2.88761E-03  2.88761E-03  0.00000E+00            111.CD 48.  44  62
+ 263  1.20239E-03  2.92277E-03  2.92277E-03  0.00000E+00            111.CD 48.  45  63
+ 264  2.20230E-01  3.11534E-03  3.11534E-03  0.00000E+00            111.CD 48.  46  64
+ 265  1.95406E+00  3.12254E-03  3.12254E-03  0.00000E+00            111.CD 48.  47  65
+ 266  1.78157E-02  3.42204E-03  3.42204E-03  0.00000E+00            111.CD 48.  48  66
+ 267  6.92331E-05  3.45717E-03  3.45717E-03  0.00000E+00            111.CD 48.  49  67
+ 268  6.59209E-05  3.46322E-03  3.46322E-03  0.00000E+00            111.CD 48.  50  68
+ 269  2.22652E-02  3.51770E-03  3.51770E-03  0.00000E+00            111.CD 48.  51  69
+ 270  1.96864E-01  3.51843E-03  3.51843E-03  0.00000E+00            111.CD 48.  52  70
+ 273  1.24471E-03  3.52719E-03  3.52719E-03  0.00000E+00            111.CD 48.  53  73
+ 291  1.50856E-01  3.98602E-04  3.98602E-04  0.00000E+00            111.CD 48.  54  91
+ 292  3.03400E-03  5.18160E-05  5.18160E-05  0.00000E+00            111.CD 48.  55  92
+ 294  5.17922E+02  1.71516E-05  1.71516E-05  0.00000E+00            111.CD 48.  56  94
+ 7 1  5.09496E+00  1.92752E-02  1.92752E-02  0.00000E+00            111.CD 48.  57   1
+ 7 2  2.09623E+00  2.24238E-02  2.24238E-02  0.00000E+00            111.CD 48.  58   2
+ 7 3  2.07373E-01  2.55755E-02  2.55755E-02  0.00000E+00            111.CD 48.  59   3
+ 7 4  9.09939E+00  1.61777E-04  1.61777E-04  0.00000E+00            111.CD 48.  60   4
+ 7 5  4.98636E+01  2.61108E-03  2.61108E-03  0.00000E+00            111.CD 48.  61   5
+ 7 6  1.14704E+01  3.05329E-03  3.05329E-03  0.00000E+00            111.CD 48.  62   6
+ 7 7  6.94401E-01  3.51326E-03  3.51326E-03  0.00000E+00            111.CD 48.  63   7
+ 7 8  5.35026E+01  1.29114E-04  1.29114E-04  0.00000E+00            111.CD 48.  64   8
+ 7 9  1.28224E+02  3.45140E-04  3.45140E-04  0.00000E+00            111.CD 48.  65   9
+ 710  1.45109E+00  4.01105E-04  4.01105E-04  0.00000E+00            111.CD 48.  66  10
+ 711  3.72299E-04  7.01192E-04  7.01192E-04  0.00000E+00            111.CD 48.  67  11
+ 712  1.82289E+02  3.68364E-05  3.68364E-05  0.00000E+00            111.CD 48.  68  12
+ 713  4.35024E-01  9.68832E-05  9.68832E-05  0.00000E+00            111.CD 48.  69  13
+%%%% 111 CD  48 M  IT           2.91000E+03 48.50 M    02-11-2005       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   2.74622E-01
+    X-ray                           (MeV) =   9.54257E-03
+    Free-bound X-ray                (MeV) =   8.88318E-05
+    Annihilation photon             (MeV) =   0.00000E+00
+    Beta+ particle                  (MeV) =   0.00000E+00
+    Neutrino                        (MeV) =   0.00000E+00
+    Beta- particle                  (MeV) =   0.00000E+00
+    Neutrino-                       (MeV) =   0.00000E+00
+    Internal conv. electron         (MeV) =   1.02774E-01
+    Auger and CK electron           (MeV) =   3.78150E-03
+    Alpha particle                  (MeV) =   0.00000E+00
+    Recoil nucleus                  (MeV) =   0.00000E+00
+  E-total (except unplaced radiat.) (MeV) =   3.90808E-01
+  E-unplaced radiation              (MeV) =   0.00000E+00
+  Q-value from ENSDF data           (MeV) =   3.96220E-01
+  Ratio of E-total/Q-value          ( % ) =   9.86341E+01
+  Ratio of E-unplaced radi./Q-value ( % ) =   0.00000E+00
+
+ 
+  Total yield of
+    Gamma-ray                             =   1.23140E+00
+    X-ray                                 =   4.42572E-01
+    Free-bound X-ray                      =   5.17922E+00
+    Annihilation photon                   =   0.00000E+00
+    Beta+ particle                        =   0.00000E+00
+    Beta- particle                        =   0.00000E+00
+    Internal conv. electron               =   7.32614E-01
+    Auger and CK electron                 =   4.44428E+00
+    Alpha particle                        =   0.00000E+00
+  Yield of unplaced radiation             =   0.00000E+00
+
+

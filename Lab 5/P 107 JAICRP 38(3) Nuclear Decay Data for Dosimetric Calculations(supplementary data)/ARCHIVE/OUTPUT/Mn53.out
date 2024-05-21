@@ -1,0 +1,181 @@
+%%%%  53 MN  25    EC           1.16763E+14 3.7E+6 Y   02-11-2005       BALASTAR
+1  53   MN  25 3.7E+6 Y        EC         
+1INTENSITY AND ENERGY BALANCE DATA
+
+              53-MANGANESE-25
++                                    HALFLIFE = 0.37E+07 YEARS   
++                                                                  02-11-2005
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  1.0000E+02
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  1.000E+02
+ TOTAL INTENSITY FROM PARENT=  1.000E+02
+ PERCENT ERROR =  0.000E+00                      
+
+
+ TOTAL INTENSITY FROM PARENT =  1.000E+02
+ VALUE IS WITHIN   0.00E+00% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  5.961E-01 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  5.961E-01 MEV
+ PERCENT ERROR =  0.000E+00                      
+%%%%  53 MN  25    EC           1.16763E+14 3.7E+6 Y   02-11-2005       BALAEND 
+%%%%  53 MN  25    EC           1.16763E+14 3.7E+6 Y   02-11-2005       INPUSTAR
+1                                      **INPUT DATA**
+              53-MANGANESE-25
++                                    HALFLIFE = 0.37E+07 YEARS   
++                                                                  02-11-2005
+
+            MODE OF DECAY: ELECTRON CAPTURE
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+           ELECT. CAPTURE   1   1.00E+00   5.961E-01   SECOND FORBIDDEN                         
+ 
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: Oct-1999
+%%%%  53 MN  25    EC           1.16763E+14 3.7E+6 Y   02-11-2005       INPUEND 
+%%%%  53 MN  25    EC           1.16763E+14 3.7E+6 Y   02-11-2005       OUTPSTAR
+1                                      **OUTPUT DATA**
+              53-MANGANESE-25
++                                    HALFLIFE = 0.37E+07 YEARS   
++                                                                  02-11-2005
+
+            MODE OF DECAY: ELECTRON CAPTURE
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           K -L2 X-RAY                        7.31E-02    5.368E-03    3.93E-04
+           K -L3 X-RAY                        1.44E-01    5.377E-03    7.72E-04
+           K -M2 X-RAY                        8.41E-03    5.906E-03    4.97E-05
+           K -M3 X-RAY                        1.66E-02    5.907E-03    9.78E-05
+           K -M4 X-RAY                        2.24E-06    5.951E-03    1.33E-08
+           K -M5 X-RAY                        3.27E-06    5.951E-03    1.95E-08
+           L1-L2 X-RAY                        1.46E-05    9.760E-05    1.43E-09
+           L1-L3 X-RAY                        5.19E-05    1.065E-04    5.53E-09
+           L1-M2 X-RAY                        1.52E-04    6.361E-04    9.64E-08
+           L1-M3 X-RAY                        2.21E-04    6.371E-04    1.41E-07
+           L1-M4 X-RAY                        3.15E-07    6.809E-04    2.15E-10
+           L1-M5 X-RAY                        4.49E-07    6.810E-04    3.06E-10
+           L2-L3 X-RAY                        4.22E-11    8.930E-06    3.77E-16
+           L2-M1 X-RAY                        1.47E-03    5.105E-04    7.52E-07
+           L2-M3 X-RAY                        2.41E-06    5.395E-04    1.30E-09
+           L2-M4 X-RAY                        2.52E-04    5.833E-04    1.47E-07
+           L2-N1 X-RAY                        2.77E-05    5.838E-04    1.62E-08
+           L3-M1 X-RAY                        2.70E-03    5.016E-04    1.35E-06
+           L3-M2 X-RAY                        2.27E-06    5.296E-04    1.20E-09
+           L3-M3 X-RAY                        2.22E-06    5.306E-04    1.18E-09
+           L3-M4 X-RAY                        3.83E-05    5.744E-04    2.20E-08
+           L3-M5 X-RAY                        4.39E-04    5.744E-04    2.52E-07
+           L3-N1 X-RAY                        5.07E-05    5.748E-04    2.91E-08
+           M X-RAY                            5.19E-06    3.461E-05*   1.79E-10
+           Free-Bound X-RAY                   6.41E+00    6.391E-06*   4.10E-05
+           AUGER KLL                          5.17E-01    4.745E-03*   2.45E-03
+           AUGER KLX                          1.19E-01    5.293E-03*   6.32E-04
+           AUGER KXY                          7.34E-03    5.845E-03*   4.29E-05
+           CK LLX                             2.94E-01    6.106E-05*   1.80E-05
+           AUGER LMM                          1.45E+00    5.007E-04*   7.27E-04
+           AUGER LMX                          1.09E-02    5.443E-04*   5.96E-06
+           CK MMX                             3.01E+00    3.611E-05*   1.09E-04
+ 
+           ALL LISTED X-RAYS, GAMMA-RAYS AND ANNIHILATION RADIATION    1.36E-03
+           ALL LISTED BETAS, INTERNAL CONVERSION AND AUGER ELECTRONS   3.99E-03
+           ALL LISTED RADIATIONS                                       5.34E-03
+ 
+           *  AVERAGE ENERGY (MEV)
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 53-CHROMIUM
+             DAUGHTER IS 1.0000E+00 PER TRANSFORMATION OF  53-MANGANESE.
+             THIS DAUGHTER GROUND STATE IS STABLE.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: Oct-1999
+%%%%  53 MN  25    EC           1.16763E+14 3.7E+6 Y   02-11-2005       OUTPEND 
+%%%%  53 MN  25    EC           1.16763E+14 3.7E+6 Y   02-11-2005       SEEISTAR
+ 53.  MANGANESE    25.  3.700E+06 YEARS     32 EC                    53.MN 25.   0
+ 2 1  7.31271E+00  5.36786E-03  5.36786E-03  0.00000E+00             53.MN 25.   1   1
+ 2 2  1.43543E+01  5.37679E-03  5.37679E-03  0.00000E+00             53.MN 25.   2   2
+ 2 3  8.40755E-01  5.90635E-03  5.90635E-03  0.00000E+00             53.MN 25.   3   3
+ 2 4  1.65611E+00  5.90738E-03  5.90738E-03  0.00000E+00             53.MN 25.   4   4
+ 2 5  2.23643E-04  5.95114E-03  5.95114E-03  0.00000E+00             53.MN 25.   5   5
+ 2 6  3.27264E-04  5.95124E-03  5.95124E-03  0.00000E+00             53.MN 25.   6   6
+ 221  1.46394E-03  9.75997E-05  9.75997E-05  0.00000E+00             53.MN 25.   7  21
+ 222  5.18712E-03  1.06530E-04  1.06530E-04  0.00000E+00             53.MN 25.   8  22
+ 223  1.51524E-02  6.36088E-04  6.36088E-04  0.00000E+00             53.MN 25.   9  23
+ 224  2.21218E-02  6.37138E-04  6.37138E-04  0.00000E+00             53.MN 25.  10  24
+ 225  3.15151E-05  6.80880E-04  6.80880E-04  0.00000E+00             53.MN 25.  11  25
+ 226  4.48720E-05  6.80970E-04  6.80970E-04  0.00000E+00             53.MN 25.  12  26
+ 241  4.22003E-09  8.93001E-06  8.93001E-06  0.00000E+00             53.MN 25.  13  41
+ 242  1.47273E-01  5.10549E-04  5.10549E-04  0.00000E+00             53.MN 25.  14  42
+ 243  2.41214E-04  5.39541E-04  5.39541E-04  0.00000E+00             53.MN 25.  15  43
+ 244  2.52235E-02  5.83279E-04  5.83279E-04  0.00000E+00             53.MN 25.  16  44
+ 245  2.76869E-03  5.83780E-04  5.83780E-04  0.00000E+00             53.MN 25.  17  45
+ 261  2.69745E-01  5.01618E-04  5.01618E-04  0.00000E+00             53.MN 25.  18  61
+ 262  2.26997E-04  5.29557E-04  5.29557E-04  0.00000E+00             53.MN 25.  19  62
+ 263  2.22015E-04  5.30611E-04  5.30611E-04  0.00000E+00             53.MN 25.  20  63
+ 264  3.82680E-03  5.74351E-04  5.74351E-04  0.00000E+00             53.MN 25.  21  64
+ 265  4.38760E-02  5.74439E-04  5.74439E-04  0.00000E+00             53.MN 25.  22  65
+ 266  5.07005E-03  5.74850E-04  5.74850E-04  0.00000E+00             53.MN 25.  23  66
+ 291  5.18667E-04  3.46057E-05  3.46057E-05  0.00000E+00             53.MN 25.  24  91
+ 294  6.41455E+02  6.39125E-06  6.39125E-06  0.00000E+00             53.MN 25.  25  94
+ 7 1  5.17266E+01  4.74513E-03  4.74513E-03  0.00000E+00             53.MN 25.  26   1
+ 7 2  1.19329E+01  5.29315E-03  5.29315E-03  0.00000E+00             53.MN 25.  27   2
+ 7 3  7.33625E-01  5.84468E-03  5.84468E-03  0.00000E+00             53.MN 25.  28   3
+ 7 4  2.94349E+01  6.10580E-05  6.10580E-05  0.00000E+00             53.MN 25.  29   4
+ 7 5  1.45270E+02  5.00661E-04  5.00661E-04  0.00000E+00             53.MN 25.  30   5
+ 7 6  1.09498E+00  5.44299E-04  5.44299E-04  0.00000E+00             53.MN 25.  31   6
+ 7 8  3.01262E+02  3.61071E-05  3.61071E-05  0.00000E+00             53.MN 25.  32   8
+%%%%  53 MN  25    EC           1.16763E+14 3.7E+6 Y   02-11-2005       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   0.00000E+00
+    X-ray                           (MeV) =   1.31468E-03
+    Free-bound X-ray                (MeV) =   4.09970E-05
+    Annihilation photon             (MeV) =   0.00000E+00
+    Beta+ particle                  (MeV) =   0.00000E+00
+    Neutrino                        (MeV) =   5.90257E-01
+    Beta- particle                  (MeV) =   0.00000E+00
+    Neutrino-                       (MeV) =   0.00000E+00
+    Internal conv. electron         (MeV) =   0.00000E+00
+    Auger and CK electron           (MeV) =   3.98901E-03
+    Alpha particle                  (MeV) =   0.00000E+00
+    Recoil nucleus                  (MeV) =   0.00000E+00
+  E-total (except unplaced radiat.) (MeV) =   5.95602E-01
+  E-unplaced radiation              (MeV) =   0.00000E+00
+  Q-value from ENSDF data           (MeV) =   5.96100E-01
+  Ratio of E-total/Q-value          ( % ) =   9.99165E+01
+  Ratio of E-unplaced radi./Q-value ( % ) =   0.00000E+00
+
+ 
+  Total yield of
+    Gamma-ray                             =   0.00000E+00
+    X-ray                                 =   2.47074E-01
+    Free-bound X-ray                      =   6.41455E+00
+    Annihilation photon                   =   0.00000E+00
+    Beta+ particle                        =   0.00000E+00
+    Beta- particle                        =   0.00000E+00
+    Internal conv. electron               =   0.00000E+00
+    Auger and CK electron                 =   5.41455E+00
+    Alpha particle                        =   0.00000E+00
+  Yield of unplaced radiation             =   0.00000E+00
+
+

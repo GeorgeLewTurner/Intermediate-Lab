@@ -1,0 +1,118 @@
+%%%% 186 OS  76    A            6.31152E+22 2.0E+15 Y  02-11-2005       BALASTAR
+1 186   OS  76 2.0E+15 Y       A          
+1INTENSITY AND ENERGY BALANCE DATA
+
+              186-OSMIUM-76
++                                    HALFLIFE = 0.2E+16 YEARS   
++                                                                  02-11-2005
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  1.0000E+02
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  1.000E+02
+ TOTAL INTENSITY FROM PARENT=  1.000E+02
+ PERCENT ERROR =  0.000E+00                      
+
+
+ TOTAL INTENSITY FROM PARENT =  1.000E+02
+ VALUE IS WITHIN   0.00E+00% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  2.822E+00 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  2.822E+00 MEV
+ PERCENT ERROR =  0.000E+00                      
+%%%% 186 OS  76    A            6.31152E+22 2.0E+15 Y  02-11-2005       BALAEND 
+%%%% 186 OS  76    A            6.31152E+22 2.0E+15 Y  02-11-2005       INPUSTAR
+1                                      **INPUT DATA**
+              186-OSMIUM-76
++                                    HALFLIFE = 0.2E+16 YEARS   
++                                                                  02-11-2005
+
+            MODE OF DECAY: ALPHA
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+                    ALPHA   1   1.00E+00   2.822E+00                                            
+ 
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: May-1998
+%%%% 186 OS  76    A            6.31152E+22 2.0E+15 Y  02-11-2005       INPUEND 
+%%%% 186 OS  76    A            6.31152E+22 2.0E+15 Y  02-11-2005       OUTPSTAR
+1                                      **OUTPUT DATA**
+              186-OSMIUM-76
++                                    HALFLIFE = 0.2E+16 YEARS   
++                                                                  02-11-2005
+
+            MODE OF DECAY: ALPHA
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           ALPHA                          1   1.00E+00    2.761E+00    2.76E+00
+           RECOIL ATOM                        1.00E+00    6.073E-02    6.07E-02
+ 
+           ALL LISTED ALPHA PARTICLES AND  RECOIL NUCLEI               2.82E+00
+           ALL LISTED RADIATIONS                                       2.82E+00
+ 
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 182-TUNGSTEN
+             DAUGHTER IS 1.0000E+00 PER TRANSFORMATION OF 186-OSMIUM.
+             THIS DAUGHTER GROUND STATE IS STABLE.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: May-1998
+%%%% 186 OS  76    A            6.31152E+22 2.0E+15 Y  02-11-2005       OUTPEND 
+%%%% 186 OS  76    A            6.31152E+22 2.0E+15 Y  02-11-2005       SEEISTAR
+186.  OSMIUM       76.  2.000E+15 YEARS      1 A                    186.OS 76.   0
+ 8 1  1.00000E+02  2.76127E+00  6.07268E-02  0.00000E+00            186.OS 76.   1   1
+%%%% 186 OS  76    A            6.31152E+22 2.0E+15 Y  02-11-2005       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   0.00000E+00
+    X-ray                           (MeV) =   0.00000E+00
+    Free-bound X-ray                (MeV) =   0.00000E+00
+    Annihilation photon             (MeV) =   0.00000E+00
+    Beta+ particle                  (MeV) =   0.00000E+00
+    Neutrino                        (MeV) =   0.00000E+00
+    Beta- particle                  (MeV) =   0.00000E+00
+    Neutrino-                       (MeV) =   0.00000E+00
+    Internal conv. electron         (MeV) =   0.00000E+00
+    Auger and CK electron           (MeV) =   0.00000E+00
+    Alpha particle                  (MeV) =   2.76127E+00
+    Recoil nucleus                  (MeV) =   6.07268E-02
+  E-total (except unplaced radiat.) (MeV) =   2.82200E+00
+  E-unplaced radiation              (MeV) =   0.00000E+00
+  Q-value from ENSDF data           (MeV) =   2.82200E+00
+  Ratio of E-total/Q-value          ( % ) =   1.00000E+02
+  Ratio of E-unplaced radi./Q-value ( % ) =   0.00000E+00
+
+ 
+  Total yield of
+    Gamma-ray                             =   0.00000E+00
+    X-ray                                 =   0.00000E+00
+    Free-bound X-ray                      =   0.00000E+00
+    Annihilation photon                   =   0.00000E+00
+    Beta+ particle                        =   0.00000E+00
+    Beta- particle                        =   0.00000E+00
+    Internal conv. electron               =   0.00000E+00
+    Auger and CK electron                 =   0.00000E+00
+    Alpha particle                        =   1.00000E+00
+  Yield of unplaced radiation             =   0.00000E+00
+
+

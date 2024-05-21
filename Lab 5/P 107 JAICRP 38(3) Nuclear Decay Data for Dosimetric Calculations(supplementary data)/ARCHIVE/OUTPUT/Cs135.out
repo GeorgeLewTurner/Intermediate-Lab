@@ -1,0 +1,385 @@
+%%%% 135 CS  55    B-           7.25825E+13 2.3E+6 Y   02-11-2005       BALASTAR
+1 135   CS  55 2.3E+6 Y        B-         
+1INTENSITY AND ENERGY BALANCE DATA
+
+              135-CESIUM-55
++                                    HALFLIFE = 0.23E+07 YEARS   
++                                                                  02-11-2005
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  1.0000E+02
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  1.000E+02
+ TOTAL INTENSITY FROM PARENT=  1.000E+02
+ PERCENT ERROR =  0.000E+00                      
+
+
+ TOTAL INTENSITY FROM PARENT =  1.000E+02
+ VALUE IS WITHIN   0.00E+00% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  2.694E-01 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  2.694E-01 MEV
+ PERCENT ERROR =  0.000E+00                      
+%%%% 135 CS  55    B-           7.25825E+13 2.3E+6 Y   02-11-2005       BALAEND 
+%%%% 135 CS  55    B-           7.25825E+13 2.3E+6 Y   02-11-2005       INPUSTAR
+1                                      **INPUT DATA**
+              135-CESIUM-55
++                                    HALFLIFE = 0.23E+07 YEARS   
++                                                                  02-11-2005
+
+            MODE OF DECAY: BETA MINUS
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+               BETA MINUS   1   1.00E+00   2.694E-01*  SECOND FORBIDDEN                         
+ 
+           * ENDPOINT ENERGY (MEV)
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: Jun-1998
+%%%% 135 CS  55    B-           7.25825E+13 2.3E+6 Y   02-11-2005       INPUEND 
+%%%% 135 CS  55    B-           7.25825E+13 2.3E+6 Y   02-11-2005       OUTPSTAR
+1                                      **OUTPUT DATA**
+              135-CESIUM-55
++                                    HALFLIFE = 0.23E+07 YEARS   
++                                                                  02-11-2005
+
+            MODE OF DECAY: BETA MINUS
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           BETA MINUS                     1   1.00E+00    8.938E-02*   8.94E-02
+ 
+           ALL LISTED BETAS, INTERNAL CONVERSION AND AUGER ELECTRONS   8.94E-02
+           ALL LISTED RADIATIONS                                       8.94E-02
+ 
+           *  AVERAGE ENERGY (MEV)
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 135-BARIUM
+             DAUGHTER IS 1.0000E+00 PER TRANSFORMATION OF 135-CESIUM.
+             THIS DAUGHTER GROUND STATE IS STABLE.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: Jun-1998
+%%%% 135 CS  55    B-           7.25825E+13 2.3E+6 Y   02-11-2005       OUTPEND 
+%%%% 135 CS  55    B-           7.25825E+13 2.3E+6 Y   02-11-2005       BETASTAR
+1
+              135-CESIUM-55
++                                    HALFLIFE = 0.23E+07 YEARS   
++                                                                  02-11-2005
+
+            BETA SPECTRUM DATA FOR ALL DECAY BRANCHES
+
+                      BETAS PER                BETAS PER                BETAS PER
+            ENERGY    MEV            ENERGY    MEV            ENERGY    MEV
+            (MEV)     PER DECAY      (MEV)     PER DECAY      (MEV)     PER DECAY
+
+            0.00000   7.215E+00      0.00140   7.107E+00      0.02200   6.363E+00
+            0.00010   7.207E+00      0.00150   7.099E+00      0.02400   6.337E+00
+            0.00011   7.206E+00      0.00160   7.092E+00      0.02600   6.310E+00
+            0.00012   7.206E+00      0.00180   7.076E+00      0.02800   6.283E+00
+            0.00013   7.205E+00      0.00200   7.061E+00      0.03000   6.256E+00
+            0.00014   7.204E+00      0.00220   7.046E+00      0.03200   6.229E+00
+            0.00015   7.203E+00      0.00240   7.031E+00      0.03600   6.175E+00
+            0.00016   7.203E+00      0.00260   7.015E+00      0.04000   6.119E+00
+            0.00018   7.201E+00      0.00280   7.000E+00      0.04500   6.049E+00
+            0.00020   7.199E+00      0.00300   6.985E+00      0.05000   5.976E+00
+            0.00022   7.198E+00      0.00320   6.970E+00      0.05500   5.902E+00
+            0.00024   7.196E+00      0.00360   6.940E+00      0.06000   5.824E+00
+            0.00026   7.195E+00      0.00400   6.910E+00      0.06500   5.744E+00
+            0.00028   7.193E+00      0.00450   6.872E+00      0.07000   5.661E+00
+            0.00030   7.192E+00      0.00500   6.835E+00      0.07500   5.573E+00
+            0.00032   7.190E+00      0.00550   6.797E+00      0.08000   5.482E+00
+            0.00036   7.187E+00      0.00600   6.760E+00      0.08500   5.386E+00
+            0.00040   7.184E+00      0.00650   6.723E+00      0.09000   5.286E+00
+            0.00045   7.180E+00      0.00700   6.686E+00      0.10000   5.069E+00
+            0.00050   7.176E+00      0.00750   6.650E+00      0.11000   4.831E+00
+            0.00055   7.172E+00      0.00800   6.613E+00      0.12000   4.570E+00
+            0.00060   7.169E+00      0.00850   6.577E+00      0.13000   4.285E+00
+            0.00065   7.165E+00      0.00900   6.540E+00      0.14000   3.977E+00
+            0.00070   7.161E+00      0.01000   6.521E+00      0.15000   3.647E+00
+            0.00075   7.157E+00      0.01100   6.508E+00      0.16000   3.297E+00
+            0.00080   7.153E+00      0.01200   6.495E+00      0.18000   2.551E+00
+            0.00085   7.149E+00      0.01300   6.482E+00      0.20000   1.777E+00
+            0.00090   7.145E+00      0.01400   6.469E+00      0.22000   1.038E+00
+            0.00100   7.138E+00      0.01500   6.456E+00      0.24000   4.228E-01
+            0.00110   7.130E+00      0.01600   6.442E+00      0.26000   4.954E-02
+            0.00120   7.122E+00      0.01800   6.416E+00      0.26940   0.000E+00
+            0.00130   7.115E+00      0.02000   6.390E+00
+
+            AVERAGE BETA ENERGY =   8.938E-02
+
+            TOTAL BETAS PER DECAY FOR ALL BRANCHES =   1.000E+00
+%%%% 135 CS  55    B-           7.25825E+13 2.3E+6 Y   02-11-2005       BETAEND 
+%%%% 135 CS  55    B-           7.25825E+13 2.3E+6 Y   02-11-2005       SEEISTAR
+135.  CESIUM       55.  2.300E+06 YEARS      1 B-                   135.CS 55.   0
+ 5 1  1.00000E+02  8.93813E-02  2.69400E-01  1.00000E+00            135.CS 55.   1   1
+%%%% 135 CS  55    B-           7.25825E+13 2.3E+6 Y   02-11-2005       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   0.00000E+00
+    X-ray                           (MeV) =   0.00000E+00
+    Free-bound X-ray                (MeV) =   0.00000E+00
+    Annihilation photon             (MeV) =   0.00000E+00
+    Beta+ particle                  (MeV) =   0.00000E+00
+    Neutrino                        (MeV) =   0.00000E+00
+    Beta- particle                  (MeV) =   8.93813E-02
+    Neutrino-                       (MeV) =   1.80019E-01
+    Internal conv. electron         (MeV) =   0.00000E+00
+    Auger and CK electron           (MeV) =   0.00000E+00
+    Alpha particle                  (MeV) =   0.00000E+00
+    Recoil nucleus                  (MeV) =   0.00000E+00
+  E-total (except unplaced radiat.) (MeV) =   2.69400E-01
+  E-unplaced radiation              (MeV) =   0.00000E+00
+  Q-value from ENSDF data           (MeV) =   2.69400E-01
+  Ratio of E-total/Q-value          ( % ) =   1.00000E+02
+  Ratio of E-unplaced radi./Q-value ( % ) =   0.00000E+00
+
+ 
+  Total yield of
+    Gamma-ray                             =   0.00000E+00
+    X-ray                                 =   0.00000E+00
+    Free-bound X-ray                      =   0.00000E+00
+    Annihilation photon                   =   0.00000E+00
+    Beta+ particle                        =   0.00000E+00
+    Beta- particle                        =   1.00000E+00
+    Internal conv. electron               =   0.00000E+00
+    Auger and CK electron                 =   0.00000E+00
+    Alpha particle                        =   0.00000E+00
+  Yield of unplaced radiation             =   0.00000E+00
+
+
+%%%% 135 CS  55 M  IT           3.18000E+03 53 M       02-11-2005       BALASTAR
+1 135M  CS  55 53 M            IT         
+1INTENSITY AND ENERGY BALANCE DATA
+
+              135M-CESIUM-55
++                                    HALFLIFE = 53 MINUTES 
++                                                                  02-11-2005
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  1.0000E+02
+   7.8720E-01  1.0000E+02  1.0000E+02  0.0000E+00                      
+   1.6333E+00  1.0000E+02  1.0000E+02  0.0000E+00                      
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  1.000E+02
+ TOTAL INTENSITY FROM PARENT=  1.000E+02
+ PERCENT ERROR =  0.000E+00                      
+
+
+ TOTAL INTENSITY FROM PARENT =  1.000E+02
+ VALUE IS WITHIN   0.00E+00% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  1.633E+00 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  1.633E+00 MEV
+ PERCENT ERROR =  7.299E-06                      
+%%%% 135 CS  55 M  IT           3.18000E+03 53 M       02-11-2005       BALAEND 
+%%%% 135 CS  55 M  IT           3.18000E+03 53 M       02-11-2005       INPUSTAR
+1                                      **INPUT DATA**
+              135M-CESIUM-55
++                                    HALFLIFE = 53 MINUTES 
++                                                                  02-11-2005
+
+            MODE OF DECAY: ISOMERIC LEVEL
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+           I.C.E. + GAMMA   1   1.00E+00   7.872E-01   E2 MULTIPOLE                             
++                                                                    AK= 0.00254                
+           I.C.E. + GAMMA   2   1.00E+00   8.461E-01   M4 MULTIPOLE                             
++                                                                    AK= 0.0356                 
+                                                       AL1=0.00488   AM= 0.00122                
+ 
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: Jun-1998
+%%%% 135 CS  55 M  IT           3.18000E+03 53 M       02-11-2005       INPUEND 
+%%%% 135 CS  55 M  IT           3.18000E+03 53 M       02-11-2005       OUTPSTAR
+1                                      **OUTPUT DATA**
+              135M-CESIUM-55
++                                    HALFLIFE = 53 MINUTES 
++                                                                  02-11-2005
+
+            MODE OF DECAY: ISOMERIC LEVEL
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           GAMMA-RAY                      1   9.97E-01    7.872E-01    7.85E-01
+           K CONV. ELECTRON, GAMMA-RAY    1   2.53E-03    7.512E-01    1.90E-03
+           L1 CONV. ELECTRON, GAMMA-RAY   1   2.93E-04    7.815E-01    2.29E-04
+           M CONV. ELECTRON, GAMMA-RAY    1   7.00E-05    7.862E-01*   5.51E-05
+           GAMMA-RAY                      2   9.59E-01    8.461E-01    8.11E-01
+           K CONV. ELECTRON, GAMMA-RAY    2   3.41E-02    8.101E-01    2.76E-02
+           L1 CONV. ELECTRON, GAMMA-RAY   2   4.68E-03    8.404E-01    3.93E-03
+           L2 CONV. ELECTRON, GAMMA-RAY   2   5.45E-04    8.407E-01    4.58E-04
+           L3 CONV. ELECTRON, GAMMA-RAY   2   3.46E-04    8.411E-01    2.91E-04
+           M CONV. ELECTRON, GAMMA-RAY    2   1.17E-03    8.451E-01*   9.91E-04
+           N+ CONV. ELECTRON, GAMMA-RAY   2   3.05E-04    8.461E-01*   2.58E-04
+           AUGER KLL                          2.47E-03    2.540E-02*   6.28E-05
+           AUGER LMM                          2.61E-02    3.447E-03*   9.00E-05
+ 
+           ALL LISTED X-RAYS, GAMMA-RAYS AND ANNIHILATION RADIATION    1.60E+00
+           ALL NEGLECTED X-RAYS, GAMMA-RAYS AND ANNIH. RADIATION**     1.07E-03
+           ALL LISTED BETAS, INTERNAL CONVERSION AND AUGER ELECTRONS   3.59E-02
+           ALL NEGLECTED BETAS, INT. CONVERSION AND AUGER ELECTRONS**  1.81E-04
+           ALL LISTED RADIATIONS                                       1.63E+00
+           ALL NEGLECTED RADIATIONS**                                  1.25E-03
+ 
+           *  AVERAGE ENERGY (MEV)
+           ** EACH NEGLECTED TRANSITION CONTRIBUTES LESS THAN  0.100%
+              TO THE TOTAL MEV/TRANSFORMATION FOR THIS CATEGORY.
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 135-CESIUM
+             DAUGHTER IS 1.0000E+00  PER TRANSFORMATION OF 135M-CESIUM.
+             DECAY OF THIS 0.23E+07 YEARS HALFLIFE LEVEL WILL CONTRIBUTE TO DOSE.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: Jun-1998
+%%%% 135 CS  55 M  IT           3.18000E+03 53 M       02-11-2005       OUTPEND 
+%%%% 135 CS  55 M  IT           3.18000E+03 53 M       02-11-2005       SEEISTAR
+135.M CESIUM       55.  5.300E+01 MINUTES   76 IT                   135.CS 55.   0
+ 1 1  9.97043E+01  7.87200E-01  7.87200E-01  0.00000E+00            135.CS 55.   1   1
+ 6 1  2.52760E-01  7.51215E-01  7.51215E-01  1.00000E+00            135.CS 55.   2   1
+ 6 5  2.93041E-02  7.81515E-01  7.81515E-01  1.00000E+00            135.CS 55.   3   5
+ 6 6  2.92850E-03  7.81837E-01  7.81837E-01  1.00000E+00            135.CS 55.   4   6
+ 6 7  1.84842E-03  7.82194E-01  7.82194E-01  1.00000E+00            135.CS 55.   5   7
+ 6 3  7.00452E-03  7.86209E-01  7.86209E-01  1.00000E+00            135.CS 55.   6   3
+ 6 4  1.82141E-03  7.87200E-01  7.87200E-01  1.00000E+00            135.CS 55.   7   4
+ 1 2  9.58860E+01  8.46100E-01  8.46100E-01  0.00000E+00            135.CS 55.   8   2
+ 6 1  3.40959E+00  8.10115E-01  8.10115E-01  2.00000E+00            135.CS 55.   9   1
+ 6 5  4.67530E-01  8.40415E-01  8.40415E-01  2.00000E+00            135.CS 55.  10   5
+ 6 6  5.45257E-02  8.40737E-01  8.40737E-01  2.00000E+00            135.CS 55.  11   6
+ 6 7  3.45895E-02  8.41094E-01  8.41094E-01  2.00000E+00            135.CS 55.  12   7
+ 6 3  1.17264E-01  8.45109E-01  8.45109E-01  2.00000E+00            135.CS 55.  13   3
+ 6 4  3.05066E-02  8.46100E-01  8.46100E-01  2.00000E+00            135.CS 55.  14   4
+ 2 1  9.43385E-01  3.06218E-02  3.06218E-02  0.00000E+00            135.CS 55.  15   1
+ 2 2  1.74222E+00  3.09789E-02  3.09789E-02  0.00000E+00            135.CS 55.  16   2
+ 2 3  1.65055E-01  3.49256E-02  3.49256E-02  0.00000E+00            135.CS 55.  17   3
+ 2 4  3.19929E-01  3.49944E-02  3.49944E-02  0.00000E+00            135.CS 55.  18   4
+ 2 5  1.70809E-03  3.52374E-02  3.52374E-02  0.00000E+00            135.CS 55.  19   5
+ 2 6  2.32615E-03  3.52521E-02  3.52521E-02  0.00000E+00            135.CS 55.  20   6
+ 2 7  3.47287E-02  3.58031E-02  3.58031E-02  0.00000E+00            135.CS 55.  21   7
+ 2 8  6.76913E-02  3.58172E-02  3.58172E-02  0.00000E+00            135.CS 55.  22   8
+ 2 9  3.33033E-04  3.58994E-02  3.58994E-02  0.00000E+00            135.CS 55.  23   9
+ 210  4.52703E-04  3.59018E-02  3.59018E-02  0.00000E+00            135.CS 55.  24  10
+ 211  4.28459E-03  3.59668E-02  3.59668E-02  0.00000E+00            135.CS 55.  25  11
+ 212  8.10112E-03  3.59686E-02  3.59686E-02  0.00000E+00            135.CS 55.  26  12
+ 221  1.32335E-05  3.21700E-04  3.21700E-04  0.00000E+00            135.CS 55.  27  21
+ 222  2.71857E-04  6.78800E-04  6.78800E-04  0.00000E+00            135.CS 55.  28  22
+ 223  9.83963E-03  4.62540E-03  4.62540E-03  0.00000E+00            135.CS 55.  29  23
+ 224  1.53684E-02  4.69421E-03  4.69421E-03  0.00000E+00            135.CS 55.  30  24
+ 225  1.52379E-04  4.93719E-03  4.93719E-03  0.00000E+00            135.CS 55.  31  25
+ 226  2.27632E-04  4.95191E-03  4.95191E-03  0.00000E+00            135.CS 55.  32  26
+ 227  2.16649E-03  5.50294E-03  5.50294E-03  0.00000E+00            135.CS 55.  33  27
+ 228  3.48187E-03  5.51713E-03  5.51713E-03  0.00000E+00            135.CS 55.  34  28
+ 229  1.91893E-05  5.59929E-03  5.59929E-03  0.00000E+00            135.CS 55.  35  29
+ 230  2.92263E-05  5.60167E-03  5.60167E-03  0.00000E+00            135.CS 55.  36  30
+ 231  2.87070E-04  5.66662E-03  5.66662E-03  0.00000E+00            135.CS 55.  37  31
+ 232  4.51596E-04  5.66847E-03  5.66847E-03  0.00000E+00            135.CS 55.  38  32
+ 241  1.13276E-07  3.57100E-04  3.57100E-04  0.00000E+00            135.CS 55.  39  41
+ 242  5.37569E-03  4.16681E-03  4.16681E-03  0.00000E+00            135.CS 55.  40  42
+ 243  8.00993E-05  4.37252E-03  4.37252E-03  0.00000E+00            135.CS 55.  41  43
+ 244  1.03836E-01  4.61551E-03  4.61551E-03  0.00000E+00            135.CS 55.  42  44
+ 245  7.94037E-04  5.13135E-03  5.13135E-03  0.00000E+00            135.CS 55.  43  45
+ 246  1.06528E-05  5.19544E-03  5.19544E-03  0.00000E+00            135.CS 55.  44  46
+ 247  1.61483E-02  5.27759E-03  5.27759E-03  0.00000E+00            135.CS 55.  45  47
+ 249  1.01149E-04  5.33222E-03  5.33222E-03  0.00000E+00            135.CS 55.  46  49
+ 250  1.38251E-06  5.34676E-03  5.34676E-03  0.00000E+00            135.CS 55.  47  50
+ 261  1.87584E-02  3.80971E-03  3.80971E-03  0.00000E+00            135.CS 55.  48  61
+ 262  1.05564E-04  3.94660E-03  3.94660E-03  0.00000E+00            135.CS 55.  49  62
+ 263  9.81383E-05  4.01541E-03  4.01541E-03  0.00000E+00            135.CS 55.  50  63
+ 264  1.97680E-02  4.25839E-03  4.25839E-03  0.00000E+00            135.CS 55.  51  64
+ 265  1.75133E-01  4.27312E-03  4.27312E-03  0.00000E+00            135.CS 55.  52  65
+ 266  1.72873E-03  4.77424E-03  4.77424E-03  0.00000E+00            135.CS 55.  53  66
+ 267  9.99525E-06  4.82412E-03  4.82412E-03  0.00000E+00            135.CS 55.  54  67
+ 268  9.61008E-06  4.83834E-03  4.83834E-03  0.00000E+00            135.CS 55.  55  68
+ 269  2.98947E-03  4.92049E-03  4.92049E-03  0.00000E+00            135.CS 55.  56  69
+ 270  2.66887E-02  4.92286E-03  4.92286E-03  0.00000E+00            135.CS 55.  57  70
+ 273  2.56626E-04  4.97514E-03  4.97514E-03  0.00000E+00            135.CS 55.  58  73
+ 274  1.31719E-06  4.98784E-03  4.98784E-03  0.00000E+00            135.CS 55.  59  74
+ 275  1.24121E-06  4.98967E-03  4.98967E-03  0.00000E+00            135.CS 55.  60  75
+ 291  2.37511E-02  6.46895E-04  6.46895E-04  0.00000E+00            135.CS 55.  61  91
+ 292  6.00261E-04  1.00406E-04  1.00406E-04  0.00000E+00            135.CS 55.  62  92
+ 294  5.09256E+01  2.18869E-05  2.18869E-05  0.00000E+00            135.CS 55.  63  94
+ 7 1  2.47427E-01  2.53980E-02  2.53980E-02  0.00000E+00            135.CS 55.  64   1
+ 7 2  1.12451E-01  2.98089E-02  2.98089E-02  0.00000E+00            135.CS 55.  65   2
+ 7 3  1.22570E-02  3.42220E-02  3.42220E-02  0.00000E+00            135.CS 55.  66   3
+ 7 4  5.88115E-01  3.31269E-04  3.31269E-04  0.00000E+00            135.CS 55.  67   4
+ 7 5  2.61199E+00  3.44715E-03  3.44715E-03  0.00000E+00            135.CS 55.  68   5
+ 7 6  8.05671E-01  4.16840E-03  4.16840E-03  0.00000E+00            135.CS 55.  69   6
+ 7 7  6.20598E-02  4.91847E-03  4.91847E-03  0.00000E+00            135.CS 55.  70   7
+ 7 8  2.97431E+00  1.19589E-04  1.19589E-04  0.00000E+00            135.CS 55.  71   8
+ 7 9  6.64131E+00  5.28337E-04  5.28337E-04  0.00000E+00            135.CS 55.  72   9
+ 710  4.35584E-01  6.52949E-04  6.52949E-04  0.00000E+00            135.CS 55.  73  10
+ 711  3.65688E-03  8.11375E-04  8.11375E-04  0.00000E+00            135.CS 55.  74  11
+ 712  6.78892E+00  2.09394E-05  2.09394E-05  0.00000E+00            135.CS 55.  75  12
+ 713  2.41728E+01  4.14435E-05  4.14435E-05  0.00000E+00            135.CS 55.  76  13
+%%%% 135 CS  55 M  IT           3.18000E+03 53 M       02-11-2005       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   1.59616E+00
+    X-ray                           (MeV) =   1.05928E-03
+    Free-bound X-ray                (MeV) =   1.11460E-05
+    Annihilation photon             (MeV) =   0.00000E+00
+    Beta+ particle                  (MeV) =   0.00000E+00
+    Neutrino                        (MeV) =   0.00000E+00
+    Beta- particle                  (MeV) =   0.00000E+00
+    Neutrino-                       (MeV) =   0.00000E+00
+    Internal conv. electron         (MeV) =   3.57838E-02
+    Auger and CK electron           (MeV) =   2.82139E-04
+    Alpha particle                  (MeV) =   0.00000E+00
+    Recoil nucleus                  (MeV) =   0.00000E+00
+  E-total (except unplaced radiat.) (MeV) =   1.63330E+00
+  E-unplaced radiation              (MeV) =   0.00000E+00
+  Q-value from ENSDF data           (MeV) =   1.63330E+00
+  Ratio of E-total/Q-value          ( % ) =   1.00000E+02
+  Ratio of E-unplaced radi./Q-value ( % ) =   0.00000E+00
+
+ 
+  Total yield of
+    Gamma-ray                             =   1.95590E+00
+    X-ray                                 =   3.71877E-02
+    Free-bound X-ray                      =   5.09256E-01
+    Annihilation photon                   =   0.00000E+00
+    Beta+ particle                        =   0.00000E+00
+    Beta- particle                        =   0.00000E+00
+    Internal conv. electron               =   4.40967E-02
+    Auger and CK electron                 =   4.54565E-01
+    Alpha particle                        =   0.00000E+00
+  Yield of unplaced radiation             =   0.00000E+00
+
+

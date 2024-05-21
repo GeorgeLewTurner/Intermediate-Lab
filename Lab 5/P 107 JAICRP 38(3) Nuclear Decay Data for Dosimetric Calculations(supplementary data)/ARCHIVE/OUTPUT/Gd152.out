@@ -1,0 +1,118 @@
+%%%% 152 GD  64    A            3.40822E+21 1.08E+14 Y 02-11-2005       BALASTAR
+1 152   GD  64 1.08E+14 Y      A          
+1INTENSITY AND ENERGY BALANCE DATA
+
+              152-GADOLINIUM-64
++                                    HALFLIFE = 0.108E+15 YEARS   
++                                                                  02-11-2005
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  1.0000E+02
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  1.000E+02
+ TOTAL INTENSITY FROM PARENT=  1.000E+02
+ PERCENT ERROR =  0.000E+00                      
+
+
+ TOTAL INTENSITY FROM PARENT =  1.000E+02
+ VALUE IS WITHIN   0.00E+00% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  2.205E+00 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  2.205E+00 MEV
+ PERCENT ERROR =  0.000E+00                      
+%%%% 152 GD  64    A            3.40822E+21 1.08E+14 Y 02-11-2005       BALAEND 
+%%%% 152 GD  64    A            3.40822E+21 1.08E+14 Y 02-11-2005       INPUSTAR
+1                                      **INPUT DATA**
+              152-GADOLINIUM-64
++                                    HALFLIFE = 0.108E+15 YEARS   
++                                                                  02-11-2005
+
+            MODE OF DECAY: ALPHA
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+                    ALPHA   1   1.00E+00   2.205E+00                                            
+ 
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: Apr-2000
+%%%% 152 GD  64    A            3.40822E+21 1.08E+14 Y 02-11-2005       INPUEND 
+%%%% 152 GD  64    A            3.40822E+21 1.08E+14 Y 02-11-2005       OUTPSTAR
+1                                      **OUTPUT DATA**
+              152-GADOLINIUM-64
++                                    HALFLIFE = 0.108E+15 YEARS   
++                                                                  02-11-2005
+
+            MODE OF DECAY: ALPHA
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           ALPHA                          1   1.00E+00    2.147E+00    2.15E+00
+           RECOIL ATOM                        1.00E+00    5.805E-02    5.81E-02
+ 
+           ALL LISTED ALPHA PARTICLES AND  RECOIL NUCLEI               2.20E+00
+           ALL LISTED RADIATIONS                                       2.20E+00
+ 
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 148-SAMARIUM
+             DAUGHTER IS 1.0000E+00 PER TRANSFORMATION OF 152-GADOLINIUM.
+             DECAY OF THIS 0.7E+16 YEARS HALFLIFE LEVEL WILL CONTRIBUTE TO DOSE.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: Apr-2000
+%%%% 152 GD  64    A            3.40822E+21 1.08E+14 Y 02-11-2005       OUTPEND 
+%%%% 152 GD  64    A            3.40822E+21 1.08E+14 Y 02-11-2005       SEEISTAR
+152.  GADOLINIUM   64.  1.080E+14 YEARS      1 A                    152.GD 64.   0
+ 8 1  1.00000E+02  2.14655E+00  5.80525E-02  0.00000E+00            152.GD 64.   1   1
+%%%% 152 GD  64    A            3.40822E+21 1.08E+14 Y 02-11-2005       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   0.00000E+00
+    X-ray                           (MeV) =   0.00000E+00
+    Free-bound X-ray                (MeV) =   0.00000E+00
+    Annihilation photon             (MeV) =   0.00000E+00
+    Beta+ particle                  (MeV) =   0.00000E+00
+    Neutrino                        (MeV) =   0.00000E+00
+    Beta- particle                  (MeV) =   0.00000E+00
+    Neutrino-                       (MeV) =   0.00000E+00
+    Internal conv. electron         (MeV) =   0.00000E+00
+    Auger and CK electron           (MeV) =   0.00000E+00
+    Alpha particle                  (MeV) =   2.14655E+00
+    Recoil nucleus                  (MeV) =   5.80525E-02
+  E-total (except unplaced radiat.) (MeV) =   2.20460E+00
+  E-unplaced radiation              (MeV) =   0.00000E+00
+  Q-value from ENSDF data           (MeV) =   2.20460E+00
+  Ratio of E-total/Q-value          ( % ) =   1.00000E+02
+  Ratio of E-unplaced radi./Q-value ( % ) =   0.00000E+00
+
+ 
+  Total yield of
+    Gamma-ray                             =   0.00000E+00
+    X-ray                                 =   0.00000E+00
+    Free-bound X-ray                      =   0.00000E+00
+    Annihilation photon                   =   0.00000E+00
+    Beta+ particle                        =   0.00000E+00
+    Beta- particle                        =   0.00000E+00
+    Internal conv. electron               =   0.00000E+00
+    Auger and CK electron                 =   0.00000E+00
+    Alpha particle                        =   1.00000E+00
+  Yield of unplaced radiation             =   0.00000E+00
+
+

@@ -1,0 +1,36 @@
+#include "resource.h"
+#define COPYRIGHT_SYMBOL "\251"
+#define REGISTERED_SYMBOL "\256"
+#define TRADEMARK_SYMBOL  "\153"
+
+DECDATA ICON DECDATA.ICO
+message bitmap patient.bmp
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION 2, 7, 0, 0
+PRODUCTVERSION 2, 7, 0, 0
+FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
+FILEFLAGS 0x0
+FILEOS VOS_WINDOWS32
+FILETYPE VFT_APP
+FILESUBTYPE VFT2_UNKNOWN
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904B0"
+    BEGIN
+      VALUE "FileDescription",  "Viewer of ICRP Decay Data Files\000"
+      VALUE "FileVersion",      "02.70.0000\000"
+      VALUE "InternalName",     "DECDATA\000"
+      VALUE "OriginalFilename", "DECDATA.EXE\000"
+      VALUE "LegalCopyright",   "Copyright \251 2008 Keith F Eckerman\000"
+      VALUE "ProductName",      "DECDATA\000"
+      VALUE "VersionDate",      "Oct 15, 2008\000"
+      VALUE "ProductVersion",   "02.70.0000\000"
+      VALUE "Comments",         "Portions \251 Copyright 2002 Perfect Sync, Inc.\000"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+      VALUE "Translation", 0x409, 1200
+  END
+END

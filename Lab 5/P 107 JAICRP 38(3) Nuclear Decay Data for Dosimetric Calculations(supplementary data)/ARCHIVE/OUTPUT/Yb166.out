@@ -1,0 +1,238 @@
+%%%% 166 YB  70    EC           2.04120E+05 56.7 H     02-11-2005       BALASTAR
+1 166   YB  70 56.7 H          EC         
+1INTENSITY AND ENERGY BALANCE DATA
+
+              166-YTTERBIUM-70
++                                    HALFLIFE = 56.7 HOURS   
++                                                                  02-11-2005
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  1.0000E+02
+   8.2290E-02  1.0000E+02  1.0000E+02  0.0000E+00                      
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  1.000E+02
+ TOTAL INTENSITY FROM PARENT=  1.000E+02
+ PERCENT ERROR =  0.000E+00                      
+
+
+ TOTAL INTENSITY FROM PARENT =  1.000E+02
+ VALUE IS WITHIN   0.00E+00% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  3.030E-01 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  3.030E-01 MEV
+ PERCENT ERROR =  0.000E+00                      
+%%%% 166 YB  70    EC           2.04120E+05 56.7 H     02-11-2005       BALAEND 
+%%%% 166 YB  70    EC           2.04120E+05 56.7 H     02-11-2005       INPUSTAR
+1                                      **INPUT DATA**
+              166-YTTERBIUM-70
++                                    HALFLIFE = 56.7 HOURS   
++                                                                  02-11-2005
+
+            MODE OF DECAY: ELECTRON CAPTURE
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+           ELECT. CAPTURE   1   1.00E+00   2.207E-01   ALLOWED                                  
+           I.C.E. + GAMMA   1   1.00E+00   8.229E-02   M1 MULTIPOLE                             
++                                                                    AK= 4.71                   
+                                                       AL1=0.651     AL2=0.0569                 
+                                                       AL3=0.00836   AM= 0.160                  
+                                                       AN+=0.0451                               
+ 
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: Nov-1992
+%%%% 166 YB  70    EC           2.04120E+05 56.7 H     02-11-2005       INPUEND 
+%%%% 166 YB  70    EC           2.04120E+05 56.7 H     02-11-2005       OUTPSTAR
+1                                      **OUTPUT DATA**
+              166-YTTERBIUM-70
++                                    HALFLIFE = 56.7 HOURS   
++                                                                  02-11-2005
+
+            MODE OF DECAY: ELECTRON CAPTURE
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           GAMMA-RAY                      1   1.51E-01    8.229E-02    1.24E-02
+           K CONV. ELECTRON, GAMMA-RAY    1   7.10E-01    2.280E-02    1.62E-02
+           L1 CONV. ELECTRON, GAMMA-RAY   1   9.82E-02    7.221E-02    7.09E-03
+           L2 CONV. ELECTRON, GAMMA-RAY   1   8.58E-03    7.266E-02    6.23E-04
+           L3 CONV. ELECTRON, GAMMA-RAY   1   1.26E-03    7.365E-02    9.29E-05
+           M CONV. ELECTRON, GAMMA-RAY    1   2.42E-02    8.042E-02*   1.95E-03
+           N+ CONV. ELECTRON, GAMMA-RAY   1   6.81E-03    8.229E-02*   5.60E-04
+           K -L2 X-RAY                        3.96E-01    4.986E-02    1.97E-02
+           K -L3 X-RAY                        7.00E-01    5.085E-02    3.56E-02
+           K -M2 X-RAY                        7.33E-02    5.741E-02    4.21E-03
+           K -M3 X-RAY                        1.42E-01    5.762E-02    8.17E-03
+           K -M5 X-RAY                        1.74E-03    5.802E-02    1.01E-04
+           K -N2 X-RAY                        1.63E-02    5.912E-02    9.62E-04
+           K -N3 X-RAY                        3.15E-02    5.916E-02    1.86E-03
+           K -O2 X-RAY                        3.64E-03    5.945E-02    2.16E-04
+           K -O3 X-RAY                        7.55E-03    5.946E-02    4.49E-04
+           L1-M3 X-RAY                        1.15E-02    8.216E-03    9.48E-05
+           L2-M4 X-RAY                        9.66E-02    8.113E-03    7.84E-04
+           L2-N4 X-RAY                        1.72E-02    9.442E-03    1.62E-04
+           L3-M4 X-RAY                        1.66E-02    7.122E-03    1.18E-04
+           L3-M5 X-RAY                        1.47E-01    7.168E-03    1.05E-03
+           L3-N5 X-RAY                        2.50E-02    8.460E-03    2.11E-04
+           Free-Bound X-RAY                   1.46E+01    1.339E-05*   1.96E-04
+           AUGER KLL                          4.99E-02    4.070E-02*   2.03E-03
+           AUGER KLX                          2.54E-02    4.841E-02*   1.23E-03
+           AUGER KXY                          3.10E-03    5.613E-02*   1.74E-04
+           CK LLX                             2.19E-01    8.469E-04*   1.85E-04
+           AUGER LMM                          8.45E-01    5.653E-03*   4.78E-03
+           AUGER LMX                          3.03E-01    7.088E-03*   2.15E-03
+           AUGER LXY                          2.76E-02    8.556E-03*   2.36E-04
+           CK MMX                             1.13E+00    2.482E-04*   2.81E-04
+           AUGER MNN                          2.49E+00    1.195E-03*   2.97E-03
+           AUGER MNX                          1.18E-01    1.370E-03*   1.62E-04
+           CK NNX                             6.50E+00    1.480E-04*   9.62E-04
+           AUGER NXY                          2.10E-01    2.257E-04*   4.73E-05
+ 
+           ALL LISTED X-RAYS, GAMMA-RAYS AND ANNIHILATION RADIATION    8.63E-02
+           ALL NEGLECTED X-RAYS, GAMMA-RAYS AND ANNIH. RADIATION**     4.45E-04
+           ALL LISTED BETAS, INTERNAL CONVERSION AND AUGER ELECTRONS   4.17E-02
+           ALL NEGLECTED BETAS, INT. CONVERSION AND AUGER ELECTRONS**  2.55E-05
+           ALL LISTED RADIATIONS                                       1.28E-01
+           ALL NEGLECTED RADIATIONS**                                  4.70E-04
+ 
+           *  AVERAGE ENERGY (MEV)
+           ** EACH NEGLECTED TRANSITION CONTRIBUTES LESS THAN  0.100%
+              TO THE TOTAL MEV/TRANSFORMATION FOR THIS CATEGORY.
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 166-THULIUM
+             DAUGHTER IS 1.0000E+00 PER TRANSFORMATION OF 166-YTTERBIUM.
+             DECAY OF THIS 7.7 HOURS HALFLIFE LEVEL WILL CONTRIBUTE TO DOSE.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: Nov-1992
+%%%% 166 YB  70    EC           2.04120E+05 56.7 H     02-11-2005       OUTPEND 
+%%%% 166 YB  70    EC           2.04120E+05 56.7 H     02-11-2005       SEEISTAR
+166.  YTTERBIUM    70.  5.670E+01 HOURS     75 EC                   166.YB 70.   0
+ 1 1  1.50832E+01  8.22900E-02  8.22900E-02  0.00000E+00            166.YB 70.   1   1
+ 6 1  7.10084E+01  2.28020E-02  2.28020E-02  1.00000E+00            166.YB 70.   2   1
+ 6 5  9.82397E+00  7.22090E-02  7.22090E-02  1.00000E+00            166.YB 70.   3   5
+ 6 6  8.57545E-01  7.26606E-02  7.26606E-02  1.00000E+00            166.YB 70.   4   6
+ 6 7  1.26166E-01  7.36519E-02  7.36519E-02  1.00000E+00            166.YB 70.   5   7
+ 6 3  2.41971E+00  8.04249E-02  8.04249E-02  1.00000E+00            166.YB 70.   6   3
+ 6 4  6.80941E-01  8.22900E-02  8.22900E-02  1.00000E+00            166.YB 70.   7   4
+ 2 1  3.95845E+01  4.98586E-02  4.98586E-02  0.00000E+00            166.YB 70.   8   1
+ 2 2  6.99791E+01  5.08500E-02  5.08500E-02  0.00000E+00            166.YB 70.   9   2
+ 2 3  7.33298E+00  5.74128E-02  5.74128E-02  0.00000E+00            166.YB 70.  10   3
+ 2 4  1.41723E+01  5.76228E-02  5.76228E-02  0.00000E+00            166.YB 70.  11   4
+ 2 5  1.34501E-01  5.79720E-02  5.79720E-02  0.00000E+00            166.YB 70.  12   5
+ 2 6  1.73576E-01  5.80182E-02  5.80182E-02  0.00000E+00            166.YB 70.  13   6
+ 2 7  1.62775E+00  5.91167E-02  5.91167E-02  0.00000E+00            166.YB 70.  14   7
+ 2 8  3.14820E+00  5.91642E-02  5.91642E-02  0.00000E+00            166.YB 70.  15   8
+ 2 9  3.08461E-02  5.93009E-02  5.93009E-02  0.00000E+00            166.YB 70.  16   9
+ 210  3.95845E-02  5.93096E-02  5.93096E-02  0.00000E+00            166.YB 70.  17  10
+ 211  3.64152E-01  5.94525E-02  5.94525E-02  0.00000E+00            166.YB 70.  18  11
+ 212  7.55046E-01  5.94584E-02  5.94584E-02  0.00000E+00            166.YB 70.  19  12
+ 221  5.36742E-04  4.51600E-04  4.51600E-04  0.00000E+00            166.YB 70.  20  21
+ 222  4.03859E-02  1.44290E-03  1.44290E-03  0.00000E+00            166.YB 70.  21  22
+ 223  8.59585E-01  8.00581E-03  8.00581E-03  0.00000E+00            166.YB 70.  22  23
+ 224  1.15418E+00  8.21590E-03  8.21590E-03  0.00000E+00            166.YB 70.  23  24
+ 225  2.15033E-02  8.56499E-03  8.56499E-03  0.00000E+00            166.YB 70.  24  25
+ 226  3.21932E-02  8.61120E-03  8.61120E-03  0.00000E+00            166.YB 70.  25  26
+ 227  2.05875E-01  9.70962E-03  9.70962E-03  0.00000E+00            166.YB 70.  26  27
+ 228  2.89501E-01  9.75713E-03  9.75713E-03  0.00000E+00            166.YB 70.  27  28
+ 229  2.93046E-03  9.89404E-03  9.89404E-03  0.00000E+00            166.YB 70.  28  29
+ 230  4.53833E-03  9.90266E-03  9.90266E-03  0.00000E+00            166.YB 70.  29  30
+ 231  2.71176E-02  1.00454E-02  1.00454E-02  0.00000E+00            166.YB 70.  30  31
+ 232  3.65353E-02  1.00514E-02  1.00514E-02  0.00000E+00            166.YB 70.  31  32
+ 241  7.00621E-05  9.91300E-04  9.91300E-04  0.00000E+00            166.YB 70.  32  41
+ 242  2.98908E-01  7.35200E-03  7.35200E-03  0.00000E+00            166.YB 70.  33  42
+ 243  7.52361E-03  7.76430E-03  7.76430E-03  0.00000E+00            166.YB 70.  34  43
+ 244  9.66410E+00  8.11340E-03  8.11340E-03  0.00000E+00            166.YB 70.  35  44
+ 245  6.55261E-02  9.17565E-03  9.17565E-03  0.00000E+00            166.YB 70.  36  45
+ 246  1.82934E-03  9.30554E-03  9.30554E-03  0.00000E+00            166.YB 70.  37  46
+ 247  1.71643E+00  9.44242E-03  9.44242E-03  0.00000E+00            166.YB 70.  38  47
+ 248  2.85305E-03  9.61838E-03  9.61838E-03  0.00000E+00            166.YB 70.  39  48
+ 249  1.19276E-02  9.57110E-03  9.57110E-03  0.00000E+00            166.YB 70.  40  49
+ 250  4.04121E-04  9.59987E-03  9.59987E-03  0.00000E+00            166.YB 70.  41  50
+ 261  1.06233E+00  6.36071E-03  6.36071E-03  0.00000E+00            166.YB 70.  42  61
+ 262  8.03898E-03  6.56291E-03  6.56291E-03  0.00000E+00            166.YB 70.  43  62
+ 263  7.30751E-03  6.77299E-03  6.77299E-03  0.00000E+00            166.YB 70.  44  63
+ 264  1.66120E+00  7.12210E-03  7.12210E-03  0.00000E+00            166.YB 70.  45  64
+ 265  1.46700E+01  7.16830E-03  7.16830E-03  0.00000E+00            166.YB 70.  46  65
+ 266  1.68464E-01  8.18436E-03  8.18436E-03  0.00000E+00            166.YB 70.  47  66
+ 267  1.49209E-03  8.26673E-03  8.26673E-03  0.00000E+00            166.YB 70.  48  67
+ 268  1.45102E-03  8.31423E-03  8.31423E-03  0.00000E+00            166.YB 70.  49  68
+ 269  2.79395E-01  8.45117E-03  8.45117E-03  0.00000E+00            166.YB 70.  50  69
+ 270  2.49853E+00  8.45978E-03  8.45978E-03  0.00000E+00            166.YB 70.  51  70
+ 271  7.82822E-04  8.62707E-03  8.62707E-03  0.00000E+00            166.YB 70.  52  71
+ 272  4.39541E-03  8.62834E-03  8.62834E-03  0.00000E+00            166.YB 70.  53  72
+ 273  3.27484E-02  8.57983E-03  8.57983E-03  0.00000E+00            166.YB 70.  54  73
+ 274  3.34449E-04  8.60253E-03  8.60253E-03  0.00000E+00            166.YB 70.  55  74
+ 275  2.95726E-04  8.60856E-03  8.60856E-03  0.00000E+00            166.YB 70.  56  75
+ 291  3.87685E+00  1.43539E-03  1.43539E-03  0.00000E+00            166.YB 70.  57  91
+ 292  9.53437E-02  1.93855E-04  1.93855E-04  0.00000E+00            166.YB 70.  58  92
+ 293  6.25117E-05  2.75800E-05  2.75800E-05  0.00000E+00            166.YB 70.  59  93
+ 294  1.46054E+03  1.33916E-05  1.33916E-05  0.00000E+00            166.YB 70.  60  94
+ 7 1  4.98925E+00  4.07026E-02  4.07026E-02  0.00000E+00            166.YB 70.  61   1
+ 7 2  2.53755E+00  4.84128E-02  4.84128E-02  0.00000E+00            166.YB 70.  62   2
+ 7 3  3.10044E-01  5.61325E-02  5.61325E-02  0.00000E+00            166.YB 70.  63   3
+ 7 4  2.18952E+01  8.46852E-04  8.46852E-04  0.00000E+00            166.YB 70.  64   4
+ 7 5  8.44992E+01  5.65276E-03  5.65276E-03  0.00000E+00            166.YB 70.  65   5
+ 7 6  3.03159E+01  7.08834E-03  7.08834E-03  0.00000E+00            166.YB 70.  66   6
+ 7 7  2.75663E+00  8.55593E-03  8.55593E-03  0.00000E+00            166.YB 70.  67   7
+ 7 8  1.13265E+02  2.48178E-04  2.48178E-04  0.00000E+00            166.YB 70.  68   8
+ 7 9  2.48920E+02  1.19490E-03  1.19490E-03  0.00000E+00            166.YB 70.  69   9
+ 710  1.18107E+01  1.37042E-03  1.37042E-03  0.00000E+00            166.YB 70.  70  10
+ 711  7.22279E-01  1.56035E-03  1.56035E-03  0.00000E+00            166.YB 70.  71  11
+ 712  6.49759E+02  1.48015E-04  1.48015E-04  0.00000E+00            166.YB 70.  72  12
+ 713  2.09743E+01  2.25690E-04  2.25690E-04  0.00000E+00            166.YB 70.  73  13
+ 714  6.77266E+01  2.06752E-05  2.06752E-05  0.00000E+00            166.YB 70.  74  14
+ 715  5.12332E-01  4.71999E-05  4.71999E-05  0.00000E+00            166.YB 70.  75  15
+%%%% 166 YB  70    EC           2.04120E+05 56.7 H     02-11-2005       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   1.24120E-02
+    X-ray                           (MeV) =   7.41552E-02
+    Free-bound X-ray                (MeV) =   1.95590E-04
+    Annihilation photon             (MeV) =   0.00000E+00
+    Beta+ particle                  (MeV) =   0.00000E+00
+    Neutrino                        (MeV) =   1.72974E-01
+    Beta- particle                  (MeV) =   0.00000E+00
+    Neutrino-                       (MeV) =   0.00000E+00
+    Internal conv. electron         (MeV) =   2.65076E-02
+    Auger and CK electron           (MeV) =   1.52319E-02
+    Alpha particle                  (MeV) =   0.00000E+00
+    Recoil nucleus                  (MeV) =   0.00000E+00
+  E-total (except unplaced radiat.) (MeV) =   3.01476E-01
+  E-unplaced radiation              (MeV) =   0.00000E+00
+  Q-value from ENSDF data           (MeV) =   3.03000E-01
+  Ratio of E-total/Q-value          ( % ) =   9.94971E+01
+  Ratio of E-unplaced radi./Q-value ( % ) =   0.00000E+00
+
+ 
+  Total yield of
+    Gamma-ray                             =   1.50832E-01
+    X-ray                                 =   1.76156E+00
+    Free-bound X-ray                      =   1.46054E+01
+    Annihilation photon                   =   0.00000E+00
+    Beta+ particle                        =   0.00000E+00
+    Beta- particle                        =   0.00000E+00
+    Internal conv. electron               =   8.49168E-01
+    Auger and CK electron                 =   1.26099E+01
+    Alpha particle                        =   0.00000E+00
+  Yield of unplaced radiation             =   0.00000E+00
+
+

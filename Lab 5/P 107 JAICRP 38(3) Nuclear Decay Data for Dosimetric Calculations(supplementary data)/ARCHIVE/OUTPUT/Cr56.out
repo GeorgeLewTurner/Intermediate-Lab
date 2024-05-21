@@ -1,0 +1,248 @@
+%%%%  56 CR  24    B-           3.56400E+02 5.94 M     18-07-2007       BALASTAR
+1  56   CR  24 5.94 M          B-         
+1INTENSITY AND ENERGY BALANCE DATA
+
+              56-CHROMIUM-24
++                                    HALFLIFE = 5.94 MINUTES 
++                                                                  18-07-2007
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  1.0203E+02
+   2.6000E-02  1.0002E+02  1.0203E+02  1.9887E+00                      
+   1.1000E-01  1.0000E+02  1.0002E+02  2.4777E-02                      
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  1.020E+02
+ TOTAL INTENSITY FROM PARENT=  1.000E+02
+ PERCENT ERROR =  1.993E+00                      
+
+
+ TOTAL INTENSITY FROM PARENT =  1.000E+02
+ VALUE IS WITHIN   0.00E+00% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  1.617E+00 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  1.617E+00 MEV
+ PERCENT ERROR =  2.787E-02                      
+%%%%  56 CR  24    B-           3.56400E+02 5.94 M     18-07-2007       BALAEND 
+%%%%  56 CR  24    B-           3.56400E+02 5.94 M     18-07-2007       INPUSTAR
+1                                      **INPUT DATA**
+              56-CHROMIUM-24
++                                    HALFLIFE = 5.94 MINUTES 
++                                                                  18-07-2007
+
+            MODE OF DECAY: BETA MINUS
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+               BETA MINUS   1   1.00E+00   1.507E+00*  ALLOWED                                  
+           I.C.E. + GAMMA   1   1.02E+00   2.600E-02   M1 MULTIPOLE                             
++                                                                    AK= 1.17                   
+                                                       AL1=0.110     AL2=0.00571                
+                                                       AL3=0.00243                              
+           I.C.E. + GAMMA   2   1.00E+00   8.300E-02   M1 MULTIPOLE                             
++                                                                    AK= 0.0451                 
+                                                       AL1=0.00425                              
+ 
+           * ENDPOINT ENERGY (MEV)
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: Apr-1999
+%%%%  56 CR  24    B-           3.56400E+02 5.94 M     18-07-2007       INPUEND 
+%%%%  56 CR  24    B-           3.56400E+02 5.94 M     18-07-2007       OUTPSTAR
+1                                      **OUTPUT DATA**
+              56-CHROMIUM-24
++                                    HALFLIFE = 5.94 MINUTES 
++                                                                  18-07-2007
+
+            MODE OF DECAY: BETA MINUS
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           BETA MINUS                     1   1.00E+00    5.905E-01*   5.90E-01
+           GAMMA-RAY                      1   4.46E-01    2.600E-02    1.16E-02
+           K CONV. ELECTRON, GAMMA-RAY    1   5.22E-01    1.949E-02    1.02E-02
+           L1 CONV. ELECTRON, GAMMA-RAY   1   4.90E-02    2.523E-02    1.24E-03
+           L2 CONV. ELECTRON, GAMMA-RAY   1   2.55E-03    2.534E-02    6.45E-05
+           GAMMA-RAY                      2   9.53E-01    8.300E-02    7.91E-02
+           K CONV. ELECTRON, GAMMA-RAY    2   4.30E-02    7.649E-02    3.29E-03
+           L1 CONV. ELECTRON, GAMMA-RAY   2   4.05E-03    8.223E-02    3.33E-04
+           K -L2 X-RAY                        5.18E-02    5.848E-03    3.03E-04
+           K -L3 X-RAY                        1.02E-01    5.859E-03    5.95E-04
+           K -M2 X-RAY                        6.18E-03    6.449E-03    3.98E-05
+           K -M3 X-RAY                        1.22E-02    6.450E-03    7.84E-05
+           Free-Bound X-RAY                   3.79E+00    1.149E-05*   4.36E-05
+           AUGER KLL                          3.13E-01    5.151E-03*   1.61E-03
+           AUGER KLX                          7.56E-02    5.762E-03*   4.36E-04
+           AUGER LMM                          8.93E-01    5.593E-04*   5.00E-04
+           CK MMX                             1.70E+00    3.653E-05*   6.21E-05
+ 
+           ALL LISTED X-RAYS, GAMMA-RAYS AND ANNIHILATION RADIATION    9.18E-02
+           ALL NEGLECTED X-RAYS, GAMMA-RAYS AND ANNIH. RADIATION**     2.44E-06
+           ALL LISTED BETAS, INTERNAL CONVERSION AND AUGER ELECTRONS   6.08E-01
+           ALL NEGLECTED BETAS, INT. CONVERSION AND AUGER ELECTRONS**  9.25E-05
+           ALL LISTED RADIATIONS                                       7.00E-01
+           ALL NEGLECTED RADIATIONS**                                  9.50E-05
+ 
+           *  AVERAGE ENERGY (MEV)
+           ** EACH NEGLECTED TRANSITION CONTRIBUTES LESS THAN  0.010%
+              TO THE TOTAL MEV/TRANSFORMATION FOR THIS CATEGORY.
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 56-MANGANESE
+             DAUGHTER IS 1.0000E+00 PER TRANSFORMATION OF  56-CHROMIUM.
+             DECAY OF THIS 2.5789 HOURS HALFLIFE LEVEL WILL CONTRIBUTE TO DOSE.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: Apr-1999
+%%%%  56 CR  24    B-           3.56400E+02 5.94 M     18-07-2007       OUTPEND 
+%%%%  56 CR  24    B-           3.56400E+02 5.94 M     18-07-2007       BETASTAR
+1
+              56-CHROMIUM-24
++                                    HALFLIFE = 5.94 MINUTES 
++                                                                  18-07-2007
+
+            BETA SPECTRUM DATA FOR ALL DECAY BRANCHES
+
+                      BETAS PER                BETAS PER                BETAS PER
+            ENERGY    MEV            ENERGY    MEV            ENERGY    MEV
+            (MEV)     PER DECAY      (MEV)     PER DECAY      (MEV)     PER DECAY
+
+            0.00000   4.736E-01      0.00260   4.744E-01      0.07500   6.030E-01
+            0.00010   4.736E-01      0.00280   4.744E-01      0.08000   6.126E-01
+            0.00011   4.736E-01      0.00300   4.745E-01      0.08500   6.222E-01
+            0.00012   4.736E-01      0.00320   4.747E-01      0.09000   6.317E-01
+            0.00013   4.736E-01      0.00360   4.751E-01      0.10000   6.504E-01
+            0.00014   4.736E-01      0.00400   4.755E-01      0.11000   6.688E-01
+            0.00015   4.736E-01      0.00450   4.760E-01      0.12000   6.868E-01
+            0.00016   4.736E-01      0.00500   4.766E-01      0.13000   7.045E-01
+            0.00018   4.737E-01      0.00550   4.771E-01      0.14000   7.217E-01
+            0.00020   4.737E-01      0.00600   4.776E-01      0.15000   7.386E-01
+            0.00022   4.737E-01      0.00650   4.781E-01      0.16000   7.551E-01
+            0.00024   4.737E-01      0.00700   4.787E-01      0.18000   7.869E-01
+            0.00026   4.737E-01      0.00750   4.792E-01      0.20000   8.171E-01
+            0.00028   4.737E-01      0.00800   4.798E-01      0.22000   8.456E-01
+            0.00030   4.737E-01      0.00850   4.803E-01      0.24000   8.725E-01
+            0.00032   4.737E-01      0.00900   4.809E-01      0.26000   8.978E-01
+            0.00036   4.737E-01      0.01000   4.821E-01      0.28000   9.212E-01
+            0.00040   4.737E-01      0.01100   4.833E-01      0.30000   9.430E-01
+            0.00045   4.737E-01      0.01200   4.846E-01      0.32000   9.630E-01
+            0.00050   4.737E-01      0.01300   4.860E-01      0.36000   9.975E-01
+            0.00055   4.738E-01      0.01400   4.874E-01      0.40000   1.025E+00
+            0.00060   4.738E-01      0.01500   4.889E-01      0.45000   1.048E+00
+            0.00065   4.738E-01      0.01600   4.904E-01      0.50000   1.060E+00
+            0.00070   4.738E-01      0.01800   4.935E-01      0.55000   1.060E+00
+            0.00075   4.738E-01      0.02000   4.968E-01      0.60000   1.049E+00
+            0.00080   4.738E-01      0.02200   5.003E-01      0.65000   1.026E+00
+            0.00085   4.739E-01      0.02400   5.038E-01      0.70000   9.931E-01
+            0.00090   4.739E-01      0.02600   5.074E-01      0.75000   9.498E-01
+            0.00100   4.739E-01      0.02800   5.111E-01      0.80000   8.973E-01
+            0.00110   4.739E-01      0.03000   5.148E-01      0.85000   8.365E-01
+            0.00120   4.740E-01      0.03200   5.186E-01      0.90000   7.685E-01
+            0.00130   4.740E-01      0.03600   5.263E-01      1.00000   6.160E-01
+            0.00140   4.740E-01      0.04000   5.341E-01      1.10000   4.518E-01
+            0.00150   4.741E-01      0.04500   5.440E-01      1.20000   2.901E-01
+            0.00160   4.741E-01      0.05000   5.539E-01      1.30000   1.478E-01
+            0.00180   4.741E-01      0.05500   5.638E-01      1.40000   4.396E-02
+            0.00200   4.742E-01      0.06000   5.737E-01      1.50000   2.083E-04
+            0.00220   4.743E-01      0.06500   5.835E-01      1.50700   0.000E+00
+            0.00240   4.743E-01      0.07000   5.933E-01
+
+            AVERAGE BETA ENERGY =   5.905E-01
+
+            TOTAL BETAS PER DECAY FOR ALL BRANCHES =   1.000E+00
+%%%%  56 CR  24    B-           3.56400E+02 5.94 M     18-07-2007       BETAEND 
+%%%%  56 CR  24    B-           3.56400E+02 5.94 M     18-07-2007       SEEISTAR
+ 56.  CHROMIUM     24.  5.940E+00 MINUTES   43 B-                    56.CR 24.   0
+ 5 1  1.00000E+02  5.90476E-01  1.50700E+00  0.00000E+00             56.CR 24.   1   1
+ 1 1  4.46000E+01  2.60000E-02  2.60000E-02  0.00000E+00             56.CR 24.   2   1
+ 6 1  5.21742E+01  1.94891E-02  1.94891E-02  1.00000E+00             56.CR 24.   3   1
+ 6 5  4.89658E+00  2.52335E-02  2.52335E-02  1.00000E+00             56.CR 24.   4   5
+ 6 6  2.54570E-01  2.53370E-02  2.53370E-02  1.00000E+00             56.CR 24.   5   6
+ 6 7  1.08529E-01  2.53478E-02  2.53478E-02  1.00000E+00             56.CR 24.   6   7
+ 1 2  9.53000E+01  8.30000E-02  8.30000E-02  0.00000E+00             56.CR 24.   7   2
+ 6 1  4.29995E+00  7.64891E-02  7.64891E-02  2.00000E+00             56.CR 24.   8   1
+ 6 5  4.05421E-01  8.22335E-02  8.22335E-02  2.00000E+00             56.CR 24.   9   5
+ 6 6  1.33026E-02  8.23370E-02  8.23370E-02  2.00000E+00             56.CR 24.  10   6
+ 6 7  6.10813E-03  8.23478E-02  8.23478E-02  2.00000E+00             56.CR 24.  11   7
+ 2 1  5.18279E+00  5.84793E-03  5.84793E-03  0.00000E+00             56.CR 24.  12   1
+ 2 2  1.01625E+01  5.85866E-03  5.85866E-03  0.00000E+00             56.CR 24.  13   2
+ 2 3  6.17602E-01  6.44881E-03  6.44881E-03  0.00000E+00             56.CR 24.  14   3
+ 2 4  1.21549E+00  6.45011E-03  6.45011E-03  0.00000E+00             56.CR 24.  15   4
+ 2 5  2.17718E-04  6.49905E-03  6.49905E-03  0.00000E+00             56.CR 24.  16   5
+ 2 6  3.18598E-04  6.49918E-03  6.49918E-03  0.00000E+00             56.CR 24.  17   6
+ 221  7.14406E-04  1.03500E-04  1.03500E-04  0.00000E+00             56.CR 24.  18  21
+ 222  2.66522E-03  1.14250E-04  1.14250E-04  0.00000E+00             56.CR 24.  19  22
+ 223  1.01129E-02  7.04378E-04  7.04378E-04  0.00000E+00             56.CR 24.  20  23
+ 224  1.46844E-02  7.05689E-04  7.05689E-04  0.00000E+00             56.CR 24.  21  24
+ 225  2.61423E-05  7.54620E-04  7.54620E-04  0.00000E+00             56.CR 24.  22  25
+ 226  3.65172E-05  7.54750E-04  7.54750E-04  0.00000E+00             56.CR 24.  23  26
+ 241  3.99651E-09  1.07500E-05  1.07500E-05  0.00000E+00             56.CR 24.  24  41
+ 242  1.03828E-01  5.70389E-04  5.70389E-04  0.00000E+00             56.CR 24.  25  42
+ 243  2.03458E-04  6.02191E-04  6.02191E-04  0.00000E+00             56.CR 24.  26  43
+ 244  2.54834E-02  6.51120E-04  6.51120E-04  0.00000E+00             56.CR 24.  27  44
+ 245  2.02413E-03  6.55721E-04  6.55721E-04  0.00000E+00             56.CR 24.  28  45
+ 261  1.96907E-01  5.59640E-04  5.59640E-04  0.00000E+00             56.CR 24.  29  61
+ 262  2.00592E-04  5.90131E-04  5.90131E-04  0.00000E+00             56.CR 24.  30  62
+ 263  1.95863E-04  5.91440E-04  5.91440E-04  0.00000E+00             56.CR 24.  31  63
+ 264  4.14535E-03  6.40370E-04  6.40370E-04  0.00000E+00             56.CR 24.  32  64
+ 265  4.68182E-02  6.40499E-04  6.40499E-04  0.00000E+00             56.CR 24.  33  65
+ 266  3.84715E-03  6.44970E-04  6.44970E-04  0.00000E+00             56.CR 24.  34  66
+ 291  5.06270E-04  4.14082E-05  4.14082E-05  0.00000E+00             56.CR 24.  35  91
+ 294  3.79473E+02  1.14880E-05  1.14880E-05  0.00000E+00             56.CR 24.  36  94
+ 7 1  3.12724E+01  5.15113E-03  5.15113E-03  0.00000E+00             56.CR 24.  37   1
+ 7 2  7.56189E+00  5.76226E-03  5.76226E-03  0.00000E+00             56.CR 24.  38   2
+ 7 3  4.60978E-01  6.37745E-03  6.37745E-03  0.00000E+00             56.CR 24.  39   3
+ 7 4  1.72870E+01  6.48980E-05  6.48980E-05  0.00000E+00             56.CR 24.  40   4
+ 7 5  8.93387E+01  5.59273E-04  5.59273E-04  0.00000E+00             56.CR 24.  41   5
+ 7 6  1.38956E+00  6.06206E-04  6.06206E-04  0.00000E+00             56.CR 24.  42   6
+ 7 8  1.70004E+02  3.65273E-05  3.65273E-05  0.00000E+00             56.CR 24.  43   8
+%%%%  56 CR  24    B-           3.56400E+02 5.94 M     18-07-2007       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   9.06950E-02
+    X-ray                           (MeV) =   1.01914E-03
+    Free-bound X-ray                (MeV) =   4.35937E-05
+    Annihilation photon             (MeV) =   0.00000E+00
+    Beta+ particle                  (MeV) =   0.00000E+00
+    Neutrino                        (MeV) =   0.00000E+00
+    Beta- particle                  (MeV) =   5.90476E-01
+    Neutrino-                       (MeV) =   9.16524E-01
+    Internal conv. electron         (MeV) =   1.51342E-02
+    Auger and CK electron           (MeV) =   2.65740E-03
+    Alpha particle                  (MeV) =   0.00000E+00
+    Recoil nucleus                  (MeV) =   0.00000E+00
+  E-total (except unplaced radiat.) (MeV) =   1.61655E+00
+  E-unplaced radiation              (MeV) =   0.00000E+00
+  Q-value from ENSDF data           (MeV) =   1.61700E+00
+  Ratio of E-total/Q-value          ( % ) =   9.99721E+01
+  Ratio of E-unplaced radi./Q-value ( % ) =   0.00000E+00
+
+ 
+  Total yield of
+    Gamma-ray                             =   1.39900E+00
+    X-ray                                 =   1.75913E-01
+    Free-bound X-ray                      =   3.79473E+00
+    Annihilation photon                   =   0.00000E+00
+    Beta+ particle                        =   0.00000E+00
+    Beta- particle                        =   1.00000E+00
+    Internal conv. electron               =   6.21587E-01
+    Auger and CK electron                 =   3.17314E+00
+    Alpha particle                        =   0.00000E+00
+  Yield of unplaced radiation             =   0.00000E+00
+
+

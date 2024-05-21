@@ -1,0 +1,197 @@
+%%%%  44 TI  22    EC           1.89346E+09 60.0 Y     02-11-2005       BALASTAR
+1  44   TI  22 60.0 Y          EC         
+1INTENSITY AND ENERGY BALANCE DATA
+
+              44-TITANIUM-22
++                                    HALFLIFE = 60 YEARS   
++                                                                  02-11-2005
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  1.0097E+02
+   6.7868E-02  9.9711E+01  1.0087E+02  1.1553E+00                      
+   1.4622E-01  9.9600E+01  9.9407E+01  1.9393E-01                      
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  1.010E+02
+ TOTAL INTENSITY FROM PARENT=  1.000E+02
+ PERCENT ERROR =  9.565E-01                      
+
+
+ TOTAL INTENSITY FROM PARENT =  1.000E+02
+ VALUE IS WITHIN   7.63E-06% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  2.675E-01 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  2.680E-01 MEV
+ PERCENT ERROR =  1.911E-01                      
+%%%%  44 TI  22    EC           1.89346E+09 60.0 Y     02-11-2005       BALAEND 
+%%%%  44 TI  22    EC           1.89346E+09 60.0 Y     02-11-2005       INPUSTAR
+1                                      **INPUT DATA**
+              44-TITANIUM-22
++                                    HALFLIFE = 60 YEARS   
++                                                                  02-11-2005
+
+            MODE OF DECAY: ELECTRON CAPTURE
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+           ELECT. CAPTURE   1   9.96E-01   1.213E-01   FIRST FORBIDDEN                          
+           ELECT. CAPTURE   2   4.00E-03   1.996E-01   FIRST FORBIDDEN                          
+           I.C.E. + GAMMA   1   1.01E+00   6.787E-02   E1 MULTIPOLE                             
++                                                                    AK= 0.0775                 
+                                                       AL1=0.00647                              
+           I.C.E. + GAMMA   2   9.93E-01   7.836E-02   M1 MULTIPOLE                             
++                                                                    AK= 0.0277                 
+                                                       AL1=0.00243                              
+           I.C.E. + GAMMA   3   9.58E-04   1.462E-01   M2 MULTIPOLE                             
++                                                                    AK= 0.0420                 
+                                                       AL1=0.00377                              
+ 
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: Nov-1999
+%%%%  44 TI  22    EC           1.89346E+09 60.0 Y     02-11-2005       INPUEND 
+%%%%  44 TI  22    EC           1.89346E+09 60.0 Y     02-11-2005       OUTPSTAR
+1                                      **OUTPUT DATA**
+              44-TITANIUM-22
++                                    HALFLIFE = 60 YEARS   
++                                                                  02-11-2005
+
+            MODE OF DECAY: ELECTRON CAPTURE
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           GAMMA-RAY                      1   9.30E-01    6.787E-02    6.31E-02
+           K CONV. ELECTRON, GAMMA-RAY    1   7.21E-02    6.340E-02    4.57E-03
+           L1 CONV. ELECTRON, GAMMA-RAY   1   6.02E-03    6.737E-02    4.06E-04
+           L3 CONV. ELECTRON, GAMMA-RAY   1   2.31E-04    6.746E-02    1.56E-05
+           GAMMA-RAY                      2   9.64E-01    7.836E-02    7.55E-02
+           K CONV. ELECTRON, GAMMA-RAY    2   2.67E-02    7.389E-02    1.97E-03
+           L1 CONV. ELECTRON, GAMMA-RAY   2   2.34E-03    7.787E-02    1.82E-04
+           K -L2 X-RAY                        5.56E-02    4.052E-03    2.25E-04
+           K -L3 X-RAY                        1.10E-01    4.057E-03    4.44E-04
+           AUGER KLL                          6.47E-01    3.609E-03*   2.33E-03
+           AUGER KLX                          1.47E-01    3.992E-03*   5.86E-04
+           AUGER KXY                          8.40E-03    4.378E-03*   3.68E-05
+           CK LLX                             3.74E-01    4.168E-05*   1.56E-05
+           AUGER LMM                          1.67E+00    3.311E-04*   5.51E-04
+           AUGER LMX                          4.39E-02    3.720E-04*   1.63E-05
+           CK MMX                             4.35E+00    2.435E-05*   1.06E-04
+ 
+           ALL LISTED X-RAYS, GAMMA-RAYS AND ANNIHILATION RADIATION    1.39E-01
+           ALL NEGLECTED X-RAYS, GAMMA-RAYS AND ANNIH. RADIATION**     2.72E-04
+           ALL LISTED BETAS, INTERNAL CONVERSION AND AUGER ELECTRONS   1.08E-02
+           ALL NEGLECTED BETAS, INT. CONVERSION AND AUGER ELECTRONS**  2.17E-05
+           ALL LISTED RADIATIONS                                       1.50E-01
+           ALL NEGLECTED RADIATIONS**                                  2.94E-04
+ 
+           *  AVERAGE ENERGY (MEV)
+           ** EACH NEGLECTED TRANSITION CONTRIBUTES LESS THAN  0.100%
+              TO THE TOTAL MEV/TRANSFORMATION FOR THIS CATEGORY.
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 44-SCANDIUM
+             DAUGHTER IS 1.0000E+00 PER TRANSFORMATION OF  44-TITANIUM.
+             DECAY OF THIS 3.97 HOURS HALFLIFE LEVEL WILL CONTRIBUTE TO DOSE.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: Nov-1999
+%%%%  44 TI  22    EC           1.89346E+09 60.0 Y     02-11-2005       OUTPEND 
+%%%%  44 TI  22    EC           1.89346E+09 60.0 Y     02-11-2005       SEEISTAR
+ 44.  TITANIUM     22.  6.000E+01 YEARS     47 EC                    44.TI 22.   0
+ 1 1  9.30260E+01  6.78679E-02  6.78679E-02  0.00000E+00             44.TI 22.   1   1
+ 6 1  7.20613E+00  6.34021E-02  6.34021E-02  1.00000E+00             44.TI 22.   2   1
+ 6 5  6.02014E-01  6.73736E-02  6.73736E-02  1.00000E+00             44.TI 22.   3   5
+ 6 6  1.26486E-02  6.74542E-02  6.74542E-02  1.00000E+00             44.TI 22.   4   6
+ 6 7  2.31382E-02  6.74590E-02  6.74590E-02  1.00000E+00             44.TI 22.   5   7
+ 1 2  9.64000E+01  7.83600E-02  7.83600E-02  0.00000E+00             44.TI 22.   6   2
+ 6 1  2.66783E+00  7.38942E-02  7.38942E-02  2.00000E+00             44.TI 22.   7   1
+ 6 5  2.34243E-01  7.78657E-02  7.78657E-02  2.00000E+00             44.TI 22.   8   5
+ 6 6  6.14172E-03  7.79463E-02  7.79463E-02  2.00000E+00             44.TI 22.   9   6
+ 6 7  3.02480E-03  7.79511E-02  7.79511E-02  2.00000E+00             44.TI 22.  10   7
+ 1 3  9.15800E-02  1.46220E-01  1.46220E-01  0.00000E+00             44.TI 22.  11   3
+ 6 1  3.84775E-03  1.41754E-01  1.41754E-01  3.00000E+00             44.TI 22.  12   1
+ 6 5  3.45213E-04  1.45726E-01  1.45726E-01  3.00000E+00             44.TI 22.  13   5
+ 6 6  1.22994E-05  1.45806E-01  1.45806E-01  3.00000E+00             44.TI 22.  14   6
+ 6 7  7.51970E-06  1.45811E-01  1.45811E-01  3.00000E+00             44.TI 22.  15   7
+ 2 1  5.55645E+00  4.05212E-03  4.05212E-03  0.00000E+00             44.TI 22.  16   1
+ 2 2  1.09515E+01  4.05694E-03  4.05694E-03  0.00000E+00             44.TI 22.  17   2
+ 2 3  6.13255E-01  4.42620E-03  4.42620E-03  0.00000E+00             44.TI 22.  18   3
+ 2 4  1.21251E+00  4.42674E-03  4.42674E-03  0.00000E+00             44.TI 22.  19   4
+ 2 5  1.93269E-05  4.45872E-03  4.45872E-03  0.00000E+00             44.TI 22.  20   5
+ 2 6  2.84839E-05  4.45874E-03  4.45874E-03  0.00000E+00             44.TI 22.  21   6
+ 221  3.28150E-03  8.06101E-05  8.06101E-05  0.00000E+00             44.TI 22.  22  21
+ 222  1.01221E-02  8.54300E-05  8.54300E-05  0.00000E+00             44.TI 22.  23  22
+ 223  1.10317E-02  4.54691E-04  4.54691E-04  0.00000E+00             44.TI 22.  24  23
+ 224  1.63344E-02  4.55230E-04  4.55230E-04  0.00000E+00             44.TI 22.  25  24
+ 225  5.77782E-06  4.87210E-04  4.87210E-04  0.00000E+00             44.TI 22.  26  25
+ 226  8.61969E-06  4.87250E-04  4.87250E-04  0.00000E+00             44.TI 22.  27  26
+ 241  9.37710E-10  4.82000E-06  4.82000E-06  0.00000E+00             44.TI 22.  28  41
+ 242  8.79255E-02  3.52770E-04  3.52770E-04  0.00000E+00             44.TI 22.  29  42
+ 243  8.04997E-05  3.74619E-04  3.74619E-04  0.00000E+00             44.TI 22.  30  43
+ 244  5.25470E-03  4.06600E-04  4.06600E-04  0.00000E+00             44.TI 22.  31  44
+ 245  1.72135E-03  4.07781E-04  4.07781E-04  0.00000E+00             44.TI 22.  32  45
+ 261  1.62096E-01  3.47950E-04  3.47950E-04  0.00000E+00             44.TI 22.  33  61
+ 262  7.27799E-05  3.69260E-04  3.69260E-04  0.00000E+00             44.TI 22.  34  62
+ 263  7.14459E-05  3.69801E-04  3.69801E-04  0.00000E+00             44.TI 22.  35  63
+ 264  7.17219E-04  4.01781E-04  4.01781E-04  0.00000E+00             44.TI 22.  36  64
+ 265  8.53877E-03  4.01820E-04  4.01820E-04  0.00000E+00             44.TI 22.  37  65
+ 266  3.16471E-03  4.02961E-04  4.02961E-04  0.00000E+00             44.TI 22.  38  66
+ 291  1.40146E-04  2.17657E-05  2.17657E-05  0.00000E+00             44.TI 22.  39  91
+ 294  8.34711E+02  6.75357E-06  6.75357E-06  0.00000E+00             44.TI 22.  40  94
+ 7 1  6.46874E+01  3.60876E-03  3.60876E-03  0.00000E+00             44.TI 22.  41   1
+ 7 2  1.46850E+01  3.99167E-03  3.99167E-03  0.00000E+00             44.TI 22.  42   2
+ 7 3  8.40228E-01  4.37825E-03  4.37825E-03  0.00000E+00             44.TI 22.  43   3
+ 7 4  3.73769E+01  4.16821E-05  4.16821E-05  0.00000E+00             44.TI 22.  44   4
+ 7 5  1.66556E+02  3.31108E-04  3.31108E-04  0.00000E+00             44.TI 22.  45   5
+ 7 6  4.39061E+00  3.71964E-04  3.71964E-04  0.00000E+00             44.TI 22.  46   6
+ 7 8  4.35416E+02  2.43494E-05  2.43494E-05  0.00000E+00             44.TI 22.  47   8
+%%%%  44 TI  22    EC           1.89346E+09 60.0 Y     02-11-2005       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   1.38808E-01
+    X-ray                           (MeV) =   7.51358E-04
+    Free-bound X-ray                (MeV) =   5.63728E-05
+    Annihilation photon             (MeV) =   0.00000E+00
+    Beta+ particle                  (MeV) =   0.00000E+00
+    Neutrino                        (MeV) =   1.17177E-01
+    Beta- particle                  (MeV) =   0.00000E+00
+    Neutrino-                       (MeV) =   0.00000E+00
+    Internal conv. electron         (MeV) =   7.16547E-03
+    Auger and CK electron           (MeV) =   3.64679E-03
+    Alpha particle                  (MeV) =   0.00000E+00
+    Recoil nucleus                  (MeV) =   0.00000E+00
+  E-total (except unplaced radiat.) (MeV) =   2.67605E-01
+  E-unplaced radiation              (MeV) =   0.00000E+00
+  Q-value from ENSDF data           (MeV) =   2.67500E-01
+  Ratio of E-total/Q-value          ( % ) =   1.00039E+02
+  Ratio of E-unplaced radi./Q-value ( % ) =   0.00000E+00
+
+ 
+  Total yield of
+    Gamma-ray                             =   1.89518E+00
+    X-ray                                 =   1.86443E-01
+    Free-bound X-ray                      =   8.34711E+00
+    Annihilation photon                   =   0.00000E+00
+    Beta+ particle                        =   0.00000E+00
+    Beta- particle                        =   0.00000E+00
+    Internal conv. electron               =   1.07594E-01
+    Auger and CK electron                 =   7.23952E+00
+    Alpha particle                        =   0.00000E+00
+  Yield of unplaced radiation             =   0.00000E+00
+
+

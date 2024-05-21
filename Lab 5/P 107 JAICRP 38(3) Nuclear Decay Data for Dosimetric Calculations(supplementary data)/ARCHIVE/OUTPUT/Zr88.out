@@ -1,0 +1,204 @@
+%%%%  88 ZR  40    EC           7.20576E+06 83.4 D     02-11-2005       BALASTAR
+1  88   ZR  40 83.4 D          EC         
+1INTENSITY AND ENERGY BALANCE DATA
+
+              88-ZIRCONIUM-40
++                                    HALFLIFE = 83.4 DAYS    
++                                                                  02-11-2005
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  1.0000E+02
+   3.9290E-01  1.0000E+02  1.0000E+02  0.0000E+00                      
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  1.000E+02
+ TOTAL INTENSITY FROM PARENT=  1.000E+02
+ PERCENT ERROR =  0.000E+00                      
+
+
+ TOTAL INTENSITY FROM PARENT =  1.000E+02
+ VALUE IS WITHIN   0.00E+00% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  6.760E-01 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  6.760E-01 MEV
+ PERCENT ERROR =  0.000E+00                      
+%%%%  88 ZR  40    EC           7.20576E+06 83.4 D     02-11-2005       BALAEND 
+%%%%  88 ZR  40    EC           7.20576E+06 83.4 D     02-11-2005       INPUSTAR
+1                                      **INPUT DATA**
+              88-ZIRCONIUM-40
++                                    HALFLIFE = 83.4 DAYS    
++                                                                  02-11-2005
+
+            MODE OF DECAY: ELECTRON CAPTURE
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+           ELECT. CAPTURE   1   1.00E+00   2.831E-01   ALLOWED                                  
+           I.C.E. + GAMMA   1   1.00E+00   3.929E-01   E3 MULTIPOLE                             
++                                                                    AK= 0.0241                 
+                                                       AL1=0.00245                              
+ 
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: Aug-1988
+%%%%  88 ZR  40    EC           7.20576E+06 83.4 D     02-11-2005       INPUEND 
+%%%%  88 ZR  40    EC           7.20576E+06 83.4 D     02-11-2005       OUTPSTAR
+1                                      **OUTPUT DATA**
+              88-ZIRCONIUM-40
++                                    HALFLIFE = 83.4 DAYS    
++                                                                  02-11-2005
+
+            MODE OF DECAY: ELECTRON CAPTURE
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           GAMMA-RAY                      1   9.73E-01    3.929E-01    3.82E-01
+           K CONV. ELECTRON, GAMMA-RAY    1   2.34E-02    3.759E-01    8.79E-03
+           L1 CONV. ELECTRON, GAMMA-RAY   1   2.39E-03    3.905E-01    9.32E-04
+           L2 CONV. ELECTRON, GAMMA-RAY   1   5.16E-04    3.907E-01    2.02E-04
+           L3 CONV. ELECTRON, GAMMA-RAY   1   3.69E-04    3.908E-01    1.44E-04
+           M CONV. ELECTRON, GAMMA-RAY    1   5.71E-04    3.926E-01*   2.24E-04
+           N+ CONV. ELECTRON, GAMMA-RAY   1   9.03E-05    3.929E-01*   3.55E-05
+           K -L2 X-RAY                        1.83E-01    1.484E-02    2.71E-03
+           K -L3 X-RAY                        3.50E-01    1.492E-02    5.23E-03
+           K -M2 X-RAY                        2.71E-02    1.669E-02    4.53E-04
+           K -M3 X-RAY                        5.29E-02    1.670E-02    8.83E-04
+           AUGER KLL                          1.88E-01    1.267E-02*   2.38E-03
+           AUGER KLX                          6.54E-02    1.455E-02*   9.51E-04
+           AUGER KXY                          5.47E-03    1.644E-02*   8.99E-05
+           CK LLX                             2.18E-01    1.013E-04*   2.21E-05
+           AUGER LMM                          9.59E-01    1.662E-03*   1.59E-03
+           AUGER LMX                          9.61E-02    1.827E-03*   1.76E-04
+           CK MMX                             1.02E+00    9.606E-05*   9.81E-05
+           AUGER MNN                          2.29E+00    9.461E-05*   2.17E-04
+           CK NNX                             7.47E+00    2.029E-05*   1.52E-04
+ 
+           ALL LISTED X-RAYS, GAMMA-RAYS AND ANNIHILATION RADIATION    3.91E-01
+           ALL NEGLECTED X-RAYS, GAMMA-RAYS AND ANNIH. RADIATION**     3.37E-04
+           ALL LISTED BETAS, INTERNAL CONVERSION AND AUGER ELECTRONS   1.60E-02
+           ALL NEGLECTED BETAS, INT. CONVERSION AND AUGER ELECTRONS**  1.85E-05
+           ALL LISTED RADIATIONS                                       4.07E-01
+           ALL NEGLECTED RADIATIONS**                                  3.55E-04
+ 
+           *  AVERAGE ENERGY (MEV)
+           ** EACH NEGLECTED TRANSITION CONTRIBUTES LESS THAN  0.100%
+              TO THE TOTAL MEV/TRANSFORMATION FOR THIS CATEGORY.
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 88-YTTRIUM
+             DAUGHTER IS 1.0000E+00 PER TRANSFORMATION OF  88-ZIRCONIUM.
+             DECAY OF THIS 106.65 DAYS HALFLIFE LEVEL WILL CONTRIBUTE TO DOSE.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: Aug-1988
+%%%%  88 ZR  40    EC           7.20576E+06 83.4 D     02-11-2005       OUTPEND 
+%%%%  88 ZR  40    EC           7.20576E+06 83.4 D     02-11-2005       SEEISTAR
+ 88.  ZIRCONIUM    40.  8.340E+01 DAYS      58 EC                    88.ZR 40.   0
+ 1 1  9.72672E+01  3.92900E-01  3.92900E-01  0.00000E+00             88.ZR 40.   1   1
+ 6 1  2.33954E+00  3.75900E-01  3.75900E-01  1.00000E+00             88.ZR 40.   2   1
+ 6 5  2.38544E-01  3.90545E-01  3.90545E-01  1.00000E+00             88.ZR 40.   3   5
+ 6 6  5.16295E-02  3.90740E-01  3.90740E-01  1.00000E+00             88.ZR 40.   4   6
+ 6 7  3.69475E-02  3.90819E-01  3.90819E-01  1.00000E+00             88.ZR 40.   5   7
+ 6 3  5.70695E-02  3.92600E-01  3.92600E-01  1.00000E+00             88.ZR 40.   6   3
+ 6 4  9.03458E-03  3.92900E-01  3.92900E-01  1.00000E+00             88.ZR 40.   7   4
+ 2 1  1.82842E+01  1.48403E-02  1.48403E-02  0.00000E+00             88.ZR 40.   8   1
+ 2 2  3.50335E+01  1.49185E-02  1.49185E-02  0.00000E+00             88.ZR 40.   9   2
+ 2 3  2.71455E+00  1.66877E-02  1.66877E-02  0.00000E+00             88.ZR 40.  10   3
+ 2 4  5.28906E+00  1.67001E-02  1.67001E-02  0.00000E+00             88.ZR 40.  11   4
+ 2 5  1.04245E-02  1.68313E-02  1.68313E-02  0.00000E+00             88.ZR 40.  12   5
+ 2 6  1.48432E-02  1.68335E-02  1.68335E-02  0.00000E+00             88.ZR 40.  13   6
+ 2 7  4.00181E-01  1.69663E-02  1.69663E-02  0.00000E+00             88.ZR 40.  14   7
+ 2 8  7.70416E-01  1.69678E-02  1.69678E-02  0.00000E+00             88.ZR 40.  15   8
+ 2 9  6.15115E-05  1.69948E-02  1.69948E-02  0.00000E+00             88.ZR 40.  16   9
+ 210  8.69144E-05  1.69949E-02  1.69949E-02  0.00000E+00             88.ZR 40.  17  10
+ 221  3.13725E-04  1.95200E-04  1.95200E-04  0.00000E+00             88.ZR 40.  18  21
+ 222  1.92202E-03  2.73399E-04  2.73399E-04  0.00000E+00             88.ZR 40.  19  22
+ 223  3.28350E-02  2.04264E-03  2.04264E-03  0.00000E+00             88.ZR 40.  20  23
+ 224  5.74918E-02  2.05498E-03  2.05498E-03  0.00000E+00             88.ZR 40.  21  24
+ 225  2.37012E-04  2.18616E-03  2.18616E-03  0.00000E+00             88.ZR 40.  22  25
+ 226  3.52863E-04  2.18839E-03  2.18839E-03  0.00000E+00             88.ZR 40.  23  26
+ 227  4.47569E-03  2.32119E-03  2.32119E-03  0.00000E+00             88.ZR 40.  24  27
+ 228  7.90059E-03  2.32276E-03  2.32276E-03  0.00000E+00             88.ZR 40.  25  28
+ 229  1.11405E-06  2.34966E-03  2.34966E-03  0.00000E+00             88.ZR 40.  26  29
+ 230  1.65632E-06  2.34977E-03  2.34977E-03  0.00000E+00             88.ZR 40.  27  30
+ 241  1.00757E-07  7.82003E-05  7.82003E-05  0.00000E+00             88.ZR 40.  28  41
+ 242  1.03952E-01  1.77392E-03  1.77392E-03  0.00000E+00             88.ZR 40.  29  42
+ 243  8.72646E-04  1.85978E-03  1.85978E-03  0.00000E+00             88.ZR 40.  30  43
+ 244  8.26563E-01  1.99096E-03  1.99096E-03  0.00000E+00             88.ZR 40.  31  44
+ 245  6.60418E-03  2.10635E-03  2.10635E-03  0.00000E+00             88.ZR 40.  32  45
+ 246  2.56039E-05  2.12756E-03  2.12756E-03  0.00000E+00             88.ZR 40.  33  46
+ 247  4.46597E-03  2.15446E-03  2.15446E-03  0.00000E+00             88.ZR 40.  34  47
+ 261  3.25563E-01  1.69571E-03  1.69571E-03  0.00000E+00             88.ZR 40.  35  61
+ 262  1.26009E-03  1.76923E-03  1.76923E-03  0.00000E+00             88.ZR 40.  36  62
+ 263  1.19564E-03  1.78158E-03  1.78158E-03  0.00000E+00             88.ZR 40.  37  63
+ 264  1.84114E-01  1.91276E-03  1.91276E-03  0.00000E+00             88.ZR 40.  38  64
+ 265  1.67946E+00  1.91499E-03  1.91499E-03  0.00000E+00             88.ZR 40.  39  65
+ 266  1.41866E-02  2.02814E-03  2.02814E-03  0.00000E+00             88.ZR 40.  40  66
+ 267  2.88942E-05  2.04779E-03  2.04779E-03  0.00000E+00             88.ZR 40.  41  67
+ 268  2.77022E-05  2.04936E-03  2.04936E-03  0.00000E+00             88.ZR 40.  42  68
+ 269  9.86637E-04  2.07626E-03  2.07626E-03  0.00000E+00             88.ZR 40.  43  69
+ 270  8.72820E-03  2.07637E-03  2.07637E-03  0.00000E+00             88.ZR 40.  44  70
+ 291  4.45064E-02  1.62778E-04  1.62778E-04  0.00000E+00             88.ZR 40.  45  91
+ 292  6.59027E-04  2.11582E-05  2.11582E-05  0.00000E+00             88.ZR 40.  46  92
+ 294  1.34299E+03  5.29809E-06  5.29809E-06  0.00000E+00             88.ZR 40.  47  94
+ 7 1  1.88080E+01  1.26657E-02  1.26657E-02  0.00000E+00             88.ZR 40.  48   1
+ 7 2  6.53891E+00  1.45497E-02  1.45497E-02  0.00000E+00             88.ZR 40.  49   2
+ 7 3  5.47067E-01  1.64357E-02  1.64357E-02  0.00000E+00             88.ZR 40.  50   3
+ 7 4  2.18310E+01  1.01269E-04  1.01269E-04  0.00000E+00             88.ZR 40.  51   4
+ 7 5  9.59382E+01  1.66249E-03  1.66249E-03  0.00000E+00             88.ZR 40.  52   5
+ 7 6  9.60652E+00  1.82745E-03  1.82745E-03  0.00000E+00             88.ZR 40.  53   6
+ 7 7  3.60989E-01  2.04944E-03  2.04944E-03  0.00000E+00             88.ZR 40.  54   7
+ 7 8  1.02166E+02  9.60604E-05  9.60604E-05  0.00000E+00             88.ZR 40.  55   8
+ 7 9  2.28930E+02  9.46072E-05  9.46072E-05  0.00000E+00             88.ZR 40.  56   9
+ 710  8.42344E+00  1.31786E-04  1.31786E-04  0.00000E+00             88.ZR 40.  57  10
+ 712  7.47110E+02  2.02932E-05  2.02932E-05  0.00000E+00             88.ZR 40.  58  12
+%%%%  88 ZR  40    EC           7.20576E+06 83.4 D     02-11-2005       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   3.82163E-01
+    X-ray                           (MeV) =   9.54159E-03
+    Free-bound X-ray                (MeV) =   7.11531E-05
+    Annihilation photon             (MeV) =   0.00000E+00
+    Beta+ particle                  (MeV) =   0.00000E+00
+    Neutrino                        (MeV) =   2.67345E-01
+    Beta- particle                  (MeV) =   0.00000E+00
+    Neutrino-                       (MeV) =   0.00000E+00
+    Internal conv. electron         (MeV) =   1.03316E-02
+    Auger and CK electron           (MeV) =   5.70093E-03
+    Alpha particle                  (MeV) =   0.00000E+00
+    Recoil nucleus                  (MeV) =   0.00000E+00
+  E-total (except unplaced radiat.) (MeV) =   6.75153E-01
+  E-unplaced radiation              (MeV) =   0.00000E+00
+  Q-value from ENSDF data           (MeV) =   6.76000E-01
+  Ratio of E-total/Q-value          ( % ) =   9.98747E+01
+  Ratio of E-unplaced radi./Q-value ( % ) =   0.00000E+00
+
+ 
+  Total yield of
+    Gamma-ray                             =   9.72672E-01
+    X-ray                                 =   6.58260E-01
+    Free-bound X-ray                      =   1.34299E+01
+    Annihilation photon                   =   0.00000E+00
+    Beta+ particle                        =   0.00000E+00
+    Beta- particle                        =   0.00000E+00
+    Internal conv. electron               =   2.73276E-02
+    Auger and CK electron                 =   1.24026E+01
+    Alpha particle                        =   0.00000E+00
+  Yield of unplaced radiation             =   0.00000E+00
+
+

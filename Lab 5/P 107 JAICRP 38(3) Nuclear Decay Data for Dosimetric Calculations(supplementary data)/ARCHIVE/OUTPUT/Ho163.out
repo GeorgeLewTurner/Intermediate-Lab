@@ -1,0 +1,141 @@
+%%%% 163 HO  67    EC           1.44218E+11 4570 Y     02-11-2005       BALASTAR
+1 163   HO  67 4570 Y          EC         
+1INTENSITY AND ENERGY BALANCE DATA
+
+              163-HOLMIUM-67
++                                    HALFLIFE = 4570 YEARS   
++                                                                  02-11-2005
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  1.0000E+02
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  1.000E+02
+ TOTAL INTENSITY FROM PARENT=  1.000E+02
+ PERCENT ERROR =  0.000E+00                      
+
+
+ TOTAL INTENSITY FROM PARENT =  1.000E+02
+ VALUE IS WITHIN   0.00E+00% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  2.565E-03 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  2.565E-03 MEV
+ PERCENT ERROR =  0.000E+00                      
+%%%% 163 HO  67    EC           1.44218E+11 4570 Y     02-11-2005       BALAEND 
+%%%% 163 HO  67    EC           1.44218E+11 4570 Y     02-11-2005       INPUSTAR
+1                                      **INPUT DATA**
+              163-HOLMIUM-67
++                                    HALFLIFE = 4570 YEARS   
++                                                                  02-11-2005
+
+            MODE OF DECAY: ELECTRON CAPTURE
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+           ELECT. CAPTURE   1   1.00E+00   2.565E-03   ALLOWED                                  
+ 
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: Feb-2000
+%%%% 163 HO  67    EC           1.44218E+11 4570 Y     02-11-2005       INPUEND 
+%%%% 163 HO  67    EC           1.44218E+11 4570 Y     02-11-2005       OUTPSTAR
+1                                      **OUTPUT DATA**
+              163-HOLMIUM-67
++                                    HALFLIFE = 4570 YEARS   
++                                                                  02-11-2005
+
+            MODE OF DECAY: ELECTRON CAPTURE
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           M X-RAY                            1.70E-03    1.296E-03*   2.20E-06
+           N X-RAY                            3.72E-04    1.900E-04*   7.08E-08
+           O X-RAY                            1.80E-07    2.456E-05*   4.43E-12
+           Free-Bound X-RAY                   4.21E+00    1.534E-05*   6.45E-05
+           CK MMX                             2.05E-01    2.215E-04*   4.54E-05
+           AUGER MNN                          1.30E-01    1.080E-03*   1.41E-04
+           AUGER MNX                          8.78E-03    1.330E-03*   1.17E-05
+           AUGER MXY                          4.38E-04    1.539E-03*   6.74E-07
+           CK NNX                             2.19E+00    1.222E-04*   2.68E-04
+           AUGER NXY                          1.67E-01    2.583E-04*   4.31E-05
+           CK OOX                             4.77E-01    1.817E-05*   8.66E-06
+           AUGER OXY                          3.71E-03    4.297E-05*   1.59E-07
+ 
+           ALL LISTED X-RAYS, GAMMA-RAYS AND ANNIHILATION RADIATION    6.68E-05
+           ALL LISTED BETAS, INTERNAL CONVERSION AND AUGER ELECTRONS   5.18E-04
+           ALL LISTED RADIATIONS                                       5.85E-04
+ 
+           *  AVERAGE ENERGY (MEV)
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 163-DYSPROSIUM
+             DAUGHTER IS 1.0000E+00 PER TRANSFORMATION OF 163-HOLMIUM.
+             THIS DAUGHTER GROUND STATE IS STABLE.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: Feb-2000
+%%%% 163 HO  67    EC           1.44218E+11 4570 Y     02-11-2005       OUTPEND 
+%%%% 163 HO  67    EC           1.44218E+11 4570 Y     02-11-2005       SEEISTAR
+163.  HOLMIUM      67.  4.570E+03 YEARS     12 EC                   163.HO 67.   0
+ 291  1.69574E-01  1.29602E-03  1.29602E-03  0.00000E+00            163.HO 67.   1  91
+ 292  3.72487E-02  1.89995E-04  1.89995E-04  0.00000E+00            163.HO 67.   2  92
+ 293  1.80242E-05  2.45617E-05  2.45617E-05  0.00000E+00            163.HO 67.   3  93
+ 294  4.20532E+02  1.53440E-05  1.53440E-05  0.00000E+00            163.HO 67.   4  94
+ 7 8  2.04896E+01  2.21478E-04  2.21478E-04  0.00000E+00            163.HO 67.   5   8
+ 7 9  1.30228E+01  1.08025E-03  1.08025E-03  0.00000E+00            163.HO 67.   6   9
+ 710  8.78186E-01  1.32999E-03  1.32999E-03  0.00000E+00            163.HO 67.   7  10
+ 711  4.38138E-02  1.53871E-03  1.53871E-03  0.00000E+00            163.HO 67.   8  11
+ 712  2.19129E+02  1.22217E-04  1.22217E-04  0.00000E+00            163.HO 67.   9  12
+ 713  1.66997E+01  2.58280E-04  2.58280E-04  0.00000E+00            163.HO 67.  10  13
+ 714  4.76658E+01  1.81686E-05  1.81686E-05  0.00000E+00            163.HO 67.  11  14
+ 715  3.70992E-01  4.29700E-05  4.29700E-05  0.00000E+00            163.HO 67.  12  15
+%%%% 163 HO  67    EC           1.44218E+11 4570 Y     02-11-2005       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   0.00000E+00
+    X-ray                           (MeV) =   2.26849E-06
+    Free-bound X-ray                (MeV) =   6.45264E-05
+    Annihilation photon             (MeV) =   0.00000E+00
+    Beta+ particle                  (MeV) =   0.00000E+00
+    Neutrino                        (MeV) =   1.95616E-03
+    Beta- particle                  (MeV) =   0.00000E+00
+    Neutrino-                       (MeV) =   0.00000E+00
+    Internal conv. electron         (MeV) =   0.00000E+00
+    Auger and CK electron           (MeV) =   5.18177E-04
+    Alpha particle                  (MeV) =   0.00000E+00
+    Recoil nucleus                  (MeV) =   0.00000E+00
+  E-total (except unplaced radiat.) (MeV) =   2.54114E-03
+  E-unplaced radiation              (MeV) =   0.00000E+00
+  Q-value from ENSDF data           (MeV) =   2.56500E-03
+  Ratio of E-total/Q-value          ( % ) =   9.90696E+01
+  Ratio of E-unplaced radi./Q-value ( % ) =   0.00000E+00
+
+ 
+  Total yield of
+    Gamma-ray                             =   0.00000E+00
+    X-ray                                 =   2.06841E-03
+    Free-bound X-ray                      =   4.20532E+00
+    Annihilation photon                   =   0.00000E+00
+    Beta+ particle                        =   0.00000E+00
+    Beta- particle                        =   0.00000E+00
+    Internal conv. electron               =   0.00000E+00
+    Auger and CK electron                 =   3.18300E+00
+    Alpha particle                        =   0.00000E+00
+  Yield of unplaced radiation             =   0.00000E+00
+
+

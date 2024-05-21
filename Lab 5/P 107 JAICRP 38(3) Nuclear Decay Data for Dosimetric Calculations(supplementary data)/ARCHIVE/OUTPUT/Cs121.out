@@ -1,0 +1,2191 @@
+%%%% 121 CS  55    EC B+        1.55000E+02   155 S    18-07-2007       BALASTAR
+1 121   CS  55   155 S         EC B+      
+1INTENSITY AND ENERGY BALANCE DATA
+
+              121-CESIUM-55
++                                    HALFLIFE = 155 SECONDS 
++                                                                  18-07-2007
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  1.0006E+02
+   1.5396E-01  2.1270E+01  2.1202E+01  3.1899E-01                      
+   1.7944E-01  3.1381E+00  3.1394E+00  4.4110E-02                      
+   1.9608E-01  2.5447E+00  2.5448E+00  5.6215E-03                      
+   2.3977E-01  1.3124E+01  1.3049E+01  5.7725E-01                      
+   3.5577E-01  4.3972E+00  4.3870E+00  2.3183E-01                      
+   4.2712E-01  3.8592E+00  3.8663E+00  1.8376E-01                      
+   4.4984E-01  4.4191E+00  4.4216E+00  5.6612E-02                      
+   4.9720E-01  2.9894E-01  3.0793E-01  2.9624E+00                      
+   5.5303E-01  1.9701E+00  2.0554E+00  4.2350E+00                      
+   6.1991E-01  1.7996E+00  1.8137E+00  7.7829E-01                      
+   6.6106E-01  2.9164E+00  2.9579E+00  1.4155E+00                      
+   6.8241E-01  1.0998E+00  1.1164E+00  1.5030E+00                      
+   6.9650E-01  1.8996E+00  1.9129E+00  6.9473E-01                      
+   7.3744E-01  1.2997E+00  1.3098E+00  7.6915E-01                      
+   9.4620E-01  2.3095E-01  2.3732E-01  2.7202E+00                      
+   1.1176E+00  5.9988E-01  6.0502E-01  8.5294E-01                      
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  1.001E+02
+ TOTAL INTENSITY FROM PARENT=  1.000E+02
+ PERCENT ERROR =  5.893E-02                      
+
+
+ TOTAL INTENSITY FROM PARENT =  1.000E+02
+ VALUE IS WITHIN   7.63E-06% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  5.400E+00 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  5.401E+00 MEV
+ PERCENT ERROR =  1.796E-02                      
+%%%% 121 CS  55    EC B+        1.55000E+02   155 S    18-07-2007       BALAEND 
+%%%% 121 CS  55    EC B+        1.55000E+02   155 S    18-07-2007       INPUSTAR
+1                                      **INPUT DATA**
+              121-CESIUM-55
++                                    HALFLIFE = 155 SECONDS 
++                                                                  18-07-2007
+
+            MODES OF DECAY: ELECTRON CAPTURE, BETA PLUS
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+           ELECT. CAPTURE   1   1.20E-03   4.282E+00   ALLOWED                                  
++                                                              ASSUMED                          
+           ELECT. CAPTURE   2   4.10E-04   4.454E+00   ALLOWED                                  
++                                                              ASSUMED                          
+           ELECT. CAPTURE   3   2.00E-03   4.663E+00   ALLOWED                                  
++                                                              ASSUMED                          
+           ELECT. CAPTURE   4   2.80E-03   4.704E+00   ALLOWED                                  
++                                                              ASSUMED                          
+           ELECT. CAPTURE   5   1.60E-03   4.718E+00   ALLOWED                                  
++                                                              ASSUMED                          
+           ELECT. CAPTURE   6   3.80E-03   4.739E+00   ALLOWED                                  
++                                                              ASSUMED                          
+           ELECT. CAPTURE   7   2.50E-03   4.780E+00   ALLOWED                                  
++                                                              ASSUMED                          
+           ELECT. CAPTURE   8   5.00E-04   4.847E+00   ALLOWED                                  
++                                                              ASSUMED                          
+           ELECT. CAPTURE   9   3.90E-04   4.903E+00   ALLOWED                                  
++                                                              ASSUMED                          
+           ELECT. CAPTURE  10   5.60E-03   4.950E+00   ALLOWED                                  
+           ELECT. CAPTURE  11   4.80E-03   4.973E+00   ALLOWED                                  
+           ELECT. CAPTURE  12   4.80E-03   5.044E+00   FIRST FORBIDDEN                          
+           ELECT. CAPTURE  13   1.14E-02   5.160E+00   ALLOWED                                  
+           ELECT. CAPTURE  14   1.37E-02   5.246E+00   ALLOWED                                  
+           ELECT. CAPTURE  15   5.15E-02   5.400E+00   ALLOWED                                  
+                BETA PLUS   1   4.80E-03   3.260E+00*  ALLOWED                                  
++                                                              ASSUMED                          
+                BETA PLUS   2   1.90E-03   3.432E+00*  ALLOWED                                  
++                                                              ASSUMED                          
+                BETA PLUS   3   1.10E-02   3.641E+00*  ALLOWED                                  
++                                                              ASSUMED                          
+                BETA PLUS   4   1.62E-02   3.682E+00*  ALLOWED                                  
++                                                              ASSUMED                          
+                BETA PLUS   5   9.40E-03   3.696E+00*  ALLOWED                                  
++                                                              ASSUMED                          
+                BETA PLUS   6   2.20E-02   3.717E+00*  ALLOWED                                  
++                                                              ASSUMED                          
+                BETA PLUS   7   1.55E-02   3.758E+00*  ALLOWED                                  
++                                                              ASSUMED                          
+                BETA PLUS   8   3.00E-03   3.825E+00*  ALLOWED                                  
++                                                              ASSUMED                          
+                BETA PLUS   9   2.60E-03   3.881E+00*  ALLOWED                                  
++                                                              ASSUMED                          
+                BETA PLUS  10   3.86E-02   3.928E+00*  ALLOWED                                  
+                BETA PLUS  11   3.38E-02   3.951E+00*  ALLOWED                                  
+                BETA PLUS  12   3.54E-02   4.022E+00*  FIRST FORBIDDEN                          
+                BETA PLUS  13   9.20E-02   4.138E+00*  ALLOWED                                  
+                BETA PLUS  14   1.17E-01   4.224E+00*  ALLOWED                                  
+                BETA PLUS  15   4.90E-01   4.378E+00*  ALLOWED                                  
+           I.C.E. + GAMMA   1   1.33E-03   5.930E-02   UNPLACED GAMMA                           
+           I.C.E. + GAMMA   2   4.74E-02   8.590E-02   M1 MULTIPOLE                             
++                                                                    AK= 1.11                   
+                                                       AL1=0.136     AL2=0.00993                
+                                                       AL3=0.00234   AM= 0.0301                 
+                                                       AN+=0.00759                              
+           I.C.E. + GAMMA   3   1.11E-02   1.080E-01   M1 MULTIPOLE                             
++                                                                    AK= 0.578                  
+                                                       AL1=0.0703    AL2=0.00497                
+                                                       AL3=0.00117   AM= 0.0157                 
+                                                       AN+=0.00393                              
+           I.C.E. + GAMMA   4   2.12E-01   1.539E-01   E2 MULTIPOLE                             
++                                                                    AK= 0.301                  
+                                                       AL1=0.0296    AL2=0.0241                 
+                                                       AL3=0.0245    AM= 0.0165                 
+                                                       AN+=0.00395                              
+           I.C.E. + GAMMA   5   2.04E-02   1.597E-01   M1 MULTIPOLE                             
++                                                                    AK= 0.193                  
+                                                       AL1=0.0235    AL2=0.00153                
+                                                       AM= 0.00519   AN+=0.00131                
+           I.C.E. + GAMMA   6   3.14E-02   1.794E-01   M1 MULTIPOLE                             
++                                                                    AK= 0.141                  
+                                                       AL1=0.0171    AL2=0.00108                
+                                                       AM= 0.00376                              
+           I.C.E. + GAMMA   7   2.54E-02   1.960E-01   E1 MULTIPOLE                             
++                                                                    AK= 0.0282                 
+                                                       AL1=0.00301                              
+           I.C.E. + GAMMA   8   8.33E-03   2.101E-01   E2 MULTIPOLE                             
++                                                                    AK= 0.108                  
+                                                       AL1=0.0112    AL2=0.00589                
+                                                       AL3=0.00544   AM= 0.00472                
+                                                       AN+=0.00114                              
+           I.C.E. + GAMMA   9   8.31E-02   2.396E-01   M1 MULTIPOLE                             
++                                                                    AK= 0.0647                 
+                                                       AL1=0.00783   AM= 0.00171                
+           I.C.E. + GAMMA  10   1.76E-02   2.702E-01   M1 MULTIPOLE                             
++                                                                    AK= 0.0471                 
+                                                       AL1=0.00570   AM= 0.00124                
+           I.C.E. + GAMMA  11   1.75E-03   2.732E-01   M1 MULTIPOLE                             
++                                                                    AK= 0.0457                 
+                                                       AL1=0.00553   AM= 0.00120                
+           I.C.E. + GAMMA  12   1.49E-02   2.958E-01   E2 MULTIPOLE                             
++                                                                    AK= 0.0360                 
+                                                       AL1=0.00389   AL2=0.00131                
+                                                       AL3=0.00109   AM= 0.00131                
+           I.C.E. + GAMMA  13   3.78E-03   3.268E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.0264    AL1=0.00288                
+           I.C.E. + GAMMA  14   2.33E-03   3.372E-01   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  15   3.08E-03   3.432E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.0228    AL1=0.00249                
+           I.C.E. + GAMMA  16   2.35E-02   3.559E-01   E1 MULTIPOLE                             
++                                                                    AK= 0.00584                
+           I.C.E. + GAMMA  17   2.00E-03   3.617E-01   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  18   3.74E-03   3.738E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.0176    AL1=0.00194                
+           I.C.E. + GAMMA  19   2.72E-03   3.801E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.0167    AL1=0.00185                
+           I.C.E. + GAMMA  20   2.37E-03   3.932E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.0151    AL1=0.00168                
+           I.C.E. + GAMMA  21   4.74E-03   3.988E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.0145    AL1=0.00161                
+           I.C.E. + GAMMA  22   3.69E-02   4.271E-01   M1 MULTIPOLE                             
++                                                                    AK= 0.0146                 
+                                                       AL1=0.00175                              
+           I.C.E. + GAMMA  23   1.33E-03   4.454E-01   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  24   3.38E-03   4.501E-01   M1 MULTIPOLE                             
++                                                                    AK= 0.0128                 
+                                                       AL1=0.00153                              
+           I.C.E. + GAMMA  25   7.07E-03   4.566E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.00982   AL1=0.00110                
+           I.C.E. + GAMMA  26   3.37E-03   4.566E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.00982   AL1=0.00110                
+           I.C.E. + GAMMA  27   4.04E-03   4.660E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.00928   AL1=0.00104                
+           I.C.E. + GAMMA  28   6.73E-03   4.816E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.00847                              
+           I.C.E. + GAMMA  29   5.04E-03   4.861E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.00825                              
+           I.C.E. + GAMMA  30   9.75E-03   4.976E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.00774                              
+           I.C.E. + GAMMA  31   6.04E-03   5.426E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.00613                              
+           I.C.E. + GAMMA  32   1.21E-02   5.530E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.00582                              
+           I.C.E. + GAMMA  33   3.35E-03   5.583E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.00568                              
+           I.C.E. + GAMMA  34   2.68E-03   5.645E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.00552                              
+           I.C.E. + GAMMA  35   1.14E-02   6.199E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.00433                              
+           I.C.E. + GAMMA  36   4.00E-03   6.468E-01   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  37   1.17E-02   6.611E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.00368                              
+           I.C.E. + GAMMA  38   2.33E-03   6.748E-01   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  39   2.34E-03   6.823E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.00340                              
+           I.C.E. + GAMMA  40   2.66E-03   6.905E-01   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  41   6.02E-03   6.965E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.00323                              
+           I.C.E. + GAMMA  42   2.66E-03   7.979E-01   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  43   2.33E-03   8.419E-01   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  44   3.33E-03   8.505E-01   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  45   2.00E-03   8.672E-01   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  46   1.66E-03   8.812E-01   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  47   2.33E-03   8.916E-01   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  48   2.66E-03   9.002E-01   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  49   1.33E-03   9.054E-01   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  50   3.33E-03   9.143E-01   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  51   2.33E-03   9.226E-01   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  52   4.00E-03   9.366E-01   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  53   2.66E-03   9.492E-01   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  54   2.00E-03   9.863E-01   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  55   2.66E-03   1.060E+00   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  56   2.66E-03   1.077E+00   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  57   2.33E-03   1.115E+00   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  58   9.99E-03   1.140E+00   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  59   1.66E-03   1.180E+00   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  60   2.00E-03   1.255E+00   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  61   3.33E-03   1.276E+00   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  62   2.33E-03   1.396E+00   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  63   3.33E-03   1.417E+00   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  64   1.33E-02   1.433E+00   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  65   2.66E-03   1.458E+00   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  66   2.66E-03   1.498E+00   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  67   2.66E-03   1.511E+00   UNPLACED GAMMA                           
+ 
+           * ENDPOINT ENERGY (MEV)
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: May-2000
+%%%% 121 CS  55    EC B+        1.55000E+02   155 S    18-07-2007       INPUEND 
+%%%% 121 CS  55    EC B+        1.55000E+02   155 S    18-07-2007       OUTPSTAR
+1                                      **OUTPUT DATA**
+              121-CESIUM-55
++                                    HALFLIFE = 155 SECONDS 
++                                                                  18-07-2007
+
+            MODES OF DECAY: ELECTRON CAPTURE, BETA PLUS
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           BETA PLUS                      1   4.80E-03    1.480E+00*   7.10E-03
+           BETA PLUS                      2   1.90E-03    1.561E+00*   2.96E-03
+           BETA PLUS                      3   1.10E-02    1.659E+00*   1.82E-02
+           BETA PLUS                      4   1.62E-02    1.678E+00*   2.72E-02
+           BETA PLUS                      5   9.40E-03    1.685E+00*   1.58E-02
+           BETA PLUS                      6   2.20E-02    1.695E+00*   3.73E-02
+           BETA PLUS                      7   1.55E-02    1.714E+00*   2.66E-02
+           BETA PLUS                      8   3.00E-03    1.746E+00*   5.24E-03
+           BETA PLUS                      9   2.60E-03    1.772E+00*   4.61E-03
+           BETA PLUS                     10   3.86E-02    1.794E+00*   6.92E-02
+           BETA PLUS                     11   3.38E-02    1.805E+00*   6.10E-02
+           BETA PLUS                     12   3.54E-02    1.839E+00*   6.51E-02
+           BETA PLUS                     13   9.20E-02    1.894E+00*   1.74E-01
+           BETA PLUS                     14   1.17E-01    1.934E+00*   2.26E-01
+           BETA PLUS                     15   4.90E-01    2.007E+00*   9.83E-01
+           ANNIHILATION RADIATION             1.79E+00    5.110E-01    9.13E-01
+           GAMMA-RAY                      2   2.06E-02    8.590E-02    1.77E-03
+           K CONV. ELECTRON, GAMMA-RAY    2   2.29E-02    5.134E-02    1.18E-03
+           L1 CONV. ELECTRON, GAMMA-RAY   2   2.80E-03    8.048E-02    2.26E-04
+           GAMMA-RAY                      3   6.66E-03    1.080E-01    7.19E-04
+           K CONV. ELECTRON, GAMMA-RAY    3   3.85E-03    7.344E-02    2.83E-04
+           GAMMA-RAY                      4   1.52E-01    1.539E-01    2.33E-02
+           K CONV. ELECTRON, GAMMA-RAY    4   4.56E-02    1.193E-01    5.44E-03
+           L1 CONV. ELECTRON, GAMMA-RAY   4   4.48E-03    1.485E-01    6.65E-04
+           L2 CONV. ELECTRON, GAMMA-RAY   4   3.65E-03    1.488E-01    5.43E-04
+           L3 CONV. ELECTRON, GAMMA-RAY   4   3.72E-03    1.491E-01    5.54E-04
+           M CONV. ELECTRON, GAMMA-RAY    4   2.51E-03    1.530E-01*   3.84E-04
+           GAMMA-RAY                      5   1.67E-02    1.597E-01    2.66E-03
+           K CONV. ELECTRON, GAMMA-RAY    5   3.22E-03    1.251E-01    4.03E-04
+           GAMMA-RAY                      6   2.70E-02    1.794E-01    4.84E-03
+           K CONV. ELECTRON, GAMMA-RAY    6   3.80E-03    1.448E-01    5.50E-04
+           GAMMA-RAY                      7   2.46E-02    1.960E-01    4.83E-03
+           GAMMA-RAY                      8   7.33E-03    2.101E-01    1.54E-03
+           GAMMA-RAY                      9   7.73E-02    2.396E-01    1.85E-02
+           K CONV. ELECTRON, GAMMA-RAY    9   5.00E-03    2.050E-01    1.02E-03
+           GAMMA-RAY                     10   1.67E-02    2.702E-01    4.50E-03
+           K CONV. ELECTRON, GAMMA-RAY   10   7.84E-04    2.356E-01    1.85E-04
+           GAMMA-RAY                     11   1.66E-03    2.732E-01    4.55E-04
+           GAMMA-RAY                     12   1.43E-02    2.958E-01    4.24E-03
+           GAMMA-RAY                     13   3.66E-03    3.268E-01    1.20E-03
+           GAMMA-RAY                     14   2.33E-03    3.372E-01    7.86E-04
+           GAMMA-RAY                     15   3.00E-03    3.432E-01    1.03E-03
+           GAMMA-RAY                     16   2.33E-02    3.559E-01    8.30E-03
+           GAMMA-RAY                     17   2.00E-03    3.617E-01    7.23E-04
+           GAMMA-RAY                     18   3.66E-03    3.738E-01    1.37E-03
+           GAMMA-RAY                     19   2.66E-03    3.801E-01    1.01E-03
+           GAMMA-RAY                     20   2.33E-03    3.932E-01    9.17E-04
+           GAMMA-RAY                     21   4.66E-03    3.988E-01    1.86E-03
+           GAMMA-RAY                     22   3.63E-02    4.271E-01    1.55E-02
+           K CONV. ELECTRON, GAMMA-RAY   22   5.28E-04    3.925E-01    2.07E-04
+           GAMMA-RAY                     23   1.33E-03    4.454E-01    5.93E-04
+           GAMMA-RAY                     24   3.33E-03    4.501E-01    1.50E-03
+           GAMMA-RAY                     25   6.99E-03    4.566E-01    3.19E-03
+           GAMMA-RAY                     26   3.33E-03    4.566E-01    1.52E-03
+           GAMMA-RAY                     27   4.00E-03    4.660E-01    1.86E-03
+           GAMMA-RAY                     28   6.66E-03    4.816E-01    3.21E-03
+           GAMMA-RAY                     29   4.99E-03    4.861E-01    2.43E-03
+           GAMMA-RAY                     30   9.66E-03    4.976E-01    4.81E-03
+           GAMMA-RAY                     31   5.99E-03    5.426E-01    3.25E-03
+           GAMMA-RAY                     32   1.20E-02    5.530E-01    6.63E-03
+           GAMMA-RAY                     33   3.33E-03    5.583E-01    1.86E-03
+           GAMMA-RAY                     34   2.66E-03    5.645E-01    1.50E-03
+           GAMMA-RAY                     35   1.13E-02    6.199E-01    7.02E-03
+           GAMMA-RAY                     36   4.00E-03    6.468E-01    2.58E-03
+           GAMMA-RAY                     37   1.17E-02    6.611E-01    7.71E-03
+           GAMMA-RAY                     38   2.33E-03    6.748E-01    1.57E-03
+           GAMMA-RAY                     39   2.33E-03    6.823E-01    1.59E-03
+           GAMMA-RAY                     40   2.66E-03    6.905E-01    1.84E-03
+           GAMMA-RAY                     41   5.99E-03    6.965E-01    4.17E-03
+           GAMMA-RAY                     42   2.66E-03    7.979E-01    2.13E-03
+           GAMMA-RAY                     43   2.33E-03    8.419E-01    1.96E-03
+           GAMMA-RAY                     44   3.33E-03    8.505E-01    2.83E-03
+           GAMMA-RAY                     45   2.00E-03    8.672E-01    1.73E-03
+           GAMMA-RAY                     46   1.66E-03    8.812E-01    1.47E-03
+           GAMMA-RAY                     47   2.33E-03    8.916E-01    2.08E-03
+           GAMMA-RAY                     48   2.66E-03    9.002E-01    2.40E-03
+           GAMMA-RAY                     49   1.33E-03    9.054E-01    1.21E-03
+           GAMMA-RAY                     50   3.33E-03    9.143E-01    3.04E-03
+           GAMMA-RAY                     51   2.33E-03    9.226E-01    2.15E-03
+           GAMMA-RAY                     52   4.00E-03    9.366E-01    3.74E-03
+           GAMMA-RAY                     53   2.66E-03    9.492E-01    2.53E-03
+           GAMMA-RAY                     54   2.00E-03    9.863E-01    1.97E-03
+           GAMMA-RAY                     55   2.66E-03    1.060E+00    2.82E-03
+           GAMMA-RAY                     56   2.66E-03    1.077E+00    2.87E-03
+           GAMMA-RAY                     57   2.33E-03    1.115E+00    2.60E-03
+           GAMMA-RAY                     58   9.99E-03    1.140E+00    1.14E-02
+           GAMMA-RAY                     59   1.66E-03    1.180E+00    1.96E-03
+           GAMMA-RAY                     60   2.00E-03    1.255E+00    2.51E-03
+           GAMMA-RAY                     61   3.33E-03    1.276E+00    4.25E-03
+           GAMMA-RAY                     62   2.33E-03    1.396E+00    3.25E-03
+           GAMMA-RAY                     63   3.33E-03    1.417E+00    4.72E-03
+           GAMMA-RAY                     64   1.33E-02    1.433E+00    1.91E-02
+           GAMMA-RAY                     65   2.66E-03    1.458E+00    3.88E-03
+           GAMMA-RAY                     66   2.66E-03    1.498E+00    3.99E-03
+           GAMMA-RAY                     67   2.66E-03    1.511E+00    4.03E-03
+           K -L2 X-RAY                        4.62E-02    2.945E-02    1.36E-03
+           K -L3 X-RAY                        8.55E-02    2.978E-02    2.55E-03
+           K -M2 X-RAY                        8.03E-03    3.357E-02    2.69E-04
+           K -M3 X-RAY                        1.56E-02    3.363E-02    5.23E-04
+           AUGER KLL                          1.30E-02    2.447E-02*   3.18E-04
+           AUGER LMM                          1.32E-01    3.324E-03*   4.40E-04
+ 
+           ALL LISTED X-RAYS, GAMMA-RAYS AND ANNIHILATION RADIATION    1.17E+00
+           ALL NEGLECTED X-RAYS, GAMMA-RAYS AND ANNIH. RADIATION**     3.99E-04
+           ALL LISTED BETAS, INTERNAL CONVERSION AND AUGER ELECTRONS   1.74E+00
+           ALL NEGLECTED BETAS, INT. CONVERSION AND AUGER ELECTRONS**  2.39E-03
+           ALL LISTED RADIATIONS                                       2.91E+00
+           ALL NEGLECTED RADIATIONS**                                  2.78E-03
+ 
+           *  AVERAGE ENERGY (MEV)
+           ** EACH NEGLECTED TRANSITION CONTRIBUTES LESS THAN  0.010%
+              TO THE TOTAL MEV/TRANSFORMATION FOR THIS CATEGORY.
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 121-XENON
+             DAUGHTER IS 1.0000E+00 PER TRANSFORMATION OF 121-CESIUM.
+             DECAY OF THIS 40.1 MINUTES HALFLIFE LEVEL WILL CONTRIBUTE TO DOSE.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: May-2000
+%%%% 121 CS  55    EC B+        1.55000E+02   155 S    18-07-2007       OUTPEND 
+%%%% 121 CS  55    EC B+        1.55000E+02   155 S    18-07-2007       BETASTAR
+1
+              121-CESIUM-55
++                                    HALFLIFE = 155 SECONDS 
++                                                                  18-07-2007
+
+            BETA SPECTRUM DATA FOR ALL DECAY BRANCHES
+
+                      BETAS PER                BETAS PER                BETAS PER
+            ENERGY    MEV            ENERGY    MEV            ENERGY    MEV
+            (MEV)     PER DECAY      (MEV)     PER DECAY      (MEV)     PER DECAY
+
+            0.00000   0.000E+00      0.00360   4.476E-07      0.14000   2.546E-02
+            0.00010   0.000E+00      0.00400   7.949E-07      0.15000   2.837E-02
+            0.00011   0.000E+00      0.00450   1.445E-06      0.16000   3.132E-02
+            0.00012   0.000E+00      0.00500   2.383E-06      0.18000   3.734E-02
+            0.00013   0.000E+00      0.00550   3.660E-06      0.20000   4.347E-02
+            0.00014   0.000E+00      0.00600   5.323E-06      0.22000   4.968E-02
+            0.00015   0.000E+00      0.00650   7.416E-06      0.24000   5.595E-02
+            0.00016   0.000E+00      0.00700   9.984E-06      0.26000   6.226E-02
+            0.00018   0.000E+00      0.00750   1.307E-05      0.28000   6.861E-02
+            0.00020   0.000E+00      0.00800   1.671E-05      0.30000   7.497E-02
+            0.00022   0.000E+00      0.00850   2.094E-05      0.32000   8.134E-02
+            0.00024   0.000E+00      0.00900   2.579E-05      0.36000   9.408E-02
+            0.00026   0.000E+00      0.01000   3.752E-05      0.40000   1.068E-01
+            0.00028   0.000E+00      0.01100   5.215E-05      0.45000   1.225E-01
+            0.00030   0.000E+00      0.01200   6.989E-05      0.50000   1.381E-01
+            0.00032   0.000E+00      0.01300   9.095E-05      0.55000   1.535E-01
+            0.00036   0.000E+00      0.01400   1.155E-04      0.60000   1.686E-01
+            0.00040   3.506E-26      0.01500   1.437E-04      0.65000   1.834E-01
+            0.00045   4.812E-24      0.01600   1.756E-04      0.70000   1.978E-01
+            0.00050   3.353E-22      0.01800   2.512E-04      0.75000   2.119E-01
+            0.00055   1.287E-20      0.02000   3.430E-04      0.80000   2.255E-01
+            0.00060   2.956E-19      0.02200   4.513E-04      0.85000   2.387E-01
+            0.00065   4.386E-18      0.02400   5.764E-04      0.90000   2.514E-01
+            0.00070   4.505E-17      0.02600   7.184E-04      1.00000   2.752E-01
+            0.00075   3.402E-16      0.02800   8.770E-04      1.10000   2.967E-01
+            0.00080   1.985E-15      0.03000   1.052E-03      1.20000   3.158E-01
+            0.00085   9.334E-15      0.03200   1.244E-03      1.30000   3.324E-01
+            0.00090   3.660E-14      0.03600   1.674E-03      1.40000   3.462E-01
+            0.00100   3.632E-13      0.04000   2.164E-03      1.50000   3.573E-01
+            0.00110   2.301E-12      0.04500   2.857E-03      1.60000   3.655E-01
+            0.00120   1.046E-11      0.05000   3.631E-03      1.80000   3.733E-01
+            0.00130   3.696E-11      0.05500   4.479E-03      2.00000   3.696E-01
+            0.00140   1.076E-10      0.06000   5.394E-03      2.20000   3.550E-01
+            0.00150   2.693E-10      0.06500   6.371E-03      2.40000   3.303E-01
+            0.00160   5.966E-10      0.07000   7.403E-03      2.60000   2.969E-01
+            0.00180   2.220E-09      0.07500   8.484E-03      2.80000   2.566E-01
+            0.00200   6.309E-09      0.08000   9.611E-03      3.00000   2.117E-01
+            0.00220   1.481E-08      0.08500   1.078E-02      3.20000   1.647E-01
+            0.00240   3.022E-08      0.09000   1.198E-02      3.60000   7.675E-02
+            0.00260   5.545E-08      0.10000   1.449E-02      4.00000   1.776E-02
+            0.00280   9.375E-08      0.11000   1.711E-02      4.37800   0.000E+00
+            0.00300   1.485E-07      0.12000   1.982E-02
+            0.00320   2.234E-07      0.13000   2.261E-02
+
+            AVERAGE BETA ENERGY =   1.931E+00
+
+            TOTAL BETAS PER DECAY FOR ALL BRANCHES =   8.930E-01
+%%%% 121 CS  55    EC B+        1.55000E+02   155 S    18-07-2007       BETAEND 
+%%%% 121 CS  55    EC B+        1.55000E+02   155 S    18-07-2007       SEEISTAR
+121.  CESIUM       55.  1.550E+02 SECONDS  349 EC B+                121.CS 55.   0
+ 4 1  4.79904E-01  1.48045E+00  3.26040E+00  0.00000E+00            121.CS 55.   1   1
+ 4 2  1.89962E-01  1.56072E+00  3.43180E+00  0.00000E+00            121.CS 55.   2   2
+ 4 3  1.09978E+00  1.65879E+00  3.64056E+00  0.00000E+00            121.CS 55.   3   3
+ 4 4  1.61968E+00  1.67805E+00  3.68150E+00  0.00000E+00            121.CS 55.   4   4
+ 4 5  9.39812E-01  1.68469E+00  3.69559E+00  0.00000E+00            121.CS 55.   5   5
+ 4 6  2.19956E+00  1.69474E+00  3.71694E+00  0.00000E+00            121.CS 55.   6   6
+ 4 7  1.54969E+00  1.71413E+00  3.75809E+00  0.00000E+00            121.CS 55.   7   7
+ 4 8  2.99940E-01  1.74566E+00  3.82497E+00  0.00000E+00            121.CS 55.   8   8
+ 4 9  2.59948E-01  1.77201E+00  3.88080E+00  0.00000E+00            121.CS 55.   9   9
+ 410  3.85923E+00  1.79437E+00  3.92816E+00  0.00000E+00            121.CS 55.  10  10
+ 411  3.37932E+00  1.80511E+00  3.95088E+00  0.00000E+00            121.CS 55.  11  11
+ 412  3.53929E+00  1.83884E+00  4.02223E+00  0.00000E+00            121.CS 55.  12  12
+ 413  9.19816E+00  1.89374E+00  4.13823E+00  0.00000E+00            121.CS 55.  13  13
+ 414  1.16977E+01  1.93441E+00  4.22404E+00  0.00000E+00            121.CS 55.  14  14
+ 415  4.89902E+01  2.00747E+00  4.37800E+00  0.00000E+00            121.CS 55.  15  15
+ 3 3  1.78604E+02  5.11000E-01  5.11000E-01  0.00000E+00            121.CS 55.  16   3
+ 1 1  1.33200E-01  5.93000E-02  5.93000E-02  0.00000E+00            121.CS 55.  17   1
+ 1 2  2.06460E+00  8.59000E-02  8.59000E-02  0.00000E+00            121.CS 55.  18   2
+ 6 1  2.29426E+00  5.13440E-02  5.13440E-02  2.00000E+00            121.CS 55.  19   1
+ 6 5  2.80258E-01  8.04831E-02  8.04831E-02  2.00000E+00            121.CS 55.  20   5
+ 6 6  2.04970E-02  8.07961E-02  8.07961E-02  2.00000E+00            121.CS 55.  21   6
+ 6 7  4.83971E-03  8.11253E-02  8.11253E-02  2.00000E+00            121.CS 55.  22   7
+ 6 3  6.21234E-02  8.49734E-02  8.49734E-02  2.00000E+00            121.CS 55.  23   3
+ 6 4  1.56617E-02  8.59000E-02  8.59000E-02  2.00000E+00            121.CS 55.  24   4
+ 1 3  6.66000E-01  1.08000E-01  1.08000E-01  0.00000E+00            121.CS 55.  25   3
+ 6 1  3.84776E-01  7.34440E-02  7.34440E-02  3.00000E+00            121.CS 55.  26   1
+ 6 5  4.68078E-02  1.02583E-01  1.02583E-01  3.00000E+00            121.CS 55.  27   5
+ 6 6  3.31006E-03  1.02896E-01  1.02896E-01  3.00000E+00            121.CS 55.  28   6
+ 6 7  7.81265E-04  1.03225E-01  1.03225E-01  3.00000E+00            121.CS 55.  29   7
+ 6 3  1.04401E-02  1.07073E-01  1.07073E-01  3.00000E+00            121.CS 55.  30   3
+ 6 4  2.62062E-03  1.08000E-01  1.08000E-01  3.00000E+00            121.CS 55.  31   4
+ 1 4  1.51515E+01  1.53900E-01  1.53900E-01  0.00000E+00            121.CS 55.  32   4
+ 6 1  4.55556E+00  1.19344E-01  1.19344E-01  4.00000E+00            121.CS 55.  33   1
+ 6 5  4.47816E-01  1.48483E-01  1.48483E-01  4.00000E+00            121.CS 55.  34   5
+ 6 6  3.65034E-01  1.48796E-01  1.48796E-01  4.00000E+00            121.CS 55.  35   6
+ 6 7  3.71611E-01  1.49125E-01  1.49125E-01  4.00000E+00            121.CS 55.  36   7
+ 6 3  2.50703E-01  1.52973E-01  1.52973E-01  4.00000E+00            121.CS 55.  37   3
+ 6 4  5.98174E-02  1.53900E-01  1.53900E-01  4.00000E+00            121.CS 55.  38   4
+ 1 5  1.66500E+00  1.59700E-01  1.59700E-01  0.00000E+00            121.CS 55.  39   5
+ 6 1  3.22101E-01  1.25144E-01  1.25144E-01  5.00000E+00            121.CS 55.  40   1
+ 6 5  3.92057E-02  1.54283E-01  1.54283E-01  5.00000E+00            121.CS 55.  41   5
+ 6 6  2.55350E-03  1.54596E-01  1.54596E-01  5.00000E+00            121.CS 55.  42   6
+ 6 7  6.03144E-04  1.54925E-01  1.54925E-01  5.00000E+00            121.CS 55.  43   7
+ 6 3  8.64048E-03  1.58773E-01  1.58773E-01  5.00000E+00            121.CS 55.  44   3
+ 6 4  2.17355E-03  1.59700E-01  1.59700E-01  5.00000E+00            121.CS 55.  45   4
+ 1 6  2.69730E+00  1.79400E-01  1.79400E-01  0.00000E+00            121.CS 55.  46   6
+ 6 1  3.79694E-01  1.44844E-01  1.44844E-01  6.00000E+00            121.CS 55.  47   1
+ 6 5  4.61383E-02  1.73983E-01  1.73983E-01  6.00000E+00            121.CS 55.  48   5
+ 6 6  2.92234E-03  1.74296E-01  1.74296E-01  6.00000E+00            121.CS 55.  49   6
+ 6 7  6.90592E-04  1.74625E-01  1.74625E-01  6.00000E+00            121.CS 55.  50   7
+ 6 3  1.01398E-02  1.78473E-01  1.78473E-01  6.00000E+00            121.CS 55.  51   3
+ 6 4  2.55570E-03  1.79400E-01  1.79400E-01  6.00000E+00            121.CS 55.  52   4
+ 1 7  2.46420E+00  1.96000E-01  1.96000E-01  0.00000E+00            121.CS 55.  53   7
+ 6 1  6.94462E-02  1.61444E-01  1.61444E-01  7.00000E+00            121.CS 55.  54   1
+ 6 5  7.42737E-03  1.90583E-01  1.90583E-01  7.00000E+00            121.CS 55.  55   5
+ 6 6  6.41274E-04  1.90896E-01  1.90896E-01  7.00000E+00            121.CS 55.  56   6
+ 6 7  8.35645E-04  1.91225E-01  1.91225E-01  7.00000E+00            121.CS 55.  57   7
+ 6 3  1.80544E-03  1.95073E-01  1.95073E-01  7.00000E+00            121.CS 55.  58   3
+ 6 4  4.48582E-04  1.96000E-01  1.96000E-01  7.00000E+00            121.CS 55.  59   4
+ 1 8  7.32600E-01  2.10100E-01  2.10100E-01  0.00000E+00            121.CS 55.  60   8
+ 6 1  7.93505E-02  1.75544E-01  1.75544E-01  8.00000E+00            121.CS 55.  61   1
+ 6 5  8.17966E-03  2.04683E-01  2.04683E-01  8.00000E+00            121.CS 55.  62   5
+ 6 6  4.31684E-03  2.04996E-01  2.04996E-01  8.00000E+00            121.CS 55.  63   6
+ 6 7  3.98886E-03  2.05325E-01  2.05325E-01  8.00000E+00            121.CS 55.  64   7
+ 6 3  3.45752E-03  2.09173E-01  2.09173E-01  8.00000E+00            121.CS 55.  65   3
+ 6 4  8.34275E-04  2.10100E-01  2.10100E-01  8.00000E+00            121.CS 55.  66   4
+ 1 9  7.72560E+00  2.39600E-01  2.39600E-01  0.00000E+00            121.CS 55.  67   9
+ 6 1  4.99619E-01  2.05044E-01  2.05044E-01  9.00000E+00            121.CS 55.  68   1
+ 6 5  6.05079E-02  2.34183E-01  2.34183E-01  9.00000E+00            121.CS 55.  69   5
+ 6 6  3.53486E-03  2.34496E-01  2.34496E-01  9.00000E+00            121.CS 55.  70   6
+ 6 7  8.42426E-04  2.34825E-01  2.34825E-01  9.00000E+00            121.CS 55.  71   7
+ 6 3  1.31975E-02  2.38673E-01  2.38673E-01  9.00000E+00            121.CS 55.  72   3
+ 6 4  3.33330E-03  2.39600E-01  2.39600E-01  9.00000E+00            121.CS 55.  73   4
+ 110  1.66500E+00  2.70200E-01  2.70200E-01  0.00000E+00            121.CS 55.  74  10
+ 6 1  7.83813E-02  2.35644E-01  2.35644E-01  1.00000E+01            121.CS 55.  75   1
+ 6 5  9.48407E-03  2.64783E-01  2.64783E-01  1.00000E+01            121.CS 55.  76   5
+ 6 6  5.32948E-04  2.65096E-01  2.65096E-01  1.00000E+01            121.CS 55.  77   6
+ 6 7  1.28032E-04  2.65425E-01  2.65425E-01  1.00000E+01            121.CS 55.  78   7
+ 6 3  2.06310E-03  2.69273E-01  2.69273E-01  1.00000E+01            121.CS 55.  79   3
+ 6 4  5.20549E-04  2.70200E-01  2.70200E-01  1.00000E+01            121.CS 55.  80   4
+ 111  1.66500E-01  2.73200E-01  2.73200E-01  0.00000E+00            121.CS 55.  81  11
+ 6 1  7.61416E-03  2.38644E-01  2.38644E-01  1.10000E+01            121.CS 55.  82   1
+ 6 5  9.21223E-04  2.67783E-01  2.67783E-01  1.10000E+01            121.CS 55.  83   5
+ 6 6  5.15767E-05  2.68096E-01  2.68096E-01  1.10000E+01            121.CS 55.  84   6
+ 6 7  1.24009E-05  2.68425E-01  2.68425E-01  1.10000E+01            121.CS 55.  85   7
+ 6 3  2.00348E-04  2.72273E-01  2.72273E-01  1.10000E+01            121.CS 55.  86   3
+ 6 4  5.05456E-05  2.73200E-01  2.73200E-01  1.10000E+01            121.CS 55.  87   4
+ 112  1.43190E+00  2.95800E-01  2.95800E-01  0.00000E+00            121.CS 55.  88  12
+ 6 1  5.16153E-02  2.61244E-01  2.61244E-01  1.20000E+01            121.CS 55.  89   1
+ 6 5  5.56898E-03  2.90383E-01  2.90383E-01  1.20000E+01            121.CS 55.  90   5
+ 6 6  1.88257E-03  2.90696E-01  2.90696E-01  1.20000E+01            121.CS 55.  91   6
+ 6 7  1.55486E-03  2.91025E-01  2.91025E-01  1.20000E+01            121.CS 55.  92   7
+ 6 3  1.87175E-03  2.94873E-01  2.94873E-01  1.20000E+01            121.CS 55.  93   3
+ 6 4  4.57299E-04  2.95800E-01  2.95800E-01  1.20000E+01            121.CS 55.  94   4
+ 113  3.66300E-01  3.26800E-01  3.26800E-01  0.00000E+00            121.CS 55.  95  13
+ 6 1  9.68116E-03  2.92244E-01  2.92244E-01  1.30000E+01            121.CS 55.  96   1
+ 6 5  1.05623E-03  3.21383E-01  3.21383E-01  1.30000E+01            121.CS 55.  97   5
+ 6 6  3.14535E-04  3.21696E-01  3.21696E-01  1.30000E+01            121.CS 55.  98   6
+ 6 7  2.51527E-04  3.22025E-01  3.22025E-01  1.30000E+01            121.CS 55.  99   7
+ 6 3  3.36362E-04  3.25873E-01  3.25873E-01  1.30000E+01            121.CS 55. 100   3
+ 6 4  8.24479E-05  3.26800E-01  3.26800E-01  1.30000E+01            121.CS 55. 101   4
+ 114  2.33100E-01  3.37200E-01  3.37200E-01  0.00000E+00            121.CS 55. 102  14
+ 115  2.99700E-01  3.43200E-01  3.43200E-01  0.00000E+00            121.CS 55. 103  15
+ 6 1  6.81836E-03  3.08644E-01  3.08644E-01  1.50000E+01            121.CS 55. 104   1
+ 6 5  7.47509E-04  3.37783E-01  3.37783E-01  1.50000E+01            121.CS 55. 105   5
+ 6 6  2.09171E-04  3.38096E-01  3.38096E-01  1.50000E+01            121.CS 55. 106   6
+ 6 7  1.64673E-04  3.38425E-01  3.38425E-01  1.50000E+01            121.CS 55. 107   7
+ 6 3  2.32256E-04  3.42273E-01  3.42273E-01  1.50000E+01            121.CS 55. 108   3
+ 6 4  5.70072E-05  3.43200E-01  3.43200E-01  1.50000E+01            121.CS 55. 109   4
+ 116  2.33100E+00  3.55900E-01  3.55900E-01  0.00000E+00            121.CS 55. 110  16
+ 6 1  1.36167E-02  3.21344E-01  3.21344E-01  1.60000E+01            121.CS 55. 111   1
+ 6 5  1.51449E-03  3.50483E-01  3.50483E-01  1.60000E+01            121.CS 55. 112   5
+ 6 6  8.57853E-05  3.50796E-01  3.50796E-01  1.60000E+01            121.CS 55. 113   6
+ 6 7  1.09747E-04  3.51125E-01  3.51125E-01  1.60000E+01            121.CS 55. 114   7
+ 6 3  3.45694E-04  3.54973E-01  3.54973E-01  1.60000E+01            121.CS 55. 115   3
+ 6 4  8.65006E-05  3.55900E-01  3.55900E-01  1.60000E+01            121.CS 55. 116   4
+ 117  1.99800E-01  3.61700E-01  3.61700E-01  0.00000E+00            121.CS 55. 117  17
+ 118  3.66300E-01  3.73800E-01  3.73800E-01  0.00000E+00            121.CS 55. 118  18
+ 6 1  6.44109E-03  3.39244E-01  3.39244E-01  1.80000E+01            121.CS 55. 119   1
+ 6 5  7.11692E-04  3.68383E-01  3.68383E-01  1.80000E+01            121.CS 55. 120   5
+ 6 6  1.78672E-04  3.68696E-01  3.68696E-01  1.80000E+01            121.CS 55. 121   6
+ 6 7  1.36950E-04  3.69025E-01  3.69025E-01  1.80000E+01            121.CS 55. 122   7
+ 6 3  2.12418E-04  3.72873E-01  3.72873E-01  1.80000E+01            121.CS 55. 123   3
+ 6 4  5.22526E-05  3.73800E-01  3.73800E-01  1.80000E+01            121.CS 55. 124   4
+ 119  2.66400E-01  3.80100E-01  3.80100E-01  0.00000E+00            121.CS 55. 125  19
+ 6 1  4.45682E-03  3.45544E-01  3.45544E-01  1.90000E+01            121.CS 55. 126   1
+ 6 5  4.93155E-04  3.74683E-01  3.74683E-01  1.90000E+01            121.CS 55. 127   5
+ 6 6  1.21205E-04  3.74996E-01  3.74996E-01  1.90000E+01            121.CS 55. 128   6
+ 6 7  9.24262E-05  3.75325E-01  3.75325E-01  1.90000E+01            121.CS 55. 129   7
+ 6 3  1.46096E-04  3.79173E-01  3.79173E-01  1.90000E+01            121.CS 55. 130   3
+ 6 4  3.59527E-05  3.80100E-01  3.80100E-01  1.90000E+01            121.CS 55. 131   4
+ 120  2.33100E-01  3.93200E-01  3.93200E-01  0.00000E+00            121.CS 55. 132  20
+ 6 1  3.52739E-03  3.58644E-01  3.58644E-01  2.00000E+01            121.CS 55. 133   1
+ 6 5  3.91418E-04  3.87783E-01  3.87783E-01  2.00000E+01            121.CS 55. 134   5
+ 6 6  9.21411E-05  3.88096E-01  3.88096E-01  2.00000E+01            121.CS 55. 135   6
+ 6 7  6.95428E-05  3.88425E-01  3.88425E-01  2.00000E+01            121.CS 55. 136   7
+ 6 3  1.14258E-04  3.92273E-01  3.92273E-01  2.00000E+01            121.CS 55. 137   3
+ 6 4  2.81403E-05  3.93200E-01  3.93200E-01  2.00000E+01            121.CS 55. 138   4
+ 121  4.66200E-01  3.98800E-01  3.98800E-01  0.00000E+00            121.CS 55. 139  21
+ 6 1  6.76715E-03  3.64244E-01  3.64244E-01  2.10000E+01            121.CS 55. 140   1
+ 6 5  7.51780E-04  3.93383E-01  3.93383E-01  2.10000E+01            121.CS 55. 141   5
+ 6 6  1.73813E-04  3.93696E-01  3.93696E-01  2.10000E+01            121.CS 55. 142   6
+ 6 7  1.30627E-04  3.94025E-01  3.94025E-01  2.10000E+01            121.CS 55. 143   7
+ 6 3  2.18134E-04  3.97873E-01  3.97873E-01  2.10000E+01            121.CS 55. 144   3
+ 6 4  5.37415E-05  3.98800E-01  3.98800E-01  2.10000E+01            121.CS 55. 145   4
+ 122  3.62970E+00  4.27100E-01  4.27100E-01  0.00000E+00            121.CS 55. 146  22
+ 6 1  5.28455E-02  3.92544E-01  3.92544E-01  2.20000E+01            121.CS 55. 147   1
+ 6 5  6.34241E-03  4.21683E-01  4.21683E-01  2.20000E+01            121.CS 55. 148   5
+ 6 6  3.02261E-04  4.21996E-01  4.21996E-01  2.20000E+01            121.CS 55. 149   6
+ 6 7  7.61852E-05  4.22325E-01  4.22325E-01  2.20000E+01            121.CS 55. 150   7
+ 6 3  1.36566E-03  4.26173E-01  4.26173E-01  2.20000E+01            121.CS 55. 151   3
+ 6 4  3.44417E-04  4.27100E-01  4.27100E-01  2.20000E+01            121.CS 55. 152   4
+ 123  1.33200E-01  4.45400E-01  4.45400E-01  0.00000E+00            121.CS 55. 153  23
+ 124  3.33000E-01  4.50100E-01  4.50100E-01  0.00000E+00            121.CS 55. 154  24
+ 6 1  4.25332E-03  4.15544E-01  4.15544E-01  2.40000E+01            121.CS 55. 155   1
+ 6 5  5.09915E-04  4.44683E-01  4.44683E-01  2.40000E+01            121.CS 55. 156   5
+ 6 6  2.38034E-05  4.44996E-01  4.44996E-01  2.40000E+01            121.CS 55. 157   6
+ 6 7  6.04586E-06  4.45325E-01  4.45325E-01  2.40000E+01            121.CS 55. 158   7
+ 6 3  1.09648E-04  4.49173E-01  4.49173E-01  2.40000E+01            121.CS 55. 159   3
+ 6 4  2.76645E-05  4.50100E-01  4.50100E-01  2.40000E+01            121.CS 55. 160   4
+ 125  6.99300E-01  4.56600E-01  4.56600E-01  0.00000E+00            121.CS 55. 161  25
+ 6 1  6.86978E-03  4.22044E-01  4.22044E-01  2.50000E+01            121.CS 55. 162   1
+ 6 5  7.70858E-04  4.51183E-01  4.51183E-01  2.50000E+01            121.CS 55. 163   5
+ 6 6  1.49886E-04  4.51496E-01  4.51496E-01  2.50000E+01            121.CS 55. 164   6
+ 6 7  1.08313E-04  4.51825E-01  4.51825E-01  2.50000E+01            121.CS 55. 165   7
+ 6 3  2.12027E-04  4.55673E-01  4.55673E-01  2.50000E+01            121.CS 55. 166   3
+ 6 4  5.23947E-05  4.56600E-01  4.56600E-01  2.50000E+01            121.CS 55. 167   4
+ 126  3.33000E-01  4.56600E-01  4.56600E-01  0.00000E+00            121.CS 55. 168  26
+ 6 1  3.27132E-03  4.22044E-01  4.22044E-01  2.60000E+01            121.CS 55. 169   1
+ 6 5  3.67075E-04  4.51183E-01  4.51183E-01  2.60000E+01            121.CS 55. 170   5
+ 6 6  7.13742E-05  4.51496E-01  4.51496E-01  2.60000E+01            121.CS 55. 171   6
+ 6 7  5.15778E-05  4.51825E-01  4.51825E-01  2.60000E+01            121.CS 55. 172   7
+ 6 3  1.00965E-04  4.55673E-01  4.55673E-01  2.60000E+01            121.CS 55. 173   3
+ 6 4  2.49499E-05  4.56600E-01  4.56600E-01  2.60000E+01            121.CS 55. 174   4
+ 127  3.99600E-01  4.66000E-01  4.66000E-01  0.00000E+00            121.CS 55. 175  27
+ 6 1  3.70635E-03  4.31444E-01  4.31444E-01  2.70000E+01            121.CS 55. 176   1
+ 6 5  4.16456E-04  4.60583E-01  4.60583E-01  2.70000E+01            121.CS 55. 177   5
+ 6 6  7.88787E-05  4.60896E-01  4.60896E-01  2.70000E+01            121.CS 55. 178   6
+ 6 7  5.66807E-05  4.61225E-01  4.61225E-01  2.70000E+01            121.CS 55. 179   7
+ 6 3  1.13698E-04  4.65073E-01  4.65073E-01  2.70000E+01            121.CS 55. 180   3
+ 6 4  2.81088E-05  4.66000E-01  4.66000E-01  2.70000E+01            121.CS 55. 181   4
+ 128  6.66000E-01  4.81600E-01  4.81600E-01  0.00000E+00            121.CS 55. 182  28
+ 6 1  5.63854E-03  4.47044E-01  4.47044E-01  2.80000E+01            121.CS 55. 183   1
+ 6 5  6.34935E-04  4.76183E-01  4.76183E-01  2.80000E+01            121.CS 55. 184   5
+ 6 6  1.15161E-04  4.76496E-01  4.76496E-01  2.80000E+01            121.CS 55. 185   6
+ 6 7  8.19948E-05  4.76825E-01  4.76825E-01  2.80000E+01            121.CS 55. 186   7
+ 6 3  1.71252E-04  4.80673E-01  4.80673E-01  2.80000E+01            121.CS 55. 187   3
+ 6 4  4.23726E-05  4.81600E-01  4.81600E-01  2.80000E+01            121.CS 55. 188   4
+ 129  4.99500E-01  4.86100E-01  4.86100E-01  0.00000E+00            121.CS 55. 189  29
+ 6 1  4.12172E-03  4.51544E-01  4.51544E-01  2.90000E+01            121.CS 55. 190   1
+ 6 5  4.64407E-04  4.80683E-01  4.80683E-01  2.90000E+01            121.CS 55. 191   5
+ 6 6  8.32101E-05  4.80996E-01  4.80996E-01  2.90000E+01            121.CS 55. 192   6
+ 6 7  5.90959E-05  4.81325E-01  4.81325E-01  2.90000E+01            121.CS 55. 193   7
+ 6 3  1.24842E-04  4.85173E-01  4.85173E-01  2.90000E+01            121.CS 55. 194   3
+ 6 4  3.08964E-05  4.86100E-01  4.86100E-01  2.90000E+01            121.CS 55. 195   4
+ 130  9.65700E-01  4.97600E-01  4.97600E-01  0.00000E+00            121.CS 55. 196  30
+ 6 1  7.47304E-03  4.63044E-01  4.63044E-01  3.00000E+01            121.CS 55. 197   1
+ 6 5  8.43234E-04  4.92183E-01  4.92183E-01  3.00000E+01            121.CS 55. 198   5
+ 6 6  1.46517E-04  4.92496E-01  4.92496E-01  3.00000E+01            121.CS 55. 199   6
+ 6 7  1.03404E-04  4.92825E-01  4.92825E-01  3.00000E+01            121.CS 55. 200   7
+ 6 3  2.24821E-04  4.96673E-01  4.96673E-01  3.00000E+01            121.CS 55. 201   3
+ 6 4  5.56715E-05  4.97600E-01  4.97600E-01  3.00000E+01            121.CS 55. 202   4
+ 131  5.99400E-01  5.42600E-01  5.42600E-01  0.00000E+00            121.CS 55. 203  31
+ 6 1  3.67170E-03  5.08044E-01  5.08044E-01  3.10000E+01            121.CS 55. 204   1
+ 6 5  4.16378E-04  5.37183E-01  5.37183E-01  3.10000E+01            121.CS 55. 205   5
+ 6 6  6.45389E-05  5.37496E-01  5.37496E-01  3.10000E+01            121.CS 55. 206   6
+ 6 7  4.45499E-05  5.37825E-01  5.37825E-01  3.10000E+01            121.CS 55. 207   7
+ 6 3  1.07863E-04  5.41673E-01  5.41673E-01  3.10000E+01            121.CS 55. 208   3
+ 6 4  2.67672E-05  5.42600E-01  5.42600E-01  3.10000E+01            121.CS 55. 209   4
+ 132  1.19880E+00  5.53000E-01  5.53000E-01  0.00000E+00            121.CS 55. 210  32
+ 6 1  6.98241E-03  5.18444E-01  5.18444E-01  3.20000E+01            121.CS 55. 211   1
+ 6 5  7.92623E-04  5.47583E-01  5.47583E-01  3.20000E+01            121.CS 55. 212   5
+ 6 6  1.19806E-04  5.47896E-01  5.47896E-01  3.20000E+01            121.CS 55. 213   6
+ 6 7  8.23208E-05  5.48225E-01  5.48225E-01  3.20000E+01            121.CS 55. 214   7
+ 6 3  2.04109E-04  5.52073E-01  5.52073E-01  3.20000E+01            121.CS 55. 215   3
+ 6 4  5.06758E-05  5.53000E-01  5.53000E-01  3.20000E+01            121.CS 55. 216   4
+ 133  3.33000E-01  5.58300E-01  5.58300E-01  0.00000E+00            121.CS 55. 217  33
+ 6 1  1.89127E-03  5.23744E-01  5.23744E-01  3.30000E+01            121.CS 55. 218   1
+ 6 5  2.14799E-04  5.52883E-01  5.52883E-01  3.30000E+01            121.CS 55. 219   5
+ 6 6  3.20593E-05  5.53196E-01  5.53196E-01  3.30000E+01            121.CS 55. 220   6
+ 6 7  2.19785E-05  5.53525E-01  5.53525E-01  3.30000E+01            121.CS 55. 221   7
+ 6 3  5.51503E-05  5.57373E-01  5.57373E-01  3.30000E+01            121.CS 55. 222   3
+ 6 4  1.36959E-05  5.58300E-01  5.58300E-01  3.30000E+01            121.CS 55. 223   4
+ 134  2.66400E-01  5.64500E-01  5.64500E-01  0.00000E+00            121.CS 55. 224  34
+ 6 1  1.46963E-03  5.29944E-01  5.29944E-01  3.40000E+01            121.CS 55. 225   1
+ 6 5  1.67007E-04  5.59083E-01  5.59083E-01  3.40000E+01            121.CS 55. 226   5
+ 6 6  2.45636E-05  5.59396E-01  5.59396E-01  3.40000E+01            121.CS 55. 227   6
+ 6 7  1.67962E-05  5.59725E-01  5.59725E-01  3.40000E+01            121.CS 55. 228   7
+ 6 3  4.27350E-05  5.63573E-01  5.63573E-01  3.40000E+01            121.CS 55. 229   3
+ 6 4  1.06157E-05  5.64500E-01  5.64500E-01  3.40000E+01            121.CS 55. 230   4
+ 135  1.13220E+00  6.19900E-01  6.19900E-01  0.00000E+00            121.CS 55. 231  35
+ 6 1  4.90070E-03  5.85344E-01  5.85344E-01  3.50000E+01            121.CS 55. 232   1
+ 6 5  5.59392E-04  6.14483E-01  6.14483E-01  3.50000E+01            121.CS 55. 233   5
+ 6 6  7.26408E-05  6.14796E-01  6.14796E-01  3.50000E+01            121.CS 55. 234   6
+ 6 7  4.86296E-05  6.15125E-01  6.15125E-01  3.50000E+01            121.CS 55. 235   7
+ 6 3  1.39332E-04  6.18973E-01  6.18973E-01  3.50000E+01            121.CS 55. 236   3
+ 6 4  3.46947E-05  6.19900E-01  6.19900E-01  3.50000E+01            121.CS 55. 237   4
+ 136  3.99600E-01  6.46800E-01  6.46800E-01  0.00000E+00            121.CS 55. 238  36
+ 137  1.16550E+00  6.61100E-01  6.61100E-01  0.00000E+00            121.CS 55. 239  37
+ 6 1  4.28809E-03  6.26544E-01  6.26544E-01  3.70000E+01            121.CS 55. 240   1
+ 6 5  4.90784E-04  6.55683E-01  6.55683E-01  3.70000E+01            121.CS 55. 241   5
+ 6 6  5.84848E-05  6.55996E-01  6.55996E-01  3.70000E+01            121.CS 55. 242   6
+ 6 7  3.86939E-05  6.56325E-01  6.56325E-01  3.70000E+01            121.CS 55. 243   7
+ 6 3  1.20208E-04  6.60173E-01  6.60173E-01  3.70000E+01            121.CS 55. 244   3
+ 6 4  2.99847E-05  6.61100E-01  6.61100E-01  3.70000E+01            121.CS 55. 245   4
+ 138  2.33100E-01  6.74800E-01  6.74800E-01  0.00000E+00            121.CS 55. 246  38
+ 139  2.33100E-01  6.82300E-01  6.82300E-01  0.00000E+00            121.CS 55. 247  39
+ 6 1  7.92879E-04  6.47744E-01  6.47744E-01  3.90000E+01            121.CS 55. 248   1
+ 6 5  9.08574E-05  6.76883E-01  6.76883E-01  3.90000E+01            121.CS 55. 249   5
+ 6 6  1.03796E-05  6.77196E-01  6.77196E-01  3.90000E+01            121.CS 55. 250   6
+ 6 7  6.83172E-06  6.77525E-01  6.77525E-01  3.90000E+01            121.CS 55. 251   7
+ 6 3  2.20821E-05  6.81373E-01  6.81373E-01  3.90000E+01            121.CS 55. 252   3
+ 6 4  5.51296E-06  6.82300E-01  6.82300E-01  3.90000E+01            121.CS 55. 253   4
+ 140  2.66400E-01  6.90500E-01  6.90500E-01  0.00000E+00            121.CS 55. 254  40
+ 141  5.99400E-01  6.96500E-01  6.96500E-01  0.00000E+00            121.CS 55. 255  41
+ 6 1  1.93791E-03  6.61944E-01  6.61944E-01  4.10000E+01            121.CS 55. 256   1
+ 6 5  2.22238E-04  6.91083E-01  6.91083E-01  4.10000E+01            121.CS 55. 257   5
+ 6 6  2.46964E-05  6.91396E-01  6.91396E-01  4.10000E+01            121.CS 55. 258   6
+ 6 7  1.62044E-05  6.91725E-01  6.91725E-01  4.10000E+01            121.CS 55. 259   7
+ 6 3  5.37576E-05  6.95573E-01  6.95573E-01  4.10000E+01            121.CS 55. 260   3
+ 6 4  1.34278E-05  6.96500E-01  6.96500E-01  4.10000E+01            121.CS 55. 261   4
+ 142  2.66400E-01  7.97900E-01  7.97900E-01  0.00000E+00            121.CS 55. 262  42
+ 143  2.33100E-01  8.41900E-01  8.41900E-01  0.00000E+00            121.CS 55. 263  43
+ 144  3.33000E-01  8.50500E-01  8.50500E-01  0.00000E+00            121.CS 55. 264  44
+ 145  1.99800E-01  8.67200E-01  8.67200E-01  0.00000E+00            121.CS 55. 265  45
+ 146  1.66500E-01  8.81200E-01  8.81200E-01  0.00000E+00            121.CS 55. 266  46
+ 147  2.33100E-01  8.91600E-01  8.91600E-01  0.00000E+00            121.CS 55. 267  47
+ 148  2.66400E-01  9.00200E-01  9.00200E-01  0.00000E+00            121.CS 55. 268  48
+ 149  1.33200E-01  9.05400E-01  9.05400E-01  0.00000E+00            121.CS 55. 269  49
+ 150  3.33000E-01  9.14300E-01  9.14300E-01  0.00000E+00            121.CS 55. 270  50
+ 151  2.33100E-01  9.22600E-01  9.22600E-01  0.00000E+00            121.CS 55. 271  51
+ 152  3.99600E-01  9.36600E-01  9.36600E-01  0.00000E+00            121.CS 55. 272  52
+ 153  2.66400E-01  9.49200E-01  9.49200E-01  0.00000E+00            121.CS 55. 273  53
+ 154  1.99800E-01  9.86300E-01  9.86300E-01  0.00000E+00            121.CS 55. 274  54
+ 155  2.66400E-01  1.06030E+00  1.06030E+00  0.00000E+00            121.CS 55. 275  55
+ 156  2.66400E-01  1.07670E+00  1.07670E+00  0.00000E+00            121.CS 55. 276  56
+ 157  2.33100E-01  1.11500E+00  1.11500E+00  0.00000E+00            121.CS 55. 277  57
+ 158  9.99000E-01  1.14030E+00  1.14030E+00  0.00000E+00            121.CS 55. 278  58
+ 159  1.66500E-01  1.17980E+00  1.17980E+00  0.00000E+00            121.CS 55. 279  59
+ 160  1.99800E-01  1.25520E+00  1.25520E+00  0.00000E+00            121.CS 55. 280  60
+ 161  3.33000E-01  1.27640E+00  1.27640E+00  0.00000E+00            121.CS 55. 281  61
+ 162  2.33100E-01  1.39620E+00  1.39620E+00  0.00000E+00            121.CS 55. 282  62
+ 163  3.33000E-01  1.41650E+00  1.41650E+00  0.00000E+00            121.CS 55. 283  63
+ 164  1.33200E+00  1.43270E+00  1.43270E+00  0.00000E+00            121.CS 55. 284  64
+ 165  2.66400E-01  1.45800E+00  1.45800E+00  0.00000E+00            121.CS 55. 285  65
+ 166  2.66400E-01  1.49770E+00  1.49770E+00  0.00000E+00            121.CS 55. 286  66
+ 167  2.66400E-01  1.51110E+00  1.51110E+00  0.00000E+00            121.CS 55. 287  67
+ 2 1  4.61827E+00  2.94521E-02  2.94521E-02  0.00000E+00            121.CS 55. 288   1
+ 2 2  8.55281E+00  2.97812E-02  2.97812E-02  0.00000E+00            121.CS 55. 289   2
+ 2 3  8.02872E-01  3.35665E-02  3.35665E-02  0.00000E+00            121.CS 55. 290   3
+ 2 4  1.55653E+00  3.36295E-02  3.36295E-02  0.00000E+00            121.CS 55. 291   4
+ 2 5  7.91957E-03  3.38651E-02  3.38651E-02  0.00000E+00            121.CS 55. 292   5
+ 2 6  1.08155E-02  3.38785E-02  3.38785E-02  0.00000E+00            121.CS 55. 293   6
+ 2 7  1.68334E-01  3.43952E-02  3.43952E-02  0.00000E+00            121.CS 55. 294   7
+ 2 8  3.28308E-01  3.44080E-02  3.44080E-02  0.00000E+00            121.CS 55. 295   8
+ 2 9  1.47630E-03  3.44862E-02  3.44862E-02  0.00000E+00            121.CS 55. 296   9
+ 210  2.01227E-03  3.44882E-02  3.44882E-02  0.00000E+00            121.CS 55. 297  10
+ 211  1.72517E-02  3.45436E-02  3.45436E-02  0.00000E+00            121.CS 55. 298  11
+ 212  3.26215E-02  3.45450E-02  3.45450E-02  0.00000E+00            121.CS 55. 299  12
+ 221  6.04841E-05  3.13000E-04  3.13000E-04  0.00000E+00            121.CS 55. 300  21
+ 222  1.13813E-03  6.42201E-04  6.42201E-04  0.00000E+00            121.CS 55. 301  22
+ 223  4.23237E-02  4.42743E-03  4.42743E-03  0.00000E+00            121.CS 55. 302  23
+ 224  6.66911E-02  4.49034E-03  4.49034E-03  0.00000E+00            121.CS 55. 303  24
+ 225  6.30571E-04  4.72599E-03  4.72599E-03  0.00000E+00            121.CS 55. 304  25
+ 226  9.41345E-04  4.73937E-03  4.73937E-03  0.00000E+00            121.CS 55. 305  26
+ 227  9.12324E-03  5.25621E-03  5.25621E-03  0.00000E+00            121.CS 55. 306  27
+ 228  1.47519E-02  5.26892E-03  5.26892E-03  0.00000E+00            121.CS 55. 307  28
+ 229  7.66966E-05  5.34706E-03  5.34706E-03  0.00000E+00            121.CS 55. 308  29
+ 230  1.16499E-04  5.34913E-03  5.34913E-03  0.00000E+00            121.CS 55. 309  30
+ 231  1.03698E-03  5.40455E-03  5.40455E-03  0.00000E+00            121.CS 55. 310  31
+ 232  1.61048E-03  5.40593E-03  5.40593E-03  0.00000E+00            121.CS 55. 311  32
+ 241  4.59833E-07  3.29200E-04  3.29200E-04  0.00000E+00            121.CS 55. 312  41
+ 242  2.63079E-02  3.98191E-03  3.98191E-03  0.00000E+00            121.CS 55. 313  42
+ 243  3.80285E-04  4.17734E-03  4.17734E-03  0.00000E+00            121.CS 55. 314  43
+ 244  4.89088E-01  4.41300E-03  4.41300E-03  0.00000E+00            121.CS 55. 315  44
+ 245  3.75337E-03  4.89553E-03  4.89553E-03  0.00000E+00            121.CS 55. 316  45
+ 246  4.70285E-05  4.95593E-03  4.95593E-03  0.00000E+00            121.CS 55. 317  46
+ 247  7.30122E-02  5.03405E-03  5.03405E-03  0.00000E+00            121.CS 55. 318  47
+ 249  4.50490E-04  5.08031E-03  5.08031E-03  0.00000E+00            121.CS 55. 319  49
+ 250  5.13742E-06  5.09294E-03  5.09294E-03  0.00000E+00            121.CS 55. 320  50
+ 261  9.11916E-02  3.65269E-03  3.65269E-03  0.00000E+00            121.CS 55. 321  61
+ 262  5.03451E-04  3.78523E-03  3.78523E-03  0.00000E+00            121.CS 55. 322  62
+ 263  4.68723E-04  3.84813E-03  3.84813E-03  0.00000E+00            121.CS 55. 323  63
+ 264  9.31580E-02  4.08379E-03  4.08379E-03  0.00000E+00            121.CS 55. 324  64
+ 265  8.25641E-01  4.09719E-03  4.09719E-03  0.00000E+00            121.CS 55. 325  65
+ 266  8.03408E-03  4.56632E-03  4.56632E-03  0.00000E+00            121.CS 55. 326  66
+ 267  4.43081E-05  4.61402E-03  4.61402E-03  0.00000E+00            121.CS 55. 327  67
+ 268  4.25146E-05  4.62673E-03  4.62673E-03  0.00000E+00            121.CS 55. 328  68
+ 269  1.35478E-02  4.70486E-03  4.70486E-03  0.00000E+00            121.CS 55. 329  69
+ 270  1.20815E-01  4.70692E-03  4.70692E-03  0.00000E+00            121.CS 55. 330  70
+ 273  1.13115E-03  4.75109E-03  4.75109E-03  0.00000E+00            121.CS 55. 331  73
+ 274  5.01120E-06  4.76235E-03  4.76235E-03  0.00000E+00            121.CS 55. 332  74
+ 275  4.62694E-06  4.76373E-03  4.76373E-03  0.00000E+00            121.CS 55. 333  75
+ 291  1.04157E-01  6.08305E-04  6.08305E-04  0.00000E+00            121.CS 55. 334  91
+ 292  2.55362E-03  9.22488E-05  9.22488E-05  0.00000E+00            121.CS 55. 335  92
+ 294  2.56974E+02  1.66174E-05  1.66174E-05  0.00000E+00            121.CS 55. 336  94
+ 7 1  1.29842E+00  2.44715E-02  2.44715E-02  0.00000E+00            121.CS 55. 337   1
+ 7 2  5.80883E-01  2.86854E-02  2.86854E-02  0.00000E+00            121.CS 55. 338   2
+ 7 3  6.24392E-02  3.29032E-02  3.29032E-02  0.00000E+00            121.CS 55. 339   3
+ 7 4  2.77544E+00  3.17372E-04  3.17372E-04  0.00000E+00            121.CS 55. 340   4
+ 7 5  1.32272E+01  3.32390E-03  3.32390E-03  0.00000E+00            121.CS 55. 341   5
+ 7 6  3.92346E+00  4.00089E-03  4.00089E-03  0.00000E+00            121.CS 55. 342   6
+ 7 7  2.97944E-01  4.70468E-03  4.70468E-03  0.00000E+00            121.CS 55. 343   7
+ 7 8  1.50229E+01  1.23828E-04  1.23828E-04  0.00000E+00            121.CS 55. 344   8
+ 7 9  3.35737E+01  5.05044E-04  5.05044E-04  0.00000E+00            121.CS 55. 345   9
+ 710  1.92045E+00  6.17087E-04  6.17087E-04  0.00000E+00            121.CS 55. 346  10
+ 711  1.29071E-02  7.66951E-04  7.66951E-04  0.00000E+00            121.CS 55. 347  11
+ 712  4.00072E+01  2.61519E-05  2.61519E-05  0.00000E+00            121.CS 55. 348  12
+ 713  1.22241E+02  3.62372E-05  3.62372E-05  0.00000E+00            121.CS 55. 349  13
+%%%% 121 CS  55    EC B+        1.55000E+02   155 S    18-07-2007       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   1.50808E-01
+    X-ray                           (MeV) =   4.97718E-03
+    Free-bound X-ray                (MeV) =   4.27024E-05
+    Annihilation photon             (MeV) =   9.12668E-01
+    Beta+ particle                  (MeV) =   1.72427E+00
+    Neutrino                        (MeV) =   2.59339E+00
+    Beta- particle                  (MeV) =   0.00000E+00
+    Neutrino-                       (MeV) =   0.00000E+00
+    Internal conv. electron         (MeV) =   1.34019E-02
+    Auger and CK electron           (MeV) =   1.37925E-03
+    Alpha particle                  (MeV) =   0.00000E+00
+    Recoil nucleus                  (MeV) =   0.00000E+00
+  E-total (except unplaced radiat.) (MeV) =   5.40095E+00
+  E-unplaced radiation              (MeV) =   1.04779E-01
+  Q-value from ENSDF data           (MeV) =   5.40000E+00
+  Ratio of E-total/Q-value          ( % ) =   1.00018E+02
+  Ratio of E-unplaced radi./Q-value ( % ) =   1.94034E+00
+
+ 
+  Total yield of
+    Gamma-ray                             =   5.38128E-01
+    X-ray                                 =   1.80921E-01
+    Free-bound X-ray                      =   2.56974E+00
+    Annihilation photon                   =   1.78604E+00
+    Beta+ particle                        =   8.93022E-01
+    Beta- particle                        =   0.00000E+00
+    Internal conv. electron               =   1.11137E-01
+    Auger and CK electron                 =   2.34944E+00
+    Alpha particle                        =   0.00000E+00
+  Yield of unplaced radiation             =   1.00233E-01
+
+
+%%%% 121 CS  55 M  EC B+ IT     1.22000E+02   122 S    18-07-2007       BALASTAR
+1 121M  CS  55   122 S         EC B+ IT   
+           WARNING:                                                                             
+ 121 XE 54  GAMMA-RAY ENERGY =   0.03030 MEV                                                    
+           HALF-LIFE OF INITIAL LEVEL ASSOCIATED WITH GAMMA-RAY TOO SHORT TO BE                 
+           CONSIDERED ISOMERIC, AND INTENSITY = 0.0                                             
+           TRANSITION IGNORED                                                                   
+1INTENSITY AND ENERGY BALANCE DATA
+
+              121M-CESIUM-55
++                                    HALFLIFE = 122 SECONDS 
++                                                                  18-07-2007
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  8.2975E+01
+   1.5395E-01  1.6498E+00  1.6411E+00  5.2992E-01                      
+   1.7948E-01  3.5273E+01  3.5157E+01  3.2839E-01                      
+   1.9601E-01  2.5433E+01  2.4923E+01  2.0258E+00                      
+   2.3452E-01  9.9461E+00  1.0018E+01  7.2420E-01                      
+   2.3974E-01  2.9434E+00  2.9550E+00  3.9440E-01                      
+   2.6450E-01  1.5962E-01  4.1204E-01  8.8309E+01  ********************
+   4.1417E-01  7.1986E+00  7.2616E+00  8.7147E-01                      
+   4.2712E-01  2.2594E+00  2.2564E+00  1.3211E-01                      
+   4.4985E-01  1.3784E+00  1.3643E+00  1.0270E+00                      
+   4.5950E-01  1.5421E+01  1.5440E+01  1.2355E-01                      
+   4.7610E-01  1.6047E+00  1.6416E+00  2.2705E+00                      
+   5.6083E-01  4.0908E+00  4.0800E+00  2.6474E-01                      
+   5.9260E-01  7.3115E-01  7.4262E-01  1.5565E+00                      
+   6.0830E-01  4.4130E-01  4.5002E-01  1.9575E+00                      
+   6.4610E-01  1.3058E+00  1.3190E+00  9.9925E-01                      
+   6.5760E-01  3.3900E-01  3.7713E-01  1.0649E+01  ********************
+   6.6100E-01  3.1493E-01  3.1621E-01  4.0660E-01                      
+   6.6770E-01  3.1493E-01  3.1607E-01  3.6327E-01                      
+   6.7019E-01  1.2747E+00  1.2743E+00  3.4008E-02                      
+   7.0613E-01  4.5835E+00  4.6257E+00  9.1675E-01                      
+   7.3452E-01  2.3670E+00  2.4074E+00  1.6945E+00                      
+   8.6100E-01  4.1923E-01  4.1876E-01  1.1187E-01                      
+   8.8115E-01  4.4431E-01  4.4916E-01  1.0855E+00                      
+   8.9710E-01  2.0560E-01  2.0927E-01  1.7681E+00                      
+   8.9993E-01  5.0549E-01  4.9789E-01  1.5145E+00                      
+   9.1023E-01  8.1239E-01  8.1004E-01  2.8982E-01                      
+   9.7840E-01  2.5675E-01  2.6457E-01  2.9968E+00                      
+   9.9872E-01  1.1494E+00  1.1540E+00  3.9979E-01                      
+   1.0208E+00  3.9215E-01  3.9540E-01  8.2393E-01                      
+   1.1494E+00  8.9262E-01  8.8847E-01  4.6610E-01                      
+   1.2471E+00  2.0560E-01  2.0931E-01  1.7883E+00                      
+   1.2615E+00  5.7168E-01  5.7418E-01  4.3562E-01                      
+   1.2996E+00  2.1664E+00  2.1677E+00  6.3415E-02                      
+   1.3435E+00  5.7168E-01  5.7399E-01  4.0232E-01                      
+   1.4197E+00  4.4130E-01  4.4368E-01  5.3768E-01                      
+   1.5963E+00  2.3068E-01  2.3491E-01  1.8185E+00                      
+   0.0000E+00  1.7000E+01
+   6.8500E-02  1.7000E+01  1.7000E+01  0.0000E+00                      
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  9.998E+01
+ TOTAL INTENSITY FROM PARENT=  1.000E+02
+ PERCENT ERROR =  2.482E-02                      
+
+
+ TOTAL INTENSITY FROM PARENT =  1.000E+02
+ VALUE IS WITHIN   1.53E-05% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  4.527E+00 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  4.529E+00 MEV
+ PERCENT ERROR =  3.037E-02                      
+%%%% 121 CS  55 M  EC B+ IT     1.22000E+02   122 S    18-07-2007       BALAEND 
+%%%% 121 CS  55 M  EC B+ IT     1.22000E+02   122 S    18-07-2007       INPUSTAR
+1                                      **INPUT DATA**
+              121M-CESIUM-55
++                                    HALFLIFE = 122 SECONDS 
++                                                                  18-07-2007
+
+            MODES OF DECAY: ELECTRON CAPTURE, BETA PLUS, ISOMERIC LEVEL
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+           ELECT. CAPTURE   1   6.02E-04   3.844E+00   ALLOWED                                  
++                                                              ASSUMED                          
+           ELECT. CAPTURE   2   1.10E-03   4.021E+00   ALLOWED                                  
++                                                              ASSUMED                          
+           ELECT. CAPTURE   3   1.30E-03   4.097E+00   ALLOWED                                  
++                                                              ASSUMED                          
+           ELECT. CAPTURE   4   4.81E-03   4.141E+00   ALLOWED                                  
++                                                              ASSUMED                          
+           ELECT. CAPTURE   5   1.20E-03   4.179E+00   ALLOWED                                  
++                                                              ASSUMED                          
+           ELECT. CAPTURE   6   4.51E-04   4.193E+00   ALLOWED                                  
++                                                              ASSUMED                          
+           ELECT. CAPTURE   7   1.81E-03   4.291E+00   ALLOWED                                  
++                                                              ASSUMED                          
+           ELECT. CAPTURE   8   7.12E-04   4.420E+00   ALLOWED                                  
+           ELECT. CAPTURE   9   2.07E-03   4.442E+00   ALLOWED                                  
++                                                              ASSUMED                          
+           ELECT. CAPTURE  10   4.61E-04   4.462E+00   ALLOWED                                  
++                                                              ASSUMED                          
+           ELECT. CAPTURE  11   1.40E-03   4.530E+00   ALLOWED                                  
++                                                              ASSUMED                          
+           ELECT. CAPTURE  12   8.42E-04   4.541E+00   ALLOWED                                  
++                                                              ASSUMED                          
+           ELECT. CAPTURE  13   3.51E-04   4.543E+00   ALLOWED                                  
++                                                              ASSUMED                          
+           ELECT. CAPTURE  14   7.32E-04   4.559E+00   ALLOWED                                  
++                                                              ASSUMED                          
+           ELECT. CAPTURE  15   6.82E-04   4.580E+00   ALLOWED                                  
++                                                              ASSUMED                          
+           ELECT. CAPTURE  16   3.61E-03   4.706E+00   ALLOWED                                  
+           ELECT. CAPTURE  17   6.72E-03   4.734E+00   SECOND FORBIDDEN                         
+           ELECT. CAPTURE  18   1.82E-03   4.770E+00   ALLOWED                                  
+           ELECT. CAPTURE  19   4.41E-04   4.773E+00   ALLOWED                                  
++                                                              ASSUMED                          
+           ELECT. CAPTURE  20   4.41E-04   4.780E+00   ALLOWED                                  
++                                                              ASSUMED                          
+           ELECT. CAPTURE  21   4.81E-04   4.783E+00   UNIQUE FIRST FORBIDDEN                   
+           ELECT. CAPTURE  22   1.83E-03   4.794E+00   ALLOWED                                  
++                                                              ASSUMED                          
+           ELECT. CAPTURE  23   6.02E-04   4.832E+00   ALLOWED                                  
++                                                              ASSUMED                          
+           ELECT. CAPTURE  24   9.93E-04   4.848E+00   ALLOWED                                  
++                                                              ASSUMED                          
+           ELECT. CAPTURE  25   3.01E-03   4.880E+00   ALLOWED                                  
+           ELECT. CAPTURE  26   2.01E-03   4.964E+00   UNIQUE FIRST FORBIDDEN                   
+           ELECT. CAPTURE  27   1.88E-02   4.981E+00   ALLOWED                                  
+           ELECT. CAPTURE  28   4.71E-03   5.026E+00   ALLOWED                                  
+           ELECT. CAPTURE  29   1.00E-02   5.206E+00   FIRST FORBIDDEN                          
+           ELECT. CAPTURE  30   9.13E-03   5.244E+00   FIRST FORBIDDEN                          
+           ELECT. CAPTURE  31   2.14E-02   5.261E+00   ALLOWED                                  
+                BETA PLUS   1   1.71E-03   2.822E+00*  ALLOWED                                  
++                                                              ASSUMED                          
+                BETA PLUS   2   3.31E-03   2.999E+00*  ALLOWED                                  
++                                                              ASSUMED                          
+                BETA PLUS   3   4.41E-03   3.075E+00*  ALLOWED                                  
++                                                              ASSUMED                          
+                BETA PLUS   4   1.68E-02   3.119E+00*  ALLOWED                                  
++                                                              ASSUMED                          
+                BETA PLUS   5   4.51E-03   3.157E+00*  ALLOWED                                  
++                                                              ASSUMED                          
+                BETA PLUS   6   1.60E-03   3.171E+00*  ALLOWED                                  
++                                                              ASSUMED                          
+                BETA PLUS   7   7.12E-03   3.269E+00*  ALLOWED                                  
++                                                              ASSUMED                          
+                BETA PLUS   8   3.21E-03   3.398E+00*  ALLOWED                                  
+                BETA PLUS   9   9.43E-03   3.420E+00*  ALLOWED                                  
++                                                              ASSUMED                          
+                BETA PLUS  10   2.11E-03   3.440E+00*  ALLOWED                                  
++                                                              ASSUMED                          
+                BETA PLUS  11   6.72E-03   3.508E+00*  ALLOWED                                  
++                                                              ASSUMED                          
+                BETA PLUS  12   4.21E-03   3.519E+00*  ALLOWED                                  
++                                                              ASSUMED                          
+                BETA PLUS  13   1.71E-03   3.521E+00*  ALLOWED                                  
++                                                              ASSUMED                          
+                BETA PLUS  14   3.71E-03   3.537E+00*  ALLOWED                                  
++                                                              ASSUMED                          
+                BETA PLUS  15   3.51E-03   3.558E+00*  ALLOWED                                  
++                                                              ASSUMED                          
+                BETA PLUS  16   2.01E-02   3.684E+00*  ALLOWED                                  
+                BETA PLUS  17   3.91E-02   3.712E+00*  SECOND FORBIDDEN                         
+                BETA PLUS  18   1.09E-02   3.748E+00*  ALLOWED                                  
+                BETA PLUS  19   2.71E-03   3.751E+00*  ALLOWED                                  
++                                                              ASSUMED                          
+                BETA PLUS  20   2.71E-03   3.758E+00*  ALLOWED                                  
++                                                              ASSUMED                          
+                BETA PLUS  21   2.91E-03   3.761E+00*  UNIQUE FIRST FORBIDDEN                   
+                BETA PLUS  22   1.12E-02   3.772E+00*  ALLOWED                                  
++                                                              ASSUMED                          
+                BETA PLUS  23   3.81E-03   3.810E+00*  ALLOWED                                  
++                                                              ASSUMED                          
+                BETA PLUS  24   6.32E-03   3.826E+00*  ALLOWED                                  
++                                                              ASSUMED                          
+                BETA PLUS  25   2.01E-02   3.858E+00*  ALLOWED                                  
+                BETA PLUS  26   1.40E-02   3.942E+00*  UNIQUE FIRST FORBIDDEN                   
+                BETA PLUS  27   1.32E-01   3.959E+00*  ALLOWED                                  
+                BETA PLUS  28   3.41E-02   4.004E+00*  ALLOWED                                  
+                BETA PLUS  29   8.73E-02   4.184E+00*  FIRST FORBIDDEN                          
+                BETA PLUS  30   7.82E-02   4.222E+00*  FIRST FORBIDDEN                          
+                BETA PLUS  31   1.86E-01   4.239E+00*  ALLOWED                                  
+           I.C.E. + GAMMA   2   9.85E-02   3.840E-02   M1+E2 MULTIPOLE                          
+                                                       MRS=0.000400  AK= 11.6                   
+                                                       AL1=1.41      AL2=0.121                  
+                                                       AL3=0.0368    AM= 0.320                  
+                                                       AN+=0.0806                               
+           I.C.E. + GAMMA   3   1.65E-03   5.510E-02   E1 MULTIPOLE                             
++                                                                    AK= 0.935                  
+                                                       AL1=0.0870    AL2=0.0195                 
+                                                       AL3=0.0284    AM= 0.0274                 
+                                                       AN+=0.00663                              
+           I.C.E. + GAMMA   4   1.04E-03   5.930E-02   UNPLACED GAMMA                           
+           I.C.E. + GAMMA   5   4.12E-03   6.900E-02   E2 MULTIPOLE                             
++                                                                    AK= 3.57                   
+                                                       AL1=0.306     AL2=1.04                   
+                                                       AL3=1.29      AM= 0.571                  
+                                                       AN+=0.133                                
+           I.C.E. + GAMMA   6   1.08E-02   8.590E-02   M1 MULTIPOLE                             
++                                                                    AK= 1.11                   
+                                                       AL1=0.136     AL2=0.00993                
+                                                       AL3=0.00234   AM= 0.0301                 
+                                                       AN+=0.00759                              
+           I.C.E. + GAMMA   7   7.19E-03   1.110E-01   M1 MULTIPOLE                             
++                                                                    AK= 0.535                  
+                                                       AL1=0.0650    AL2=0.00458                
+                                                       AL3=0.00108   AM= 0.0145                 
+                                                       AN+=0.00364                              
+           I.C.E. + GAMMA   8   1.64E-02   1.539E-01   E2 MULTIPOLE                             
++                                                                    AK= 0.301                  
+                                                       AL1=0.0296    AL2=0.0241                 
+                                                       AL3=0.0245    AM= 0.0165                 
+                                                       AN+=0.00395                              
+           I.C.E. + GAMMA   9   3.52E-01   1.794E-01   M1 MULTIPOLE                             
++                                                                    AK= 0.141                  
+                                                       AL1=0.0171    AL2=0.00108                
+                                                       AM= 0.00376                              
+           I.C.E. + GAMMA  10   2.49E-01   1.960E-01   E1 MULTIPOLE                             
++                                                                    AK= 0.0282                 
+                                                       AL1=0.00301                              
+           I.C.E. + GAMMA  11   2.49E-03   2.101E-01   E2 MULTIPOLE                             
++                                                                    AK= 0.108                  
+                                                       AL1=0.0112    AL2=0.00589                
+                                                       AL3=0.00544   AM= 0.00472                
+                                                       AN+=0.00114                              
+           I.C.E. + GAMMA  12   5.06E-02   2.345E-01   M1 MULTIPOLE                             
++                                                                    AK= 0.0685                 
+                                                       AL1=0.00829   AM= 0.00181                
+           I.C.E. + GAMMA  13   1.88E-02   2.396E-01   M1 MULTIPOLE                             
++                                                                    AK= 0.0647                 
+                                                       AL1=0.00783   AM= 0.00171                
+           I.C.E. + GAMMA  14   3.07E-03   2.470E-01   M1 MULTIPOLE                             
++                                                                    AK= 0.0597                 
+                                                       AL1=0.00722   AM= 0.00157                
+           I.C.E. + GAMMA  15   7.48E-03   2.559E-01   M1 MULTIPOLE                             
++                                                                    AK= 0.0543                 
+                                                       AL1=0.00658   AM= 0.00143                
+           I.C.E. + GAMMA  16   5.50E-03   2.702E-01   M1 MULTIPOLE                             
++                                                                    AK= 0.0471                 
+                                                       AL1=0.00570   AM= 0.00124                
+           I.C.E. + GAMMA  17   1.10E-03   2.732E-01   M1 MULTIPOLE                             
++                                                                    AK= 0.0457                 
+                                                       AL1=0.00553   AM= 0.00120                
+           I.C.E. + GAMMA  18   1.37E-02   2.789E-01   M1 MULTIPOLE                             
++                                                                    AK= 0.0433                 
+                                                       AL1=0.00524   AM= 0.00114                
+           I.C.E. + GAMMA  19   3.28E-02   2.801E-01   M1 MULTIPOLE                             
++                                                                    AK= 0.0428                 
+                                                       AL1=0.00518   AM= 0.00113                
+           I.C.E. + GAMMA  20   1.64E-02   2.801E-01   M1 MULTIPOLE                             
++                                                                    AK= 0.0428                 
+                                                       AL1=0.00518   AM= 0.00113                
+           I.C.E. + GAMMA  21   2.73E-03   2.917E-01   E2 MULTIPOLE                             
++                                                                    AK= 0.0377                 
+                                                       AL1=0.00406   AL2=0.00140                
+                                                       AL3=0.00116   AM= 0.00137                
+           I.C.E. + GAMMA  22   4.63E-03   2.958E-01   E2 MULTIPOLE                             
++                                                                    AK= 0.0360                 
+                                                       AL1=0.00389   AL2=0.00131                
+                                                       AL3=0.00109   AM= 0.00131                
+           I.C.E. + GAMMA  23   6.74E-03   3.204E-01   M1 MULTIPOLE                             
++                                                                    AK= 0.0302                 
+                                                       AL1=0.00365                              
+           I.C.E. + GAMMA  24   2.69E-02   3.209E-01   E2 MULTIPOLE                             
++                                                                    AK= 0.0280                 
+                                                       AL1=0.00304                              
+           I.C.E. + GAMMA  25   1.82E-03   3.372E-01   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  26   1.56E-03   3.617E-01   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  27   6.66E-03   3.812E-01   M1 MULTIPOLE                             
++                                                                    AK= 0.0194                 
+                                                       AL1=0.00233                              
+           I.C.E. + GAMMA  28   1.60E-03   3.932E-01   M1 MULTIPOLE                             
++                                                                    AK= 0.0179                 
+                                                       AL1=0.00215                              
+           I.C.E. + GAMMA  29   7.43E-03   3.966E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.0148    AL1=0.00164                
+           I.C.E. + GAMMA  30   4.50E-03   4.123E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.0132    AL1=0.00147                
+           I.C.E. + GAMMA  31   2.20E-02   4.141E-01   E2 MULTIPOLE                             
++                                                                    AK= 0.0130                 
+                                                       AL1=0.00145                              
+           I.C.E. + GAMMA  32   2.65E-03   4.176E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.0127    AL1=0.00141                
+           I.C.E. + GAMMA  33   2.18E-03   4.229E-01   M3 MULTIPOLE                             
++                                                                    AK= 0.158                  
+                                                       AL1=0.0223    AL2=0.00278                
+                                                       AL3=0.00226   AM= 0.00575                
+                                                       AN+=0.00144                              
+           I.C.E. + GAMMA  34   2.15E-02   4.271E-01   M1 MULTIPOLE                             
++                                                                    AK= 0.0146                 
+                                                       AL1=0.00175                              
+           I.C.E. + GAMMA  35   4.49E-03   4.313E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.0116    AL1=0.00129                
+           I.C.E. + GAMMA  36   1.04E-03   4.454E-01   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  37   1.32E-02   4.501E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.0102    AL1=0.00115                
+           I.C.E. + GAMMA  38   1.03E-03   4.501E-01   M1 MULTIPOLE                             
++                                                                    AK= 0.0128                 
+                                                       AL1=0.00153                              
+           I.C.E. + GAMMA  39   1.22E-01   4.597E-01   M1 MULTIPOLE                             
++                                                                    AK= 0.0121                 
+                                                       AL1=0.00145                              
+           I.C.E. + GAMMA  40   3.95E-03   4.600E-01   E2 MULTIPOLE                             
++                                                                    AK= 0.00962                
+                                                       AL1=0.00108                              
+           I.C.E. + GAMMA  41   3.16E-03   4.650E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.00933   AL1=0.00105                
+           I.C.E. + GAMMA  42   3.16E-03   4.717E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.00897   AL1=0.00101                
+           I.C.E. + GAMMA  43   1.58E-03   4.861E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.00825                              
+           I.C.E. + GAMMA  44   5.26E-03   4.910E-01   E2 MULTIPOLE                             
++                                                                    AK= 0.00803                
+           I.C.E. + GAMMA  45   1.26E-02   5.267E-01   M1 MULTIPOLE                             
++                                                                    AK= 0.00865                
+                                                       AL1=0.00104                              
+           I.C.E. + GAMMA  46   2.10E-03   5.488E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.00594                              
+           I.C.E. + GAMMA  47   1.21E-02   5.550E-01   M1 MULTIPOLE                             
++                                                                    AK= 0.00761                
+           I.C.E. + GAMMA  48   6.56E-03   5.716E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.00534                              
+           I.C.E. + GAMMA  49   2.88E-03   5.846E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.00503                              
+           I.C.E. + GAMMA  50   3.13E-03   6.468E-01   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  51   4.19E-03   6.650E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.00363                              
+           I.C.E. + GAMMA  52   1.82E-03   6.748E-01   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  53   2.09E-03   6.863E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.00335                              
+           I.C.E. + GAMMA  54   2.08E-03   6.905E-01   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  55   2.09E-03   7.011E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.00318                              
+           I.C.E. + GAMMA  56   1.41E-02   7.062E-01   M1 MULTIPOLE                             
++                                                                    AK= 0.00426                
+           I.C.E. + GAMMA  57   3.40E-03   7.201E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.00298                              
+           I.C.E. + GAMMA  58   3.66E-03   7.308E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.00288                              
+           I.C.E. + GAMMA  59   5.23E-03   7.345E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.00284                              
+           I.C.E. + GAMMA  60   5.24E-03   7.345E-01   M1 MULTIPOLE                             
++                                                                    AK= 0.00388                
+           I.C.E. + GAMMA  61   6.80E-03   7.384E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.00280                              
+           I.C.E. + GAMMA  62   2.08E-03   7.979E-01   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  63   1.82E-03   8.419E-01   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  64   2.61E-03   8.505E-01   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  65   1.56E-03   8.672E-01   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  66   2.35E-03   8.725E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.00190                              
+           I.C.E. + GAMMA  67   1.30E-03   8.812E-01   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  68   3.66E-03   8.857E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.00183                              
+           I.C.E. + GAMMA  69   1.82E-03   8.916E-01   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  70   2.08E-03   9.002E-01   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  71   1.04E-03   9.054E-01   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  72   4.44E-03   9.101E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.00172                              
+           I.C.E. + GAMMA  73   2.61E-03   9.143E-01   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  74   1.82E-03   9.226E-01   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  75   3.13E-03   9.366E-01   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  76   2.08E-03   9.492E-01   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  77   3.66E-03   9.700E-01   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.00150                              
+           I.C.E. + GAMMA  78   1.56E-03   9.863E-01   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  79   2.87E-03   1.005E+00   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.00138                              
+           I.C.E. + GAMMA  80   2.35E-03   1.036E+00   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.00130                              
+           I.C.E. + GAMMA  81   2.08E-03   1.060E+00   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  82   5.74E-03   1.066E+00   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.00122                              
+           I.C.E. + GAMMA  83   2.08E-03   1.077E+00   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  84   4.44E-03   1.104E+00   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.00114                              
+           I.C.E. + GAMMA  85   1.82E-03   1.115E+00   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  86   2.35E-03   1.120E+00   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.00110                              
+           I.C.E. + GAMMA  87   7.82E-03   1.140E+00   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  88   3.91E-03   1.164E+00   E2 MULTIPOLE ASSUMED                     
+                                                       AK= 0.00102                              
+           I.C.E. + GAMMA  89   1.30E-03   1.180E+00   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  90   1.57E-03   1.241E+00   E2 MULTIPOLE ASSUMED                     
+           I.C.E. + GAMMA  91   1.56E-03   1.255E+00   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  92   2.61E-03   1.276E+00   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  93   2.09E-03   1.299E+00   E2 MULTIPOLE ASSUMED                     
+           I.C.E. + GAMMA  94   1.83E-03   1.344E+00   E2 MULTIPOLE ASSUMED                     
+           I.C.E. + GAMMA  95   1.82E-03   1.396E+00   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  96   2.61E-03   1.417E+00   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  97   1.04E-02   1.433E+00   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  98   2.08E-03   1.458E+00   UNPLACED GAMMA                           
+           I.C.E. + GAMMA  99   2.08E-03   1.498E+00   UNPLACED GAMMA                           
+           I.C.E. + GAMMA 100   2.08E-03   1.511E+00   UNPLACED GAMMA                           
+           I.C.E. + GAMMA   1   1.70E-01   6.850E-02   M3 MULTIPOLE                             
++                                                                    AK= 217.                   
+                                                       AL1=76.3      AL2=12.3                   
+                                                       AL3=85.3      AM= 41.2                   
+                                                       AN+=10.5                                 
+ 
+           * ENDPOINT ENERGY (MEV)
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: May-2000
+%%%% 121 CS  55 M  EC B+ IT     1.22000E+02   122 S    18-07-2007       INPUEND 
+%%%% 121 CS  55 M  EC B+ IT     1.22000E+02   122 S    18-07-2007       OUTPSTAR
+1                                      **OUTPUT DATA**
+              121M-CESIUM-55
++                                    HALFLIFE = 122 SECONDS 
++                                                                  18-07-2007
+
+            MODES OF DECAY: ELECTRON CAPTURE, BETA PLUS, ISOMERIC LEVEL
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           BETA PLUS                      1   1.71E-03    1.276E+00*   2.18E-03
+           BETA PLUS                      2   3.31E-03    1.358E+00*   4.50E-03
+           BETA PLUS                      3   4.41E-03    1.394E+00*   6.15E-03
+           BETA PLUS                      4   1.68E-02    1.414E+00*   2.38E-02
+           BETA PLUS                      5   4.51E-03    1.432E+00*   6.46E-03
+           BETA PLUS                      6   1.60E-03    1.439E+00*   2.31E-03
+           BETA PLUS                      7   7.12E-03    1.485E+00*   1.06E-02
+           BETA PLUS                      8   3.21E-03    1.545E+00*   4.96E-03
+           BETA PLUS                      9   9.43E-03    1.555E+00*   1.47E-02
+           BETA PLUS                     10   2.11E-03    1.565E+00*   3.30E-03
+           BETA PLUS                     11   6.72E-03    1.597E+00*   1.07E-02
+           BETA PLUS                     12   4.21E-03    1.601E+00*   6.75E-03
+           BETA PLUS                     13   1.71E-03    1.603E+00*   2.73E-03
+           BETA PLUS                     14   3.71E-03    1.610E+00*   5.98E-03
+           BETA PLUS                     15   3.51E-03    1.620E+00*   5.69E-03
+           BETA PLUS                     16   2.01E-02    1.679E+00*   3.37E-02
+           BETA PLUS                     17   3.91E-02    1.688E+00*   6.60E-02
+           BETA PLUS                     18   1.09E-02    1.710E+00*   1.87E-02
+           BETA PLUS                     19   2.71E-03    1.711E+00*   4.63E-03
+           BETA PLUS                     20   2.71E-03    1.714E+00*   4.64E-03
+           BETA PLUS                     21   2.91E-03    1.710E+00*   4.97E-03
+           BETA PLUS                     22   1.12E-02    1.721E+00*   1.93E-02
+           BETA PLUS                     23   3.81E-03    1.739E+00*   6.63E-03
+           BETA PLUS                     24   6.32E-03    1.746E+00*   1.10E-02
+           BETA PLUS                     25   2.01E-02    1.761E+00*   3.53E-02
+           BETA PLUS                     26   1.40E-02    1.794E+00*   2.52E-02
+           BETA PLUS                     27   1.32E-01    1.809E+00*   2.39E-01
+           BETA PLUS                     28   3.41E-02    1.830E+00*   6.24E-02
+           BETA PLUS                     29   8.73E-02    1.915E+00*   1.67E-01
+           BETA PLUS                     30   7.82E-02    1.934E+00*   1.51E-01
+           BETA PLUS                     31   1.86E-01    1.942E+00*   3.60E-01
+           ANNIHILATION RADIATION             1.45E+00    5.110E-01    7.41E-01
+           GAMMA-RAY                      2   6.78E-03    3.840E-02    2.60E-04
+           K CONV. ELECTRON, GAMMA-RAY    2   7.84E-02    3.844E-03    3.01E-04
+           L1 CONV. ELECTRON, GAMMA-RAY   2   9.59E-03    3.298E-02    3.16E-04
+           GAMMA-RAY                      6   4.69E-03    8.590E-02    4.03E-04
+           K CONV. ELECTRON, GAMMA-RAY    6   5.21E-03    5.134E-02    2.68E-04
+           GAMMA-RAY                      7   4.43E-03    1.110E-01    4.92E-04
+           K CONV. ELECTRON, GAMMA-RAY    7   2.37E-03    7.644E-02    1.81E-04
+           GAMMA-RAY                      8   1.17E-02    1.539E-01    1.80E-03
+           K CONV. ELECTRON, GAMMA-RAY    8   3.53E-03    1.193E-01    4.21E-04
+           GAMMA-RAY                      9   3.02E-01    1.794E-01    5.42E-02
+           K CONV. ELECTRON, GAMMA-RAY    9   4.25E-02    1.448E-01    6.16E-03
+           L1 CONV. ELECTRON, GAMMA-RAY   9   5.17E-03    1.740E-01    8.99E-04
+           M CONV. ELECTRON, GAMMA-RAY    9   1.14E-03    1.785E-01*   2.03E-04
+           GAMMA-RAY                     10   2.41E-01    1.960E-01    4.73E-02
+           K CONV. ELECTRON, GAMMA-RAY   10   6.80E-03    1.614E-01    1.10E-03
+           L1 CONV. ELECTRON, GAMMA-RAY  10   7.27E-04    1.906E-01    1.39E-04
+           GAMMA-RAY                     11   2.19E-03    2.101E-01    4.60E-04
+           GAMMA-RAY                     12   4.69E-02    2.345E-01    1.10E-02
+           K CONV. ELECTRON, GAMMA-RAY   12   3.21E-03    1.999E-01    6.42E-04
+           GAMMA-RAY                     13   1.75E-02    2.396E-01    4.18E-03
+           K CONV. ELECTRON, GAMMA-RAY   13   1.13E-03    2.050E-01    2.32E-04
+           GAMMA-RAY                     14   2.87E-03    2.470E-01    7.08E-04
+           GAMMA-RAY                     15   7.04E-03    2.559E-01    1.80E-03
+           GAMMA-RAY                     16   5.21E-03    2.702E-01    1.41E-03
+           GAMMA-RAY                     17   1.04E-03    2.732E-01    2.85E-04
+           GAMMA-RAY                     18   1.30E-02    2.789E-01    3.63E-03
+           K CONV. ELECTRON, GAMMA-RAY   18   5.65E-04    2.443E-01    1.38E-04
+           GAMMA-RAY                     19   3.13E-02    2.801E-01    8.76E-03
+           K CONV. ELECTRON, GAMMA-RAY   19   1.34E-03    2.455E-01    3.29E-04
+           GAMMA-RAY                     20   1.56E-02    2.801E-01    4.38E-03
+           K CONV. ELECTRON, GAMMA-RAY   20   6.70E-04    2.455E-01    1.64E-04
+           GAMMA-RAY                     21   2.61E-03    2.917E-01    7.60E-04
+           GAMMA-RAY                     22   4.43E-03    2.958E-01    1.31E-03
+           GAMMA-RAY                     23   6.52E-03    3.204E-01    2.09E-03
+           GAMMA-RAY                     24   2.61E-02    3.209E-01    8.36E-03
+           K CONV. ELECTRON, GAMMA-RAY   24   7.29E-04    2.863E-01    2.09E-04
+           GAMMA-RAY                     25   1.82E-03    3.372E-01    6.15E-04
+           GAMMA-RAY                     26   1.56E-03    3.617E-01    5.66E-04
+           GAMMA-RAY                     27   6.52E-03    3.812E-01    2.48E-03
+           GAMMA-RAY                     28   1.56E-03    3.932E-01    6.15E-04
+           GAMMA-RAY                     29   7.30E-03    3.966E-01    2.89E-03
+           GAMMA-RAY                     30   4.43E-03    4.123E-01    1.83E-03
+           GAMMA-RAY                     31   2.16E-02    4.141E-01    8.96E-03
+           GAMMA-RAY                     32   2.61E-03    4.176E-01    1.09E-03
+           GAMMA-RAY                     33   1.82E-03    4.229E-01    7.72E-04
+           GAMMA-RAY                     34   2.11E-02    4.271E-01    9.02E-03
+           GAMMA-RAY                     35   4.43E-03    4.313E-01    1.91E-03
+           GAMMA-RAY                     36   1.04E-03    4.454E-01    4.64E-04
+           GAMMA-RAY                     37   1.30E-02    4.501E-01    5.87E-03
+           GAMMA-RAY                     38   1.02E-03    4.501E-01    4.57E-04
+           GAMMA-RAY                     39   1.20E-01    4.597E-01    5.51E-02
+           K CONV. ELECTRON, GAMMA-RAY   39   1.45E-03    4.251E-01    6.18E-04
+           GAMMA-RAY                     40   3.91E-03    4.600E-01    1.80E-03
+           GAMMA-RAY                     41   3.13E-03    4.650E-01    1.45E-03
+           GAMMA-RAY                     42   3.13E-03    4.717E-01    1.48E-03
+           GAMMA-RAY                     43   1.56E-03    4.861E-01    7.60E-04
+           GAMMA-RAY                     44   5.21E-03    4.910E-01    2.56E-03
+           GAMMA-RAY                     45   1.25E-02    5.267E-01    6.59E-03
+           GAMMA-RAY                     46   2.08E-03    5.488E-01    1.14E-03
+           GAMMA-RAY                     47   1.20E-02    5.550E-01    6.65E-03
+           GAMMA-RAY                     48   6.52E-03    5.716E-01    3.72E-03
+           GAMMA-RAY                     49   2.87E-03    5.846E-01    1.68E-03
+           GAMMA-RAY                     50   3.13E-03    6.468E-01    2.02E-03
+           GAMMA-RAY                     51   4.17E-03    6.650E-01    2.77E-03
+           GAMMA-RAY                     52   1.82E-03    6.748E-01    1.23E-03
+           GAMMA-RAY                     53   2.08E-03    6.863E-01    1.43E-03
+           GAMMA-RAY                     54   2.08E-03    6.905E-01    1.44E-03
+           GAMMA-RAY                     55   2.08E-03    7.011E-01    1.46E-03
+           GAMMA-RAY                     56   1.41E-02    7.062E-01    9.94E-03
+           GAMMA-RAY                     57   3.39E-03    7.201E-01    2.44E-03
+           GAMMA-RAY                     58   3.65E-03    7.308E-01    2.67E-03
+           GAMMA-RAY                     59   5.21E-03    7.345E-01    3.83E-03
+           GAMMA-RAY                     60   5.21E-03    7.345E-01    3.83E-03
+           GAMMA-RAY                     61   6.78E-03    7.384E-01    5.00E-03
+           GAMMA-RAY                     62   2.08E-03    7.979E-01    1.66E-03
+           GAMMA-RAY                     63   1.82E-03    8.419E-01    1.54E-03
+           GAMMA-RAY                     64   2.61E-03    8.505E-01    2.22E-03
+           GAMMA-RAY                     65   1.56E-03    8.672E-01    1.36E-03
+           GAMMA-RAY                     66   2.35E-03    8.725E-01    2.05E-03
+           GAMMA-RAY                     67   1.30E-03    8.812E-01    1.15E-03
+           GAMMA-RAY                     68   3.65E-03    8.857E-01    3.23E-03
+           GAMMA-RAY                     69   1.82E-03    8.916E-01    1.63E-03
+           GAMMA-RAY                     70   2.08E-03    9.002E-01    1.88E-03
+           GAMMA-RAY                     71   1.04E-03    9.054E-01    9.44E-04
+           GAMMA-RAY                     72   4.43E-03    9.101E-01    4.03E-03
+           GAMMA-RAY                     73   2.61E-03    9.143E-01    2.38E-03
+           GAMMA-RAY                     74   1.82E-03    9.226E-01    1.68E-03
+           GAMMA-RAY                     75   3.13E-03    9.366E-01    2.93E-03
+           GAMMA-RAY                     76   2.08E-03    9.492E-01    1.98E-03
+           GAMMA-RAY                     77   3.65E-03    9.700E-01    3.54E-03
+           GAMMA-RAY                     78   1.56E-03    9.863E-01    1.54E-03
+           GAMMA-RAY                     79   2.87E-03    1.005E+00    2.88E-03
+           GAMMA-RAY                     80   2.35E-03    1.036E+00    2.43E-03
+           GAMMA-RAY                     81   2.08E-03    1.060E+00    2.21E-03
+           GAMMA-RAY                     82   5.73E-03    1.066E+00    6.11E-03
+           GAMMA-RAY                     83   2.08E-03    1.077E+00    2.24E-03
+           GAMMA-RAY                     84   4.43E-03    1.104E+00    4.89E-03
+           GAMMA-RAY                     85   1.82E-03    1.115E+00    2.03E-03
+           GAMMA-RAY                     86   2.35E-03    1.120E+00    2.63E-03
+           GAMMA-RAY                     87   7.82E-03    1.140E+00    8.92E-03
+           GAMMA-RAY                     88   3.91E-03    1.164E+00    4.55E-03
+           GAMMA-RAY                     89   1.30E-03    1.180E+00    1.54E-03
+           GAMMA-RAY                     90   1.56E-03    1.241E+00    1.94E-03
+           GAMMA-RAY                     91   1.56E-03    1.255E+00    1.96E-03
+           GAMMA-RAY                     92   2.61E-03    1.276E+00    3.33E-03
+           GAMMA-RAY                     93   2.08E-03    1.299E+00    2.71E-03
+           GAMMA-RAY                     94   1.82E-03    1.344E+00    2.45E-03
+           GAMMA-RAY                     95   1.82E-03    1.396E+00    2.55E-03
+           GAMMA-RAY                     96   2.61E-03    1.417E+00    3.69E-03
+           GAMMA-RAY                     97   1.04E-02    1.433E+00    1.49E-02
+           GAMMA-RAY                     98   2.08E-03    1.458E+00    3.04E-03
+           GAMMA-RAY                     99   2.08E-03    1.498E+00    3.12E-03
+           GAMMA-RAY                    100   2.08E-03    1.511E+00    3.15E-03
+           K -L2 X-RAY                        6.23E-02    2.945E-02    1.84E-03
+           K -L3 X-RAY                        1.15E-01    2.978E-02    3.44E-03
+           K -M2 X-RAY                        1.08E-02    3.357E-02    3.64E-04
+           K -M3 X-RAY                        2.10E-02    3.363E-02    7.06E-04
+           K -N3 X-RAY                        4.43E-03    3.441E-02    1.52E-04
+           AUGER KLL                          1.75E-02    2.447E-02*   4.29E-04
+           AUGER KLX                          7.84E-03    2.869E-02*   2.25E-04
+           AUGER LMM                          1.74E-01    3.325E-03*   5.80E-04
+           AUGER LMX                          5.17E-02    4.002E-03*   2.07E-04
+           AUGER MNN                          4.42E-01    5.051E-04*   2.23E-04
+           K CONV. ELECTRON, GAMMA-RAY    1   8.31E-02    3.252E-02    2.70E-03
+           L1 CONV. ELECTRON, GAMMA-RAY   1   2.92E-02    6.282E-02    1.84E-03
+           L2 CONV. ELECTRON, GAMMA-RAY   1   4.71E-03    6.314E-02    2.97E-04
+           L3 CONV. ELECTRON, GAMMA-RAY   1   3.27E-02    6.349E-02    2.08E-03
+           M CONV. ELECTRON, GAMMA-RAY    1   1.58E-02    6.751E-02*   1.07E-03
+           N+ CONV. ELECTRON, GAMMA-RAY   1   4.02E-03    6.850E-02*   2.76E-04
+           K -L2 X-RAY                        2.14E-02    3.062E-02    6.56E-04
+           K -L3 X-RAY                        3.96E-02    3.098E-02    1.23E-03
+           K -M2 X-RAY                        3.75E-03    3.493E-02    1.31E-04
+           K -M3 X-RAY                        7.26E-03    3.499E-02    2.54E-04
+           AUGER KLL                          5.62E-03    2.540E-02*   1.43E-04
+           AUGER LMM                          9.52E-02    3.442E-03*   3.28E-04
+ 
+           ALL LISTED X-RAYS, GAMMA-RAYS AND ANNIHILATION RADIATION    1.18E+00
+           ALL NEGLECTED X-RAYS, GAMMA-RAYS AND ANNIH. RADIATION**     6.46E-04
+           ALL LISTED BETAS, INTERNAL CONVERSION AND AUGER ELECTRONS   1.34E+00
+           ALL NEGLECTED BETAS, INT. CONVERSION AND AUGER ELECTRONS**  3.36E-03
+           ALL LISTED RADIATIONS                                       2.53E+00
+           ALL NEGLECTED RADIATIONS**                                  4.01E-03
+ 
+           *  AVERAGE ENERGY (MEV)
+           ** EACH NEGLECTED TRANSITION CONTRIBUTES LESS THAN  0.010%
+              TO THE TOTAL MEV/TRANSFORMATION FOR THIS CATEGORY.
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 121-XENON
+             DAUGHTER IS 8.3000E-01  PER TRANSFORMATION OF 121M-CESIUM.
+             DECAY OF THIS 40.1 MINUTES HALFLIFE LEVEL WILL CONTRIBUTE TO DOSE.
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 121-CESIUM
+             DAUGHTER IS 1.7000E-01  PER TRANSFORMATION OF 121M-CESIUM.
+             DECAY OF THIS 155 SECONDS HALFLIFE LEVEL WILL CONTRIBUTE TO DOSE.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: May-2000
+%%%% 121 CS  55 M  EC B+ IT     1.22000E+02   122 S    18-07-2007       OUTPEND 
+%%%% 121 CS  55 M  EC B+ IT     1.22000E+02   122 S    18-07-2007       BETASTAR
+1
+              121M-CESIUM-55
++                                    HALFLIFE = 122 SECONDS 
++                                                                  18-07-2007
+
+            BETA SPECTRUM DATA FOR ALL DECAY BRANCHES
+
+                      BETAS PER                BETAS PER                BETAS PER
+            ENERGY    MEV            ENERGY    MEV            ENERGY    MEV
+            (MEV)     PER DECAY      (MEV)     PER DECAY      (MEV)     PER DECAY
+
+            0.00000   0.000E+00      0.00360   4.464E-07      0.14000   2.506E-02
+            0.00010   0.000E+00      0.00400   7.927E-07      0.15000   2.790E-02
+            0.00011   0.000E+00      0.00450   1.441E-06      0.16000   3.078E-02
+            0.00012   0.000E+00      0.00500   2.376E-06      0.18000   3.662E-02
+            0.00013   0.000E+00      0.00550   3.649E-06      0.20000   4.255E-02
+            0.00014   0.000E+00      0.00600   5.307E-06      0.22000   4.854E-02
+            0.00015   0.000E+00      0.00650   7.394E-06      0.24000   5.457E-02
+            0.00016   0.000E+00      0.00700   9.954E-06      0.26000   6.061E-02
+            0.00018   0.000E+00      0.00750   1.303E-05      0.28000   6.666E-02
+            0.00020   0.000E+00      0.00800   1.665E-05      0.30000   7.271E-02
+            0.00022   0.000E+00      0.00850   2.087E-05      0.32000   7.874E-02
+            0.00024   0.000E+00      0.00900   2.571E-05      0.36000   9.074E-02
+            0.00026   0.000E+00      0.01000   3.740E-05      0.40000   1.026E-01
+            0.00028   0.000E+00      0.01100   5.197E-05      0.45000   1.172E-01
+            0.00030   0.000E+00      0.01200   6.965E-05      0.50000   1.316E-01
+            0.00032   0.000E+00      0.01300   9.062E-05      0.55000   1.455E-01
+            0.00036   0.000E+00      0.01400   1.151E-04      0.60000   1.591E-01
+            0.00040   3.497E-26      0.01500   1.431E-04      0.65000   1.723E-01
+            0.00045   4.800E-24      0.01600   1.749E-04      0.70000   1.851E-01
+            0.00050   3.345E-22      0.01800   2.502E-04      0.75000   1.973E-01
+            0.00055   1.284E-20      0.02000   3.416E-04      0.80000   2.091E-01
+            0.00060   2.949E-19      0.02200   4.493E-04      0.85000   2.203E-01
+            0.00065   4.375E-18      0.02400   5.738E-04      0.90000   2.310E-01
+            0.00070   4.494E-17      0.02600   7.149E-04      1.00000   2.507E-01
+            0.00075   3.393E-16      0.02800   8.726E-04      1.10000   2.680E-01
+            0.00080   1.980E-15      0.03000   1.047E-03      1.20000   2.828E-01
+            0.00085   9.311E-15      0.03200   1.237E-03      1.30000   2.949E-01
+            0.00090   3.651E-14      0.03600   1.664E-03      1.40000   3.045E-01
+            0.00100   3.623E-13      0.04000   2.151E-03      1.50000   3.113E-01
+            0.00110   2.295E-12      0.04500   2.838E-03      1.60000   3.155E-01
+            0.00120   1.043E-11      0.05000   3.605E-03      1.80000   3.158E-01
+            0.00130   3.687E-11      0.05500   4.445E-03      2.00000   3.060E-01
+            0.00140   1.074E-10      0.06000   5.351E-03      2.20000   2.866E-01
+            0.00150   2.686E-10      0.06500   6.317E-03      2.40000   2.591E-01
+            0.00160   5.951E-10      0.07000   7.336E-03      2.60000   2.250E-01
+            0.00180   2.215E-09      0.07500   8.404E-03      2.80000   1.864E-01
+            0.00200   6.294E-09      0.08000   9.516E-03      3.00000   1.458E-01
+            0.00220   1.477E-08      0.08500   1.067E-02      3.20000   1.060E-01
+            0.00240   3.014E-08      0.09000   1.185E-02      3.60000   3.863E-02
+            0.00260   5.531E-08      0.10000   1.432E-02      4.00000   4.594E-03
+            0.00280   9.351E-08      0.11000   1.689E-02      4.23902   0.000E+00
+            0.00300   1.482E-07      0.12000   1.955E-02
+            0.00320   2.228E-07      0.13000   2.228E-02
+
+            AVERAGE BETA ENERGY =   1.821E+00
+
+            TOTAL BETAS PER DECAY FOR ALL BRANCHES =   7.255E-01
+%%%% 121 CS  55 M  EC B+ IT     1.22000E+02   122 S    18-07-2007       BETAEND 
+%%%% 121 CS  55 M  EC B+ IT     1.22000E+02   122 S    18-07-2007       SEEISTAR
+121.M CESIUM       55.  1.220E+02 SECONDS  658 EC B+ IT             121.CS 55.   0
+ 4 1  1.70501E-01  1.27633E+00  2.82220E+00  0.00000E+00            121.CS 55.   1   1
+ 4 2  3.30973E-01  1.35839E+00  2.99880E+00  0.00000E+00            121.CS 55.   2   2
+ 4 3  4.41297E-01  1.39389E+00  3.07500E+00  0.00000E+00            121.CS 55.   3   3
+ 4 4  1.68495E+00  1.41438E+00  3.11894E+00  0.00000E+00            121.CS 55.   4   4
+ 4 5  4.51327E-01  1.43214E+00  3.15700E+00  0.00000E+00            121.CS 55.   5   5
+ 4 6  1.60472E-01  1.43886E+00  3.17140E+00  0.00000E+00            121.CS 55.   6   6
+ 4 7  7.12093E-01  1.48452E+00  3.26910E+00  0.00000E+00            121.CS 55.   7   7
+ 4 8  3.20944E-01  1.54474E+00  3.39770E+00  0.00000E+00            121.CS 55.   8   8
+ 4 9  9.42772E-01  1.55509E+00  3.41978E+00  0.00000E+00            121.CS 55.   9   9
+ 410  2.10619E-01  1.56462E+00  3.44010E+00  0.00000E+00            121.CS 55.  10  10
+ 411  6.71976E-01  1.59661E+00  3.50827E+00  0.00000E+00            121.CS 55.  11  11
+ 412  4.21238E-01  1.60145E+00  3.51857E+00  0.00000E+00            121.CS 55.  12  12
+ 413  1.70501E-01  1.60277E+00  3.52140E+00  0.00000E+00            121.CS 55.  13  13
+ 414  3.71091E-01  1.61027E+00  3.53735E+00  0.00000E+00            121.CS 55.  14  14
+ 415  3.51032E-01  1.61973E+00  3.55750E+00  0.00000E+00            121.CS 55.  15  15
+ 416  2.00590E+00  1.67922E+00  3.68398E+00  0.00000E+00            121.CS 55.  16  16
+ 417  3.91150E+00  1.68765E+00  3.71237E+00  1.00000E+00            121.CS 55.  17  17
+ 418  1.09321E+00  1.70952E+00  3.74831E+00  0.00000E+00            121.CS 55.  18  18
+ 419  2.70796E-01  1.71069E+00  3.75080E+00  0.00000E+00            121.CS 55.  19  19
+ 420  2.70796E-01  1.71385E+00  3.75750E+00  0.00000E+00            121.CS 55.  20  20
+ 421  2.90855E-01  1.70996E+00  3.76090E+00  1.00000E+00            121.CS 55.  21  21
+ 422  1.12330E+00  1.72087E+00  3.77240E+00  0.00000E+00            121.CS 55.  22  22
+ 423  3.81120E-01  1.73870E+00  3.81020E+00  0.00000E+00            121.CS 55.  23  23
+ 424  6.31858E-01  1.74610E+00  3.82590E+00  0.00000E+00            121.CS 55.  24  24
+ 425  2.00590E+00  1.76109E+00  3.85767E+00  0.00000E+00            121.CS 55.  25  25
+ 426  1.40413E+00  1.79355E+00  3.94240E+00  1.00000E+00            121.CS 55.  26  26
+ 427  1.32389E+01  1.80895E+00  3.95900E+00  0.00000E+00            121.CS 55.  27  27
+ 428  3.41003E+00  1.83037E+00  4.00433E+00  0.00000E+00            121.CS 55.  28  28
+ 429  8.72565E+00  1.91542E+00  4.18398E+00  0.00000E+00            121.CS 55.  29  29
+ 430  7.82300E+00  1.93367E+00  4.22249E+00  0.00000E+00            121.CS 55.  30  30
+ 431  1.85545E+01  1.94151E+00  4.23902E+00  0.00000E+00            121.CS 55.  31  31
+ 3 3  1.45107E+02  5.11000E-01  5.11000E-01  0.00000E+00            121.CS 55.  32   3
+ 1 2  6.77612E-01  3.84000E-02  3.84000E-02  0.00000E+00            121.CS 55.  33   2
+ 6 1  7.83890E+00  3.84400E-03  3.84400E-03  2.00000E+00            121.CS 55.  34   1
+ 6 5  9.58510E-01  3.29831E-02  3.29831E-02  2.00000E+00            121.CS 55.  35   5
+ 6 6  8.21095E-02  3.32961E-02  3.32961E-02  2.00000E+00            121.CS 55.  36   6
+ 6 7  2.49318E-02  3.36253E-02  3.36253E-02  2.00000E+00            121.CS 55.  37   7
+ 6 3  2.17158E-01  3.74734E-02  3.74734E-02  2.00000E+00            121.CS 55.  38   3
+ 6 4  5.46426E-02  3.84000E-02  3.84000E-02  2.00000E+00            121.CS 55.  39   4
+ 1 3  7.81860E-02  5.51000E-02  5.51000E-02  0.00000E+00            121.CS 55.  40   3
+ 6 1  7.31233E-02  2.05440E-02  2.05440E-02  3.00000E+00            121.CS 55.  41   1
+ 6 5  6.80556E-03  4.96831E-02  4.96831E-02  3.00000E+00            121.CS 55.  42   5
+ 6 6  1.52824E-03  4.99961E-02  4.99961E-02  3.00000E+00            121.CS 55.  43   6
+ 6 7  2.22435E-03  5.03253E-02  5.03253E-02  3.00000E+00            121.CS 55.  44   7
+ 6 3  2.14213E-03  5.41734E-02  5.41734E-02  3.00000E+00            121.CS 55.  45   3
+ 6 4  5.18566E-04  5.51000E-02  5.51000E-02  3.00000E+00            121.CS 55.  46   4
+ 1 4  1.04248E-01  5.93000E-02  5.93000E-02  0.00000E+00            121.CS 55.  47   4
+ 1 5  5.21240E-02  6.90000E-02  6.90000E-02  0.00000E+00            121.CS 55.  48   5
+ 6 1  1.85962E-01  3.44440E-02  3.44440E-02  5.00000E+00            121.CS 55.  49   1
+ 6 5  1.59580E-02  6.35831E-02  6.35831E-02  5.00000E+00            121.CS 55.  50   5
+ 6 6  5.40147E-02  6.38961E-02  6.38961E-02  5.00000E+00            121.CS 55.  51   6
+ 6 7  6.72719E-02  6.42253E-02  6.42253E-02  5.00000E+00            121.CS 55.  52   7
+ 6 3  2.97832E-02  6.80734E-02  6.80734E-02  5.00000E+00            121.CS 55.  53   3
+ 6 4  6.92135E-03  6.90000E-02  6.90000E-02  5.00000E+00            121.CS 55.  54   4
+ 1 6  4.69116E-01  8.59000E-02  8.59000E-02  0.00000E+00            121.CS 55.  55   6
+ 6 1  5.21299E-01  5.13440E-02  5.13440E-02  6.00000E+00            121.CS 55.  56   1
+ 6 5  6.36799E-02  8.04831E-02  8.04831E-02  6.00000E+00            121.CS 55.  57   5
+ 6 6  4.65731E-03  8.07961E-02  8.07961E-02  6.00000E+00            121.CS 55.  58   6
+ 6 7  1.09967E-03  8.11253E-02  8.11253E-02  6.00000E+00            121.CS 55.  59   7
+ 6 3  1.41156E-02  8.49734E-02  8.49734E-02  6.00000E+00            121.CS 55.  60   3
+ 6 4  3.55863E-03  8.59000E-02  8.59000E-02  6.00000E+00            121.CS 55.  61   4
+ 1 7  4.43054E-01  1.11000E-01  1.11000E-01  0.00000E+00            121.CS 55.  62   7
+ 6 1  2.36856E-01  7.64440E-02  7.64440E-02  7.00000E+00            121.CS 55.  63   1
+ 6 5  2.87984E-02  1.05583E-01  1.05583E-01  7.00000E+00            121.CS 55.  64   5
+ 6 6  2.02732E-03  1.05896E-01  1.05896E-01  7.00000E+00            121.CS 55.  65   6
+ 6 7  4.78501E-04  1.06225E-01  1.06225E-01  7.00000E+00            121.CS 55.  66   7
+ 6 3  6.42633E-03  1.10073E-01  1.10073E-01  7.00000E+00            121.CS 55.  67   3
+ 6 4  1.61244E-03  1.11000E-01  1.11000E-01  7.00000E+00            121.CS 55.  68   4
+ 1 8  1.17279E+00  1.53900E-01  1.53900E-01  0.00000E+00            121.CS 55.  69   8
+ 6 1  3.52619E-01  1.19344E-01  1.19344E-01  8.00000E+00            121.CS 55.  70   1
+ 6 5  3.46629E-02  1.48483E-01  1.48483E-01  8.00000E+00            121.CS 55.  71   5
+ 6 6  2.82552E-02  1.48796E-01  1.48796E-01  8.00000E+00            121.CS 55.  72   6
+ 6 7  2.87642E-02  1.49125E-01  1.49125E-01  8.00000E+00            121.CS 55.  73   7
+ 6 3  1.94055E-02  1.52973E-01  1.52973E-01  8.00000E+00            121.CS 55.  74   3
+ 6 4  4.63012E-03  1.53900E-01  1.53900E-01  8.00000E+00            121.CS 55.  75   4
+ 1 9  3.02059E+01  1.79400E-01  1.79400E-01  0.00000E+00            121.CS 55.  76   9
+ 6 1  4.25202E+00  1.44844E-01  1.44844E-01  9.00000E+00            121.CS 55.  77   1
+ 6 5  5.16682E-01  1.73983E-01  1.73983E-01  9.00000E+00            121.CS 55.  78   5
+ 6 6  3.27259E-02  1.74296E-01  1.74296E-01  9.00000E+00            121.CS 55.  79   6
+ 6 7  7.73363E-03  1.74625E-01  1.74625E-01  9.00000E+00            121.CS 55.  80   7
+ 6 3  1.13551E-01  1.78473E-01  1.78473E-01  9.00000E+00            121.CS 55.  81   3
+ 6 4  2.86202E-02  1.79400E-01  1.79400E-01  9.00000E+00            121.CS 55.  82   4
+ 110  2.41334E+01  1.96000E-01  1.96000E-01  0.00000E+00            121.CS 55.  83  10
+ 6 1  6.80129E-01  1.61444E-01  1.61444E-01  1.00000E+01            121.CS 55.  84   1
+ 6 5  7.27408E-02  1.90583E-01  1.90583E-01  1.00000E+01            121.CS 55.  85   5
+ 6 6  6.28038E-03  1.90896E-01  1.90896E-01  1.00000E+01            121.CS 55.  86   6
+ 6 7  8.18398E-03  1.91225E-01  1.91225E-01  1.00000E+01            121.CS 55.  87   7
+ 6 3  1.76818E-02  1.95073E-01  1.95073E-01  1.00000E+01            121.CS 55.  88   3
+ 6 4  4.39323E-03  1.96000E-01  1.96000E-01  1.00000E+01            121.CS 55.  89   4
+ 111  2.18921E-01  2.10100E-01  2.10100E-01  0.00000E+00            121.CS 55.  90  11
+ 6 1  2.37121E-02  1.75544E-01  1.75544E-01  1.10000E+01            121.CS 55.  91   1
+ 6 5  2.44430E-03  2.04683E-01  2.04683E-01  1.10000E+01            121.CS 55.  92   5
+ 6 6  1.28999E-03  2.04996E-01  2.04996E-01  1.10000E+01            121.CS 55.  93   6
+ 6 7  1.19198E-03  2.05325E-01  2.05325E-01  1.10000E+01            121.CS 55.  94   7
+ 6 3  1.03320E-03  2.09173E-01  2.09173E-01  1.10000E+01            121.CS 55.  95   3
+ 6 4  2.49304E-04  2.10100E-01  2.10100E-01  1.10000E+01            121.CS 55.  96   4
+ 112  4.69116E+00  2.34500E-01  2.34500E-01  0.00000E+00            121.CS 55.  97  12
+ 6 1  3.21325E-01  1.99944E-01  1.99944E-01  1.20000E+01            121.CS 55.  98   1
+ 6 5  3.89113E-02  2.29083E-01  2.29083E-01  1.20000E+01            121.CS 55.  99   5
+ 6 6  2.28844E-03  2.29396E-01  2.29396E-01  1.20000E+01            121.CS 55. 100   6
+ 6 7  5.44727E-04  2.29725E-01  2.29725E-01  1.20000E+01            121.CS 55. 101   7
+ 6 3  8.49119E-03  2.33573E-01  2.33573E-01  1.20000E+01            121.CS 55. 102   3
+ 6 4  2.14492E-03  2.34500E-01  2.34500E-01  1.20000E+01            121.CS 55. 103   4
+ 113  1.74615E+00  2.39600E-01  2.39600E-01  0.00000E+00            121.CS 55. 104  13
+ 6 1  1.12925E-01  2.05044E-01  2.05044E-01  1.30000E+01            121.CS 55. 105   1
+ 6 5  1.36761E-02  2.34183E-01  2.34183E-01  1.30000E+01            121.CS 55. 106   5
+ 6 6  7.98955E-04  2.34496E-01  2.34496E-01  1.30000E+01            121.CS 55. 107   6
+ 6 7  1.90407E-04  2.34825E-01  2.34825E-01  1.30000E+01            121.CS 55. 108   7
+ 6 3  2.98293E-03  2.38673E-01  2.38673E-01  1.30000E+01            121.CS 55. 109   3
+ 6 4  7.53399E-04  2.39600E-01  2.39600E-01  1.30000E+01            121.CS 55. 110   4
+ 114  2.86682E-01  2.47000E-01  2.47000E-01  0.00000E+00            121.CS 55. 111  14
+ 6 1  1.71025E-02  2.12444E-01  2.12444E-01  1.40000E+01            121.CS 55. 112   1
+ 6 5  2.07080E-03  2.41583E-01  2.41583E-01  1.40000E+01            121.CS 55. 113   5
+ 6 6  1.19820E-04  2.41896E-01  2.41896E-01  1.40000E+01            121.CS 55. 114   6
+ 6 7  2.86075E-05  2.42225E-01  2.42225E-01  1.40000E+01            121.CS 55. 115   7
+ 6 3  4.51359E-04  2.46073E-01  2.46073E-01  1.40000E+01            121.CS 55. 116   3
+ 6 4  1.13974E-04  2.47000E-01  2.47000E-01  1.40000E+01            121.CS 55. 117   4
+ 115  7.03674E-01  2.55900E-01  2.55900E-01  0.00000E+00            121.CS 55. 118  15
+ 6 1  3.82267E-02  2.21344E-01  2.21344E-01  1.50000E+01            121.CS 55. 119   1
+ 6 5  4.62736E-03  2.50483E-01  2.50483E-01  1.50000E+01            121.CS 55. 120   5
+ 6 6  2.64720E-04  2.50796E-01  2.50796E-01  1.50000E+01            121.CS 55. 121   6
+ 6 7  6.33480E-05  2.51125E-01  2.51125E-01  1.50000E+01            121.CS 55. 122   7
+ 6 3  1.00780E-03  2.54973E-01  2.54973E-01  1.50000E+01            121.CS 55. 123   3
+ 6 4  2.54409E-04  2.55900E-01  2.55900E-01  1.50000E+01            121.CS 55. 124   4
+ 116  5.21240E-01  2.70200E-01  2.70200E-01  0.00000E+00            121.CS 55. 125  16
+ 6 1  2.45378E-02  2.35644E-01  2.35644E-01  1.60000E+01            121.CS 55. 126   1
+ 6 5  2.96905E-03  2.64783E-01  2.64783E-01  1.60000E+01            121.CS 55. 127   5
+ 6 6  1.66843E-04  2.65096E-01  2.65096E-01  1.60000E+01            121.CS 55. 128   6
+ 6 7  4.00813E-05  2.65425E-01  2.65425E-01  1.60000E+01            121.CS 55. 129   7
+ 6 3  6.45867E-04  2.69273E-01  2.69273E-01  1.60000E+01            121.CS 55. 130   3
+ 6 4  1.62962E-04  2.70200E-01  2.70200E-01  1.60000E+01            121.CS 55. 131   4
+ 117  1.04248E-01  2.73200E-01  2.73200E-01  0.00000E+00            121.CS 55. 132  17
+ 6 1  4.76734E-03  2.38644E-01  2.38644E-01  1.70000E+01            121.CS 55. 133   1
+ 6 5  5.76791E-04  2.67783E-01  2.67783E-01  1.70000E+01            121.CS 55. 134   5
+ 6 6  3.22929E-05  2.68096E-01  2.68096E-01  1.70000E+01            121.CS 55. 135   6
+ 6 7  7.76438E-06  2.68425E-01  2.68425E-01  1.70000E+01            121.CS 55. 136   7
+ 6 3  1.25441E-04  2.72273E-01  2.72273E-01  1.70000E+01            121.CS 55. 137   3
+ 6 4  3.16473E-05  2.73200E-01  2.73200E-01  1.70000E+01            121.CS 55. 138   4
+ 118  1.30310E+00  2.78900E-01  2.78900E-01  0.00000E+00            121.CS 55. 139  18
+ 6 1  5.64518E-02  2.44344E-01  2.44344E-01  1.80000E+01            121.CS 55. 140   1
+ 6 5  6.82878E-03  2.73483E-01  2.73483E-01  1.80000E+01            121.CS 55. 141   5
+ 6 6  3.79678E-04  2.73796E-01  2.73796E-01  1.80000E+01            121.CS 55. 142   6
+ 6 7  9.14366E-05  2.74125E-01  2.74125E-01  1.80000E+01            121.CS 55. 143   7
+ 6 3  1.48446E-03  2.77973E-01  2.77973E-01  1.80000E+01            121.CS 55. 144   3
+ 6 4  3.74440E-04  2.78900E-01  2.78900E-01  1.80000E+01            121.CS 55. 145   4
+ 119  3.12744E+00  2.80100E-01  2.80100E-01  0.00000E+00            121.CS 55. 146  19
+ 6 1  1.33970E-01  2.45544E-01  2.45544E-01  1.90000E+01            121.CS 55. 147   1
+ 6 5  1.62053E-02  2.74683E-01  2.74683E-01  1.90000E+01            121.CS 55. 148   5
+ 6 6  8.99700E-04  2.74996E-01  2.74996E-01  1.90000E+01            121.CS 55. 149   6
+ 6 7  2.16746E-04  2.75325E-01  2.75325E-01  1.90000E+01            121.CS 55. 150   7
+ 6 3  3.52243E-03  2.79173E-01  2.79173E-01  1.90000E+01            121.CS 55. 151   3
+ 6 4  8.88458E-04  2.80100E-01  2.80100E-01  1.90000E+01            121.CS 55. 152   4
+ 120  1.56372E+00  2.80100E-01  2.80100E-01  0.00000E+00            121.CS 55. 153  20
+ 6 1  6.69849E-02  2.45544E-01  2.45544E-01  2.00000E+01            121.CS 55. 154   1
+ 6 5  8.10264E-03  2.74683E-01  2.74683E-01  2.00000E+01            121.CS 55. 155   5
+ 6 6  4.49850E-04  2.74996E-01  2.74996E-01  2.00000E+01            121.CS 55. 156   6
+ 6 7  1.08373E-04  2.75325E-01  2.75325E-01  2.00000E+01            121.CS 55. 157   7
+ 6 3  1.76121E-03  2.79173E-01  2.79173E-01  2.00000E+01            121.CS 55. 158   3
+ 6 4  4.44229E-04  2.80100E-01  2.80100E-01  2.00000E+01            121.CS 55. 159   4
+ 121  2.60620E-01  2.91700E-01  2.91700E-01  0.00000E+00            121.CS 55. 160  21
+ 6 1  9.81644E-03  2.57144E-01  2.57144E-01  2.10000E+01            121.CS 55. 161   1
+ 6 5  1.05738E-03  2.86283E-01  2.86283E-01  2.10000E+01            121.CS 55. 162   5
+ 6 6  3.63864E-04  2.86596E-01  2.86596E-01  2.10000E+01            121.CS 55. 163   6
+ 6 7  3.01900E-04  2.86925E-01  2.86925E-01  2.10000E+01            121.CS 55. 164   7
+ 6 3  3.58233E-04  2.90773E-01  2.90773E-01  2.10000E+01            121.CS 55. 165   3
+ 6 4  8.74797E-05  2.91700E-01  2.91700E-01  2.10000E+01            121.CS 55. 166   4
+ 122  4.43054E-01  2.95800E-01  2.95800E-01  0.00000E+00            121.CS 55. 167  22
+ 6 1  1.59706E-02  2.61244E-01  2.61244E-01  2.20000E+01            121.CS 55. 168   1
+ 6 5  1.72314E-03  2.90383E-01  2.90383E-01  2.20000E+01            121.CS 55. 169   5
+ 6 6  5.82498E-04  2.90696E-01  2.90696E-01  2.20000E+01            121.CS 55. 170   6
+ 6 7  4.81101E-04  2.91025E-01  2.91025E-01  2.20000E+01            121.CS 55. 171   7
+ 6 3  5.79150E-04  2.94873E-01  2.94873E-01  2.20000E+01            121.CS 55. 172   3
+ 6 4  1.41496E-04  2.95800E-01  2.95800E-01  2.20000E+01            121.CS 55. 173   4
+ 123  6.51550E-01  3.20400E-01  3.20400E-01  0.00000E+00            121.CS 55. 174  23
+ 6 1  1.96785E-02  2.85844E-01  2.85844E-01  2.30000E+01            121.CS 55. 175   1
+ 6 5  2.37695E-03  3.14983E-01  3.14983E-01  2.30000E+01            121.CS 55. 176   5
+ 6 6  1.25936E-04  3.15296E-01  3.15296E-01  2.30000E+01            121.CS 55. 177   6
+ 6 7  3.07087E-05  3.15625E-01  3.15625E-01  2.30000E+01            121.CS 55. 178   7
+ 6 3  5.15163E-04  3.19473E-01  3.19473E-01  2.30000E+01            121.CS 55. 179   3
+ 6 4  1.29790E-04  3.20400E-01  3.20400E-01  2.30000E+01            121.CS 55. 180   4
+ 124  2.60620E+00  3.20900E-01  3.20900E-01  0.00000E+00            121.CS 55. 181  24
+ 6 1  7.28599E-02  2.86344E-01  2.86344E-01  2.40000E+01            121.CS 55. 182   1
+ 6 5  7.93424E-03  3.15483E-01  3.15483E-01  2.40000E+01            121.CS 55. 183   5
+ 6 6  2.41813E-03  3.15796E-01  3.15796E-01  2.40000E+01            121.CS 55. 184   6
+ 6 7  1.94510E-03  3.16125E-01  3.16125E-01  2.40000E+01            121.CS 55. 185   7
+ 6 3  2.55076E-03  3.19973E-01  3.19973E-01  2.40000E+01            121.CS 55. 186   3
+ 6 4  6.24904E-04  3.20900E-01  3.20900E-01  2.40000E+01            121.CS 55. 187   4
+ 125  1.82434E-01  3.37200E-01  3.37200E-01  0.00000E+00            121.CS 55. 188  25
+ 126  1.56372E-01  3.61700E-01  3.61700E-01  0.00000E+00            121.CS 55. 189  26
+ 127  6.51550E-01  3.81200E-01  3.81200E-01  0.00000E+00            121.CS 55. 190  27
+ 6 1  1.26277E-02  3.46644E-01  3.46644E-01  2.70000E+01            121.CS 55. 191   1
+ 6 5  1.51946E-03  3.75783E-01  3.75783E-01  2.70000E+01            121.CS 55. 192   5
+ 6 6  7.56193E-05  3.76096E-01  3.76096E-01  2.70000E+01            121.CS 55. 193   6
+ 6 7  1.87804E-05  3.76425E-01  3.76425E-01  2.70000E+01            121.CS 55. 194   7
+ 6 3  3.28064E-04  3.80273E-01  3.80273E-01  2.70000E+01            121.CS 55. 195   3
+ 6 4  8.26809E-05  3.81200E-01  3.81200E-01  2.70000E+01            121.CS 55. 196   4
+ 128  1.56372E-01  3.93200E-01  3.93200E-01  0.00000E+00            121.CS 55. 197  28
+ 6 1  2.80239E-03  3.58644E-01  3.58644E-01  2.80000E+01            121.CS 55. 198   1
+ 6 5  3.36962E-04  3.87783E-01  3.87783E-01  2.80000E+01            121.CS 55. 199   5
+ 6 6  1.65761E-05  3.88096E-01  3.88096E-01  2.80000E+01            121.CS 55. 200   6
+ 6 7  4.13238E-06  3.88425E-01  3.88425E-01  2.80000E+01            121.CS 55. 201   7
+ 6 3  7.27009E-05  3.92273E-01  3.92273E-01  2.80000E+01            121.CS 55. 202   3
+ 6 4  1.83254E-05  3.93200E-01  3.93200E-01  2.80000E+01            121.CS 55. 203   4
+ 129  7.29736E-01  3.96600E-01  3.96600E-01  0.00000E+00            121.CS 55. 204  29
+ 6 1  1.07662E-02  3.62044E-01  3.62044E-01  2.90000E+01            121.CS 55. 205   1
+ 6 5  1.19551E-03  3.91183E-01  3.91183E-01  2.90000E+01            121.CS 55. 206   5
+ 6 6  2.78359E-04  3.91496E-01  3.91496E-01  2.90000E+01            121.CS 55. 207   6
+ 6 7  2.09545E-04  3.91825E-01  3.91825E-01  2.90000E+01            121.CS 55. 208   7
+ 6 3  3.47700E-04  3.95673E-01  3.95673E-01  2.90000E+01            121.CS 55. 209   3
+ 6 4  8.56515E-05  3.96600E-01  3.96600E-01  2.90000E+01            121.CS 55. 210   4
+ 130  4.43054E-01  4.12300E-01  4.12300E-01  0.00000E+00            121.CS 55. 211  30
+ 6 1  5.83439E-03  3.77744E-01  3.77744E-01  3.00000E+01            121.CS 55. 212   1
+ 6 5  6.49859E-04  4.06883E-01  4.06883E-01  3.00000E+01            121.CS 55. 213   5
+ 6 6  1.44005E-04  4.07196E-01  4.07196E-01  3.00000E+01            121.CS 55. 214   6
+ 6 7  1.07157E-04  4.07525E-01  4.07525E-01  3.00000E+01            121.CS 55. 215   7
+ 6 3  1.85972E-04  4.11373E-01  4.11373E-01  3.00000E+01            121.CS 55. 216   3
+ 6 4  4.58527E-05  4.12300E-01  4.12300E-01  3.00000E+01            121.CS 55. 217   4
+ 131  2.16315E+00  4.14100E-01  4.14100E-01  0.00000E+00            121.CS 55. 218  31
+ 6 1  2.81266E-02  3.79544E-01  3.79544E-01  3.10000E+01            121.CS 55. 219   1
+ 6 5  3.13392E-03  4.08683E-01  4.08683E-01  3.10000E+01            121.CS 55. 220   5
+ 6 6  6.90606E-04  4.08996E-01  4.08996E-01  3.10000E+01            121.CS 55. 221   6
+ 6 7  5.13237E-04  4.09325E-01  4.09325E-01  3.10000E+01            121.CS 55. 222   7
+ 6 3  8.95253E-04  4.13173E-01  4.13173E-01  3.10000E+01            121.CS 55. 223   3
+ 6 4  2.20752E-04  4.14100E-01  4.14100E-01  3.10000E+01            121.CS 55. 224   4
+ 132  2.60620E-01  4.17600E-01  4.17600E-01  0.00000E+00            121.CS 55. 225  32
+ 6 1  3.30688E-03  3.83044E-01  3.83044E-01  3.20000E+01            121.CS 55. 226   1
+ 6 5  3.68695E-04  4.12183E-01  4.12183E-01  3.20000E+01            121.CS 55. 227   5
+ 6 6  8.03791E-05  4.12496E-01  4.12496E-01  3.20000E+01            121.CS 55. 228   6
+ 6 7  5.95876E-05  4.12825E-01  4.12825E-01  3.20000E+01            121.CS 55. 229   7
+ 6 3  1.04965E-04  4.16673E-01  4.16673E-01  3.20000E+01            121.CS 55. 230   3
+ 6 4  2.58873E-05  4.17600E-01  4.17600E-01  3.20000E+01            121.CS 55. 231   4
+ 133  1.82434E-01  4.22900E-01  4.22900E-01  0.00000E+00            121.CS 55. 232  33
+ 6 1  2.87703E-02  3.88344E-01  3.88344E-01  3.30000E+01            121.CS 55. 233   1
+ 6 5  4.06575E-03  4.17483E-01  4.17483E-01  3.30000E+01            121.CS 55. 234   5
+ 6 6  5.06988E-04  4.17796E-01  4.17796E-01  3.30000E+01            121.CS 55. 235   6
+ 6 7  4.12089E-04  4.18125E-01  4.18125E-01  3.30000E+01            121.CS 55. 236   7
+ 6 3  1.04988E-03  4.21973E-01  4.21973E-01  3.30000E+01            121.CS 55. 237   3
+ 6 4  2.63349E-04  4.22900E-01  4.22900E-01  3.30000E+01            121.CS 55. 238   4
+ 134  2.11102E+00  4.27100E-01  4.27100E-01  0.00000E+00            121.CS 55. 239  34
+ 6 1  3.07347E-02  3.92544E-01  3.92544E-01  3.40000E+01            121.CS 55. 240   1
+ 6 5  3.68873E-03  4.21683E-01  4.21683E-01  3.40000E+01            121.CS 55. 241   5
+ 6 6  1.75794E-04  4.21996E-01  4.21996E-01  3.40000E+01            121.CS 55. 242   6
+ 6 7  4.43091E-05  4.22325E-01  4.22325E-01  3.40000E+01            121.CS 55. 243   7
+ 6 3  7.94265E-04  4.26173E-01  4.26173E-01  3.40000E+01            121.CS 55. 244   3
+ 6 4  2.00312E-04  4.27100E-01  4.27100E-01  3.40000E+01            121.CS 55. 245   4
+ 135  4.43054E-01  4.31300E-01  4.31300E-01  0.00000E+00            121.CS 55. 246  35
+ 6 1  5.12108E-03  3.96744E-01  3.96744E-01  3.50000E+01            121.CS 55. 247   1
+ 6 5  5.72339E-04  4.25883E-01  4.25883E-01  3.50000E+01            121.CS 55. 248   5
+ 6 6  1.19730E-04  4.26196E-01  4.26196E-01  3.50000E+01            121.CS 55. 249   6
+ 6 7  8.79306E-05  4.26525E-01  4.26525E-01  3.50000E+01            121.CS 55. 250   7
+ 6 3  1.60868E-04  4.30373E-01  4.30373E-01  3.50000E+01            121.CS 55. 251   3
+ 6 4  3.97029E-05  4.31300E-01  4.31300E-01  3.50000E+01            121.CS 55. 252   4
+ 136  1.04248E-01  4.45400E-01  4.45400E-01  0.00000E+00            121.CS 55. 253  36
+ 137  1.30310E+00  4.50100E-01  4.50100E-01  0.00000E+00            121.CS 55. 254  37
+ 6 1  1.33325E-02  4.15544E-01  4.15544E-01  3.70000E+01            121.CS 55. 255   1
+ 6 5  1.49457E-03  4.44683E-01  4.44683E-01  3.70000E+01            121.CS 55. 256   5
+ 6 6  2.96010E-04  4.44996E-01  4.44996E-01  3.70000E+01            121.CS 55. 257   6
+ 6 7  2.14768E-04  4.45325E-01  4.45325E-01  3.70000E+01            121.CS 55. 258   7
+ 6 3  4.13283E-04  4.49173E-01  4.49173E-01  3.70000E+01            121.CS 55. 259   3
+ 6 4  1.02096E-04  4.50100E-01  4.50100E-01  3.70000E+01            121.CS 55. 260   4
+ 138  1.01642E-01  4.50100E-01  4.50100E-01  0.00000E+00            121.CS 55. 261  38
+ 6 1  1.29824E-03  4.15544E-01  4.15544E-01  3.80000E+01            121.CS 55. 262   1
+ 6 5  1.55642E-04  4.44683E-01  4.44683E-01  3.80000E+01            121.CS 55. 263   5
+ 6 6  7.26553E-06  4.44996E-01  4.44996E-01  3.80000E+01            121.CS 55. 264   6
+ 6 7  1.84538E-06  4.45325E-01  4.45325E-01  3.80000E+01            121.CS 55. 265   7
+ 6 3  3.34678E-05  4.49173E-01  4.49173E-01  3.80000E+01            121.CS 55. 266   3
+ 6 4  8.44406E-06  4.50100E-01  4.50100E-01  3.80000E+01            121.CS 55. 267   4
+ 139  1.19885E+01  4.59700E-01  4.59700E-01  0.00000E+00            121.CS 55. 268  39
+ 6 1  1.45296E-01  4.25144E-01  4.25144E-01  3.90000E+01            121.CS 55. 269   1
+ 6 5  1.74118E-02  4.54283E-01  4.54283E-01  3.90000E+01            121.CS 55. 270   5
+ 6 6  8.05956E-04  4.54596E-01  4.54596E-01  3.90000E+01            121.CS 55. 271   6
+ 6 7  2.05372E-04  4.54925E-01  4.54925E-01  3.90000E+01            121.CS 55. 272   7
+ 6 3  3.74196E-03  4.58773E-01  4.58773E-01  3.90000E+01            121.CS 55. 273   3
+ 6 4  9.44286E-04  4.59700E-01  4.59700E-01  3.90000E+01            121.CS 55. 274   4
+ 140  3.90930E-01  4.60000E-01  4.60000E-01  0.00000E+00            121.CS 55. 275  40
+ 6 1  3.76075E-03  4.25444E-01  4.25444E-01  4.00000E+01            121.CS 55. 276   1
+ 6 5  4.22204E-04  4.54583E-01  4.54583E-01  4.00000E+01            121.CS 55. 277   5
+ 6 6  8.13135E-05  4.54896E-01  4.54896E-01  4.00000E+01            121.CS 55. 278   6
+ 6 7  5.86395E-05  4.55225E-01  4.55225E-01  4.00000E+01            121.CS 55. 279   7
+ 6 3  1.15813E-04  4.59073E-01  4.59073E-01  4.00000E+01            121.CS 55. 280   3
+ 6 4  2.86234E-05  4.60000E-01  4.60000E-01  4.00000E+01            121.CS 55. 281   4
+ 141  3.12744E-01  4.65000E-01  4.65000E-01  0.00000E+00            121.CS 55. 282  41
+ 6 1  2.91833E-03  4.30444E-01  4.30444E-01  4.10000E+01            121.CS 55. 283   1
+ 6 5  3.27865E-04  4.59583E-01  4.59583E-01  4.10000E+01            121.CS 55. 284   5
+ 6 6  6.22712E-05  4.59896E-01  4.59896E-01  4.10000E+01            121.CS 55. 285   6
+ 6 7  4.47733E-05  4.60225E-01  4.60225E-01  4.10000E+01            121.CS 55. 286   7
+ 6 3  8.95813E-05  4.64073E-01  4.64073E-01  4.10000E+01            121.CS 55. 287   3
+ 6 4  2.21455E-05  4.65000E-01  4.65000E-01  4.10000E+01            121.CS 55. 288   4
+ 142  3.12744E-01  4.71700E-01  4.71700E-01  0.00000E+00            121.CS 55. 289  42
+ 6 1  2.80477E-03  4.37144E-01  4.37144E-01  4.20000E+01            121.CS 55. 290   1
+ 6 5  3.15410E-04  4.66283E-01  4.66283E-01  4.20000E+01            121.CS 55. 291   5
+ 6 6  5.87845E-05  4.66596E-01  4.66596E-01  4.20000E+01            121.CS 55. 292   6
+ 6 7  4.20952E-05  4.66925E-01  4.66925E-01  4.20000E+01            121.CS 55. 293   7
+ 6 3  8.57152E-05  4.70773E-01  4.70773E-01  4.20000E+01            121.CS 55. 294   3
+ 6 4  2.11976E-05  4.71700E-01  4.71700E-01  4.20000E+01            121.CS 55. 295   4
+ 143  1.56372E-01  4.86100E-01  4.86100E-01  0.00000E+00            121.CS 55. 296  43
+ 6 1  1.29033E-03  4.51544E-01  4.51544E-01  4.30000E+01            121.CS 55. 297   1
+ 6 5  1.45386E-04  4.80683E-01  4.80683E-01  4.30000E+01            121.CS 55. 298   5
+ 6 6  2.60495E-05  4.80996E-01  4.80996E-01  4.30000E+01            121.CS 55. 299   6
+ 6 7  1.85004E-05  4.81325E-01  4.81325E-01  4.30000E+01            121.CS 55. 300   7
+ 6 3  3.90826E-05  4.85173E-01  4.85173E-01  4.30000E+01            121.CS 55. 301   3
+ 6 4  9.67234E-06  4.86100E-01  4.86100E-01  4.30000E+01            121.CS 55. 302   4
+ 144  5.21240E-01  4.91000E-01  4.91000E-01  0.00000E+00            121.CS 55. 303  44
+ 6 1  4.18402E-03  4.56444E-01  4.56444E-01  4.40000E+01            121.CS 55. 304   1
+ 6 5  4.71722E-04  4.85583E-01  4.85583E-01  4.40000E+01            121.CS 55. 305   5
+ 6 6  8.34154E-05  4.85896E-01  4.85896E-01  4.40000E+01            121.CS 55. 306   6
+ 6 7  5.90812E-05  4.86225E-01  4.86225E-01  4.40000E+01            121.CS 55. 307   7
+ 6 3  1.26359E-04  4.90073E-01  4.90073E-01  4.40000E+01            121.CS 55. 308   3
+ 6 4  3.12795E-05  4.91000E-01  4.91000E-01  4.40000E+01            121.CS 55. 309   4
+ 145  1.25098E+00  5.26700E-01  5.26700E-01  0.00000E+00            121.CS 55. 310  45
+ 6 1  1.08272E-02  4.92144E-01  4.92144E-01  4.50000E+01            121.CS 55. 311   1
+ 6 5  1.29625E-03  5.21283E-01  5.21283E-01  4.50000E+01            121.CS 55. 312   5
+ 6 6  5.66829E-05  5.21596E-01  5.21596E-01  4.50000E+01            121.CS 55. 313   6
+ 6 7  1.47698E-05  5.21925E-01  5.21925E-01  4.50000E+01            121.CS 55. 314   7
+ 6 3  2.77237E-04  5.25773E-01  5.25773E-01  4.50000E+01            121.CS 55. 315   3
+ 6 4  7.00955E-05  5.26700E-01  5.26700E-01  4.50000E+01            121.CS 55. 316   4
+ 146  2.08496E-01  5.48800E-01  5.48800E-01  0.00000E+00            121.CS 55. 317  46
+ 6 1  1.23917E-03  5.14244E-01  5.14244E-01  4.60000E+01            121.CS 55. 318   1
+ 6 5  1.40610E-04  5.43383E-01  5.43383E-01  4.60000E+01            121.CS 55. 319   5
+ 6 6  2.14693E-05  5.43696E-01  5.43696E-01  4.60000E+01            121.CS 55. 320   6
+ 6 7  1.47790E-05  5.44025E-01  5.44025E-01  4.60000E+01            121.CS 55. 321   7
+ 6 3  3.62950E-05  5.47873E-01  5.47873E-01  4.60000E+01            121.CS 55. 322   3
+ 6 4  9.00952E-06  5.48800E-01  5.48800E-01  4.60000E+01            121.CS 55. 323   4
+ 147  1.19885E+00  5.55000E-01  5.55000E-01  0.00000E+00            121.CS 55. 324  47
+ 6 1  9.12682E-03  5.20444E-01  5.20444E-01  4.70000E+01            121.CS 55. 325   1
+ 6 5  1.09238E-03  5.49583E-01  5.49583E-01  4.70000E+01            121.CS 55. 326   5
+ 6 6  4.66938E-05  5.49896E-01  5.49896E-01  4.70000E+01            121.CS 55. 327   6
+ 6 7  1.22886E-05  5.50225E-01  5.50225E-01  4.70000E+01            121.CS 55. 328   7
+ 6 3  2.33194E-04  5.54073E-01  5.54073E-01  4.70000E+01            121.CS 55. 329   3
+ 6 4  5.90032E-05  5.55000E-01  5.55000E-01  4.70000E+01            121.CS 55. 330   4
+ 148  6.51550E-01  5.71600E-01  5.71600E-01  0.00000E+00            121.CS 55. 331  48
+ 6 1  3.47836E-03  5.37044E-01  5.37044E-01  4.80000E+01            121.CS 55. 332   1
+ 6 5  3.95525E-04  5.66183E-01  5.66183E-01  4.80000E+01            121.CS 55. 333   5
+ 6 6  5.72171E-05  5.66496E-01  5.66496E-01  4.80000E+01            121.CS 55. 334   6
+ 6 7  3.90111E-05  5.66825E-01  5.66825E-01  4.80000E+01            121.CS 55. 335   7
+ 6 3  1.00829E-04  5.70673E-01  5.70673E-01  4.80000E+01            121.CS 55. 336   3
+ 6 4  2.50548E-05  5.71600E-01  5.71600E-01  4.80000E+01            121.CS 55. 337   4
+ 149  2.86682E-01  5.84600E-01  5.84600E-01  0.00000E+00            121.CS 55. 338  49
+ 6 1  1.44323E-03  5.50044E-01  5.50044E-01  4.90000E+01            121.CS 55. 339   1
+ 6 5  1.64293E-04  5.79183E-01  5.79183E-01  4.90000E+01            121.CS 55. 340   5
+ 6 6  2.30670E-05  5.79496E-01  5.79496E-01  4.90000E+01            121.CS 55. 341   6
+ 6 7  1.56475E-05  5.79825E-01  5.79825E-01  4.90000E+01            121.CS 55. 342   7
+ 6 3  4.16048E-05  5.83673E-01  5.83673E-01  4.90000E+01            121.CS 55. 343   3
+ 6 4  1.03443E-05  5.84600E-01  5.84600E-01  4.90000E+01            121.CS 55. 344   4
+ 150  3.12744E-01  6.46800E-01  6.46800E-01  0.00000E+00            121.CS 55. 345  50
+ 151  4.16992E-01  6.65000E-01  6.65000E-01  0.00000E+00            121.CS 55. 346  51
+ 6 1  1.51182E-03  6.30444E-01  6.30444E-01  5.10000E+01            121.CS 55. 347   1
+ 6 5  1.73072E-04  6.59583E-01  6.59583E-01  5.10000E+01            121.CS 55. 348   5
+ 6 6  2.04628E-05  6.59896E-01  6.59896E-01  5.10000E+01            121.CS 55. 349   6
+ 6 7  1.35249E-05  6.60225E-01  6.60225E-01  5.10000E+01            121.CS 55. 350   7
+ 6 3  4.23285E-05  6.64073E-01  6.64073E-01  5.10000E+01            121.CS 55. 351   3
+ 6 4  1.05601E-05  6.65000E-01  6.65000E-01  5.10000E+01            121.CS 55. 352   4
+ 152  1.82434E-01  6.74800E-01  6.74800E-01  0.00000E+00            121.CS 55. 353  52
+ 153  2.08496E-01  6.86300E-01  6.86300E-01  0.00000E+00            121.CS 55. 354  53
+ 6 1  6.99017E-04  6.51744E-01  6.51744E-01  5.30000E+01            121.CS 55. 355   1
+ 6 5  8.01190E-05  6.80883E-01  6.80883E-01  5.30000E+01            121.CS 55. 356   5
+ 6 6  9.08159E-06  6.81196E-01  6.81196E-01  5.30000E+01            121.CS 55. 357   6
+ 6 7  5.97189E-06  6.81525E-01  6.81525E-01  5.30000E+01            121.CS 55. 358   7
+ 6 3  1.94451E-05  6.85373E-01  6.85373E-01  5.30000E+01            121.CS 55. 359   3
+ 6 4  4.85539E-06  6.86300E-01  6.86300E-01  5.30000E+01            121.CS 55. 360   4
+ 154  2.08496E-01  6.90500E-01  6.90500E-01  0.00000E+00            121.CS 55. 361  54
+ 155  2.08496E-01  7.01100E-01  7.01100E-01  0.00000E+00            121.CS 55. 362  55
+ 6 1  6.63286E-04  6.66544E-01  6.66544E-01  5.50000E+01            121.CS 55. 363   1
+ 6 5  7.60829E-05  6.95683E-01  6.95683E-01  5.50000E+01            121.CS 55. 364   5
+ 6 6  8.38042E-06  6.95996E-01  6.95996E-01  5.50000E+01            121.CS 55. 365   6
+ 6 7  5.49349E-06  6.96325E-01  6.96325E-01  5.50000E+01            121.CS 55. 366   7
+ 6 3  1.83764E-05  7.00173E-01  7.00173E-01  5.50000E+01            121.CS 55. 367   3
+ 6 4  4.59090E-06  7.01100E-01  7.01100E-01  5.50000E+01            121.CS 55. 368   4
+ 156  1.40735E+00  7.06200E-01  7.06200E-01  0.00000E+00            121.CS 55. 369  56
+ 6 1  5.99532E-03  6.71644E-01  6.71644E-01  5.60000E+01            121.CS 55. 370   1
+ 6 5  7.16016E-04  7.00783E-01  7.00783E-01  5.60000E+01            121.CS 55. 371   5
+ 6 6  2.73953E-05  7.01096E-01  7.01096E-01  5.60000E+01            121.CS 55. 372   6
+ 6 7  7.64673E-06  7.01425E-01  7.01425E-01  5.60000E+01            121.CS 55. 373   7
+ 6 3  1.51733E-04  7.05274E-01  7.05274E-01  5.60000E+01            121.CS 55. 374   3
+ 6 4  3.84637E-05  7.06200E-01  7.06200E-01  5.60000E+01            121.CS 55. 375   4
+ 157  3.38806E-01  7.20100E-01  7.20100E-01  0.00000E+00            121.CS 55. 376  57
+ 6 1  1.00975E-03  6.85544E-01  6.85544E-01  5.70000E+01            121.CS 55. 377   1
+ 6 5  1.15933E-04  7.14683E-01  7.14683E-01  5.70000E+01            121.CS 55. 378   5
+ 6 6  1.23196E-05  7.14996E-01  7.14996E-01  5.70000E+01            121.CS 55. 379   6
+ 6 7  8.04580E-06  7.15325E-01  7.15325E-01  5.70000E+01            121.CS 55. 380   7
+ 6 3  2.78361E-05  7.19173E-01  7.19173E-01  5.70000E+01            121.CS 55. 381   3
+ 6 4  6.95892E-06  7.20100E-01  7.20100E-01  5.70000E+01            121.CS 55. 382   4
+ 158  3.64868E-01  7.30800E-01  7.30800E-01  0.00000E+00            121.CS 55. 383  58
+ 6 1  1.04924E-03  6.96244E-01  6.96244E-01  5.80000E+01            121.CS 55. 384   1
+ 6 5  1.20526E-04  7.25383E-01  7.25383E-01  5.80000E+01            121.CS 55. 385   5
+ 6 6  1.25566E-05  7.25696E-01  7.25696E-01  5.80000E+01            121.CS 55. 386   6
+ 6 7  8.18481E-06  7.26025E-01  7.26025E-01  5.80000E+01            121.CS 55. 387   7
+ 6 3  2.88472E-05  7.29873E-01  7.29873E-01  5.80000E+01            121.CS 55. 388   3
+ 6 4  7.21445E-06  7.30800E-01  7.30800E-01  5.80000E+01            121.CS 55. 389   4
+ 159  5.21240E-01  7.34500E-01  7.34500E-01  0.00000E+00            121.CS 55. 390  59
+ 6 1  1.48074E-03  6.99944E-01  6.99944E-01  5.90000E+01            121.CS 55. 391   1
+ 6 5  1.70120E-04  7.29083E-01  7.29083E-01  5.90000E+01            121.CS 55. 392   5
+ 6 6  1.76037E-05  7.29396E-01  7.29396E-01  5.90000E+01            121.CS 55. 393   6
+ 6 7  1.14673E-05  7.29725E-01  7.29725E-01  5.90000E+01            121.CS 55. 394   7
+ 6 3  4.06737E-05  7.33573E-01  7.33573E-01  5.90000E+01            121.CS 55. 395   3
+ 6 4  1.01735E-05  7.34500E-01  7.34500E-01  5.90000E+01            121.CS 55. 396   4
+ 160  5.21240E-01  7.34500E-01  7.34500E-01  0.00000E+00            121.CS 55. 397  60
+ 6 1  2.02363E-03  6.99944E-01  6.99944E-01  6.00000E+01            121.CS 55. 398   1
+ 6 5  2.41460E-04  7.29083E-01  7.29083E-01  6.00000E+01            121.CS 55. 399   5
+ 6 6  9.06418E-06  7.29396E-01  7.29396E-01  6.00000E+01            121.CS 55. 400   6
+ 6 7  2.56120E-06  7.29725E-01  7.29725E-01  6.00000E+01            121.CS 55. 401   7
+ 6 3  5.11384E-05  7.33573E-01  7.33573E-01  6.00000E+01            121.CS 55. 402   3
+ 6 4  1.29590E-05  7.34500E-01  7.34500E-01  6.00000E+01            121.CS 55. 403   4
+ 161  6.77612E-01  7.38400E-01  7.38400E-01  0.00000E+00            121.CS 55. 404  61
+ 6 1  1.90054E-03  7.03844E-01  7.03844E-01  6.10000E+01            121.CS 55. 405   1
+ 6 5  2.18388E-04  7.32983E-01  7.32983E-01  6.10000E+01            121.CS 55. 406   5
+ 6 6  2.24382E-05  7.33296E-01  7.33296E-01  6.10000E+01            121.CS 55. 407   6
+ 6 7  1.46071E-05  7.33625E-01  7.33625E-01  6.10000E+01            121.CS 55. 408   7
+ 6 3  5.21556E-05  7.37473E-01  7.37473E-01  6.10000E+01            121.CS 55. 409   3
+ 6 4  1.30472E-05  7.38400E-01  7.38400E-01  6.10000E+01            121.CS 55. 410   4
+ 162  2.08496E-01  7.97900E-01  7.97900E-01  0.00000E+00            121.CS 55. 411  62
+ 163  1.82434E-01  8.41900E-01  8.41900E-01  0.00000E+00            121.CS 55. 412  63
+ 164  2.60620E-01  8.50500E-01  8.50500E-01  0.00000E+00            121.CS 55. 413  64
+ 165  1.56372E-01  8.67200E-01  8.67200E-01  0.00000E+00            121.CS 55. 414  65
+ 166  2.34558E-01  8.72500E-01  8.72500E-01  0.00000E+00            121.CS 55. 415  66
+ 6 1  4.44924E-04  8.37944E-01  8.37944E-01  6.60000E+01            121.CS 55. 416   1
+ 6 5  5.13569E-05  8.67083E-01  8.67083E-01  6.60000E+01            121.CS 55. 417   5
+ 6 6  4.21903E-06  8.67396E-01  8.67396E-01  6.60000E+01            121.CS 55. 418   6
+ 6 7  2.70339E-06  8.67725E-01  8.67725E-01  6.60000E+01            121.CS 55. 419   7
+ 6 3  1.18883E-05  8.71574E-01  8.71574E-01  6.60000E+01            121.CS 55. 420   3
+ 6 4  2.98830E-06  8.72500E-01  8.72500E-01  6.60000E+01            121.CS 55. 421   4
+ 167  1.30310E-01  8.81200E-01  8.81200E-01  0.00000E+00            121.CS 55. 422  67
+ 168  3.64868E-01  8.85700E-01  8.85700E-01  0.00000E+00            121.CS 55. 423  68
+ 6 1  6.68880E-04  8.51144E-01  8.51144E-01  6.80000E+01            121.CS 55. 424   1
+ 6 5  7.72328E-05  8.80283E-01  8.80283E-01  6.80000E+01            121.CS 55. 425   5
+ 6 6  6.21876E-06  8.80596E-01  8.80596E-01  6.80000E+01            121.CS 55. 426   6
+ 6 7  3.98232E-06  8.80925E-01  8.80925E-01  6.80000E+01            121.CS 55. 427   7
+ 6 3  1.78344E-05  8.84773E-01  8.84773E-01  6.80000E+01            121.CS 55. 428   3
+ 6 4  4.48512E-06  8.85700E-01  8.85700E-01  6.80000E+01            121.CS 55. 429   4
+ 169  1.82434E-01  8.91600E-01  8.91600E-01  0.00000E+00            121.CS 55. 430  69
+ 170  2.08496E-01  9.00200E-01  9.00200E-01  0.00000E+00            121.CS 55. 431  70
+ 171  1.04248E-01  9.05400E-01  9.05400E-01  0.00000E+00            121.CS 55. 432  71
+ 172  4.43054E-01  9.10100E-01  9.10100E-01  0.00000E+00            121.CS 55. 433  72
+ 6 1  7.63894E-04  8.75544E-01  8.75544E-01  7.20000E+01            121.CS 55. 434   1
+ 6 5  8.82524E-05  9.04683E-01  9.04683E-01  7.20000E+01            121.CS 55. 435   5
+ 6 6  6.85300E-06  9.04996E-01  9.04996E-01  7.20000E+01            121.CS 55. 436   6
+ 6 7  4.38483E-06  9.05325E-01  9.05325E-01  7.20000E+01            121.CS 55. 437   7
+ 6 3  2.02912E-05  9.09173E-01  9.09173E-01  7.20000E+01            121.CS 55. 438   3
+ 6 4  5.10766E-06  9.10100E-01  9.10100E-01  7.20000E+01            121.CS 55. 439   4
+ 173  2.60620E-01  9.14300E-01  9.14300E-01  0.00000E+00            121.CS 55. 440  73
+ 174  1.82434E-01  9.22600E-01  9.22600E-01  0.00000E+00            121.CS 55. 441  74
+ 175  3.12744E-01  9.36600E-01  9.36600E-01  0.00000E+00            121.CS 55. 442  75
+ 176  2.08496E-01  9.49200E-01  9.49200E-01  0.00000E+00            121.CS 55. 443  76
+ 177  3.64868E-01  9.70000E-01  9.70000E-01  0.00000E+00            121.CS 55. 444  77
+ 6 1  5.46000E-04  9.35444E-01  9.35444E-01  7.70000E+01            121.CS 55. 445   1
+ 6 5  6.31507E-05  9.64583E-01  9.64583E-01  7.70000E+01            121.CS 55. 446   5
+ 6 6  4.50518E-06  9.64896E-01  9.64896E-01  7.70000E+01            121.CS 55. 447   6
+ 6 7  2.88078E-06  9.65225E-01  9.65225E-01  7.70000E+01            121.CS 55. 448   7
+ 6 3  1.43825E-05  9.69073E-01  9.69073E-01  7.70000E+01            121.CS 55. 449   3
+ 6 4  3.62872E-06  9.70000E-01  9.70000E-01  7.70000E+01            121.CS 55. 450   4
+ 178  1.56372E-01  9.86300E-01  9.86300E-01  0.00000E+00            121.CS 55. 451  78
+ 179  2.86682E-01  1.00520E+00  1.00520E+00  0.00000E+00            121.CS 55. 452  79
+ 6 1  3.96856E-04  9.70644E-01  9.70644E-01  7.90000E+01            121.CS 55. 453   1
+ 6 5  4.59253E-05  9.99783E-01  9.99783E-01  7.90000E+01            121.CS 55. 454   5
+ 6 6  3.12522E-06  1.00010E+00  1.00010E+00  7.90000E+01            121.CS 55. 455   6
+ 6 7  1.99920E-06  1.00043E+00  1.00043E+00  7.90000E+01            121.CS 55. 456   7
+ 6 3  1.04077E-05  1.00427E+00  1.00427E+00  7.90000E+01            121.CS 55. 457   3
+ 6 4  2.62958E-06  1.00520E+00  1.00520E+00  7.90000E+01            121.CS 55. 458   4
+ 180  2.34558E-01  1.03550E+00  1.03550E+00  0.00000E+00            121.CS 55. 459  80
+ 6 1  3.04520E-04  1.00094E+00  1.00094E+00  8.00000E+01            121.CS 55. 460   1
+ 6 5  3.52539E-05  1.03008E+00  1.03008E+00  8.00000E+01            121.CS 55. 461   5
+ 6 6  2.30678E-06  1.03040E+00  1.03040E+00  8.00000E+01            121.CS 55. 462   6
+ 6 7  1.47673E-06  1.03073E+00  1.03073E+00  8.00000E+01            121.CS 55. 463   7
+ 6 3  7.95778E-06  1.03457E+00  1.03457E+00  8.00000E+01            121.CS 55. 464   3
+ 6 4  1.96722E-06  1.03550E+00  1.03550E+00  8.00000E+01            121.CS 55. 465   4
+ 181  2.08496E-01  1.06030E+00  1.06030E+00  0.00000E+00            121.CS 55. 466  81
+ 182  5.73364E-01  1.06550E+00  1.06550E+00  0.00000E+00            121.CS 55. 467  82
+ 6 1  7.00271E-04  1.03094E+00  1.03094E+00  8.20000E+01            121.CS 55. 468   1
+ 6 5  8.10968E-05  1.06008E+00  1.06008E+00  8.20000E+01            121.CS 55. 469   5
+ 6 6  5.11063E-06  1.06040E+00  1.06040E+00  8.20000E+01            121.CS 55. 470   6
+ 6 7  3.27506E-06  1.06073E+00  1.06073E+00  8.20000E+01            121.CS 55. 471   7
+ 6 3  1.82389E-05  1.06457E+00  1.06457E+00  8.20000E+01            121.CS 55. 472   3
+ 6 4  4.50282E-06  1.06550E+00  1.06550E+00  8.20000E+01            121.CS 55. 473   4
+ 183  2.08496E-01  1.07670E+00  1.07670E+00  0.00000E+00            121.CS 55. 474  83
+ 184  4.43054E-01  1.10360E+00  1.10360E+00  0.00000E+00            121.CS 55. 475  84
+ 6 1  5.03156E-04  1.06904E+00  1.06904E+00  8.40000E+01            121.CS 55. 476   1
+ 6 5  5.81978E-05  1.09818E+00  1.09818E+00  8.40000E+01            121.CS 55. 477   5
+ 6 6  3.50240E-06  1.09850E+00  1.09850E+00  8.40000E+01            121.CS 55. 478   6
+ 6 7  2.24825E-06  1.09883E+00  1.09883E+00  8.40000E+01            121.CS 55. 479   7
+ 6 3  1.30323E-05  1.10267E+00  1.10267E+00  8.40000E+01            121.CS 55. 480   3
+ 6 4  3.21189E-06  1.10360E+00  1.10360E+00  8.40000E+01            121.CS 55. 481   4
+ 185  1.82434E-01  1.11500E+00  1.11500E+00  0.00000E+00            121.CS 55. 482  85
+ 186  2.34558E-01  1.12000E+00  1.12000E+00  0.00000E+00            121.CS 55. 483  86
+ 6 1  2.58314E-04  1.08544E+00  1.08544E+00  8.60000E+01            121.CS 55. 484   1
+ 6 5  2.98759E-05  1.11458E+00  1.11458E+00  8.60000E+01            121.CS 55. 485   5
+ 6 6  1.76362E-06  1.11490E+00  1.11490E+00  8.60000E+01            121.CS 55. 486   6
+ 6 7  1.13305E-06  1.11523E+00  1.11523E+00  8.60000E+01            121.CS 55. 487   7
+ 6 3  6.67838E-06  1.11907E+00  1.11907E+00  8.60000E+01            121.CS 55. 488   3
+ 6 4  1.64469E-06  1.12000E+00  1.12000E+00  8.60000E+01            121.CS 55. 489   4
+ 187  7.81860E-01  1.14030E+00  1.14030E+00  0.00000E+00            121.CS 55. 490  87
+ 188  3.90930E-01  1.16390E+00  1.16390E+00  0.00000E+00            121.CS 55. 491  88
+ 6 1  3.97645E-04  1.12934E+00  1.12934E+00  8.80000E+01            121.CS 55. 492   1
+ 6 5  4.59833E-05  1.15848E+00  1.15848E+00  8.80000E+01            121.CS 55. 493   5
+ 6 6  2.58186E-06  1.15880E+00  1.15880E+00  8.80000E+01            121.CS 55. 494   6
+ 6 7  1.66296E-06  1.15913E+00  1.15913E+00  8.80000E+01            121.CS 55. 495   7
+ 6 3  1.02333E-05  1.16297E+00  1.16297E+00  8.80000E+01            121.CS 55. 496   3
+ 6 4  2.51503E-06  1.16390E+00  1.16390E+00  8.80000E+01            121.CS 55. 497   4
+ 189  1.30310E-01  1.17980E+00  1.17980E+00  0.00000E+00            121.CS 55. 498  89
+ 190  1.56372E-01  1.24090E+00  1.24090E+00  0.00000E+00            121.CS 55. 499  90
+ 6 1  1.39621E-04  1.20634E+00  1.20634E+00  9.00000E+01            121.CS 55. 500   1
+ 6 5  1.61443E-05  1.23548E+00  1.23548E+00  9.00000E+01            121.CS 55. 501   5
+ 6 6  8.34414E-07  1.23580E+00  1.23580E+00  9.00000E+01            121.CS 55. 502   6
+ 6 7  5.40301E-07  1.23613E+00  1.23613E+00  9.00000E+01            121.CS 55. 503   7
+ 6 3  3.56778E-06  1.23997E+00  1.23997E+00  9.00000E+01            121.CS 55. 504   3
+ 6 4  8.73648E-07  1.24090E+00  1.24090E+00  9.00000E+01            121.CS 55. 505   4
+ 191  1.56372E-01  1.25520E+00  1.25520E+00  0.00000E+00            121.CS 55. 506  91
+ 192  2.60620E-01  1.27640E+00  1.27640E+00  0.00000E+00            121.CS 55. 507  92
+ 193  2.08496E-01  1.29940E+00  1.29940E+00  0.00000E+00            121.CS 55. 508  93
+ 6 1  1.69756E-04  1.26484E+00  1.26484E+00  9.30000E+01            121.CS 55. 509   1
+ 6 5  1.96319E-05  1.29398E+00  1.29398E+00  9.30000E+01            121.CS 55. 510   5
+ 6 6  9.56516E-07  1.29430E+00  1.29430E+00  9.30000E+01            121.CS 55. 511   6
+ 6 7  6.22199E-07  1.29463E+00  1.29463E+00  9.30000E+01            121.CS 55. 512   7
+ 6 3  4.31794E-06  1.29847E+00  1.29847E+00  9.30000E+01            121.CS 55. 513   3
+ 6 4  1.05438E-06  1.29940E+00  1.29940E+00  9.30000E+01            121.CS 55. 514   4
+ 194  1.82434E-01  1.34370E+00  1.34370E+00  0.00000E+00            121.CS 55. 515  94
+ 6 1  1.38991E-04  1.30914E+00  1.30914E+00  9.40000E+01            121.CS 55. 516   1
+ 6 5  1.60785E-05  1.33828E+00  1.33828E+00  9.40000E+01            121.CS 55. 517   5
+ 6 6  7.50682E-07  1.33860E+00  1.33860E+00  9.40000E+01            121.CS 55. 518   6
+ 6 7  4.90110E-07  1.33893E+00  1.33893E+00  9.40000E+01            121.CS 55. 519   7
+ 6 3  3.52462E-06  1.34277E+00  1.34277E+00  9.40000E+01            121.CS 55. 520   3
+ 6 4  8.58833E-07  1.34370E+00  1.34370E+00  9.40000E+01            121.CS 55. 521   4
+ 195  1.82434E-01  1.39620E+00  1.39620E+00  0.00000E+00            121.CS 55. 522  95
+ 196  2.60620E-01  1.41650E+00  1.41650E+00  0.00000E+00            121.CS 55. 523  96
+ 197  1.04248E+00  1.43270E+00  1.43270E+00  0.00000E+00            121.CS 55. 524  97
+ 198  2.08496E-01  1.45800E+00  1.45800E+00  0.00000E+00            121.CS 55. 525  98
+ 199  2.08496E-01  1.49770E+00  1.49770E+00  0.00000E+00            121.CS 55. 526  99
+ 1 0  2.08496E-01  1.51110E+00  1.51110E+00  0.00000E+00            121.CS 55. 527 100
+ 2 1  6.23224E+00  2.94521E-02  2.94521E-02  0.00000E+00            121.CS 55. 528   1
+ 2 2  1.15418E+01  2.97812E-02  2.97812E-02  0.00000E+00            121.CS 55. 529   2
+ 2 3  1.08346E+00  3.35665E-02  3.35665E-02  0.00000E+00            121.CS 55. 530   3
+ 2 4  2.10050E+00  3.36295E-02  3.36295E-02  0.00000E+00            121.CS 55. 531   4
+ 2 5  1.06873E-02  3.38651E-02  3.38651E-02  0.00000E+00            121.CS 55. 532   5
+ 2 6  1.45952E-02  3.38785E-02  3.38785E-02  0.00000E+00            121.CS 55. 533   6
+ 2 7  2.27162E-01  3.43952E-02  3.43952E-02  0.00000E+00            121.CS 55. 534   7
+ 2 8  4.43043E-01  3.44080E-02  3.44080E-02  0.00000E+00            121.CS 55. 535   8
+ 2 9  1.99223E-03  3.44862E-02  3.44862E-02  0.00000E+00            121.CS 55. 536   9
+ 210  2.71551E-03  3.44882E-02  3.44882E-02  0.00000E+00            121.CS 55. 537  10
+ 211  2.32808E-02  3.45436E-02  3.45436E-02  0.00000E+00            121.CS 55. 538  11
+ 212  4.40219E-02  3.45450E-02  3.45450E-02  0.00000E+00            121.CS 55. 539  12
+ 221  8.35745E-05  3.13000E-04  3.13000E-04  0.00000E+00            121.CS 55. 540  21
+ 222  1.57263E-03  6.42201E-04  6.42201E-04  0.00000E+00            121.CS 55. 541  22
+ 223  5.84812E-02  4.42743E-03  4.42743E-03  0.00000E+00            121.CS 55. 542  23
+ 224  9.21511E-02  4.49034E-03  4.49034E-03  0.00000E+00            121.CS 55. 543  24
+ 225  8.71298E-04  4.72599E-03  4.72599E-03  0.00000E+00            121.CS 55. 544  25
+ 226  1.30071E-03  4.73937E-03  4.73937E-03  0.00000E+00            121.CS 55. 545  26
+ 227  1.26061E-02  5.25621E-03  5.25621E-03  0.00000E+00            121.CS 55. 546  27
+ 228  2.03835E-02  5.26892E-03  5.26892E-03  0.00000E+00            121.CS 55. 547  28
+ 229  1.05976E-04  5.34706E-03  5.34706E-03  0.00000E+00            121.CS 55. 548  29
+ 230  1.60974E-04  5.34913E-03  5.34913E-03  0.00000E+00            121.CS 55. 549  30
+ 231  1.43286E-03  5.40455E-03  5.40455E-03  0.00000E+00            121.CS 55. 550  31
+ 232  2.22530E-03  5.40593E-03  5.40593E-03  0.00000E+00            121.CS 55. 551  32
+ 241  5.98190E-07  3.29200E-04  3.29200E-04  0.00000E+00            121.CS 55. 552  41
+ 242  3.42235E-02  3.98191E-03  3.98191E-03  0.00000E+00            121.CS 55. 553  42
+ 243  4.94708E-04  4.17734E-03  4.17734E-03  0.00000E+00            121.CS 55. 554  43
+ 244  6.36248E-01  4.41300E-03  4.41300E-03  0.00000E+00            121.CS 55. 555  44
+ 245  4.88270E-03  4.89553E-03  4.89553E-03  0.00000E+00            121.CS 55. 556  45
+ 246  6.11786E-05  4.95593E-03  4.95593E-03  0.00000E+00            121.CS 55. 557  46
+ 247  9.49805E-02  5.03405E-03  5.03405E-03  0.00000E+00            121.CS 55. 558  47
+ 249  5.86036E-04  5.08031E-03  5.08031E-03  0.00000E+00            121.CS 55. 559  49
+ 250  6.68319E-06  5.09294E-03  5.09294E-03  0.00000E+00            121.CS 55. 560  50
+ 261  1.20159E-01  3.65269E-03  3.65269E-03  0.00000E+00            121.CS 55. 561  61
+ 262  6.63375E-04  3.78523E-03  3.78523E-03  0.00000E+00            121.CS 55. 562  62
+ 263  6.17616E-04  3.84813E-03  3.84813E-03  0.00000E+00            121.CS 55. 563  63
+ 264  1.22750E-01  4.08379E-03  4.08379E-03  0.00000E+00            121.CS 55. 564  64
+ 265  1.08791E+00  4.09719E-03  4.09719E-03  0.00000E+00            121.CS 55. 565  65
+ 266  1.05862E-02  4.56632E-03  4.56632E-03  0.00000E+00            121.CS 55. 566  66
+ 267  5.83828E-05  4.61402E-03  4.61402E-03  0.00000E+00            121.CS 55. 567  67
+ 268  5.60196E-05  4.62673E-03  4.62673E-03  0.00000E+00            121.CS 55. 568  68
+ 269  1.78514E-02  4.70486E-03  4.70486E-03  0.00000E+00            121.CS 55. 569  69
+ 270  1.59193E-01  4.70692E-03  4.70692E-03  0.00000E+00            121.CS 55. 570  70
+ 273  1.49047E-03  4.75109E-03  4.75109E-03  0.00000E+00            121.CS 55. 571  73
+ 274  6.60304E-06  4.76235E-03  4.76235E-03  0.00000E+00            121.CS 55. 572  74
+ 275  6.09671E-06  4.76373E-03  4.76373E-03  0.00000E+00            121.CS 55. 573  75
+ 291  1.37157E-01  6.08368E-04  6.08368E-04  0.00000E+00            121.CS 55. 574  91
+ 292  3.36879E-03  9.22472E-05  9.22472E-05  0.00000E+00            121.CS 55. 575  92
+ 294  3.38834E+02  1.66176E-05  1.66176E-05  0.00000E+00            121.CS 55. 576  94
+ 7 1  1.75218E+00  2.44715E-02  2.44715E-02  0.00000E+00            121.CS 55. 577   1
+ 7 2  7.83887E-01  2.86854E-02  2.86854E-02  0.00000E+00            121.CS 55. 578   2
+ 7 3  8.42602E-02  3.29032E-02  3.29032E-02  0.00000E+00            121.CS 55. 579   3
+ 7 4  3.74117E+00  3.19845E-04  3.19845E-04  0.00000E+00            121.CS 55. 580   4
+ 7 5  1.74307E+01  3.32460E-03  3.32460E-03  0.00000E+00            121.CS 55. 581   5
+ 7 6  5.17074E+00  4.00175E-03  4.00175E-03  0.00000E+00            121.CS 55. 582   6
+ 7 7  3.92729E-01  4.70581E-03  4.70581E-03  0.00000E+00            121.CS 55. 583   7
+ 7 8  1.98298E+01  1.23767E-04  1.23767E-04  0.00000E+00            121.CS 55. 584   8
+ 7 9  4.42156E+01  5.05091E-04  5.05091E-04  0.00000E+00            121.CS 55. 585   9
+ 710  2.52986E+00  6.17233E-04  6.17233E-04  0.00000E+00            121.CS 55. 586  10
+ 711  1.70249E-02  7.67423E-04  7.67423E-04  0.00000E+00            121.CS 55. 587  11
+ 712  5.27863E+01  2.61667E-05  2.61667E-05  0.00000E+00            121.CS 55. 588  12
+ 713  1.61165E+02  3.62396E-05  3.62396E-05  0.00000E+00            121.CS 55. 589  13
+ 1 1  3.83282E-02  6.85000E-02  6.85000E-02  0.00000E+00            121.CS 55. 590   1
+ 6 1  8.31496E+00  3.25150E-02  3.25150E-02  1.00000E+00            121.CS 55. 591   1
+ 6 5  2.92435E+00  6.28151E-02  6.28151E-02  1.00000E+00            121.CS 55. 592   5
+ 6 6  4.70593E-01  6.31368E-02  6.31368E-02  1.00000E+00            121.CS 55. 593   6
+ 6 7  3.27123E+00  6.34939E-02  6.34939E-02  1.00000E+00            121.CS 55. 594   7
+ 6 3  1.57835E+00  6.75093E-02  6.75093E-02  1.00000E+00            121.CS 55. 595   3
+ 6 4  4.02191E-01  6.85000E-02  6.85000E-02  1.00000E+00            121.CS 55. 596   4
+ 2 1  2.14185E+00  3.06218E-02  3.06218E-02  0.00000E+00            121.CS 55. 597   1
+ 2 2  3.95552E+00  3.09789E-02  3.09789E-02  0.00000E+00            121.CS 55. 598   2
+ 2 3  3.74740E-01  3.49256E-02  3.49256E-02  0.00000E+00            121.CS 55. 599   3
+ 2 4  7.26363E-01  3.49944E-02  3.49944E-02  0.00000E+00            121.CS 55. 600   4
+ 2 5  3.87802E-03  3.52374E-02  3.52374E-02  0.00000E+00            121.CS 55. 601   5
+ 2 6  5.28126E-03  3.52521E-02  3.52521E-02  0.00000E+00            121.CS 55. 602   6
+ 2 7  7.88476E-02  3.58031E-02  3.58031E-02  0.00000E+00            121.CS 55. 603   7
+ 2 8  1.53685E-01  3.58172E-02  3.58172E-02  0.00000E+00            121.CS 55. 604   8
+ 2 9  7.56115E-04  3.58994E-02  3.58994E-02  0.00000E+00            121.CS 55. 605   9
+ 210  1.02781E-03  3.59018E-02  3.59018E-02  0.00000E+00            121.CS 55. 606  10
+ 211  9.72768E-03  3.59668E-02  3.59668E-02  0.00000E+00            121.CS 55. 607  11
+ 212  1.83927E-02  3.59686E-02  3.59686E-02  0.00000E+00            121.CS 55. 608  12
+ 221  6.55638E-05  3.21700E-04  3.21700E-04  0.00000E+00            121.CS 55. 609  21
+ 222  1.34689E-03  6.78800E-04  6.78800E-04  0.00000E+00            121.CS 55. 610  22
+ 223  4.87494E-02  4.62540E-03  4.62540E-03  0.00000E+00            121.CS 55. 611  23
+ 224  7.61414E-02  4.69420E-03  4.69420E-03  0.00000E+00            121.CS 55. 612  24
+ 225  7.54948E-04  4.93719E-03  4.93719E-03  0.00000E+00            121.CS 55. 613  25
+ 226  1.12778E-03  4.95191E-03  4.95191E-03  0.00000E+00            121.CS 55. 614  26
+ 227  1.07337E-02  5.50294E-03  5.50294E-03  0.00000E+00            121.CS 55. 615  27
+ 228  1.72506E-02  5.51713E-03  5.51713E-03  0.00000E+00            121.CS 55. 616  28
+ 229  9.50713E-05  5.59929E-03  5.59929E-03  0.00000E+00            121.CS 55. 617  29
+ 230  1.44799E-04  5.60167E-03  5.60167E-03  0.00000E+00            121.CS 55. 618  30
+ 231  1.42226E-03  5.66662E-03  5.66662E-03  0.00000E+00            121.CS 55. 619  31
+ 232  2.23739E-03  5.66847E-03  5.66847E-03  0.00000E+00            121.CS 55. 620  32
+ 241  3.18414E-07  3.57100E-04  3.57100E-04  0.00000E+00            121.CS 55. 621  41
+ 242  1.51108E-02  4.16681E-03  4.16681E-03  0.00000E+00            121.CS 55. 622  42
+ 243  2.25156E-04  4.37252E-03  4.37252E-03  0.00000E+00            121.CS 55. 623  43
+ 244  2.91879E-01  4.61551E-03  4.61551E-03  0.00000E+00            121.CS 55. 624  44
+ 245  2.23200E-03  5.13135E-03  5.13135E-03  0.00000E+00            121.CS 55. 625  45
+ 246  2.99447E-05  5.19544E-03  5.19544E-03  0.00000E+00            121.CS 55. 626  46
+ 247  4.53921E-02  5.27759E-03  5.27759E-03  0.00000E+00            121.CS 55. 627  47
+ 249  2.84326E-04  5.33222E-03  5.33222E-03  0.00000E+00            121.CS 55. 628  49
+ 250  3.88616E-06  5.34676E-03  5.34676E-03  0.00000E+00            121.CS 55. 629  50
+ 261  7.18743E-02  3.80970E-03  3.80970E-03  0.00000E+00            121.CS 55. 630  61
+ 262  4.04475E-04  3.94659E-03  3.94659E-03  0.00000E+00            121.CS 55. 631  62
+ 263  3.76024E-04  4.01542E-03  4.01542E-03  0.00000E+00            121.CS 55. 632  63
+ 264  7.57426E-02  4.25840E-03  4.25840E-03  0.00000E+00            121.CS 55. 633  64
+ 265  6.71036E-01  4.27312E-03  4.27312E-03  0.00000E+00            121.CS 55. 634  65
+ 266  6.62377E-03  4.77424E-03  4.77424E-03  0.00000E+00            121.CS 55. 635  66
+ 267  3.82976E-05  4.82412E-03  4.82412E-03  0.00000E+00            121.CS 55. 636  67
+ 268  3.68218E-05  4.83834E-03  4.83834E-03  0.00000E+00            121.CS 55. 637  68
+ 269  1.14544E-02  4.92049E-03  4.92049E-03  0.00000E+00            121.CS 55. 638  69
+ 270  1.02260E-01  4.92286E-03  4.92286E-03  0.00000E+00            121.CS 55. 639  70
+ 273  9.83283E-04  4.97514E-03  4.97514E-03  0.00000E+00            121.CS 55. 640  73
+ 274  5.04692E-06  4.98783E-03  4.98783E-03  0.00000E+00            121.CS 55. 641  74
+ 275  4.75580E-06  4.98967E-03  4.98967E-03  0.00000E+00            121.CS 55. 642  75
+ 291  8.77527E-02  6.48397E-04  6.48397E-04  0.00000E+00            121.CS 55. 643  91
+ 292  2.24660E-03  1.00397E-04  1.00397E-04  0.00000E+00            121.CS 55. 644  92
+ 294  1.90070E+02  2.18915E-05  2.18915E-05  0.00000E+00            121.CS 55. 645  94
+ 7 1  5.61756E-01  2.53980E-02  2.53980E-02  0.00000E+00            121.CS 55. 646   1
+ 7 2  2.55307E-01  2.98089E-02  2.98089E-02  0.00000E+00            121.CS 55. 647   2
+ 7 3  2.78283E-02  3.42220E-02  3.42220E-02  0.00000E+00            121.CS 55. 648   3
+ 7 4  2.41578E+00  3.52105E-04  3.52105E-04  0.00000E+00            121.CS 55. 649   4
+ 7 5  9.52465E+00  3.44242E-03  3.44242E-03  0.00000E+00            121.CS 55. 650   5
+ 7 6  2.93676E+00  4.16445E-03  4.16445E-03  0.00000E+00            121.CS 55. 651   6
+ 7 7  2.26302E-01  4.91619E-03  4.91619E-03  0.00000E+00            121.CS 55. 652   7
+ 7 8  1.13866E+01  1.17974E-04  1.17974E-04  0.00000E+00            121.CS 55. 653   8
+ 7 9  2.44724E+01  5.28931E-04  5.28931E-04  0.00000E+00            121.CS 55. 654   9
+ 710  1.61130E+00  6.54643E-04  6.54643E-04  0.00000E+00            121.CS 55. 655  10
+ 711  1.37859E-02  8.15680E-04  8.15680E-04  0.00000E+00            121.CS 55. 656  11
+ 712  2.55466E+01  2.10709E-05  2.10709E-05  0.00000E+00            121.CS 55. 657  12
+ 713  9.01490E+01  4.14575E-05  4.14575E-05  0.00000E+00            121.CS 55. 658  13
+%%%% 121 CS  55 M  EC B+ IT     1.22000E+02   122 S    18-07-2007       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   3.49339E-01
+    X-ray                           (MeV) =   9.14307E-03
+    Free-bound X-ray                (MeV) =   9.79150E-05
+    Annihilation photon             (MeV) =   7.41495E-01
+    Beta+ particle                  (MeV) =   1.32146E+00
+    Neutrino                        (MeV) =   2.08119E+00
+    Beta- particle                  (MeV) =   0.00000E+00
+    Neutrino-                       (MeV) =   0.00000E+00
+    Internal conv. electron         (MeV) =   2.33359E-02
+    Auger and CK electron           (MeV) =   2.72848E-03
+    Alpha particle                  (MeV) =   0.00000E+00
+    Recoil nucleus                  (MeV) =   0.00000E+00
+  E-total (except unplaced radiat.) (MeV) =   4.52878E+00
+  E-unplaced radiation              (MeV) =   8.20042E-02
+  Q-value from ENSDF data           (MeV) =   4.52726E+00
+  Ratio of E-total/Q-value          ( % ) =   1.00034E+02
+  Ratio of E-unplaced radi./Q-value ( % ) =   1.81134E+00
+
+ 
+  Total yield of
+    Gamma-ray                             =   1.10106E+00
+    X-ray                                 =   3.33664E-01
+    Free-bound X-ray                      =   5.28904E+00
+    Annihilation photon                   =   1.45107E+00
+    Beta+ particle                        =   7.25533E-01
+    Beta- particle                        =   0.00000E+00
+    Internal conv. electron               =   3.51643E-01
+    Auger and CK electron                 =   4.79027E+00
+    Alpha particle                        =   0.00000E+00
+  Yield of unplaced radiation             =   7.84466E-02
+
+

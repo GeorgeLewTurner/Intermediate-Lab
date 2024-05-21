@@ -1,0 +1,263 @@
+%%%% 256 FM 100    A  SF        9.45600E+03 157.6 M    02-11-2005       BALASTAR
+1 256   FM 100 157.6 M         A  SF      
+1INTENSITY AND ENERGY BALANCE DATA
+
+              256-FERMIUM-100
++                                    HALFLIFE = 157.6 MINUTES 
++                                                                  02-11-2005
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  8.1000E+00
+   4.5720E-02  1.2150E+00  1.2150E+00  0.0000E+00                      
+
+
+ SPONTANEOUS FISSION PERCENT INTENSITY =  9.190E+01
+
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  1.000E+02
+ TOTAL INTENSITY FROM PARENT=  1.000E+02
+ PERCENT ERROR =  0.000E+00                      
+
+
+ TOTAL INTENSITY FROM PARENT =  1.000E+02
+ VALUE IS WITHIN   7.63E-06% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  5.692E-01 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  5.692E-01 MEV
+ PERCENT ERROR =  4.189E-05                      
+%%%% 256 FM 100    A  SF        9.45600E+03 157.6 M    02-11-2005       BALAEND 
+%%%% 256 FM 100    A  SF        9.45600E+03 157.6 M    02-11-2005       INPUSTAR
+1                                      **INPUT DATA**
+              256-FERMIUM-100
++                                    HALFLIFE = 157.6 MINUTES 
++                                                                  02-11-2005
+
+            MODES OF DECAY: ALPHA, SPONT. FISSION
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+                    ALPHA   1   1.21E-02   6.981E+00                                            
+                    ALPHA   2   6.89E-02   7.027E+00                                            
+           I.C.E. + GAMMA   1   1.21E-02   4.570E-02   E2 MULTIPOLE                             
++                                                                    AK= 0.0                    
+                                                       AL1=14.6      AL2=367.                   
+                                                       AL3=296.      AM= 193.                   
+                                                       AN+=71.3                                 
+           SPONT. FISSION       9.19E-01               NEUTRONS/FISSION = 4.01                  
+ 
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: Dec-2003
+%%%% 256 FM 100    A  SF        9.45600E+03 157.6 M    02-11-2005       INPUEND 
+%%%% 256 FM 100    A  SF        9.45600E+03 157.6 M    02-11-2005       OUTPSTAR
+1                                      **OUTPUT DATA**
+              256-FERMIUM-100
++                                    HALFLIFE = 157.6 MINUTES 
++                                                                  02-11-2005
+
+            MODES OF DECAY: ALPHA, SPONT. FISSION
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           ALPHA                          1   1.21E-02    6.872E+00    8.35E-02
+           RECOIL ATOM                        1.21E-02    1.092E-01    1.33E-03
+           ALPHA                          2   6.89E-02    6.917E+00    4.76E-01
+           RECOIL ATOM                        6.89E-02    1.099E-01    7.56E-03
+           GAMMA-RAY                      1   1.29E-05    4.570E-02    5.89E-07
+           L1 CONV. ELECTRON, GAMMA-RAY   1   1.88E-04    1.965E-02    3.70E-06
+           L2 CONV. ELECTRON, GAMMA-RAY   1   4.73E-03    2.046E-02    9.68E-05
+           L3 CONV. ELECTRON, GAMMA-RAY   1   3.81E-03    2.577E-02    9.81E-05
+           M CONV. ELECTRON, GAMMA-RAY    1   2.49E-03    4.060E-02*   1.01E-04
+           N+ CONV. ELECTRON, GAMMA-RAY   1   9.19E-04    4.570E-02*   4.20E-05
+           L1-M2 X-RAY                        1.38E-05    1.970E-02    2.72E-07
+           L1-M3 X-RAY                        1.00E-05    2.094E-02    2.10E-07
+           L2-M1 X-RAY                        5.46E-05    1.851E-02    1.01E-06
+           L2-M4 X-RAY                        1.88E-03    2.075E-02    3.90E-05
+           L2-N1 X-RAY                        1.52E-05    2.345E-02    3.56E-07
+           L2-N4 X-RAY                        4.49E-04    2.426E-02    1.09E-05
+           L2-O4 X-RAY                        9.53E-05    2.510E-02    2.39E-06
+           L3-M1 X-RAY                        1.26E-04    1.320E-02    1.66E-06
+           L3-M4 X-RAY                        1.88E-04    1.544E-02    2.90E-06
+           L3-M5 X-RAY                        1.65E-03    1.568E-02    2.59E-05
+           L3-N1 X-RAY                        3.25E-05    1.814E-02    5.90E-07
+           L3-N4 X-RAY                        3.90E-05    1.894E-02    7.38E-07
+           L3-N5 X-RAY                        3.60E-04    1.900E-02    6.85E-06
+           L3-O1 X-RAY                        8.71E-06    1.952E-02    1.70E-07
+           L3-O4 X-RAY                        8.03E-06    1.979E-02    1.59E-07
+           L3-O5 X-RAY                        7.41E-05    1.980E-02    1.47E-06
+           M X-RAY                            8.67E-04    3.871E-03    3.36E-06
+           Free-Bound X-RAY                   1.14E-01    7.460E-05    8.53E-06
+           CK LLX                             1.10E-03    1.989E-03*   2.20E-06
+           AUGER LMM                          2.30E-03    1.182E-02*   2.71E-05
+           AUGER LMX                          1.24E-03    1.583E-02*   1.96E-05
+           AUGER LXY                          1.56E-04    1.988E-02*   3.10E-06
+           CK MMX                             5.31E-03    6.480E-04*   3.44E-06
+           AUGER MNN                          9.65E-03    2.804E-03*   2.71E-05
+           AUGER MNX                          2.32E-03    3.465E-03*   8.06E-06
+           AUGER MXY                          1.51E-04    4.220E-03*   6.37E-07
+           CK NNX                             1.87E-02    1.910E-04*   3.57E-06
+           AUGER NXY                          3.03E-02    3.349E-04*   1.01E-05
+           CK OOX                             3.09E-02    1.145E-04*   3.54E-06
+           SPONTANEOUS FISSION NEUTRON        3.69E+00    2.003E+00*   7.38E+00
+           SPONTANEOUS FISSION FRAGMENT       1.84E+00    9.728E+01*   1.79E+02
+           SPONT. FISSION PROMPT GAMMA        7.47E+00    8.385E-01*   6.26E+00
+           SPONT. FISSION DELAYED GAMMA       6.45E+00    9.578E-01*   6.17E+00
+           SPONTANEOUS FISSION BETA           5.31E+00    1.189E+00*   6.31E+00
+ 
+           ALL LISTED X-RAYS, GAMMA-RAYS AND ANNIHILATION RADIATION    1.07E-04
+           ALL NEGLECTED X-RAYS, GAMMA-RAYS AND ANNIH. RADIATION**     8.12E-07
+           ALL LISTED BETAS, INTERNAL CONVERSION AND AUGER ELECTRONS   4.50E-04
+           ALL NEGLECTED BETAS, INT. CONVERSION AND AUGER ELECTRONS**  3.02E-08
+           ALL LISTED ALPHA PARTICLES AND  RECOIL NUCLEI               5.69E-01
+           ALL LISTED RADIATIONS                                       1.99E+02
+           ALL NEGLECTED RADIATIONS**                                  8.43E-07
+ 
+           *  AVERAGE ENERGY (MEV)
+           ** EACH NEGLECTED TRANSITION CONTRIBUTES LESS THAN  0.100%
+              TO THE TOTAL MEV/TRANSFORMATION FOR THIS CATEGORY.
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 252-CALIFORNIUM
+             DAUGHTER IS 8.1000E-02 PER TRANSFORMATION OF 256-FERMIUM.
+             DECAY OF THIS 2.645 YEARS HALFLIFE LEVEL WILL CONTRIBUTE TO DOSE.
+           SPON. FISSION BRANCHING IS 9.1900E-01 PER DECAY OF 256-FERMIUM.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: Dec-2003
+%%%% 256 FM 100    A  SF        9.45600E+03 157.6 M    02-11-2005       OUTPEND 
+%%%% 256 FM 100    A  SF        9.45600E+03 157.6 M    02-11-2005       SEEISTAR
+256.  FERMIUM     100.  1.576E+02 MINUTES   79 A  SF                256.FM100.   0
+ 8 1  1.21500E+00  6.87213E+00  1.09152E-01  0.00000E+00            256.FM100.   1   1
+ 8 2  6.88500E+00  6.91713E+00  1.09867E-01  0.00000E+00            256.FM100.   2   2
+ 1 1  1.28858E-03  4.57000E-02  4.57000E-02  0.00000E+00            256.FM100.   3   1
+ 6 5  1.88272E-02  1.96530E-02  1.96530E-02  1.00000E+00            256.FM100.   4   5
+ 6 6  4.73158E-01  2.04580E-02  2.04580E-02  1.00000E+00            256.FM100.   5   6
+ 6 7  3.80829E-01  2.57710E-02  2.57710E-02  1.00000E+00            256.FM100.   6   7
+ 6 3  2.48999E-01  4.05962E-02  4.05962E-02  1.00000E+00            256.FM100.   7   3
+ 6 4  9.18981E-02  4.57000E-02  4.57000E-02  1.00000E+00            256.FM100.   8   4
+ 221  2.53452E-07  8.04999E-04  8.04999E-04  0.00000E+00            256.FM100.   9  21
+ 222  3.01873E-04  6.11799E-03  6.11799E-03  0.00000E+00            256.FM100.  10  22
+ 223  1.38197E-03  1.96961E-02  1.96961E-02  0.00000E+00            256.FM100.  11  23
+ 224  1.00179E-03  2.09431E-02  2.09431E-02  0.00000E+00            256.FM100.  12  24
+ 225  7.31548E-05  2.15548E-02  2.15548E-02  0.00000E+00            256.FM100.  13  25
+ 226  1.08499E-04  2.17988E-02  2.17988E-02  0.00000E+00            256.FM100.  14  26
+ 227  3.81174E-04  2.44371E-02  2.44371E-02  0.00000E+00            256.FM100.  15  27
+ 228  3.29060E-04  2.47741E-02  2.47741E-02  0.00000E+00            256.FM100.  16  28
+ 229  1.32036E-05  2.50602E-02  2.50602E-02  0.00000E+00            256.FM100.  17  29
+ 230  2.12766E-05  2.51208E-02  2.51208E-02  0.00000E+00            256.FM100.  18  30
+ 231  9.86937E-05  2.57091E-02  2.57091E-02  0.00000E+00            256.FM100.  19  31
+ 232  8.67367E-05  2.57954E-02  2.57954E-02  0.00000E+00            256.FM100.  20  32
+ 233  2.59928E-06  2.59045E-02  2.59045E-02  0.00000E+00            256.FM100.  21  33
+ 234  4.22989E-06  2.59173E-02  2.59173E-02  0.00000E+00            256.FM100.  22  34
+ 235  1.67608E-05  2.60082E-02  2.60082E-02  0.00000E+00            256.FM100.  23  35
+ 236  1.28616E-05  2.60218E-02  2.60218E-02  0.00000E+00            256.FM100.  24  36
+ 241  3.57313E-05  5.31300E-03  5.31300E-03  0.00000E+00            256.FM100.  25  41
+ 242  5.45641E-03  1.85095E-02  1.85095E-02  0.00000E+00            256.FM100.  26  42
+ 243  3.14522E-04  2.01382E-02  2.01382E-02  0.00000E+00            256.FM100.  27  43
+ 244  1.88032E-01  2.07498E-02  2.07498E-02  0.00000E+00            256.FM100.  28  44
+ 245  1.51687E-03  2.34533E-02  2.34533E-02  0.00000E+00            256.FM100.  29  45
+ 246  9.95587E-05  2.39691E-02  2.39691E-02  0.00000E+00            256.FM100.  30  46
+ 247  4.49387E-02  2.42552E-02  2.42552E-02  0.00000E+00            256.FM100.  31  47
+ 248  3.29898E-04  2.46943E-02  2.46943E-02  0.00000E+00            256.FM100.  32  48
+ 249  4.12716E-04  2.48304E-02  2.48304E-02  0.00000E+00            256.FM100.  33  49
+ 250  2.60498E-05  2.49905E-02  2.49905E-02  0.00000E+00            256.FM100.  34  50
+ 251  9.52787E-03  2.50995E-02  2.50995E-02  0.00000E+00            256.FM100.  35  51
+ 252  3.09483E-05  2.52311E-02  2.52311E-02  0.00000E+00            256.FM100.  36  52
+ 253  8.31591E-05  2.51811E-02  2.51811E-02  0.00000E+00            256.FM100.  37  53
+ 254  3.85851E-06  2.52169E-02  2.52169E-02  0.00000E+00            256.FM100.  38  54
+ 255  6.90868E-06  2.52363E-02  2.52363E-02  0.00000E+00            256.FM100.  39  55
+ 261  1.26115E-02  1.31965E-02  1.31965E-02  0.00000E+00            256.FM100.  40  61
+ 262  1.66290E-04  1.35781E-02  1.35781E-02  0.00000E+00            256.FM100.  41  62
+ 263  1.53218E-04  1.48252E-02  1.48252E-02  0.00000E+00            256.FM100.  42  63
+ 264  1.87912E-02  1.54368E-02  1.54368E-02  0.00000E+00            256.FM100.  43  64
+ 265  1.64897E-01  1.56809E-02  1.56809E-02  0.00000E+00            256.FM100.  44  65
+ 266  3.25107E-03  1.81403E-02  1.81403E-02  0.00000E+00            256.FM100.  45  66
+ 267  3.58878E-05  1.83191E-02  1.83191E-02  0.00000E+00            256.FM100.  46  67
+ 268  4.28668E-05  1.86561E-02  1.86561E-02  0.00000E+00            256.FM100.  47  68
+ 269  3.89853E-03  1.89422E-02  1.89422E-02  0.00000E+00            256.FM100.  48  69
+ 270  3.60228E-02  1.90028E-02  1.90028E-02  0.00000E+00            256.FM100.  49  70
+ 271  6.29200E-05  1.93813E-02  1.93813E-02  0.00000E+00            256.FM100.  50  71
+ 272  3.43877E-04  1.93980E-02  1.93980E-02  0.00000E+00            256.FM100.  51  72
+ 273  8.71320E-04  1.95174E-02  1.95174E-02  0.00000E+00            256.FM100.  52  73
+ 274  8.77111E-06  1.95911E-02  1.95911E-02  0.00000E+00            256.FM100.  53  74
+ 275  1.09057E-05  1.96774E-02  1.96774E-02  0.00000E+00            256.FM100.  54  75
+ 276  8.02522E-04  1.97865E-02  1.97865E-02  0.00000E+00            256.FM100.  55  76
+ 277  7.40544E-03  1.97993E-02  1.97993E-02  0.00000E+00            256.FM100.  56  77
+ 278  5.81207E-06  1.99182E-02  1.99182E-02  0.00000E+00            256.FM100.  57  78
+ 279  3.08280E-05  1.99199E-02  1.99199E-02  0.00000E+00            256.FM100.  58  79
+ 280  1.74937E-04  1.98681E-02  1.98681E-02  0.00000E+00            256.FM100.  59  80
+ 281  1.47054E-06  1.98902E-02  1.98902E-02  0.00000E+00            256.FM100.  60  81
+ 282  1.60539E-06  1.99039E-02  1.99039E-02  0.00000E+00            256.FM100.  61  82
+ 283  1.45253E-05  1.99233E-02  1.99233E-02  0.00000E+00            256.FM100.  62  83
+ 291  8.67341E-02  3.87107E-03  3.87107E-03  0.00000E+00            256.FM100.  63  91
+ 292  2.35018E-03  6.19754E-04  6.19754E-04  0.00000E+00            256.FM100.  64  92
+ 293  1.49275E-04  1.85073E-04  1.85073E-04  0.00000E+00            256.FM100.  65  93
+ 294  1.14395E+01  7.45995E-05  7.45995E-05  0.00000E+00            256.FM100.  66  94
+ 7 4  1.10370E-01  1.98913E-03  1.98913E-03  0.00000E+00            256.FM100.  67   4
+ 7 5  2.29656E-01  1.18172E-02  1.18172E-02  0.00000E+00            256.FM100.  68   5
+ 7 6  1.23631E-01  1.58254E-02  1.58254E-02  0.00000E+00            256.FM100.  69   6
+ 7 7  1.56103E-02  1.98835E-02  1.98835E-02  0.00000E+00            256.FM100.  70   7
+ 7 8  5.30583E-01  6.48021E-04  6.48021E-04  0.00000E+00            256.FM100.  71   8
+ 7 9  9.65182E-01  2.80367E-03  2.80367E-03  0.00000E+00            256.FM100.  72   9
+ 710  2.32492E-01  3.46531E-03  3.46531E-03  0.00000E+00            256.FM100.  73  10
+ 711  1.51054E-02  4.21994E-03  4.21994E-03  0.00000E+00            256.FM100.  74  11
+ 712  1.86936E+00  1.90969E-04  1.90969E-04  0.00000E+00            256.FM100.  75  12
+ 713  3.02665E+00  3.34944E-04  3.34944E-04  0.00000E+00            256.FM100.  76  13
+ 714  3.09105E+00  1.14523E-04  1.14523E-04  0.00000E+00            256.FM100.  77  14
+ 715  1.42400E-02  2.12001E-04  2.12001E-04  0.00000E+00            256.FM100.  78  15
+ 9 1  3.68519E+02  2.00326E+00  2.00326E+00  0.00000E+00            256.FM100.  79   1
+ 9 2  1.83800E+02  9.72779E+01  9.72779E+01  0.00000E+00            256.FM100.  80   2
+ 9 3  7.46936E+02  8.38492E-01  8.38492E-01  0.00000E+00            256.FM100.  81   3
+ 9 4  6.44606E+02  9.57800E-01  9.57800E-01  0.00000E+00            256.FM100.  82   4
+ 9 5  5.30871E+02  1.18883E+00  1.18883E+00  0.00000E+00            256.FM100.  83   5
+%%%% 256 FM 100    A  SF        9.45600E+03 157.6 M    02-11-2005       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   5.88882E-07
+    X-ray                           (MeV) =   9.87162E-05
+    Free-bound X-ray                (MeV) =   8.53385E-06
+    Annihilation photon             (MeV) =   0.00000E+00
+    Beta+ particle                  (MeV) =   0.00000E+00
+    Neutrino                        (MeV) =   0.00000E+00
+    Beta- particle                  (MeV) =   0.00000E+00
+    Neutrino-                       (MeV) =   0.00000E+00
+    Internal conv. electron         (MeV) =   3.41724E-04
+    Auger and CK electron           (MeV) =   1.08474E-04
+    Alpha particle                  (MeV) =   5.59741E-01
+    Recoil nucleus                  (MeV) =   8.89055E-03
+  E-total (except unplaced radiat.) (MeV) =   5.69190E-01
+  E-unplaced radiation              (MeV) =   0.00000E+00
+  Q-value from ENSDF data           (MeV) =   5.69187E-01
+  Ratio of E-total/Q-value          ( % ) =   1.00000E+02
+  Ratio of E-unplaced radi./Q-value ( % ) =   0.00000E+00
+
+ 
+  Total yield of
+    Gamma-ray                             =   1.28858E-05
+    X-ray                                 =   5.93487E-03
+    Free-bound X-ray                      =   1.14395E-01
+    Annihilation photon                   =   0.00000E+00
+    Beta+ particle                        =   0.00000E+00
+    Beta- particle                        =   0.00000E+00
+    Internal conv. electron               =   1.21371E-02
+    Auger and CK electron                 =   1.02239E-01
+    Alpha particle                        =   8.10000E-02
+  Yield of unplaced radiation             =   0.00000E+00
+
+

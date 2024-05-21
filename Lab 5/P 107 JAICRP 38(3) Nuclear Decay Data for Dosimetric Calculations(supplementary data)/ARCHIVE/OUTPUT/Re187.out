@@ -1,0 +1,150 @@
+%%%% 187 RE  75    B-           1.30017E+18 4.12E+10 Y 02-11-2005       BALASTAR
+1 187   RE  75 4.12E+10 Y      B-         
+1INTENSITY AND ENERGY BALANCE DATA
+
+              187-RHENIUM-75
++                                    HALFLIFE = 0.412E+11 YEARS   
++                                                                  02-11-2005
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  1.0000E+02
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  1.000E+02
+ TOTAL INTENSITY FROM PARENT=  1.000E+02
+ PERCENT ERROR =  0.000E+00                      
+
+
+ TOTAL INTENSITY FROM PARENT =  1.000E+02
+ VALUE IS WITHIN   0.00E+00% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  2.469E-03 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  2.469E-03 MEV
+ PERCENT ERROR =  0.000E+00                      
+%%%% 187 RE  75    B-           1.30017E+18 4.12E+10 Y 02-11-2005       BALAEND 
+%%%% 187 RE  75    B-           1.30017E+18 4.12E+10 Y 02-11-2005       INPUSTAR
+1                                      **INPUT DATA**
+              187-RHENIUM-75
++                                    HALFLIFE = 0.412E+11 YEARS   
++                                                                  02-11-2005
+
+            MODE OF DECAY: BETA MINUS
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+               BETA MINUS   1   1.00E+00   2.469E-03*  UNIQUE FIRST FORBIDDEN                   
+ 
+           * ENDPOINT ENERGY (MEV)
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: Feb-1991
+%%%% 187 RE  75    B-           1.30017E+18 4.12E+10 Y 02-11-2005       INPUEND 
+%%%% 187 RE  75    B-           1.30017E+18 4.12E+10 Y 02-11-2005       OUTPSTAR
+1                                      **OUTPUT DATA**
+              187-RHENIUM-75
++                                    HALFLIFE = 0.412E+11 YEARS   
++                                                                  02-11-2005
+
+            MODE OF DECAY: BETA MINUS
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           BETA MINUS                     1   1.00E+00    6.177E-04*   6.18E-04
+ 
+           ALL LISTED BETAS, INTERNAL CONVERSION AND AUGER ELECTRONS   6.18E-04
+           ALL LISTED RADIATIONS                                       6.18E-04
+ 
+           *  AVERAGE ENERGY (MEV)
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 187-OSMIUM
+             DAUGHTER IS 1.0000E+00 PER TRANSFORMATION OF 187-RHENIUM.
+             THIS DAUGHTER GROUND STATE IS STABLE.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: Feb-1991
+%%%% 187 RE  75    B-           1.30017E+18 4.12E+10 Y 02-11-2005       OUTPEND 
+%%%% 187 RE  75    B-           1.30017E+18 4.12E+10 Y 02-11-2005       BETASTAR
+1
+              187-RHENIUM-75
++                                    HALFLIFE = 0.412E+11 YEARS   
++                                                                  02-11-2005
+
+            BETA SPECTRUM DATA FOR ALL DECAY BRANCHES
+
+                      BETAS PER                BETAS PER                BETAS PER
+            ENERGY    MEV            ENERGY    MEV            ENERGY    MEV
+            (MEV)     PER DECAY      (MEV)     PER DECAY      (MEV)     PER DECAY
+
+            0.00000   1.214E+03      0.00030   9.372E+02      0.00100   4.304E+02
+            0.00010   1.118E+03      0.00032   9.200E+02      0.00110   3.739E+02
+            0.00011   1.108E+03      0.00036   8.861E+02      0.00120   3.213E+02
+            0.00012   1.099E+03      0.00040   8.529E+02      0.00130   2.727E+02
+            0.00013   1.089E+03      0.00045   8.122E+02      0.00140   2.281E+02
+            0.00014   1.080E+03      0.00050   7.726E+02      0.00150   1.875E+02
+            0.00015   1.071E+03      0.00055   7.339E+02      0.00160   1.508E+02
+            0.00016   1.062E+03      0.00060   6.962E+02      0.00180   8.941E+01
+            0.00018   1.043E+03      0.00065   6.596E+02      0.00200   4.396E+01
+            0.00020   1.025E+03      0.00070   6.238E+02      0.00220   1.447E+01
+            0.00022   1.007E+03      0.00075   5.891E+02      0.00240   9.523E-01
+            0.00024   9.896E+02      0.00080   5.554E+02      0.00247   0.000E+00
+            0.00026   9.720E+02      0.00085   5.227E+02
+            0.00028   9.545E+02      0.00090   4.910E+02
+
+            AVERAGE BETA ENERGY =   6.177E-04
+
+            TOTAL BETAS PER DECAY FOR ALL BRANCHES =   1.000E+00
+%%%% 187 RE  75    B-           1.30017E+18 4.12E+10 Y 02-11-2005       BETAEND 
+%%%% 187 RE  75    B-           1.30017E+18 4.12E+10 Y 02-11-2005       SEEISTAR
+187.  RHENIUM      75.  4.120E+10 YEARS      1 B-                   187.RE 75.   0
+ 5 1  1.00000E+02  6.17704E-04  2.46900E-03  1.00000E+00            187.RE 75.   1   1
+%%%% 187 RE  75    B-           1.30017E+18 4.12E+10 Y 02-11-2005       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   0.00000E+00
+    X-ray                           (MeV) =   0.00000E+00
+    Free-bound X-ray                (MeV) =   0.00000E+00
+    Annihilation photon             (MeV) =   0.00000E+00
+    Beta+ particle                  (MeV) =   0.00000E+00
+    Neutrino                        (MeV) =   0.00000E+00
+    Beta- particle                  (MeV) =   6.17704E-04
+    Neutrino-                       (MeV) =   1.85130E-03
+    Internal conv. electron         (MeV) =   0.00000E+00
+    Auger and CK electron           (MeV) =   0.00000E+00
+    Alpha particle                  (MeV) =   0.00000E+00
+    Recoil nucleus                  (MeV) =   0.00000E+00
+  E-total (except unplaced radiat.) (MeV) =   2.46900E-03
+  E-unplaced radiation              (MeV) =   0.00000E+00
+  Q-value from ENSDF data           (MeV) =   2.46900E-03
+  Ratio of E-total/Q-value          ( % ) =   1.00000E+02
+  Ratio of E-unplaced radi./Q-value ( % ) =   0.00000E+00
+
+ 
+  Total yield of
+    Gamma-ray                             =   0.00000E+00
+    X-ray                                 =   0.00000E+00
+    Free-bound X-ray                      =   0.00000E+00
+    Annihilation photon                   =   0.00000E+00
+    Beta+ particle                        =   0.00000E+00
+    Beta- particle                        =   1.00000E+00
+    Internal conv. electron               =   0.00000E+00
+    Auger and CK electron                 =   0.00000E+00
+    Alpha particle                        =   0.00000E+00
+  Yield of unplaced radiation             =   0.00000E+00
+
+

@@ -1,0 +1,215 @@
+%%%% 205 PB  82    EC           4.82831E+14 1.53E+7 Y  02-11-2005       BALASTAR
+1 205   PB  82 1.53E+7 Y       EC         
+1INTENSITY AND ENERGY BALANCE DATA
+
+              205-LEAD-82
++                                    HALFLIFE = 0.153E+08 YEARS   
++                                                                  02-11-2005
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  1.0000E+02
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  1.000E+02
+ TOTAL INTENSITY FROM PARENT=  1.000E+02
+ PERCENT ERROR =  0.000E+00                      
+
+
+ TOTAL INTENSITY FROM PARENT =  1.000E+02
+ VALUE IS WITHIN   0.00E+00% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  5.050E-02 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  5.050E-02 MEV
+ PERCENT ERROR =  0.000E+00                      
+%%%% 205 PB  82    EC           4.82831E+14 1.53E+7 Y  02-11-2005       BALAEND 
+%%%% 205 PB  82    EC           4.82831E+14 1.53E+7 Y  02-11-2005       INPUSTAR
+1                                      **INPUT DATA**
+              205-LEAD-82
++                                    HALFLIFE = 0.153E+08 YEARS   
++                                                                  02-11-2005
+
+            MODE OF DECAY: ELECTRON CAPTURE
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+           ELECT. CAPTURE   1   1.00E+00   5.050E-02   UNIQUE FIRST FORBIDDEN                   
+ 
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: Oct-1993
+%%%% 205 PB  82    EC           4.82831E+14 1.53E+7 Y  02-11-2005       INPUEND 
+%%%% 205 PB  82    EC           4.82831E+14 1.53E+7 Y  02-11-2005       OUTPSTAR
+1                                      **OUTPUT DATA**
+              205-LEAD-82
++                                    HALFLIFE = 0.153E+08 YEARS   
++                                                                  02-11-2005
+
+            MODE OF DECAY: ELECTRON CAPTURE
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           L1-M2 X-RAY                        8.48E-04    1.192E-02    1.01E-05
+           L1-M3 X-RAY                        9.44E-04    1.239E-02    1.17E-05
+           L1-N2 X-RAY                        2.17E-04    1.462E-02    3.17E-06
+           L1-N3 X-RAY                        2.62E-04    1.473E-02    3.86E-06
+           L2-M4 X-RAY                        1.29E-03    1.225E-02    1.58E-05
+           L2-N4 X-RAY                        2.60E-04    1.434E-02    3.73E-06
+           L3-M1 X-RAY                        9.30E-03    8.981E-03    8.35E-05
+           L3-M4 X-RAY                        1.63E-02    1.017E-02    1.65E-04
+           L3-M5 X-RAY                        1.43E-01    1.027E-02    1.47E-03
+           L3-N1 X-RAY                        2.04E-03    1.183E-02    2.41E-05
+           L3-N4 X-RAY                        3.02E-03    1.225E-02    3.70E-05
+           L3-N5 X-RAY                        2.73E-02    1.227E-02    3.35E-04
+           L3-O1 X-RAY                        4.38E-04    1.252E-02    5.48E-06
+           L3-O4 X-RAY                        3.40E-04    1.264E-02    4.29E-06
+           L3-O5 X-RAY                        2.99E-03    1.264E-02    3.78E-05
+           M X-RAY                            3.75E-02    2.292E-03*   8.58E-05
+           Free-Bound X-RAY                   1.09E+01    2.072E-05*   2.25E-04
+           CK LLX                             2.12E-02    7.223E-04*   1.53E-05
+           AUGER LMM                          2.73E-01    7.338E-03*   2.00E-03
+           AUGER LMX                          1.18E-01    9.587E-03*   1.13E-03
+           AUGER LXY                          1.21E-02    1.184E-02*   1.44E-04
+           CK MMX                             4.36E-01    3.822E-04*   1.67E-04
+           AUGER MNN                          9.81E-01    1.852E-03*   1.82E-03
+           AUGER MNX                          1.16E-01    2.098E-03*   2.44E-04
+           AUGER MXY                          5.92E-03    2.474E-03*   1.46E-05
+           CK NNX                             1.87E+00    1.725E-04*   3.22E-04
+           AUGER NXY                          3.54E+00    7.474E-05*   2.65E-04
+           CK OOX                             2.40E+00    4.284E-05*   1.03E-04
+ 
+           ALL LISTED X-RAYS, GAMMA-RAYS AND ANNIHILATION RADIATION    2.52E-03
+           ALL NEGLECTED X-RAYS, GAMMA-RAYS AND ANNIH. RADIATION**     8.83E-06
+           ALL LISTED BETAS, INTERNAL CONVERSION AND AUGER ELECTRONS   6.22E-03
+           ALL NEGLECTED BETAS, INT. CONVERSION AND AUGER ELECTRONS**  2.16E-07
+           ALL LISTED RADIATIONS                                       8.74E-03
+           ALL NEGLECTED RADIATIONS**                                  9.05E-06
+ 
+           *  AVERAGE ENERGY (MEV)
+           ** EACH NEGLECTED TRANSITION CONTRIBUTES LESS THAN  0.100%
+              TO THE TOTAL MEV/TRANSFORMATION FOR THIS CATEGORY.
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 205-THALLIUM
+             DAUGHTER IS 1.0000E+00 PER TRANSFORMATION OF 205-LEAD.
+             THIS DAUGHTER GROUND STATE IS STABLE.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: Oct-1993
+%%%% 205 PB  82    EC           4.82831E+14 1.53E+7 Y  02-11-2005       OUTPEND 
+%%%% 205 PB  82    EC           4.82831E+14 1.53E+7 Y  02-11-2005       SEEISTAR
+205.  LEAD         82.  1.530E+07 YEARS     65 EC                   205.PB 82.   0
+ 221  3.13628E-05  5.84000E-04  5.84000E-04  0.00000E+00            205.PB 82.   1  21
+ 222  7.31491E-03  2.67000E-03  2.67000E-03  0.00000E+00            205.PB 82.   2  22
+ 223  8.47960E-02  1.19203E-02  1.19203E-02  0.00000E+00            205.PB 82.   3  23
+ 224  9.43564E-02  1.23854E-02  1.23854E-02  0.00000E+00            205.PB 82.   4  24
+ 225  2.98159E-03  1.28363E-02  1.28363E-02  0.00000E+00            205.PB 82.   5  25
+ 226  4.46309E-03  1.29361E-02  1.29361E-02  0.00000E+00            205.PB 82.   6  26
+ 227  2.16932E-02  1.46160E-02  1.46160E-02  0.00000E+00            205.PB 82.   7  27
+ 228  2.62260E-02  1.47297E-02  1.47297E-02  0.00000E+00            205.PB 82.   8  28
+ 229  4.53504E-04  1.49236E-02  1.49236E-02  0.00000E+00            205.PB 82.   9  29
+ 230  7.16271E-04  1.49449E-02  1.49449E-02  0.00000E+00            205.PB 82.  10  30
+ 231  4.12910E-03  1.52310E-02  1.52310E-02  0.00000E+00            205.PB 82.  11  31
+ 232  4.87955E-03  1.52520E-02  1.52520E-02  0.00000E+00            205.PB 82.  12  32
+ 233  4.95896E-05  1.53076E-02  1.53076E-02  0.00000E+00            205.PB 82.  13  33
+ 234  7.70784E-05  1.53100E-02  1.53100E-02  0.00000E+00            205.PB 82.  14  34
+ 235  4.33470E-05  1.53245E-02  1.53245E-02  0.00000E+00            205.PB 82.  15  35
+ 236  3.85241E-05  1.53257E-02  1.53257E-02  0.00000E+00            205.PB 82.  16  36
+ 241  3.88516E-06  2.08600E-03  2.08600E-03  0.00000E+00            205.PB 82.  17  41
+ 242  3.49323E-03  1.10673E-02  1.10673E-02  0.00000E+00            205.PB 82.  18  42
+ 243  1.39773E-04  1.18014E-02  1.18014E-02  0.00000E+00            205.PB 82.  19  43
+ 244  1.28648E-01  1.22523E-02  1.22523E-02  0.00000E+00            205.PB 82.  20  44
+ 245  8.96763E-04  1.39146E-02  1.39146E-02  0.00000E+00            205.PB 82.  21  45
+ 246  3.84649E-05  1.41457E-02  1.41457E-02  0.00000E+00            205.PB 82.  22  46
+ 247  2.59822E-02  1.43397E-02  1.43397E-02  0.00000E+00            205.PB 82.  23  47
+ 248  1.04346E-04  1.46130E-02  1.46130E-02  0.00000E+00            205.PB 82.  24  48
+ 249  1.87831E-04  1.46068E-02  1.46068E-02  0.00000E+00            205.PB 82.  25  49
+ 250  7.70859E-06  1.46680E-02  1.46680E-02  0.00000E+00            205.PB 82.  26  50
+ 251  2.96444E-03  1.47236E-02  1.47236E-02  0.00000E+00            205.PB 82.  27  51
+ 253  2.17933E-05  1.47337E-02  1.47337E-02  0.00000E+00            205.PB 82.  28  53
+ 254  5.64166E-08  1.47417E-02  1.47417E-02  0.00000E+00            205.PB 82.  29  54
+ 261  9.30013E-01  8.98129E-03  8.98129E-03  0.00000E+00            205.PB 82.  30  61
+ 262  9.49029E-03  9.25033E-03  9.25033E-03  0.00000E+00            205.PB 82.  31  62
+ 263  8.58344E-03  9.71543E-03  9.71543E-03  0.00000E+00            205.PB 82.  32  63
+ 264  1.62516E+00  1.01663E-02  1.01663E-02  0.00000E+00            205.PB 82.  33  64
+ 265  1.43115E+01  1.02661E-02  1.02661E-02  0.00000E+00            205.PB 82.  34  65
+ 266  2.03519E-01  1.18286E-02  1.18286E-02  0.00000E+00            205.PB 82.  35  66
+ 267  2.14532E-03  1.19460E-02  1.19460E-02  0.00000E+00            205.PB 82.  36  67
+ 268  2.18617E-03  1.20597E-02  1.20597E-02  0.00000E+00            205.PB 82.  37  68
+ 269  3.01882E-01  1.22537E-02  1.22537E-02  0.00000E+00            205.PB 82.  38  69
+ 270  2.72655E+00  1.22749E-02  1.22749E-02  0.00000E+00            205.PB 82.  39  70
+ 271  2.25881E-03  1.25270E-02  1.25270E-02  0.00000E+00            205.PB 82.  40  71
+ 272  1.26218E-02  1.25318E-02  1.25318E-02  0.00000E+00            205.PB 82.  41  72
+ 273  4.37885E-02  1.25208E-02  1.25208E-02  0.00000E+00            205.PB 82.  42  73
+ 274  4.48608E-04  1.25610E-02  1.25610E-02  0.00000E+00            205.PB 82.  43  74
+ 275  4.59223E-04  1.25820E-02  1.25820E-02  0.00000E+00            205.PB 82.  44  75
+ 276  3.39624E-02  1.26376E-02  1.26376E-02  0.00000E+00            205.PB 82.  45  76
+ 277  2.98988E-01  1.26400E-02  1.26400E-02  0.00000E+00            205.PB 82.  46  77
+ 280  4.90454E-03  1.26476E-02  1.26476E-02  0.00000E+00            205.PB 82.  47  80
+ 281  4.16384E-06  1.26545E-02  1.26545E-02  0.00000E+00            205.PB 82.  48  81
+ 282  3.15115E-06  1.26557E-02  1.26557E-02  0.00000E+00            205.PB 82.  49  82
+ 291  3.74579E+00  2.29157E-03  2.29157E-03  0.00000E+00            205.PB 82.  50  91
+ 292  7.68852E-02  3.23783E-04  3.23783E-04  0.00000E+00            205.PB 82.  51  92
+ 293  6.25631E-04  6.75333E-05  6.75333E-05  0.00000E+00            205.PB 82.  52  93
+ 294  1.08527E+03  2.07163E-05  2.07163E-05  0.00000E+00            205.PB 82.  53  94
+ 7 4  2.11912E+00  7.22315E-04  7.22315E-04  0.00000E+00            205.PB 82.  54   4
+ 7 5  2.72911E+01  7.33757E-03  7.33757E-03  0.00000E+00            205.PB 82.  55   5
+ 7 6  1.17597E+01  9.58671E-03  9.58671E-03  0.00000E+00            205.PB 82.  56   6
+ 7 7  1.21457E+00  1.18417E-02  1.18417E-02  0.00000E+00            205.PB 82.  57   7
+ 7 8  4.35825E+01  3.82150E-04  3.82150E-04  0.00000E+00            205.PB 82.  58   8
+ 7 9  9.80663E+01  1.85164E-03  1.85164E-03  0.00000E+00            205.PB 82.  59   9
+ 710  1.16412E+01  2.09830E-03  2.09830E-03  0.00000E+00            205.PB 82.  60  10
+ 711  5.92023E-01  2.47366E-03  2.47366E-03  0.00000E+00            205.PB 82.  61  11
+ 712  1.86609E+02  1.72451E-04  1.72451E-04  0.00000E+00            205.PB 82.  62  12
+ 713  3.53984E+02  7.47417E-05  7.47417E-05  0.00000E+00            205.PB 82.  63  13
+ 714  2.39659E+02  4.28409E-05  4.28409E-05  0.00000E+00            205.PB 82.  64  14
+ 715  2.19751E-01  9.83633E-05  9.83633E-05  0.00000E+00            205.PB 82.  65  15
+%%%% 205 PB  82    EC           4.82831E+14 1.53E+7 Y  02-11-2005       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   0.00000E+00
+    X-ray                           (MeV) =   2.30428E-03
+    Free-bound X-ray                (MeV) =   2.24827E-04
+    Annihilation photon             (MeV) =   0.00000E+00
+    Beta+ particle                  (MeV) =   0.00000E+00
+    Neutrino                        (MeV) =   4.14789E-02
+    Beta- particle                  (MeV) =   0.00000E+00
+    Neutrino-                       (MeV) =   0.00000E+00
+    Internal conv. electron         (MeV) =   0.00000E+00
+    Auger and CK electron           (MeV) =   6.21957E-03
+    Alpha particle                  (MeV) =   0.00000E+00
+    Recoil nucleus                  (MeV) =   0.00000E+00
+  E-total (except unplaced radiat.) (MeV) =   5.02276E-02
+  E-unplaced radiation              (MeV) =   0.00000E+00
+  Q-value from ENSDF data           (MeV) =   5.05000E-02
+  Ratio of E-total/Q-value          ( % ) =   9.94606E+01
+  Ratio of E-unplaced radi./Q-value ( % ) =   0.00000E+00
+
+ 
+  Total yield of
+    Gamma-ray                             =   0.00000E+00
+    X-ray                                 =   2.47565E-01
+    Free-bound X-ray                      =   1.08527E+01
+    Annihilation photon                   =   0.00000E+00
+    Beta+ particle                        =   0.00000E+00
+    Beta- particle                        =   0.00000E+00
+    Internal conv. electron               =   0.00000E+00
+    Auger and CK electron                 =   9.76738E+00
+    Alpha particle                        =   0.00000E+00
+  Yield of unplaced radiation             =   0.00000E+00
+
+

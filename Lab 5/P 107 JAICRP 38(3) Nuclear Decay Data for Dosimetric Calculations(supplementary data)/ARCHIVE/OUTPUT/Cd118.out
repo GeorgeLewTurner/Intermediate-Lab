@@ -1,0 +1,170 @@
+%%%% 118 CD  48    B-           3.01800E+03 50.3 M     02-11-2005       BALASTAR
+1 118   CD  48 50.3 M          B-         
+1INTENSITY AND ENERGY BALANCE DATA
+
+              118-CADMIUM-48
++                                    HALFLIFE = 50.3 MINUTES 
++                                                                  02-11-2005
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  1.0000E+02
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  1.000E+02
+ TOTAL INTENSITY FROM PARENT=  1.000E+02
+ PERCENT ERROR =  0.000E+00                      
+
+
+ TOTAL INTENSITY FROM PARENT =  1.000E+02
+ VALUE IS WITHIN   0.00E+00% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  5.200E-01 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  5.200E-01 MEV
+ PERCENT ERROR =  0.000E+00                      
+%%%% 118 CD  48    B-           3.01800E+03 50.3 M     02-11-2005       BALAEND 
+%%%% 118 CD  48    B-           3.01800E+03 50.3 M     02-11-2005       INPUSTAR
+1                                      **INPUT DATA**
+              118-CADMIUM-48
++                                    HALFLIFE = 50.3 MINUTES 
++                                                                  02-11-2005
+
+            MODE OF DECAY: BETA MINUS
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+               BETA MINUS   1   1.00E+00   5.200E-01*  ALLOWED                                  
+ 
+           * ENDPOINT ENERGY (MEV)
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: Sep-1995
+%%%% 118 CD  48    B-           3.01800E+03 50.3 M     02-11-2005       INPUEND 
+%%%% 118 CD  48    B-           3.01800E+03 50.3 M     02-11-2005       OUTPSTAR
+1                                      **OUTPUT DATA**
+              118-CADMIUM-48
++                                    HALFLIFE = 50.3 MINUTES 
++                                                                  02-11-2005
+
+            MODE OF DECAY: BETA MINUS
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           BETA MINUS                     1   1.00E+00    1.614E-01*   1.61E-01
+ 
+           ALL LISTED BETAS, INTERNAL CONVERSION AND AUGER ELECTRONS   1.61E-01
+           ALL LISTED RADIATIONS                                       1.61E-01
+ 
+           *  AVERAGE ENERGY (MEV)
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 118-INDIUM
+             DAUGHTER IS 1.0000E+00 PER TRANSFORMATION OF 118-CADMIUM.
+             DECAY OF THIS 5 SECONDS HALFLIFE LEVEL WILL CONTRIBUTE TO DOSE.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: Sep-1995
+%%%% 118 CD  48    B-           3.01800E+03 50.3 M     02-11-2005       OUTPEND 
+%%%% 118 CD  48    B-           3.01800E+03 50.3 M     02-11-2005       BETASTAR
+1
+              118-CADMIUM-48
++                                    HALFLIFE = 50.3 MINUTES 
++                                                                  02-11-2005
+
+            BETA SPECTRUM DATA FOR ALL DECAY BRANCHES
+
+                      BETAS PER                BETAS PER                BETAS PER
+            ENERGY    MEV            ENERGY    MEV            ENERGY    MEV
+            (MEV)     PER DECAY      (MEV)     PER DECAY      (MEV)     PER DECAY
+
+            0.00000   3.747E+00      0.00160   3.735E+00      0.03000   3.636E+00
+            0.00010   3.746E+00      0.00180   3.734E+00      0.03200   3.630E+00
+            0.00011   3.746E+00      0.00200   3.733E+00      0.03600   3.617E+00
+            0.00012   3.746E+00      0.00220   3.731E+00      0.04000   3.604E+00
+            0.00013   3.746E+00      0.00240   3.730E+00      0.04500   3.587E+00
+            0.00014   3.746E+00      0.00260   3.728E+00      0.05000   3.570E+00
+            0.00015   3.746E+00      0.00280   3.727E+00      0.05500   3.551E+00
+            0.00016   3.745E+00      0.00300   3.726E+00      0.06000   3.532E+00
+            0.00018   3.745E+00      0.00320   3.724E+00      0.06500   3.512E+00
+            0.00020   3.745E+00      0.00360   3.721E+00      0.07000   3.491E+00
+            0.00022   3.745E+00      0.00400   3.719E+00      0.07500   3.469E+00
+            0.00024   3.745E+00      0.00450   3.715E+00      0.08000   3.447E+00
+            0.00026   3.745E+00      0.00500   3.711E+00      0.08500   3.423E+00
+            0.00028   3.745E+00      0.00550   3.708E+00      0.09000   3.398E+00
+            0.00030   3.745E+00      0.00600   3.704E+00      0.10000   3.346E+00
+            0.00032   3.744E+00      0.00650   3.701E+00      0.11000   3.289E+00
+            0.00036   3.744E+00      0.00700   3.697E+00      0.12000   3.228E+00
+            0.00040   3.744E+00      0.00750   3.694E+00      0.13000   3.163E+00
+            0.00045   3.743E+00      0.00800   3.692E+00      0.14000   3.095E+00
+            0.00050   3.743E+00      0.00850   3.691E+00      0.15000   3.022E+00
+            0.00055   3.743E+00      0.00900   3.690E+00      0.16000   2.945E+00
+            0.00060   3.742E+00      0.01000   3.688E+00      0.18000   2.781E+00
+            0.00065   3.742E+00      0.01100   3.686E+00      0.20000   2.604E+00
+            0.00070   3.742E+00      0.01200   3.684E+00      0.22000   2.415E+00
+            0.00075   3.741E+00      0.01300   3.682E+00      0.24000   2.217E+00
+            0.00080   3.741E+00      0.01400   3.679E+00      0.26000   2.012E+00
+            0.00085   3.741E+00      0.01500   3.677E+00      0.28000   1.801E+00
+            0.00090   3.740E+00      0.01600   3.675E+00      0.30000   1.589E+00
+            0.00100   3.740E+00      0.01800   3.670E+00      0.32000   1.376E+00
+            0.00110   3.739E+00      0.02000   3.664E+00      0.36000   9.642E-01
+            0.00120   3.738E+00      0.02200   3.659E+00      0.40000   5.913E-01
+            0.00130   3.738E+00      0.02400   3.653E+00      0.45000   2.229E-01
+            0.00140   3.737E+00      0.02600   3.648E+00      0.50000   2.005E-02
+            0.00150   3.736E+00      0.02800   3.642E+00      0.52000   0.000E+00
+
+            AVERAGE BETA ENERGY =   1.614E-01
+
+            TOTAL BETAS PER DECAY FOR ALL BRANCHES =   1.000E+00
+%%%% 118 CD  48    B-           3.01800E+03 50.3 M     02-11-2005       BETAEND 
+%%%% 118 CD  48    B-           3.01800E+03 50.3 M     02-11-2005       SEEISTAR
+118.  CADMIUM      48.  5.030E+01 MINUTES    1 B-                   118.CD 48.   0
+ 5 1  1.00000E+02  1.61400E-01  5.20000E-01  0.00000E+00            118.CD 48.   1   1
+%%%% 118 CD  48    B-           3.01800E+03 50.3 M     02-11-2005       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   0.00000E+00
+    X-ray                           (MeV) =   0.00000E+00
+    Free-bound X-ray                (MeV) =   0.00000E+00
+    Annihilation photon             (MeV) =   0.00000E+00
+    Beta+ particle                  (MeV) =   0.00000E+00
+    Neutrino                        (MeV) =   0.00000E+00
+    Beta- particle                  (MeV) =   1.61400E-01
+    Neutrino-                       (MeV) =   3.58600E-01
+    Internal conv. electron         (MeV) =   0.00000E+00
+    Auger and CK electron           (MeV) =   0.00000E+00
+    Alpha particle                  (MeV) =   0.00000E+00
+    Recoil nucleus                  (MeV) =   0.00000E+00
+  E-total (except unplaced radiat.) (MeV) =   5.20000E-01
+  E-unplaced radiation              (MeV) =   0.00000E+00
+  Q-value from ENSDF data           (MeV) =   5.20000E-01
+  Ratio of E-total/Q-value          ( % ) =   1.00000E+02
+  Ratio of E-unplaced radi./Q-value ( % ) =   0.00000E+00
+
+ 
+  Total yield of
+    Gamma-ray                             =   0.00000E+00
+    X-ray                                 =   0.00000E+00
+    Free-bound X-ray                      =   0.00000E+00
+    Annihilation photon                   =   0.00000E+00
+    Beta+ particle                        =   0.00000E+00
+    Beta- particle                        =   1.00000E+00
+    Internal conv. electron               =   0.00000E+00
+    Auger and CK electron                 =   0.00000E+00
+    Alpha particle                        =   0.00000E+00
+  Yield of unplaced radiation             =   0.00000E+00
+
+

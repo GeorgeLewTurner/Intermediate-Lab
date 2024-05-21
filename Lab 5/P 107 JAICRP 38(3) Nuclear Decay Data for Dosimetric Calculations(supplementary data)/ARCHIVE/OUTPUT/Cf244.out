@@ -1,0 +1,247 @@
+%%%% 244 CF  98    A            1.16400E+03 19.4 M     02-11-2005       BALASTAR
+1 244   CF  98 19.4 M          A          
+1INTENSITY AND ENERGY BALANCE DATA
+
+              244-CALIFORNIUM-98
++                                    HALFLIFE = 19.4 MINUTES 
++                                                                  02-11-2005
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  1.0000E+02
+   3.8000E-02  2.5000E+01  2.5000E+01  0.0000E+00                      
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  1.000E+02
+ TOTAL INTENSITY FROM PARENT=  1.000E+02
+ PERCENT ERROR =  0.000E+00                      
+
+
+ TOTAL INTENSITY FROM PARENT =  1.000E+02
+ VALUE IS WITHIN   0.00E+00% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  7.329E+00 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  7.329E+00 MEV
+ PERCENT ERROR =  6.506E-06                      
+%%%% 244 CF  98    A            1.16400E+03 19.4 M     02-11-2005       BALAEND 
+%%%% 244 CF  98    A            1.16400E+03 19.4 M     02-11-2005       INPUSTAR
+1                                      **INPUT DATA**
+              244-CALIFORNIUM-98
++                                    HALFLIFE = 19.4 MINUTES 
++                                                                  02-11-2005
+
+            MODE OF DECAY: ALPHA
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+                    ALPHA   1   2.50E-01   7.291E+00                                            
+                    ALPHA   2   7.50E-01   7.329E+00                                            
+           I.C.E. + GAMMA   1   2.50E-01   3.800E-02   E2 MULTIPOLE                             
++                                                                    AK= 0.0                    
+                                                       AL1=26.8      AL2=731.                   
+                                                       AL3=650.      AM= 396.                   
+                                                       AN+=147.                                 
+ 
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: May-1998
+%%%% 244 CF  98    A            1.16400E+03 19.4 M     02-11-2005       INPUEND 
+%%%% 244 CF  98    A            1.16400E+03 19.4 M     02-11-2005       OUTPSTAR
+1                                      **OUTPUT DATA**
+              244-CALIFORNIUM-98
++                                    HALFLIFE = 19.4 MINUTES 
++                                                                  02-11-2005
+
+            MODE OF DECAY: ALPHA
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           ALPHA                          1   2.50E-01    7.171E+00    1.79E+00
+           RECOIL ATOM                        2.50E-01    1.196E-01    2.99E-02
+           ALPHA                          2   7.50E-01    7.209E+00    5.41E+00
+           RECOIL ATOM                        7.50E-01    1.202E-01    9.02E-02
+           GAMMA-RAY                      1   1.28E-04    3.800E-02    4.87E-06
+           L1 CONV. ELECTRON, GAMMA-RAY   1   3.43E-03    1.345E-02    4.62E-05
+           L2 CONV. ELECTRON, GAMMA-RAY   1   9.36E-02    1.422E-02    1.33E-03
+           L3 CONV. ELECTRON, GAMMA-RAY   1   8.33E-02    1.901E-02    1.58E-03
+           M CONV. ELECTRON, GAMMA-RAY    1   5.07E-02    3.317E-02*   1.68E-03
+           N+ CONV. ELECTRON, GAMMA-RAY   1   1.88E-02    3.800E-02*   7.16E-04
+           L1-M2 X-RAY                        2.28E-04    1.861E-02    4.24E-06
+           L1-M3 X-RAY                        1.76E-04    1.972E-02    3.48E-06
+           L2-M1 X-RAY                        1.05E-03    1.746E-02    1.83E-05
+           L2-M4 X-RAY                        3.65E-02    1.954E-02    7.14E-04
+           L2-N1 X-RAY                        2.89E-04    2.211E-02    6.40E-06
+           L2-N4 X-RAY                        8.58E-03    2.286E-02    1.96E-04
+           L2-O4 X-RAY                        1.78E-03    2.364E-02    4.21E-05
+           L3-M1 X-RAY                        2.53E-03    1.268E-02    3.21E-05
+           L3-M4 X-RAY                        3.90E-03    1.476E-02    5.75E-05
+           L3-M5 X-RAY                        3.42E-02    1.498E-02    5.13E-04
+           L3-N1 X-RAY                        6.51E-04    1.733E-02    1.13E-05
+           L3-N4 X-RAY                        8.02E-04    1.807E-02    1.45E-05
+           L3-N5 X-RAY                        7.38E-03    1.813E-02    1.34E-04
+           L3-O1 X-RAY                        1.72E-04    1.861E-02    3.20E-06
+           L3-O4 X-RAY                        1.62E-04    1.886E-02    3.05E-06
+           L3-O5 X-RAY                        1.49E-03    1.887E-02    2.81E-05
+           M X-RAY                            1.70E-02    3.660E-03*   6.23E-05
+           Free-Bound X-RAY                   2.41E+00    7.765E-05*   1.87E-04
+           CK LLX                             2.13E-02    1.794E-03*   3.82E-05
+           AUGER LMM                          5.00E-02    1.125E-02*   5.63E-04
+           AUGER LMX                          2.65E-02    1.502E-02*   3.98E-04
+           AUGER LXY                          3.29E-03    1.884E-02*   6.19E-05
+           CK MMX                             1.05E-01    5.990E-04*   6.26E-05
+           AUGER MNN                          2.05E-01    2.677E-03*   5.48E-04
+           AUGER MNX                          4.53E-02    3.272E-03*   1.48E-04
+           AUGER MXY                          2.85E-03    3.981E-03*   1.14E-05
+           CK NNX                             3.65E-01    1.906E-04*   6.95E-05
+           AUGER NXY                          6.33E-01    2.795E-04*   1.77E-04
+           CK OOX                             6.82E-01    9.711E-05*   6.62E-05
+ 
+           ALL LISTED X-RAYS, GAMMA-RAYS AND ANNIHILATION RADIATION    2.04E-03
+           ALL NEGLECTED X-RAYS, GAMMA-RAYS AND ANNIH. RADIATION**     1.37E-05
+           ALL LISTED BETAS, INTERNAL CONVERSION AND AUGER ELECTRONS   7.50E-03
+           ALL NEGLECTED BETAS, INT. CONVERSION AND AUGER ELECTRONS**  7.23E-07
+           ALL LISTED ALPHA PARTICLES AND  RECOIL NUCLEI               7.32E+00
+           ALL LISTED RADIATIONS                                       7.33E+00
+           ALL NEGLECTED RADIATIONS**                                  1.45E-05
+ 
+           *  AVERAGE ENERGY (MEV)
+           ** EACH NEGLECTED TRANSITION CONTRIBUTES LESS THAN  0.100%
+              TO THE TOTAL MEV/TRANSFORMATION FOR THIS CATEGORY.
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 240-CURIUM
+             DAUGHTER IS 1.0000E+00 PER TRANSFORMATION OF 244-CALIFORNIUM.
+             DECAY OF THIS 27 DAYS HALFLIFE LEVEL WILL CONTRIBUTE TO DOSE.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: May-1998
+%%%% 244 CF  98    A            1.16400E+03 19.4 M     02-11-2005       OUTPEND 
+%%%% 244 CF  98    A            1.16400E+03 19.4 M     02-11-2005       SEEISTAR
+244.  CALIFORNIUM  98.  1.940E+01 MINUTES   78 A                    244.CF 98.   0
+ 8 1  2.50000E+01  7.17150E+00  1.19603E-01  0.00000E+00            244.CF 98.   1   1
+ 8 2  7.50000E+01  7.20887E+00  1.20226E-01  0.00000E+00            244.CF 98.   2   2
+ 1 1  1.28111E-02  3.80000E-02  3.80000E-02  0.00000E+00            244.CF 98.   3   1
+ 6 5  3.43337E-01  1.34460E-02  1.34460E-02  1.00000E+00            244.CF 98.   4   5
+ 6 6  9.36489E+00  1.42240E-02  1.42240E-02  1.00000E+00            244.CF 98.   5   6
+ 6 7  8.32720E+00  1.90060E-02  1.90060E-02  1.00000E+00            244.CF 98.   6   7
+ 6 3  5.06745E+00  3.31710E-02  3.31710E-02  1.00000E+00            244.CF 98.   7   3
+ 6 4  1.88431E+00  3.80000E-02  3.80000E-02  1.00000E+00            244.CF 98.   8   4
+ 221  4.57359E-06  7.77997E-04  7.77997E-04  0.00000E+00            244.CF 98.   9  21
+ 222  4.45789E-03  5.56000E-03  5.56000E-03  0.00000E+00            244.CF 98.  10  22
+ 223  2.27801E-02  1.86084E-02  1.86084E-02  0.00000E+00            244.CF 98.  11  23
+ 224  1.76224E-02  1.97249E-02  1.97249E-02  0.00000E+00            244.CF 98.  12  24
+ 225  1.15385E-03  2.03168E-02  2.03168E-02  0.00000E+00            244.CF 98.  13  25
+ 226  1.71535E-03  2.05384E-02  2.05384E-02  0.00000E+00            244.CF 98.  14  26
+ 227  6.24633E-03  2.30608E-02  2.30608E-02  0.00000E+00            244.CF 98.  15  27
+ 228  5.67536E-03  2.33596E-02  2.33596E-02  0.00000E+00            244.CF 98.  16  28
+ 229  2.04354E-04  2.36344E-02  2.36344E-02  0.00000E+00            244.CF 98.  17  29
+ 230  3.28732E-04  2.36886E-02  2.36886E-02  0.00000E+00            244.CF 98.  18  30
+ 231  1.58711E-03  2.42392E-02  2.42392E-02  0.00000E+00            244.CF 98.  19  31
+ 232  1.46855E-03  2.43144E-02  2.43144E-02  0.00000E+00            244.CF 98.  20  32
+ 233  3.93945E-05  2.44176E-02  2.44176E-02  0.00000E+00            244.CF 98.  21  33
+ 234  6.40907E-05  2.44288E-02  2.44288E-02  0.00000E+00            244.CF 98.  22  34
+ 235  2.74069E-04  2.45143E-02  2.45143E-02  0.00000E+00            244.CF 98.  23  35
+ 236  2.27938E-04  2.45269E-02  2.45269E-02  0.00000E+00            244.CF 98.  24  36
+ 241  5.62821E-04  4.78199E-03  4.78199E-03  0.00000E+00            244.CF 98.  25  41
+ 242  1.04820E-01  1.74629E-02  1.74629E-02  0.00000E+00            244.CF 98.  26  42
+ 243  5.83034E-03  1.89470E-02  1.89470E-02  0.00000E+00            244.CF 98.  27  43
+ 244  3.65289E+00  1.95388E-02  1.95388E-02  0.00000E+00            244.CF 98.  28  44
+ 245  2.89285E-02  2.21119E-02  2.21119E-02  0.00000E+00            244.CF 98.  29  45
+ 246  1.81744E-03  2.25816E-02  2.25816E-02  0.00000E+00            244.CF 98.  30  46
+ 247  8.58005E-01  2.28564E-02  2.28564E-02  0.00000E+00            244.CF 98.  31  47
+ 248  5.98754E-03  2.32738E-02  2.32738E-02  0.00000E+00            244.CF 98.  32  48
+ 249  7.74037E-03  2.33917E-02  2.33917E-02  0.00000E+00            244.CF 98.  33  49
+ 250  4.67287E-04  2.35364E-02  2.35364E-02  0.00000E+00            244.CF 98.  34  50
+ 251  1.78086E-01  2.36395E-02  2.36395E-02  0.00000E+00            244.CF 98.  35  51
+ 252  4.10407E-04  2.37625E-02  2.37625E-02  0.00000E+00            244.CF 98.  36  52
+ 253  1.60499E-03  2.37153E-02  2.37153E-02  0.00000E+00            244.CF 98.  37  53
+ 254  7.13377E-05  2.37490E-02  2.37490E-02  0.00000E+00            244.CF 98.  38  54
+ 255  1.36458E-04  2.37698E-02  2.37698E-02  0.00000E+00            244.CF 98.  39  55
+ 261  2.53089E-01  1.26809E-02  1.26809E-02  0.00000E+00            244.CF 98.  40  61
+ 262  3.30815E-03  1.30484E-02  1.30484E-02  0.00000E+00            244.CF 98.  41  62
+ 263  3.03256E-03  1.41650E-02  1.41650E-02  0.00000E+00            244.CF 98.  42  63
+ 264  3.89966E-01  1.47568E-02  1.47568E-02  0.00000E+00            244.CF 98.  43  64
+ 265  3.42348E+00  1.49784E-02  1.49784E-02  0.00000E+00            244.CF 98.  44  65
+ 266  6.50775E-02  1.73300E-02  1.73300E-02  0.00000E+00            244.CF 98.  45  66
+ 267  7.22420E-04  1.75008E-02  1.75008E-02  0.00000E+00            244.CF 98.  46  67
+ 268  8.40763E-04  1.77996E-02  1.77996E-02  0.00000E+00            244.CF 98.  47  68
+ 269  8.02057E-02  1.80743E-02  1.80743E-02  0.00000E+00            244.CF 98.  48  69
+ 270  7.38446E-01  1.81285E-02  1.81285E-02  0.00000E+00            244.CF 98.  49  70
+ 271  1.20224E-03  1.84917E-02  1.84917E-02  0.00000E+00            244.CF 98.  50  71
+ 272  6.59185E-03  1.85065E-02  1.85065E-02  0.00000E+00            244.CF 98.  51  72
+ 273  1.71790E-02  1.86097E-02  1.86097E-02  0.00000E+00            244.CF 98.  52  73
+ 274  1.74193E-04  1.86792E-02  1.86792E-02  0.00000E+00            244.CF 98.  53  74
+ 275  2.10497E-04  1.87543E-02  1.87543E-02  0.00000E+00            244.CF 98.  54  75
+ 276  1.61803E-02  1.88576E-02  1.88576E-02  0.00000E+00            244.CF 98.  55  76
+ 277  1.49110E-01  1.88688E-02  1.88688E-02  0.00000E+00            244.CF 98.  56  77
+ 278  8.22043E-05  1.89805E-02  1.89805E-02  0.00000E+00            244.CF 98.  57  78
+ 279  4.38513E-04  1.89821E-02  1.89821E-02  0.00000E+00            244.CF 98.  58  79
+ 280  3.50058E-03  1.89333E-02  1.89333E-02  0.00000E+00            244.CF 98.  59  80
+ 281  3.00331E-05  1.89544E-02  1.89544E-02  0.00000E+00            244.CF 98.  60  81
+ 282  3.25393E-05  1.89670E-02  1.89670E-02  0.00000E+00            244.CF 98.  61  82
+ 283  3.08490E-04  1.89878E-02  1.89878E-02  0.00000E+00            244.CF 98.  62  83
+ 291  1.70145E+00  3.66007E-03  3.66007E-03  0.00000E+00            244.CF 98.  63  91
+ 292  4.40025E-02  5.77730E-04  5.77730E-04  0.00000E+00            244.CF 98.  64  92
+ 293  2.49666E-03  1.69400E-04  1.69400E-04  0.00000E+00            244.CF 98.  65  93
+ 294  2.41002E+02  7.76479E-05  7.76479E-05  0.00000E+00            244.CF 98.  66  94
+ 7 4  2.12975E+00  1.79407E-03  1.79407E-03  0.00000E+00            244.CF 98.  67   4
+ 7 5  5.00108E+00  1.12532E-02  1.12532E-02  0.00000E+00            244.CF 98.  68   5
+ 7 6  2.64620E+00  1.50238E-02  1.50238E-02  0.00000E+00            244.CF 98.  69   6
+ 7 7  3.28752E-01  1.88369E-02  1.88369E-02  0.00000E+00            244.CF 98.  70   7
+ 7 8  1.04583E+01  5.99037E-04  5.99037E-04  0.00000E+00            244.CF 98.  71   8
+ 7 9  2.04579E+01  2.67730E-03  2.67730E-03  0.00000E+00            244.CF 98.  72   9
+ 710  4.53241E+00  3.27162E-03  3.27162E-03  0.00000E+00            244.CF 98.  73  10
+ 711  2.85382E-01  3.98068E-03  3.98068E-03  0.00000E+00            244.CF 98.  74  11
+ 712  3.64743E+01  1.90643E-04  1.90643E-04  0.00000E+00            244.CF 98.  75  12
+ 713  6.32523E+01  2.79506E-04  2.79506E-04  0.00000E+00            244.CF 98.  76  13
+ 714  6.82023E+01  9.71082E-05  9.71082E-05  0.00000E+00            244.CF 98.  77  14
+ 715  3.74709E-01  1.93071E-04  1.93071E-04  0.00000E+00            244.CF 98.  78  15
+%%%% 244 CF  98    A            1.16400E+03 19.4 M     02-11-2005       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   4.86821E-06
+    X-ray                           (MeV) =   1.85682E-03
+    Free-bound X-ray                (MeV) =   1.87133E-04
+    Annihilation photon             (MeV) =   0.00000E+00
+    Beta+ particle                  (MeV) =   0.00000E+00
+    Neutrino                        (MeV) =   0.00000E+00
+    Beta- particle                  (MeV) =   0.00000E+00
+    Neutrino-                       (MeV) =   0.00000E+00
+    Internal conv. electron         (MeV) =   5.35786E-03
+    Auger and CK electron           (MeV) =   2.14377E-03
+    Alpha particle                  (MeV) =   7.19953E+00
+    Recoil nucleus                  (MeV) =   1.20070E-01
+  E-total (except unplaced radiat.) (MeV) =   7.32915E+00
+  E-unplaced radiation              (MeV) =   0.00000E+00
+  Q-value from ENSDF data           (MeV) =   7.32910E+00
+  Ratio of E-total/Q-value          ( % ) =   1.00001E+02
+  Ratio of E-unplaced radi./Q-value ( % ) =   0.00000E+00
+
+ 
+  Total yield of
+    Gamma-ray                             =   1.28111E-04
+    X-ray                                 =   1.18124E-01
+    Free-bound X-ray                      =   2.41002E+00
+    Annihilation photon                   =   0.00000E+00
+    Beta+ particle                        =   0.00000E+00
+    Beta- particle                        =   0.00000E+00
+    Internal conv. electron               =   2.49872E-01
+    Auger and CK electron                 =   2.14143E+00
+    Alpha particle                        =   1.00000E+00
+  Yield of unplaced radiation             =   0.00000E+00
+
+

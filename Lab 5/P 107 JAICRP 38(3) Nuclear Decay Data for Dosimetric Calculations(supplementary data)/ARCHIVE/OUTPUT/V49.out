@@ -1,0 +1,181 @@
+%%%%  49 V   23    EC           2.85120E+07 330 D      02-11-2005       BALASTAR
+1  49   V   23 330 D           EC         
+1INTENSITY AND ENERGY BALANCE DATA
+
+              49-VANADIUM-23
++                                    HALFLIFE = 330 DAYS    
++                                                                  02-11-2005
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  1.0000E+02
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  1.000E+02
+ TOTAL INTENSITY FROM PARENT=  1.000E+02
+ PERCENT ERROR =  0.000E+00                      
+
+
+ TOTAL INTENSITY FROM PARENT =  1.000E+02
+ VALUE IS WITHIN   0.00E+00% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  6.019E-01 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  6.019E-01 MEV
+ PERCENT ERROR =  0.000E+00                      
+%%%%  49 V   23    EC           2.85120E+07 330 D      02-11-2005       BALAEND 
+%%%%  49 V   23    EC           2.85120E+07 330 D      02-11-2005       INPUSTAR
+1                                      **INPUT DATA**
+              49-VANADIUM-23
++                                    HALFLIFE = 330 DAYS    
++                                                                  02-11-2005
+
+            MODE OF DECAY: ELECTRON CAPTURE
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+           ELECT. CAPTURE   1   1.00E+00   6.019E-01   ALLOWED                                  
+ 
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: Dec-1995
+%%%%  49 V   23    EC           2.85120E+07 330 D      02-11-2005       INPUEND 
+%%%%  49 V   23    EC           2.85120E+07 330 D      02-11-2005       OUTPSTAR
+1                                      **OUTPUT DATA**
+              49-VANADIUM-23
++                                    HALFLIFE = 330 DAYS    
++                                                                  02-11-2005
+
+            MODE OF DECAY: ELECTRON CAPTURE
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           K -L2 X-RAY                        5.76E-02    4.469E-03    2.57E-04
+           K -L3 X-RAY                        1.13E-01    4.475E-03    5.07E-04
+           K -M2 X-RAY                        6.53E-03    4.895E-03    3.20E-05
+           K -M3 X-RAY                        1.29E-02    4.896E-03    6.32E-05
+           K -M4 X-RAY                        5.26E-07    4.932E-03    2.59E-09
+           K -M5 X-RAY                        7.74E-07    4.932E-03    3.82E-09
+           L1-L2 X-RAY                        2.34E-05    8.622E-05    2.02E-09
+           L1-L3 X-RAY                        7.52E-05    9.220E-05    6.94E-09
+           L1-M2 X-RAY                        1.19E-04    5.123E-04    6.08E-08
+           L1-M3 X-RAY                        1.74E-04    5.130E-04    8.90E-08
+           L1-M4 X-RAY                        1.13E-07    5.491E-04    6.18E-11
+           L1-M5 X-RAY                        1.68E-07    5.491E-04    9.21E-11
+           L2-L3 X-RAY                        1.53E-11    5.980E-06    9.14E-17
+           L2-M1 X-RAY                        1.01E-03    4.026E-04    4.07E-07
+           L2-M3 X-RAY                        1.14E-06    4.268E-04    4.85E-10
+           L2-M4 X-RAY                        8.45E-05    4.628E-04    3.91E-08
+           L2-N1 X-RAY                        1.89E-05    4.649E-04    8.79E-09
+           L3-M1 X-RAY                        1.86E-03    3.966E-04    7.39E-07
+           L3-M2 X-RAY                        1.05E-06    4.201E-04    4.40E-10
+           L3-M3 X-RAY                        1.03E-06    4.208E-04    4.32E-10
+           L3-M4 X-RAY                        1.21E-05    4.569E-04    5.52E-09
+           L3-M5 X-RAY                        1.42E-04    4.569E-04    6.49E-08
+           L3-N1 X-RAY                        3.51E-05    4.590E-04    1.61E-08
+           M X-RAY                            1.99E-06    2.491E-05*   4.96E-11
+           Free-Bound X-RAY                   7.20E+00    7.995E-06*   5.76E-05
+           AUGER KLL                          5.63E-01    3.967E-03*   2.23E-03
+           AUGER KLX                          1.30E-01    4.403E-03*   5.74E-04
+           AUGER KXY                          7.60E-03    4.842E-03*   3.68E-05
+           CK LLX                             3.20E-01    4.645E-05*   1.49E-05
+           AUGER LMM                          1.48E+00    3.810E-04*   5.65E-04
+           AUGER LMX                          3.47E-02    4.253E-04*   1.47E-05
+           CK MMX                             3.66E+00    2.714E-05*   9.93E-05
+ 
+           ALL LISTED X-RAYS, GAMMA-RAYS AND ANNIHILATION RADIATION    9.19E-04
+           ALL LISTED BETAS, INTERNAL CONVERSION AND AUGER ELECTRONS   3.54E-03
+           ALL LISTED RADIATIONS                                       4.46E-03
+ 
+           *  AVERAGE ENERGY (MEV)
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 49-TITANIUM
+             DAUGHTER IS 1.0000E+00 PER TRANSFORMATION OF  49-VANADIUM.
+             THIS DAUGHTER GROUND STATE IS STABLE.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: Dec-1995
+%%%%  49 V   23    EC           2.85120E+07 330 D      02-11-2005       OUTPEND 
+%%%%  49 V   23    EC           2.85120E+07 330 D      02-11-2005       SEEISTAR
+ 49.  VANADIUM     23.  3.300E+02 DAYS      32 EC                    49.V  23.   0
+ 2 1  5.75689E+00  4.46937E-03  4.46937E-03  0.00000E+00             49.V  23.   1   1
+ 2 2  1.13305E+01  4.47537E-03  4.47537E-03  0.00000E+00             49.V  23.   2   2
+ 2 3  6.52946E-01  4.89550E-03  4.89550E-03  0.00000E+00             49.V  23.   3   3
+ 2 4  1.28999E+00  4.89619E-03  4.89619E-03  0.00000E+00             49.V  23.   4   4
+ 2 5  5.25899E-05  4.93221E-03  4.93221E-03  0.00000E+00             49.V  23.   5   5
+ 2 6  7.73996E-05  4.93226E-03  4.93226E-03  0.00000E+00             49.V  23.   6   6
+ 221  2.34065E-03  8.62201E-05  8.62201E-05  0.00000E+00             49.V  23.   7  21
+ 222  7.52189E-03  9.22000E-05  9.22000E-05  0.00000E+00             49.V  23.   8  22
+ 223  1.18602E-02  5.12341E-04  5.12341E-04  0.00000E+00             49.V  23.   9  23
+ 224  1.73530E-02  5.13019E-04  5.13019E-04  0.00000E+00             49.V  23.  10  24
+ 225  1.12501E-05  5.49051E-04  5.49051E-04  0.00000E+00             49.V  23.  11  25
+ 226  1.67789E-05  5.49101E-04  5.49101E-04  0.00000E+00             49.V  23.  12  26
+ 241  1.52873E-09  5.97999E-06  5.97999E-06  0.00000E+00             49.V  23.  13  41
+ 242  1.01076E-01  4.02611E-04  4.02611E-04  0.00000E+00             49.V  23.  14  42
+ 243  1.13751E-04  4.26799E-04  4.26799E-04  0.00000E+00             49.V  23.  15  43
+ 244  8.45077E-03  4.62830E-04  4.62830E-04  0.00000E+00             49.V  23.  16  44
+ 245  1.89131E-03  4.64940E-04  4.64940E-04  0.00000E+00             49.V  23.  17  45
+ 261  1.86434E-01  3.96631E-04  3.96631E-04  0.00000E+00             49.V  23.  18  61
+ 262  1.04775E-04  4.20139E-04  4.20139E-04  0.00000E+00             49.V  23.  19  62
+ 263  1.02760E-04  4.20819E-04  4.20819E-04  0.00000E+00             49.V  23.  20  63
+ 264  1.20920E-03  4.56851E-04  4.56851E-04  0.00000E+00             49.V  23.  21  64
+ 265  1.42076E-02  4.56900E-04  4.56900E-04  0.00000E+00             49.V  23.  22  65
+ 266  3.50876E-03  4.58960E-04  4.58960E-04  0.00000E+00             49.V  23.  23  66
+ 291  1.99225E-04  2.49144E-05  2.49144E-05  0.00000E+00             49.V  23.  24  91
+ 294  7.19890E+02  7.99519E-06  7.99519E-06  0.00000E+00             49.V  23.  25  94
+ 7 1  5.62953E+01  3.96720E-03  3.96720E-03  0.00000E+00             49.V  23.  26   1
+ 7 2  1.30327E+01  4.40251E-03  4.40251E-03  0.00000E+00             49.V  23.  27   2
+ 7 3  7.59799E-01  4.84163E-03  4.84163E-03  0.00000E+00             49.V  23.  28   3
+ 7 4  3.20464E+01  4.64525E-05  4.64525E-05  0.00000E+00             49.V  23.  29   4
+ 7 5  1.48291E+02  3.80978E-04  3.80978E-04  0.00000E+00             49.V  23.  30   5
+ 7 6  3.46636E+00  4.25250E-04  4.25250E-04  0.00000E+00             49.V  23.  31   6
+ 7 8  3.65997E+02  2.71401E-05  2.71401E-05  0.00000E+00             49.V  23.  32   8
+%%%%  49 V   23    EC           2.85120E+07 330 D      02-11-2005       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   0.00000E+00
+    X-ray                           (MeV) =   8.60951E-04
+    Free-bound X-ray                (MeV) =   5.75565E-05
+    Annihilation photon             (MeV) =   0.00000E+00
+    Beta+ particle                  (MeV) =   0.00000E+00
+    Neutrino                        (MeV) =   5.96993E-01
+    Beta- particle                  (MeV) =   0.00000E+00
+    Neutrino-                       (MeV) =   0.00000E+00
+    Internal conv. electron         (MeV) =   0.00000E+00
+    Auger and CK electron           (MeV) =   3.53782E-03
+    Alpha particle                  (MeV) =   0.00000E+00
+    Recoil nucleus                  (MeV) =   0.00000E+00
+  E-total (except unplaced radiat.) (MeV) =   6.01449E-01
+  E-unplaced radiation              (MeV) =   0.00000E+00
+  Q-value from ENSDF data           (MeV) =   6.01900E-01
+  Ratio of E-total/Q-value          ( % ) =   9.99250E+01
+  Ratio of E-unplaced radi./Q-value ( % ) =   0.00000E+00
+
+ 
+  Total yield of
+    Gamma-ray                             =   0.00000E+00
+    X-ray                                 =   1.93869E-01
+    Free-bound X-ray                      =   7.19889E+00
+    Annihilation photon                   =   0.00000E+00
+    Beta+ particle                        =   0.00000E+00
+    Beta- particle                        =   0.00000E+00
+    Internal conv. electron               =   0.00000E+00
+    Auger and CK electron                 =   6.19889E+00
+    Alpha particle                        =   0.00000E+00
+  Yield of unplaced radiation             =   0.00000E+00
+
+

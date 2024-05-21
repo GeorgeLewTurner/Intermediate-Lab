@@ -1,0 +1,812 @@
+%%%% 174 LU  71    EC B+        1.04456E+08 3.31 Y     02-11-2005       BALASTAR
+1 174   LU  71 3.31 Y          EC B+      
+1INTENSITY AND ENERGY BALANCE DATA
+
+              174-LUTETIUM-71
++                                    HALFLIFE = 3.31 YEARS   
++                                                                  02-11-2005
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  1.0049E+02
+   7.6468E-02  6.1607E+01  6.2141E+01  8.6415E-01                      
+   2.5312E-01  1.6602E-02  1.5242E-02  8.5453E+00                      
+   1.3183E+00  5.2407E+00  5.1976E+00  8.2587E-01                      
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  1.005E+02
+ TOTAL INTENSITY FROM PARENT=  1.000E+02
+ PERCENT ERROR =  4.878E-01                      
+
+
+ TOTAL INTENSITY FROM PARENT =  1.000E+02
+ VALUE IS WITHIN   7.63E-06% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  1.374E+00 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  1.374E+00 MEV
+ PERCENT ERROR =  1.184E-02                      
+%%%% 174 LU  71    EC B+        1.04456E+08 3.31 Y     02-11-2005       BALAEND 
+%%%% 174 LU  71    EC B+        1.04456E+08 3.31 Y     02-11-2005       INPUSTAR
+1                                      **INPUT DATA**
+              174-LUTETIUM-71
++                                    HALFLIFE = 3.31 YEARS   
++                                                                  02-11-2005
+
+            MODES OF DECAY: ELECTRON CAPTURE, BETA PLUS
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+           ELECT. CAPTURE   1   5.24E-02   5.599E-02   ALLOWED                                  
+           ELECT. CAPTURE   2   5.64E-01   1.298E+00   FIRST FORBIDDEN                          
+           ELECT. CAPTURE   3   3.83E-01   1.374E+00   FIRST FORBIDDEN                          
+                BETA PLUS   1   7.66E-05   2.758E-01*  FIRST FORBIDDEN                          
+                BETA PLUS   2   1.53E-04   3.523E-01*  FIRST FORBIDDEN                          
+           I.C.E. + GAMMA   1   6.21E-01   7.647E-02   E2 MULTIPOLE                             
++                                                                    AK= 1.57                   
+                                                       AL1=0.168     AL2=2.90                   
+                                                       AL3=2.96      AM= 1.49                   
+                                                       AN+=0.394                                
+           I.C.E. + GAMMA   2   1.52E-04   1.767E-01   E2 MULTIPOLE                             
++                                                                    AK= 0.234                  
+                                                       AL1=0.0250    AL2=0.0626                 
+                                                       AL3=0.0484    AM= 0.0332                 
+                                                       AN+=0.00889                              
+           I.C.E. + GAMMA   3   1.66E-04   1.065E+00   M2+E3 MULTIPOLE                          
+                                                       MRS=2.69      AK= 0.00765                
+                                                       AL1=0.00107                              
+           I.C.E. + GAMMA   4   5.15E-02   1.242E+00   E1+E3 MULTIPOLE                          
+           I.C.E. + GAMMA   5   3.58E-04   1.318E+00   M2 MULTIPOLE                             
++                                                                    AK= 0.00748                
+                                                       AL1=0.00105                              
+ 
+           * ENDPOINT ENERGY (MEV)
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: Aug-1999
+%%%% 174 LU  71    EC B+        1.04456E+08 3.31 Y     02-11-2005       INPUEND 
+%%%% 174 LU  71    EC B+        1.04456E+08 3.31 Y     02-11-2005       OUTPSTAR
+1                                      **OUTPUT DATA**
+              174-LUTETIUM-71
++                                    HALFLIFE = 3.31 YEARS   
++                                                                  02-11-2005
+
+            MODES OF DECAY: ELECTRON CAPTURE, BETA PLUS
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           ANNIHILATION RADIATION             4.60E-04    5.110E-01    2.35E-04
+           GAMMA-RAY                      1   5.93E-02    7.647E-02    4.53E-03
+           K CONV. ELECTRON, GAMMA-RAY    1   9.30E-02    1.503E-02    1.40E-03
+           L1 CONV. ELECTRON, GAMMA-RAY   1   9.97E-03    6.601E-02    6.58E-04
+           L2 CONV. ELECTRON, GAMMA-RAY   1   1.72E-01    6.648E-02    1.14E-02
+           L3 CONV. ELECTRON, GAMMA-RAY   1   1.76E-01    6.753E-02    1.19E-02
+           M CONV. ELECTRON, GAMMA-RAY    1   8.85E-02    7.453E-02*   6.60E-03
+           N+ CONV. ELECTRON, GAMMA-RAY   1   2.33E-02    7.647E-02*   1.79E-03
+           GAMMA-RAY                      3   1.64E-04    1.065E+00    1.75E-04
+           GAMMA-RAY                      4   5.14E-02    1.242E+00    6.38E-02
+           K CONV. ELECTRON, GAMMA-RAY    4   4.46E-05    1.180E+00    5.27E-05
+           GAMMA-RAY                      5   3.55E-04    1.318E+00    4.68E-04
+           K -L2 X-RAY                        2.39E-01    5.145E-02    1.23E-02
+           K -L3 X-RAY                        4.20E-01    5.251E-02    2.21E-02
+           K -M2 X-RAY                        4.43E-02    5.928E-02    2.63E-03
+           K -M3 X-RAY                        8.56E-02    5.951E-02    5.09E-03
+           K -N2 X-RAY                        9.85E-03    6.105E-02    6.02E-04
+           K -N3 X-RAY                        1.91E-02    6.111E-02    1.16E-03
+           K -O2 X-RAY                        2.22E-03    6.140E-02    1.36E-04
+           K -O3 X-RAY                        4.59E-03    6.141E-02    2.82E-04
+           L2-M4 X-RAY                        9.32E-02    8.415E-03    7.84E-04
+           L2-N4 X-RAY                        1.66E-02    9.799E-03    1.63E-04
+           L3-M5 X-RAY                        1.27E-01    7.405E-03    9.39E-04
+           L3-N5 X-RAY                        2.17E-02    8.749E-03    1.89E-04
+           Free-Bound X-RAY                   1.42E+01    8.648E-06*   1.23E-04
+           AUGER KLL                          2.88E-02    4.196E-02*   1.21E-03
+           AUGER KLX                          1.47E-02    4.995E-02*   7.35E-04
+           AUGER KXY                          1.81E-03    5.795E-02*   1.05E-04
+           CK LLX                             1.34E-01    8.727E-04*   1.17E-04
+           AUGER LMM                          6.82E-01    5.825E-03*   3.97E-03
+           AUGER LMX                          2.46E-01    7.317E-03*   1.80E-03
+           AUGER LXY                          2.26E-02    8.840E-03*   2.00E-04
+           CK MMX                             9.03E-01    2.626E-04*   2.37E-04
+           AUGER MNN                          2.07E+00    1.257E-03*   2.61E-03
+           AUGER MNX                          9.37E-02    1.431E-03*   1.34E-04
+           CK NNX                             5.14E+00    1.548E-04*   7.95E-04
+ 
+           ALL LISTED X-RAYS, GAMMA-RAYS AND ANNIHILATION RADIATION    1.16E-01
+           ALL NEGLECTED X-RAYS, GAMMA-RAYS AND ANNIH. RADIATION**     5.64E-04
+           ALL LISTED BETAS, INTERNAL CONVERSION AND AUGER ELECTRONS   4.57E-02
+           ALL NEGLECTED BETAS, INT. CONVERSION AND AUGER ELECTRONS**  1.52E-04
+           ALL LISTED RADIATIONS                                       1.61E-01
+           ALL NEGLECTED RADIATIONS**                                  7.16E-04
+ 
+           *  AVERAGE ENERGY (MEV)
+           ** EACH NEGLECTED TRANSITION CONTRIBUTES LESS THAN  0.100%
+              TO THE TOTAL MEV/TRANSFORMATION FOR THIS CATEGORY.
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 174-YTTERBIUM
+             DAUGHTER IS 1.0000E+00 PER TRANSFORMATION OF 174-LUTETIUM.
+             THIS DAUGHTER GROUND STATE IS STABLE.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: Aug-1999
+%%%% 174 LU  71    EC B+        1.04456E+08 3.31 Y     02-11-2005       OUTPEND 
+%%%% 174 LU  71    EC B+        1.04456E+08 3.31 Y     02-11-2005       BETASTAR
+1
+              174-LUTETIUM-71
++                                    HALFLIFE = 3.31 YEARS   
++                                                                  02-11-2005
+
+            BETA SPECTRUM DATA FOR ALL DECAY BRANCHES
+
+                      BETAS PER                BETAS PER                BETAS PER
+            ENERGY    MEV            ENERGY    MEV            ENERGY    MEV
+            (MEV)     PER DECAY      (MEV)     PER DECAY      (MEV)     PER DECAY
+
+            0.00000   0.000E+00      0.00150   1.043E-11      0.02600   5.020E-05
+            0.00010   0.000E+00      0.00160   2.161E-11      0.02800   6.276E-05
+            0.00011   0.000E+00      0.00180   7.328E-11      0.03000   7.689E-05
+            0.00012   0.000E+00      0.00200   1.971E-10      0.03200   9.256E-05
+            0.00013   0.000E+00      0.00220   4.486E-10      0.03600   1.284E-04
+            0.00014   0.000E+00      0.00240   9.019E-10      0.04000   1.698E-04
+            0.00015   0.000E+00      0.00260   1.648E-09      0.04500   2.287E-04
+            0.00016   0.000E+00      0.00280   2.795E-09      0.05000   2.943E-04
+            0.00018   0.000E+00      0.00300   4.463E-09      0.05500   3.651E-04
+            0.00020   0.000E+00      0.00320   6.785E-09      0.06000   4.400E-04
+            0.00022   0.000E+00      0.00360   1.398E-08      0.06500   5.174E-04
+            0.00024   0.000E+00      0.00400   2.563E-08      0.07000   5.961E-04
+            0.00026   0.000E+00      0.00450   4.854E-08      0.07500   6.750E-04
+            0.00028   0.000E+00      0.00500   8.340E-08      0.08000   7.530E-04
+            0.00030   0.000E+00      0.00550   1.332E-07      0.08500   8.290E-04
+            0.00032   0.000E+00      0.00600   2.010E-07      0.09000   9.022E-04
+            0.00036   0.000E+00      0.00650   2.901E-07      0.10000   1.037E-03
+            0.00040   5.632E-27      0.00700   4.036E-07      0.11000   1.153E-03
+            0.00045   1.783E-24      0.00750   5.448E-07      0.12000   1.247E-03
+            0.00050   1.663E-22      0.00800   7.171E-07      0.13000   1.316E-03
+            0.00055   6.353E-21      0.00850   9.236E-07      0.14000   1.360E-03
+            0.00060   1.250E-19      0.00900   1.168E-06      0.15000   1.377E-03
+            0.00065   1.487E-18      0.01000   1.781E-06      0.16000   1.370E-03
+            0.00070   1.199E-17      0.01100   2.583E-06      0.18000   1.287E-03
+            0.00075   7.133E-17      0.01200   3.598E-06      0.20000   1.129E-03
+            0.00080   3.327E-16      0.01300   4.848E-06      0.22000   9.200E-04
+            0.00085   1.275E-15      0.01400   6.355E-06      0.24000   6.911E-04
+            0.00090   4.160E-15      0.01500   8.141E-06      0.26000   4.771E-04
+            0.00100   3.033E-14      0.01600   1.022E-05      0.28000   3.142E-04
+            0.00110   1.512E-13      0.01800   1.534E-05      0.30000   1.834E-04
+            0.00120   5.706E-13      0.02000   2.182E-05      0.32000   7.734E-05
+            0.00130   1.747E-12      0.02200   2.975E-05      0.35230   0.000E+00
+            0.00140   4.549E-12      0.02400   3.920E-05
+
+            AVERAGE BETA ENERGY =   1.635E-01
+
+            TOTAL BETAS PER DECAY FOR ALL BRANCHES =   2.298E-04
+%%%% 174 LU  71    EC B+        1.04456E+08 3.31 Y     02-11-2005       BETAEND 
+%%%% 174 LU  71    EC B+        1.04456E+08 3.31 Y     02-11-2005       SEEISTAR
+174.  LUTETIUM     71.  3.310E+00 YEARS    106 EC B+                174.LU 71.   0
+ 4 1  7.65953E-03  1.40183E-01  2.75832E-01  0.00000E+00            174.LU 71.   1   1
+ 4 2  1.53191E-02  1.75130E-01  3.52300E-01  0.00000E+00            174.LU 71.   2   2
+ 3 3  4.59572E-02  5.11000E-01  5.11000E-01  0.00000E+00            174.LU 71.   3   3
+ 1 1  5.92642E+00  7.64680E-02  7.64680E-02  0.00000E+00            174.LU 71.   4   1
+ 6 1  9.30105E+00  1.50270E-02  1.50270E-02  1.00000E+00            174.LU 71.   5   1
+ 6 5  9.97112E-01  6.60140E-02  6.60140E-02  1.00000E+00            174.LU 71.   6   5
+ 6 6  1.71776E+01  6.64754E-02  6.64754E-02  1.00000E+00            174.LU 71.   7   6
+ 6 7  1.75514E+01  6.75342E-02  6.75342E-02  1.00000E+00            174.LU 71.   8   7
+ 6 3  8.85287E+00  7.45328E-02  7.45328E-02  1.00000E+00            174.LU 71.   9   3
+ 6 4  2.33499E+00  7.64680E-02  7.64680E-02  1.00000E+00            174.LU 71.  10   4
+ 1 2  1.07940E-02  1.76653E-01  1.76653E-01  0.00000E+00            174.LU 71.  11   2
+ 6 1  2.52587E-03  1.15212E-01  1.15212E-01  2.00000E+00            174.LU 71.  12   1
+ 6 5  2.69615E-04  1.66199E-01  1.66199E-01  2.00000E+00            174.LU 71.  13   5
+ 6 6  6.75963E-04  1.66660E-01  1.66660E-01  2.00000E+00            174.LU 71.  14   6
+ 6 7  5.22308E-04  1.67719E-01  1.67719E-01  2.00000E+00            174.LU 71.  15   7
+ 6 3  3.58065E-04  1.74718E-01  1.74718E-01  2.00000E+00            174.LU 71.  16   3
+ 6 4  9.59117E-05  1.76653E-01  1.76653E-01  2.00000E+00            174.LU 71.  17   4
+ 1 3  1.64480E-02  1.06504E+00  1.06504E+00  0.00000E+00            174.LU 71.  18   3
+ 6 1  1.25849E-04  1.00360E+00  1.00360E+00  3.00000E+00            174.LU 71.  19   1
+ 6 5  1.76681E-05  1.05459E+00  1.05459E+00  3.00000E+00            174.LU 71.  20   5
+ 6 6  3.57040E-06  1.05505E+00  1.05505E+00  3.00000E+00            174.LU 71.  21   6
+ 6 7  7.91903E-07  1.05611E+00  1.05611E+00  3.00000E+00            174.LU 71.  22   7
+ 6 3  5.02693E-06  1.06310E+00  1.06310E+00  3.00000E+00            174.LU 71.  23   3
+ 6 4  1.41321E-06  1.06504E+00  1.06504E+00  3.00000E+00            174.LU 71.  24   4
+ 1 4  5.14000E+00  1.24185E+00  1.24185E+00  0.00000E+00            174.LU 71.  25   4
+ 6 1  4.46228E-03  1.18041E+00  1.18041E+00  4.00000E+00            174.LU 71.  26   1
+ 6 5  5.59288E-04  1.23139E+00  1.23139E+00  4.00000E+00            174.LU 71.  27   5
+ 6 6  2.37575E-05  1.23185E+00  1.23185E+00  4.00000E+00            174.LU 71.  28   6
+ 6 7  2.35424E-05  1.23291E+00  1.23291E+00  4.00000E+00            174.LU 71.  29   7
+ 6 3  1.34514E-04  1.23991E+00  1.23991E+00  4.00000E+00            174.LU 71.  30   3
+ 6 4  3.79639E-05  1.24185E+00  1.24185E+00  4.00000E+00            174.LU 71.  31   4
+ 1 5  3.54660E-02  1.31830E+00  1.31830E+00  0.00000E+00            174.LU 71.  32   5
+ 6 1  2.65291E-04  1.25686E+00  1.25686E+00  5.00000E+00            174.LU 71.  33   1
+ 6 5  3.73719E-05  1.30784E+00  1.30784E+00  5.00000E+00            174.LU 71.  34   5
+ 6 6  2.73353E-06  1.30830E+00  1.30830E+00  5.00000E+00            174.LU 71.  35   6
+ 6 7  3.78640E-07  1.30936E+00  1.30936E+00  5.00000E+00            174.LU 71.  36   7
+ 6 3  9.07873E-06  1.31636E+00  1.31636E+00  5.00000E+00            174.LU 71.  37   3
+ 6 4  2.57297E-06  1.31830E+00  1.31830E+00  5.00000E+00            174.LU 71.  38   4
+ 2 1  2.38547E+01  5.14483E-02  5.14483E-02  0.00000E+00            174.LU 71.  39   1
+ 2 2  4.20372E+01  5.25072E-02  5.25072E-02  0.00000E+00            174.LU 71.  40   2
+ 2 3  4.43050E+00  5.92804E-02  5.92804E-02  0.00000E+00            174.LU 71.  41   3
+ 2 4  8.56096E+00  5.95058E-02  5.95058E-02  0.00000E+00            174.LU 71.  42   4
+ 2 5  8.41102E-02  5.98629E-02  5.98629E-02  0.00000E+00            174.LU 71.  43   5
+ 2 6  1.08044E-01  5.99125E-02  5.99125E-02  0.00000E+00            174.LU 71.  44   6
+ 2 7  9.85449E-01  6.10550E-02  6.10550E-02  0.00000E+00            174.LU 71.  45   7
+ 2 8  1.90609E+00  6.11060E-02  6.11060E-02  0.00000E+00            174.LU 71.  46   8
+ 2 9  1.93723E-02  6.12472E-02  6.12472E-02  0.00000E+00            174.LU 71.  47   9
+ 210  2.47505E-02  6.12567E-02  6.12567E-02  0.00000E+00            174.LU 71.  48  10
+ 211  2.21547E-01  6.14047E-02  6.14047E-02  0.00000E+00            174.LU 71.  49  11
+ 212  4.59265E-01  6.14110E-02  6.14110E-02  0.00000E+00            174.LU 71.  50  12
+ 221  2.59493E-04  4.61401E-04  4.61401E-04  0.00000E+00            174.LU 71.  51  21
+ 222  2.14816E-02  1.52020E-03  1.52020E-03  0.00000E+00            174.LU 71.  52  22
+ 223  4.36190E-01  8.29331E-03  8.29331E-03  0.00000E+00            174.LU 71.  53  23
+ 224  5.78136E-01  8.51880E-03  8.51880E-03  0.00000E+00            174.LU 71.  54  24
+ 225  1.12514E-02  8.87590E-03  8.87590E-03  0.00000E+00            174.LU 71.  55  25
+ 226  1.68509E-02  8.92550E-03  8.92550E-03  0.00000E+00            174.LU 71.  56  26
+ 227  1.04729E-01  1.00680E-02  1.00680E-02  0.00000E+00            174.LU 71.  57  27
+ 228  1.45529E-01  1.01191E-02  1.01191E-02  0.00000E+00            174.LU 71.  58  28
+ 229  1.53467E-03  1.02603E-02  1.02603E-02  0.00000E+00            174.LU 71.  59  29
+ 230  2.38027E-03  1.02696E-02  1.02696E-02  0.00000E+00            174.LU 71.  60  30
+ 231  1.36700E-02  1.04176E-02  1.04176E-02  0.00000E+00            174.LU 71.  61  31
+ 232  1.81356E-02  1.04240E-02  1.04240E-02  0.00000E+00            174.LU 71.  62  32
+ 241  7.65309E-05  1.05880E-03  1.05880E-03  0.00000E+00            174.LU 71.  63  41
+ 242  2.80456E-01  7.62452E-03  7.62452E-03  0.00000E+00            174.LU 71.  64  42
+ 243  7.40880E-03  8.05740E-03  8.05740E-03  0.00000E+00            174.LU 71.  65  43
+ 244  9.31832E+00  8.41451E-03  8.41451E-03  0.00000E+00            174.LU 71.  66  44
+ 245  6.28588E-02  9.52160E-03  9.52160E-03  0.00000E+00            174.LU 71.  67  45
+ 246  1.82751E-03  9.65769E-03  9.65769E-03  0.00000E+00            174.LU 71.  68  46
+ 247  1.66033E+00  9.79888E-03  9.79888E-03  0.00000E+00            174.LU 71.  69  47
+ 248  3.09753E-03  9.98150E-03  9.98150E-03  0.00000E+00            174.LU 71.  70  48
+ 249  1.15651E-02  9.93270E-03  9.93270E-03  0.00000E+00            174.LU 71.  71  49
+ 250  4.01460E-04  9.96258E-03  9.96258E-03  0.00000E+00            174.LU 71.  72  50
+ 261  9.00033E-01  6.56570E-03  6.56570E-03  0.00000E+00            174.LU 71.  73  61
+ 262  6.98609E-03  6.77310E-03  6.77310E-03  0.00000E+00            174.LU 71.  74  62
+ 263  6.35111E-03  6.99861E-03  6.99861E-03  0.00000E+00            174.LU 71.  75  63
+ 264  1.43727E+00  7.35570E-03  7.35570E-03  0.00000E+00            174.LU 71.  76  64
+ 265  1.26850E+01  7.40529E-03  7.40529E-03  0.00000E+00            174.LU 71.  77  65
+ 266  1.47619E-01  8.46278E-03  8.46278E-03  0.00000E+00            174.LU 71.  78  66
+ 267  1.33362E-03  8.54775E-03  8.54775E-03  0.00000E+00            174.LU 71.  79  67
+ 268  1.29862E-03  8.59887E-03  8.59887E-03  0.00000E+00            174.LU 71.  80  68
+ 269  2.42000E-01  8.74007E-03  8.74007E-03  0.00000E+00            174.LU 71.  81  69
+ 270  2.16557E+00  8.74937E-03  8.74937E-03  0.00000E+00            174.LU 71.  82  70
+ 271  7.77832E-04  8.92271E-03  8.92271E-03  0.00000E+00            174.LU 71.  83  71
+ 272  4.35784E-03  8.92412E-03  8.92412E-03  0.00000E+00            174.LU 71.  84  72
+ 273  2.89539E-02  8.87391E-03  8.87391E-03  0.00000E+00            174.LU 71.  85  73
+ 274  2.95789E-04  8.89737E-03  8.89737E-03  0.00000E+00            174.LU 71.  86  74
+ 275  2.64991E-04  8.90378E-03  8.90378E-03  0.00000E+00            174.LU 71.  87  75
+ 291  3.50255E+00  1.50196E-03  1.50196E-03  0.00000E+00            174.LU 71.  88  91
+ 292  8.34085E-02  2.00998E-04  2.00998E-04  0.00000E+00            174.LU 71.  89  92
+ 293  6.13947E-05  2.86525E-05  2.86525E-05  0.00000E+00            174.LU 71.  90  93
+ 294  1.41921E+03  8.64763E-06  8.64763E-06  0.00000E+00            174.LU 71.  91  94
+ 7 1  2.87892E+00  4.19611E-02  4.19611E-02  0.00000E+00            174.LU 71.  92   1
+ 7 2  1.47161E+00  4.99512E-02  4.99512E-02  0.00000E+00            174.LU 71.  93   2
+ 7 3  1.80814E-01  5.79518E-02  5.79518E-02  0.00000E+00            174.LU 71.  94   3
+ 7 4  1.34419E+01  8.72731E-04  8.72731E-04  0.00000E+00            174.LU 71.  95   4
+ 7 5  6.82164E+01  5.82488E-03  5.82488E-03  0.00000E+00            174.LU 71.  96   5
+ 7 6  2.46042E+01  7.31725E-03  7.31725E-03  0.00000E+00            174.LU 71.  97   6
+ 7 7  2.25684E+00  8.84015E-03  8.84015E-03  0.00000E+00            174.LU 71.  98   7
+ 7 8  9.03262E+01  2.62579E-04  2.62579E-04  0.00000E+00            174.LU 71.  99   8
+ 7 9  2.07384E+02  1.25746E-03  1.25746E-03  0.00000E+00            174.LU 71. 100   9
+ 710  9.37035E+00  1.43075E-03  1.43075E-03  0.00000E+00            174.LU 71. 101  10
+ 711  6.23492E-01  1.62028E-03  1.62028E-03  0.00000E+00            174.LU 71. 102  11
+ 712  5.13508E+02  1.54775E-04  1.54775E-04  0.00000E+00            174.LU 71. 103  12
+ 713  1.55648E+01  2.46058E-04  2.46058E-04  0.00000E+00            174.LU 71. 104  13
+ 714  1.23960E+02  9.39916E-06  9.39916E-06  0.00000E+00            174.LU 71. 105  14
+ 715  1.75701E+02  1.88615E-05  1.88615E-05  0.00000E+00            174.LU 71. 106  15
+%%%% 174 LU  71    EC B+        1.04456E+08 3.31 Y     02-11-2005       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   6.90246E-02
+    X-ray                           (MeV) =   4.68706E-02
+    Free-bound X-ray                (MeV) =   1.22728E-04
+    Annihilation photon             (MeV) =   2.34841E-04
+    Beta+ particle                  (MeV) =   3.75656E-05
+    Neutrino                        (MeV) =   1.20996E+00
+    Beta- particle                  (MeV) =   0.00000E+00
+    Neutrino-                       (MeV) =   0.00000E+00
+    Internal conv. electron         (MeV) =   3.37858E-02
+    Auger and CK electron           (MeV) =   1.20056E-02
+    Alpha particle                  (MeV) =   0.00000E+00
+    Recoil nucleus                  (MeV) =   0.00000E+00
+  E-total (except unplaced radiat.) (MeV) =   1.37204E+00
+  E-unplaced radiation              (MeV) =   0.00000E+00
+  Q-value from ENSDF data           (MeV) =   1.37430E+00
+  Ratio of E-total/Q-value          ( % ) =   9.98353E+01
+  Ratio of E-unplaced radi./Q-value ( % ) =   0.00000E+00
+
+ 
+  Total yield of
+    Gamma-ray                             =   1.11291E-01
+    X-ray                                 =   1.16603E+00
+    Free-bound X-ray                      =   1.41921E+01
+    Annihilation photon                   =   4.59572E-04
+    Beta+ particle                        =   2.29786E-04
+    Beta- particle                        =   0.00000E+00
+    Internal conv. electron               =   5.62252E-01
+    Auger and CK electron                 =   1.24949E+01
+    Alpha particle                        =   0.00000E+00
+  Yield of unplaced radiation             =   0.00000E+00
+
+
+%%%% 174 LU  71 M  IT EC        1.22688E+07 142 D      02-11-2005       BALASTAR
+1 174M  LU  71 142 D           IT EC      
+1INTENSITY AND ENERGY BALANCE DATA
+
+              174M-LUTETIUM-71
++                                    HALFLIFE = 142 DAYS    
++                                                                  02-11-2005
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  1.0008E+02
+   4.4686E-02  1.0013E+02  9.9114E+01  1.0214E+00                      
+   1.1175E-01  9.6739E+01  9.7002E+01  2.7110E-01                      
+   1.7083E-01  1.0083E+02  1.0083E+02  0.0000E+00                      
+   0.0000E+00  6.6934E-01
+   7.6468E-02  6.6410E-01  6.6934E-01  7.8653E-01                      
+   2.5312E-01  6.2128E-01  6.6410E-01  6.6631E+00                      
+   5.2604E-01  5.6462E-01  6.0476E-01  6.8646E+00                      
+   8.8973E-01  1.4607E-02  1.6380E-02  1.1442E+01  ********************
+   1.5181E+00  6.2000E-01  5.7937E-01  6.7757E+00                      
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  1.007E+02
+ TOTAL INTENSITY FROM PARENT=  1.015E+02
+ PERCENT ERROR =  7.004E-01                      
+
+
+ TOTAL INTENSITY FROM PARENT =  1.015E+02
+ VALUE IS WITHIN   1.45E+00% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  1.818E-01 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  1.814E-01 MEV
+ PERCENT ERROR =  2.454E-01                      
+%%%% 174 LU  71 M  IT EC        1.22688E+07 142 D      02-11-2005       BALAEND 
+%%%% 174 LU  71 M  IT EC        1.22688E+07 142 D      02-11-2005       INPUSTAR
+1                                      **INPUT DATA**
+              174M-LUTETIUM-71
++                                    HALFLIFE = 142 DAYS    
++                                                                  02-11-2005
+
+            MODES OF DECAY: ISOMERIC LEVEL, ELECTRON CAPTURE
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+           I.C.E. + GAMMA   1   9.91E-01   4.468E-02   M1+E2 MULTIPOLE                          
+                                                       MRS=0.00250   AK= 0.0                    
+                                                       AL1=4.69      AL2=0.531                  
+                                                       AL3=0.177     AM= 1.22                   
+                                                       AN+=0.350                                
+           I.C.E. + GAMMA   2   9.67E-01   5.908E-02   M3 MULTIPOLE                             
++                                                                    AK= 0.0                    
+                                                       AL1=749.      AL2=95.8                   
+                                                       AL3=1.61E+03  AM= 707.                   
+                                                       AN+=199.                                 
+           I.C.E. + GAMMA   3   9.60E-01   6.706E-02   M1+E2 MULTIPOLE                          
+                                                       MRS=0.00810   AK= 10.1                   
+                                                       AL1=1.42      AL2=0.175                  
+                                                       AL3=0.0669    AM= 0.377                  
+                                                       AN+=0.108                                
+           I.C.E. + GAMMA   4   9.63E-03   1.118E-01   E2 MULTIPOLE                             
++                                                                    AK= 0.769                  
+                                                       AL1=0.0766    AL2=0.544                  
+                                                       AL3=0.489     AM= 0.275                  
+                                                       AN+=0.0739                               
+           I.C.E. + GAMMA   5   4.09E-02   1.262E-01   E4 MULTIPOLE                             
++                                                                    AK= 5.35                   
+                                                       AL1=3.39      AL2=111.                   
+                                                       AL3=77.7      AM= 55.5                   
+                                                       AN+=15.0                                 
+           ELECT. CAPTURE   1   6.20E-03   2.703E-02   FIRST FORBIDDEN                          
+           I.C.E. + GAMMA   1   6.69E-03   7.647E-02   E2 MULTIPOLE                             
++                                                                    AK= 1.57                   
+                                                       AL1=0.168     AL2=2.90                   
+                                                       AL3=2.96      AM= 1.49                   
+                                                       AN+=0.394                                
+           I.C.E. + GAMMA   2   6.64E-03   1.767E-01   E2 MULTIPOLE                             
++                                                                    AK= 0.234                  
+                                                       AL1=0.0250    AL2=0.0626                 
+                                                       AL3=0.0484    AM= 0.0332                 
+                                                       AN+=0.00889                              
+           I.C.E. + GAMMA   3   6.05E-03   2.729E-01   E2 MULTIPOLE                             
++                                                                    AK= 0.0688                 
+                                                       AL1=0.00808   AL2=0.00946                
+                                                       AL3=0.00612   AM= 0.00565                
+                                                       AN+=0.00153                              
+           I.C.E. + GAMMA   4   1.64E-04   3.636E-01   E2 MULTIPOLE                             
++                                                                    AK= 0.0316                 
+                                                       AL1=0.00387   AL2=0.00286                
+                                                       AL3=0.00164   AM= 0.00197                
+           I.C.E. + GAMMA   5   1.46E-04   6.282E-01   E2 MULTIPOLE                             
++                                                                    AK= 0.00829                
+                                                       AL1=0.00107                              
+           I.C.E. + GAMMA   6   5.48E-03   9.921E-01   M1+E2 MULTIPOLE                          
+                                                       MRS=2.66      AK= 0.00405                
+           I.C.E. + GAMMA   7   1.65E-04   1.265E+00   E2 MULTIPOLE                             
++                                                                    AK= 0.00196                
+ 
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: Aug-1999
+%%%% 174 LU  71 M  IT EC        1.22688E+07 142 D      02-11-2005       INPUEND 
+%%%% 174 LU  71 M  IT EC        1.22688E+07 142 D      02-11-2005       OUTPSTAR
+1                                      **OUTPUT DATA**
+              174M-LUTETIUM-71
++                                    HALFLIFE = 142 DAYS    
++                                                                  02-11-2005
+
+            MODES OF DECAY: ISOMERIC LEVEL, ELECTRON CAPTURE
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           GAMMA-RAY                      1   1.24E-01    4.468E-02    5.55E-03
+           L1 CONV. ELECTRON, GAMMA-RAY   1   5.83E-01    3.384E-02    1.97E-02
+           L2 CONV. ELECTRON, GAMMA-RAY   1   6.61E-02    3.431E-02    2.27E-03
+           L3 CONV. ELECTRON, GAMMA-RAY   1   2.20E-02    3.544E-02    7.80E-04
+           M CONV. ELECTRON, GAMMA-RAY    1   1.52E-01    4.267E-02*   6.48E-03
+           N+ CONV. ELECTRON, GAMMA-RAY   1   4.34E-02    4.468E-02*   1.94E-03
+           L1 CONV. ELECTRON, GAMMA-RAY   2   2.15E-01    4.824E-02    1.04E-02
+           L2 CONV. ELECTRON, GAMMA-RAY   2   2.75E-02    4.871E-02    1.34E-03
+           L3 CONV. ELECTRON, GAMMA-RAY   2   4.64E-01    4.984E-02    2.31E-02
+           M CONV. ELECTRON, GAMMA-RAY    2   2.03E-01    5.706E-02*   1.16E-02
+           N+ CONV. ELECTRON, GAMMA-RAY   2   5.71E-02    5.908E-02*   3.37E-03
+           GAMMA-RAY                      3   7.25E-02    6.706E-02    4.86E-03
+           K CONV. ELECTRON, GAMMA-RAY    3   7.32E-01    3.616E-03    2.65E-03
+           L1 CONV. ELECTRON, GAMMA-RAY   3   1.03E-01    5.621E-02    5.77E-03
+           L2 CONV. ELECTRON, GAMMA-RAY   3   1.27E-02    5.669E-02    7.21E-04
+           L3 CONV. ELECTRON, GAMMA-RAY   3   4.85E-03    5.781E-02    2.80E-04
+           M CONV. ELECTRON, GAMMA-RAY    3   2.74E-02    6.504E-02*   1.78E-03
+           N+ CONV. ELECTRON, GAMMA-RAY   3   7.80E-03    6.706E-02*   5.23E-04
+           GAMMA-RAY                      4   2.98E-03    1.118E-01    3.34E-04
+           L2 CONV. ELECTRON, GAMMA-RAY   4   1.62E-03    1.014E-01    1.65E-04
+           L3 CONV. ELECTRON, GAMMA-RAY   4   1.46E-03    1.025E-01    1.50E-04
+           L2 CONV. ELECTRON, GAMMA-RAY   5   1.69E-02    1.158E-01    1.96E-03
+           L3 CONV. ELECTRON, GAMMA-RAY   5   1.18E-02    1.170E-01    1.38E-03
+           M CONV. ELECTRON, GAMMA-RAY    5   8.43E-03    1.242E-01*   1.05E-03
+           N+ CONV. ELECTRON, GAMMA-RAY   5   2.28E-03    1.262E-01*   2.88E-04
+           K -L2 X-RAY                        2.02E-01    5.307E-02    1.07E-02
+           K -L3 X-RAY                        3.54E-01    5.420E-02    1.92E-02
+           K -M2 X-RAY                        3.75E-02    6.118E-02    2.30E-03
+           K -M3 X-RAY                        7.25E-02    6.143E-02    4.46E-03
+           K -N2 X-RAY                        8.39E-03    6.303E-02    5.29E-04
+           K -N3 X-RAY                        1.62E-02    6.309E-02    1.02E-03
+           K -O2 X-RAY                        1.89E-03    6.340E-02    1.20E-04
+           K -O3 X-RAY                        3.92E-03    6.341E-02    2.49E-04
+           L1-M2 X-RAY                        2.18E-02    8.587E-03    1.87E-04
+           L1-M3 X-RAY                        2.85E-02    8.829E-03    2.51E-04
+           L1-N3 X-RAY                        7.22E-03    1.049E-02    7.57E-05
+           L2-M4 X-RAY                        9.40E-02    8.722E-03    8.20E-04
+           L2-N4 X-RAY                        1.69E-02    1.016E-02    1.72E-04
+           L3-M1 X-RAY                        1.74E-02    6.773E-03    1.18E-04
+           L3-M4 X-RAY                        2.82E-02    7.592E-03    2.14E-04
+           L3-M5 X-RAY                        2.49E-01    7.645E-03    1.91E-03
+           L3-N5 X-RAY                        4.29E-02    9.044E-03    3.88E-04
+           M X-RAY                            6.94E-02    1.570E-03    1.09E-04
+           Free-Bound X-RAY                   2.58E+01    1.397E-05    3.60E-04
+           AUGER KLL                          2.33E-02    4.323E-02*   1.01E-03
+           AUGER KLX                          1.20E-02    5.151E-02*   6.18E-04
+           CK LLX                             7.25E-01    4.944E-04*   3.59E-04
+           AUGER LMM                          1.16E+00    5.964E-03*   6.90E-03
+           AUGER LMX                          4.23E-01    7.523E-03*   3.18E-03
+           AUGER LXY                          3.92E-02    9.115E-03*   3.57E-04
+           CK MMX                             1.70E+00    2.677E-04*   4.54E-04
+           AUGER MNN                          3.79E+00    1.309E-03*   4.96E-03
+           AUGER MNX                          1.83E-01    1.486E-03*   2.71E-04
+           CK NNX                             9.18E+00    1.564E-04*   1.44E-03
+           L2 CONV. ELECTRON, GAMMA-RAY   1   1.85E-03    6.648E-02    1.23E-04
+           L3 CONV. ELECTRON, GAMMA-RAY   1   1.89E-03    6.753E-02    1.28E-04
+           GAMMA-RAY                      2   4.70E-03    1.767E-01    8.31E-04
+           K CONV. ELECTRON, GAMMA-RAY    2   1.10E-03    1.152E-01    1.27E-04
+           GAMMA-RAY                      3   5.50E-03    2.729E-01    1.50E-03
+           GAMMA-RAY                      5   1.45E-04    6.282E-01    9.08E-05
+           GAMMA-RAY                      6   5.46E-03    9.921E-01    5.41E-03
+           GAMMA-RAY                      7   1.65E-04    1.265E+00    2.08E-04
+           K -L3 X-RAY                        1.21E-03    5.251E-02    6.35E-05
+ 
+           ALL LISTED X-RAYS, GAMMA-RAYS AND ANNIHILATION RADIATION    6.20E-02
+           ALL NEGLECTED X-RAYS, GAMMA-RAYS AND ANNIH. RADIATION**     5.58E-04
+           ALL LISTED BETAS, INTERNAL CONVERSION AND AUGER ELECTRONS   1.18E-01
+           ALL NEGLECTED BETAS, INT. CONVERSION AND AUGER ELECTRONS**  1.14E-03
+           ALL LISTED RADIATIONS                                       1.80E-01
+           ALL NEGLECTED RADIATIONS**                                  1.70E-03
+ 
+           *  AVERAGE ENERGY (MEV)
+           ** EACH NEGLECTED TRANSITION CONTRIBUTES LESS THAN  0.100%
+              TO THE TOTAL MEV/TRANSFORMATION FOR THIS CATEGORY.
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 174-LUTETIUM
+             DAUGHTER IS 9.9380E-01  PER TRANSFORMATION OF 174M-LUTETIUM.
+             DECAY OF THIS 3.31 YEARS HALFLIFE LEVEL WILL CONTRIBUTE TO DOSE.
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 174-YTTERBIUM
+             DAUGHTER IS 6.2000E-03  PER TRANSFORMATION OF 174M-LUTETIUM.
+             THIS DAUGHTER GROUND STATE IS STABLE.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: Aug-1999
+%%%% 174 LU  71 M  IT EC        1.22688E+07 142 D      02-11-2005       OUTPEND 
+%%%% 174 LU  71 M  IT EC        1.22688E+07 142 D      02-11-2005       SEEISTAR
+174.M LUTETIUM     71.  1.420E+02 DAYS     225 IT EC                174.LU 71.   0
+ 1 1  1.24313E+01  4.46830E-02  4.46830E-02  0.00000E+00            174.LU 71.   1   1
+ 6 5  5.83412E+01  3.38380E-02  3.38380E-02  1.00000E+00            174.LU 71.   2   5
+ 6 6  6.60594E+00  3.43100E-02  3.43100E-02  1.00000E+00            174.LU 71.   3   6
+ 6 7  2.20086E+00  3.54398E-02  3.54398E-02  1.00000E+00            174.LU 71.   4   7
+ 6 3  1.51901E+01  4.26669E-02  4.26669E-02  1.00000E+00            174.LU 71.   5   3
+ 6 4  4.34485E+00  4.46830E-02  4.46830E-02  1.00000E+00            174.LU 71.   6   4
+ 1 2  2.87586E-02  5.90800E-02  5.90800E-02  0.00000E+00            174.LU 71.   7   2
+ 6 5  2.15307E+01  4.82350E-02  4.82350E-02  2.00000E+00            174.LU 71.   8   5
+ 6 6  2.75462E+00  4.87070E-02  4.87070E-02  2.00000E+00            174.LU 71.   9   6
+ 6 7  4.63802E+01  4.98368E-02  4.98368E-02  2.00000E+00            174.LU 71.  10   7
+ 6 3  2.03363E+01  5.70639E-02  5.70639E-02  2.00000E+00            174.LU 71.  11   3
+ 6 4  5.70867E+00  5.90800E-02  5.90800E-02  2.00000E+00            174.LU 71.  12   4
+ 1 3  7.24933E+00  6.70580E-02  6.70580E-02  0.00000E+00            174.LU 71.  13   3
+ 6 1  7.32427E+01  3.61601E-03  3.61601E-03  3.00000E+00            174.LU 71.  14   1
+ 6 5  1.02729E+01  5.62130E-02  5.62130E-02  3.00000E+00            174.LU 71.  15   5
+ 6 6  1.27208E+00  5.66850E-02  5.66850E-02  3.00000E+00            174.LU 71.  16   6
+ 6 7  4.84935E-01  5.78148E-02  5.78148E-02  3.00000E+00            174.LU 71.  17   7
+ 6 3  2.73630E+00  6.50419E-02  6.50419E-02  3.00000E+00            174.LU 71.  18   3
+ 6 4  7.80120E-01  6.70580E-02  6.70580E-02  3.00000E+00            174.LU 71.  19   4
+ 1 4  2.98438E-01  1.11762E-01  1.11762E-01  0.00000E+00            174.LU 71.  20   4
+ 6 1  2.29636E-01  4.83200E-02  4.83200E-02  4.00000E+00            174.LU 71.  21   1
+ 6 5  2.28664E-02  1.00917E-01  1.00917E-01  4.00000E+00            174.LU 71.  22   5
+ 6 6  1.62262E-01  1.01389E-01  1.01389E-01  4.00000E+00            174.LU 71.  23   6
+ 6 7  1.46006E-01  1.02519E-01  1.02519E-01  4.00000E+00            174.LU 71.  24   7
+ 6 3  8.22104E-02  1.09746E-01  1.09746E-01  4.00000E+00            174.LU 71.  25   3
+ 6 4  2.20606E-02  1.11762E-01  1.11762E-01  4.00000E+00            174.LU 71.  26   4
+ 1 5  1.51932E-02  1.26200E-01  1.26200E-01  0.00000E+00            174.LU 71.  27   5
+ 6 1  8.12140E-02  6.27580E-02  6.27580E-02  5.00000E+00            174.LU 71.  28   1
+ 6 5  5.15487E-02  1.15355E-01  1.15355E-01  5.00000E+00            174.LU 71.  29   5
+ 6 6  1.69390E+00  1.15827E-01  1.15827E-01  5.00000E+00            174.LU 71.  30   6
+ 6 7  1.18056E+00  1.16957E-01  1.16957E-01  5.00000E+00            174.LU 71.  31   7
+ 6 3  8.42803E-01  1.24184E-01  1.24184E-01  5.00000E+00            174.LU 71.  32   3
+ 6 4  2.28193E-01  1.26200E-01  1.26200E-01  5.00000E+00            174.LU 71.  33   4
+ 2 1  2.01788E+01  5.30692E-02  5.30692E-02  0.00000E+00            174.LU 71.  34   1
+ 2 2  3.54333E+01  5.41988E-02  5.41988E-02  0.00000E+00            174.LU 71.  35   2
+ 2 3  3.75464E+00  6.11839E-02  6.11839E-02  0.00000E+00            174.LU 71.  36   3
+ 2 4  7.25449E+00  6.14258E-02  6.14258E-02  0.00000E+00            174.LU 71.  37   4
+ 2 5  7.37088E-02  6.17912E-02  6.17912E-02  0.00000E+00            174.LU 71.  38   5
+ 2 6  9.42449E-02  6.18442E-02  6.18442E-02  0.00000E+00            174.LU 71.  39   6
+ 2 7  8.39474E-01  6.30318E-02  6.30318E-02  0.00000E+00            174.LU 71.  40   7
+ 2 8  1.62305E+00  6.30870E-02  6.30870E-02  0.00000E+00            174.LU 71.  41   8
+ 2 9  1.71631E-02  6.32325E-02  6.32325E-02  0.00000E+00            174.LU 71.  42   9
+ 210  2.18257E-02  6.32426E-02  6.32426E-02  0.00000E+00            174.LU 71.  43  10
+ 211  1.89225E-01  6.34003E-02  6.34003E-02  0.00000E+00            174.LU 71.  44  11
+ 212  3.92146E-01  6.34078E-02  6.34078E-02  0.00000E+00            174.LU 71.  45  12
+ 213  7.78940E-05  6.34376E-02  6.34376E-02  0.00000E+00            174.LU 71.  46  13
+ 214  9.22810E-05  6.34380E-02  6.34380E-02  0.00000E+00            174.LU 71.  47  14
+ 221  1.23619E-03  4.71999E-04  4.71999E-04  0.00000E+00            174.LU 71.  48  21
+ 222  1.12467E-01  1.60180E-03  1.60180E-03  0.00000E+00            174.LU 71.  49  22
+ 223  2.17684E+00  8.58698E-03  8.58698E-03  0.00000E+00            174.LU 71.  50  23
+ 224  2.84630E+00  8.82888E-03  8.82888E-03  0.00000E+00            174.LU 71.  51  24
+ 225  5.78531E-02  9.19420E-03  9.19420E-03  0.00000E+00            174.LU 71.  52  25
+ 226  8.66288E-02  9.24720E-03  9.24720E-03  0.00000E+00            174.LU 71.  53  26
+ 227  5.25310E-01  1.04348E-02  1.04348E-02  0.00000E+00            174.LU 71.  54  27
+ 228  7.21566E-01  1.04899E-02  1.04899E-02  0.00000E+00            174.LU 71.  55  28
+ 229  7.95975E-03  1.06356E-02  1.06356E-02  0.00000E+00            174.LU 71.  56  29
+ 230  1.23619E-02  1.06457E-02  1.06457E-02  0.00000E+00            174.LU 71.  57  30
+ 231  7.18873E-02  1.08035E-02  1.08035E-02  0.00000E+00            174.LU 71.  58  31
+ 232  9.48768E-02  1.08108E-02  1.08108E-02  0.00000E+00            174.LU 71.  59  32
+ 233  3.34615E-05  1.08405E-02  1.08405E-02  0.00000E+00            174.LU 71.  60  33
+ 234  4.87851E-05  1.08410E-02  1.08410E-02  0.00000E+00            174.LU 71.  61  34
+ 241  8.72325E-05  1.12980E-03  1.12980E-03  0.00000E+00            174.LU 71.  62  41
+ 242  2.77116E-01  7.90249E-03  7.90249E-03  0.00000E+00            174.LU 71.  63  42
+ 243  7.62910E-03  8.35690E-03  8.35690E-03  0.00000E+00            174.LU 71.  64  43
+ 244  9.39567E+00  8.72221E-03  8.72221E-03  0.00000E+00            174.LU 71.  65  44
+ 245  6.30797E-02  9.87516E-03  9.87516E-03  0.00000E+00            174.LU 71.  66  45
+ 246  1.91585E-03  1.00179E-02  1.00179E-02  0.00000E+00            174.LU 71.  67  46
+ 247  1.69079E+00  1.01636E-02  1.01636E-02  0.00000E+00            174.LU 71.  68  47
+ 248  3.47735E-03  1.03540E-02  1.03540E-02  0.00000E+00            174.LU 71.  69  48
+ 249  1.17290E-02  1.03067E-02  1.03067E-02  0.00000E+00            174.LU 71.  70  49
+ 250  4.13814E-04  1.03388E-02  1.03388E-02  0.00000E+00            174.LU 71.  71  50
+ 251  7.41153E-03  1.03685E-02  1.03685E-02  0.00000E+00            174.LU 71.  72  51
+ 261  1.73641E+00  6.77270E-03  6.77270E-03  0.00000E+00            174.LU 71.  73  61
+ 262  1.38228E-02  6.98520E-03  6.98520E-03  0.00000E+00            174.LU 71.  74  62
+ 263  1.25679E-02  7.22710E-03  7.22710E-03  0.00000E+00            174.LU 71.  75  63
+ 264  2.82312E+00  7.59238E-03  7.59238E-03  0.00000E+00            174.LU 71.  76  64
+ 265  2.49293E+01  7.64541E-03  7.64541E-03  0.00000E+00            174.LU 71.  77  65
+ 266  2.94495E-01  8.74533E-03  8.74533E-03  0.00000E+00            174.LU 71.  78  66
+ 267  2.71225E-03  8.83300E-03  8.83300E-03  0.00000E+00            174.LU 71.  79  67
+ 268  2.64811E-03  8.88814E-03  8.88814E-03  0.00000E+00            174.LU 71.  80  68
+ 269  4.79297E-01  9.03382E-03  9.03382E-03  0.00000E+00            174.LU 71.  81  69
+ 270  4.29004E+00  9.04388E-03  9.04388E-03  0.00000E+00            174.LU 71.  82  70
+ 271  1.70952E-03  9.22424E-03  9.22424E-03  0.00000E+00            174.LU 71.  83  71
+ 272  9.59270E-03  9.22589E-03  9.22589E-03  0.00000E+00            174.LU 71.  84  72
+ 273  5.82711E-02  9.17687E-03  9.17687E-03  0.00000E+00            174.LU 71.  85  73
+ 274  5.95449E-04  9.20169E-03  9.20169E-03  0.00000E+00            174.LU 71.  86  74
+ 275  5.40423E-04  9.20899E-03  9.20899E-03  0.00000E+00            174.LU 71.  87  75
+ 276  2.08643E-03  9.23875E-03  9.23875E-03  0.00000E+00            174.LU 71.  88  76
+ 277  1.74498E-02  9.23916E-03  9.23916E-03  0.00000E+00            174.LU 71.  89  77
+ 291  6.94100E+00  1.56979E-03  1.56979E-03  0.00000E+00            174.LU 71.  90  91
+ 292  1.64719E-01  2.10429E-04  2.10429E-04  0.00000E+00            174.LU 71.  91  92
+ 293  1.46068E-04  3.08055E-05  3.08055E-05  0.00000E+00            174.LU 71.  92  93
+ 294  2.57697E+03  1.39731E-05  1.39731E-05  0.00000E+00            174.LU 71.  93  94
+ 7 1  2.33285E+00  4.32341E-02  4.32341E-02  0.00000E+00            174.LU 71.  94   1
+ 7 2  1.20009E+00  5.15128E-02  5.15128E-02  0.00000E+00            174.LU 71.  95   2
+ 7 3  1.48405E-01  5.98022E-02  5.98022E-02  0.00000E+00            174.LU 71.  96   3
+ 7 4  7.25392E+01  4.94356E-04  4.94356E-04  0.00000E+00            174.LU 71.  97   4
+ 7 5  1.15654E+02  5.96369E-03  5.96369E-03  0.00000E+00            174.LU 71.  98   5
+ 7 6  4.22680E+01  7.52293E-03  7.52293E-03  0.00000E+00            174.LU 71.  99   6
+ 7 7  3.92084E+00  9.11463E-03  9.11463E-03  0.00000E+00            174.LU 71. 100   7
+ 7 8  1.69573E+02  2.67699E-04  2.67699E-04  0.00000E+00            174.LU 71. 101   8
+ 7 9  3.79027E+02  1.30887E-03  1.30887E-03  0.00000E+00            174.LU 71. 102   9
+ 710  1.82646E+01  1.48570E-03  1.48570E-03  0.00000E+00            174.LU 71. 103  10
+ 711  1.18398E+00  1.69254E-03  1.69254E-03  0.00000E+00            174.LU 71. 104  11
+ 712  9.18402E+02  1.56371E-04  1.56371E-04  0.00000E+00            174.LU 71. 105  12
+ 713  2.82575E+01  2.69165E-04  2.69165E-04  0.00000E+00            174.LU 71. 106  13
+ 714  2.26944E+02  1.00912E-05  1.00912E-05  0.00000E+00            174.LU 71. 107  14
+ 715  3.20168E+02  2.16371E-05  2.16371E-05  0.00000E+00            174.LU 71. 108  15
+ 1 1  6.38352E-02  7.64680E-02  7.64680E-02  0.00000E+00            174.LU 71. 109   1
+ 6 1  1.00184E-01  1.50270E-02  1.50270E-02  1.00000E+00            174.LU 71. 110   1
+ 6 5  1.07402E-02  6.60140E-02  6.60140E-02  1.00000E+00            174.LU 71. 111   5
+ 6 6  1.85025E-01  6.64754E-02  6.64754E-02  1.00000E+00            174.LU 71. 112   6
+ 6 7  1.89051E-01  6.75342E-02  6.75342E-02  1.00000E+00            174.LU 71. 113   7
+ 6 3  9.53569E-02  7.45328E-02  7.45328E-02  1.00000E+00            174.LU 71. 114   3
+ 6 4  2.51508E-02  7.64680E-02  7.64680E-02  1.00000E+00            174.LU 71. 115   4
+ 1 2  4.70307E-01  1.76653E-01  1.76653E-01  0.00000E+00            174.LU 71. 116   2
+ 6 1  1.10055E-01  1.15212E-01  1.15212E-01  2.00000E+00            174.LU 71. 117   1
+ 6 5  1.17475E-02  1.66199E-01  1.66199E-01  2.00000E+00            174.LU 71. 118   5
+ 6 6  2.94525E-02  1.66660E-01  1.66660E-01  2.00000E+00            174.LU 71. 119   6
+ 6 7  2.27576E-02  1.67719E-01  1.67719E-01  2.00000E+00            174.LU 71. 120   7
+ 6 3  1.56013E-02  1.74718E-01  1.74718E-01  2.00000E+00            174.LU 71. 121   3
+ 6 4  4.17899E-03  1.76653E-01  1.76653E-01  2.00000E+00            174.LU 71. 122   4
+ 1 3  5.49965E-01  2.72914E-01  2.72914E-01  0.00000E+00            174.LU 71. 123   3
+ 6 1  3.78365E-02  2.11473E-01  2.11473E-01  3.00000E+00            174.LU 71. 124   1
+ 6 5  4.44183E-03  2.62460E-01  2.62460E-01  3.00000E+00            174.LU 71. 125   5
+ 6 6  5.20140E-03  2.62921E-01  2.62921E-01  3.00000E+00            174.LU 71. 126   6
+ 6 7  3.36570E-03  2.63980E-01  2.63980E-01  3.00000E+00            174.LU 71. 127   7
+ 6 3  3.10871E-03  2.70979E-01  2.70979E-01  3.00000E+00            174.LU 71. 128   3
+ 6 4  8.42684E-04  2.72914E-01  2.72914E-01  3.00000E+00            174.LU 71. 129   4
+ 1 4  1.57133E-02  3.63640E-01  3.63640E-01  0.00000E+00            174.LU 71. 130   4
+ 6 1  4.96116E-04  3.02199E-01  3.02199E-01  4.00000E+00            174.LU 71. 131   1
+ 6 5  6.07876E-05  3.53186E-01  3.53186E-01  4.00000E+00            174.LU 71. 132   5
+ 6 6  4.48761E-05  3.53647E-01  3.53647E-01  4.00000E+00            174.LU 71. 133   6
+ 6 7  2.57102E-05  3.54706E-01  3.54706E-01  4.00000E+00            174.LU 71. 134   7
+ 6 3  3.09852E-05  3.61705E-01  3.61705E-01  4.00000E+00            174.LU 71. 135   3
+ 6 4  8.47456E-06  3.63640E-01  3.63640E-01  4.00000E+00            174.LU 71. 136   4
+ 1 5  1.44584E-02  6.28210E-01  6.28210E-01  0.00000E+00            174.LU 71. 137   5
+ 6 1  1.19899E-04  5.66769E-01  5.66769E-01  5.00000E+00            174.LU 71. 138   1
+ 6 5  1.54432E-05  6.17756E-01  6.17756E-01  5.00000E+00            174.LU 71. 139   5
+ 6 6  4.83498E-06  6.18217E-01  6.18217E-01  5.00000E+00            174.LU 71. 140   6
+ 6 7  2.23179E-06  6.19276E-01  6.19276E-01  5.00000E+00            174.LU 71. 141   7
+ 6 3  5.16695E-06  6.26275E-01  6.26275E-01  5.00000E+00            174.LU 71. 142   3
+ 6 4  1.43585E-06  6.28210E-01  6.28210E-01  5.00000E+00            174.LU 71. 143   4
+ 1 6  5.45600E-01  9.92077E-01  9.92077E-01  0.00000E+00            174.LU 71. 144   6
+ 6 1  2.21097E-03  9.30636E-01  9.30636E-01  6.00000E+00            174.LU 71. 145   1
+ 6 5  2.92074E-04  9.81623E-01  9.81623E-01  6.00000E+00            174.LU 71. 146   5
+ 6 6  3.28818E-05  9.82084E-01  9.82084E-01  6.00000E+00            174.LU 71. 147   6
+ 6 7  1.16559E-05  9.83143E-01  9.83143E-01  6.00000E+00            174.LU 71. 148   7
+ 6 3  7.55979E-05  9.90142E-01  9.90142E-01  6.00000E+00            174.LU 71. 149   3
+ 6 4  2.13061E-05  9.92077E-01  9.92077E-01  6.00000E+00            174.LU 71. 150   4
+ 1 7  1.64771E-02  1.26498E+00  1.26498E+00  0.00000E+00            174.LU 71. 151   7
+ 6 1  3.23155E-05  1.20354E+00  1.20354E+00  7.00000E+00            174.LU 71. 152   1
+ 6 5  4.19895E-06  1.25453E+00  1.25453E+00  7.00000E+00            174.LU 71. 153   5
+ 6 6  4.73494E-07  1.25499E+00  1.25499E+00  7.00000E+00            174.LU 71. 154   6
+ 6 7  1.88970E-07  1.25605E+00  1.25605E+00  7.00000E+00            174.LU 71. 155   7
+ 6 3  1.08971E-06  1.26304E+00  1.26304E+00  7.00000E+00            174.LU 71. 156   3
+ 6 4  3.06819E-07  1.26498E+00  1.26498E+00  7.00000E+00            174.LU 71. 157   4
+ 2 1  6.86283E-02  5.14483E-02  5.14483E-02  0.00000E+00            174.LU 71. 158   1
+ 2 2  1.20938E-01  5.25072E-02  5.25072E-02  0.00000E+00            174.LU 71. 159   2
+ 2 3  1.27462E-02  5.92804E-02  5.92804E-02  0.00000E+00            174.LU 71. 160   3
+ 2 4  2.46293E-02  5.95058E-02  5.95058E-02  0.00000E+00            174.LU 71. 161   4
+ 2 5  2.41979E-04  5.98629E-02  5.98629E-02  0.00000E+00            174.LU 71. 162   5
+ 2 6  3.10833E-04  5.99125E-02  5.99125E-02  0.00000E+00            174.LU 71. 163   6
+ 2 7  2.83507E-03  6.10550E-02  6.10550E-02  0.00000E+00            174.LU 71. 164   7
+ 2 8  5.48369E-03  6.11060E-02  6.11060E-02  0.00000E+00            174.LU 71. 165   8
+ 2 9  5.57327E-05  6.12472E-02  6.12472E-02  0.00000E+00            174.LU 71. 166   9
+ 210  7.12054E-05  6.12567E-02  6.12567E-02  0.00000E+00            174.LU 71. 167  10
+ 211  6.37375E-04  6.14047E-02  6.14047E-02  0.00000E+00            174.LU 71. 168  11
+ 212  1.32127E-03  6.14110E-02  6.14110E-02  0.00000E+00            174.LU 71. 169  12
+ 221  5.08458E-06  4.61400E-04  4.61400E-04  0.00000E+00            174.LU 71. 170  21
+ 222  4.20917E-04  1.52020E-03  1.52020E-03  0.00000E+00            174.LU 71. 171  22
+ 223  8.54681E-03  8.29331E-03  8.29331E-03  0.00000E+00            174.LU 71. 172  23
+ 224  1.13281E-02  8.51880E-03  8.51880E-03  0.00000E+00            174.LU 71. 173  24
+ 225  2.20463E-04  8.87590E-03  8.87590E-03  0.00000E+00            174.LU 71. 174  25
+ 226  3.30181E-04  8.92550E-03  8.92550E-03  0.00000E+00            174.LU 71. 175  26
+ 227  2.05209E-03  1.00680E-02  1.00680E-02  0.00000E+00            174.LU 71. 176  27
+ 228  2.85152E-03  1.01191E-02  1.01191E-02  0.00000E+00            174.LU 71. 177  28
+ 229  3.00708E-05  1.02603E-02  1.02603E-02  0.00000E+00            174.LU 71. 178  29
+ 230  4.66396E-05  1.02696E-02  1.02696E-02  0.00000E+00            174.LU 71. 179  30
+ 231  2.67855E-04  1.04176E-02  1.04176E-02  0.00000E+00            174.LU 71. 180  31
+ 232  3.55354E-04  1.04240E-02  1.04240E-02  0.00000E+00            174.LU 71. 181  32
+ 241  6.04441E-07  1.05880E-03  1.05880E-03  0.00000E+00            174.LU 71. 182  41
+ 242  2.21504E-03  7.62451E-03  7.62451E-03  0.00000E+00            174.LU 71. 183  42
+ 243  5.85147E-05  8.05739E-03  8.05739E-03  0.00000E+00            174.LU 71. 184  43
+ 244  7.35961E-02  8.41451E-03  8.41451E-03  0.00000E+00            174.LU 71. 185  44
+ 245  4.96459E-04  9.52159E-03  9.52159E-03  0.00000E+00            174.LU 71. 186  45
+ 246  1.44337E-05  9.65768E-03  9.65768E-03  0.00000E+00            174.LU 71. 187  46
+ 247  1.31133E-02  9.79888E-03  9.79888E-03  0.00000E+00            174.LU 71. 188  47
+ 248  2.44643E-05  9.98151E-03  9.98151E-03  0.00000E+00            174.LU 71. 189  48
+ 249  9.13412E-05  9.93271E-03  9.93271E-03  0.00000E+00            174.LU 71. 190  49
+ 250  3.17073E-06  9.96258E-03  9.96258E-03  0.00000E+00            174.LU 71. 191  50
+ 261  6.84305E-03  6.56569E-03  6.56569E-03  0.00000E+00            174.LU 71. 192  61
+ 262  5.31160E-05  6.77310E-03  6.77310E-03  0.00000E+00            174.LU 71. 193  62
+ 263  4.82882E-05  6.99860E-03  6.99860E-03  0.00000E+00            174.LU 71. 194  63
+ 264  1.09277E-02  7.35569E-03  7.35569E-03  0.00000E+00            174.LU 71. 195  64
+ 265  9.64453E-02  7.40529E-03  7.40529E-03  0.00000E+00            174.LU 71. 196  65
+ 266  1.12236E-03  8.46278E-03  8.46278E-03  0.00000E+00            174.LU 71. 197  66
+ 267  1.01397E-05  8.54775E-03  8.54775E-03  0.00000E+00            174.LU 71. 198  67
+ 268  9.87358E-06  8.59888E-03  8.59888E-03  0.00000E+00            174.LU 71. 199  68
+ 269  1.83996E-03  8.74006E-03  8.74006E-03  0.00000E+00            174.LU 71. 200  69
+ 270  1.64651E-02  8.74936E-03  8.74936E-03  0.00000E+00            174.LU 71. 201  70
+ 271  5.91394E-06  8.92271E-03  8.92271E-03  0.00000E+00            174.LU 71. 202  71
+ 272  3.31331E-05  8.92413E-03  8.92413E-03  0.00000E+00            174.LU 71. 203  72
+ 273  2.20140E-04  8.87391E-03  8.87391E-03  0.00000E+00            174.LU 71. 204  73
+ 274  2.24892E-06  8.89736E-03  8.89736E-03  0.00000E+00            174.LU 71. 205  74
+ 275  2.01476E-06  8.90377E-03  8.90377E-03  0.00000E+00            174.LU 71. 206  75
+ 291  3.19553E-02  1.50662E-03  1.50662E-03  0.00000E+00            174.LU 71. 207  91
+ 292  8.26857E-04  2.02668E-04  2.02668E-04  0.00000E+00            174.LU 71. 208  92
+ 293  6.20461E-07  2.86526E-05  2.86526E-05  0.00000E+00            174.LU 71. 209  93
+ 294  1.36992E+01  8.56644E-06  8.56644E-06  0.00000E+00            174.LU 71. 210  94
+ 7 1  8.28244E-03  4.19611E-02  4.19611E-02  0.00000E+00            174.LU 71. 211   1
+ 7 2  4.23370E-03  4.99512E-02  4.99512E-02  0.00000E+00            174.LU 71. 212   2
+ 7 3  5.20189E-04  5.79518E-02  5.79518E-02  0.00000E+00            174.LU 71. 213   3
+ 7 4  1.82952E-01  9.07782E-04  9.07782E-04  0.00000E+00            174.LU 71. 214   4
+ 7 5  5.61244E-01  5.88562E-03  5.88562E-03  0.00000E+00            174.LU 71. 215   5
+ 7 6  2.03033E-01  7.38572E-03  7.38572E-03  0.00000E+00            174.LU 71. 216   6
+ 7 7  1.86710E-02  8.91936E-03  8.91936E-03  0.00000E+00            174.LU 71. 217   7
+ 7 8  9.83559E-01  2.68585E-04  2.68585E-04  0.00000E+00            174.LU 71. 218   8
+ 7 9  1.88700E+00  1.26222E-03  1.26222E-03  0.00000E+00            174.LU 71. 219   9
+ 710  8.67922E-02  1.44583E-03  1.44583E-03  0.00000E+00            174.LU 71. 220  10
+ 711  5.76672E-03  1.63636E-03  1.63636E-03  0.00000E+00            174.LU 71. 221  11
+ 712  4.95482E+00  1.54497E-04  1.54497E-04  0.00000E+00            174.LU 71. 222  12
+ 713  1.59327E-01  2.55957E-04  2.55957E-04  0.00000E+00            174.LU 71. 223  13
+ 714  1.23522E+00  9.52165E-06  9.52165E-06  0.00000E+00            174.LU 71. 224  14
+ 715  1.73195E+00  1.88631E-05  1.88631E-05  0.00000E+00            174.LU 71. 225  15
+%%%% 174 LU  71 M  IT EC        1.22688E+07 142 D      02-11-2005       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   1.89354E-02
+    X-ray                           (MeV) =   4.33068E-02
+    Free-bound X-ray                (MeV) =   3.61256E-04
+    Annihilation photon             (MeV) =   0.00000E+00
+    Beta+ particle                  (MeV) =   0.00000E+00
+    Neutrino                        (MeV) =   1.23569E-04
+    Beta- particle                  (MeV) =   0.00000E+00
+    Neutrino-                       (MeV) =   0.00000E+00
+    Internal conv. electron         (MeV) =   9.88923E-02
+    Auger and CK electron           (MeV) =   1.99128E-02
+    Alpha particle                  (MeV) =   0.00000E+00
+    Recoil nucleus                  (MeV) =   0.00000E+00
+  E-total (except unplaced radiat.) (MeV) =   1.81532E-01
+  E-unplaced radiation              (MeV) =   0.00000E+00
+  Q-value from ENSDF data           (MeV) =   1.79351E-01
+  Ratio of E-total/Q-value          ( % ) =   1.01216E+02
+  Ratio of E-unplaced radi./Q-value ( % ) =   0.00000E+00
+
+ 
+  Total yield of
+    Gamma-ray                             =   2.16994E-01
+    X-ray                                 =   1.30348E+00
+    Free-bound X-ray                      =   2.59067E+01
+    Annihilation photon                   =   0.00000E+00
+    Beta+ particle                        =   0.00000E+00
+    Beta- particle                        =   0.00000E+00
+    Internal conv. electron               =   2.77783E+00
+    Auger and CK electron                 =   2.31191E+01
+    Alpha particle                        =   0.00000E+00
+  Yield of unplaced radiation             =   0.00000E+00
+
+

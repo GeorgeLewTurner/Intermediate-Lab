@@ -1,0 +1,168 @@
+%%%%  87 RB  37    B-           1.55358E+18 4.923E10 Y 02-11-2005       BALASTAR
+1  87   RB  37 4.923E10 Y      B-         
+1INTENSITY AND ENERGY BALANCE DATA
+
+              87-RUBIDIUM-37
++                                    HALFLIFE = 0.4923E+11 YEARS   
++                                                                  02-11-2005
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  1.0000E+02
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  1.000E+02
+ TOTAL INTENSITY FROM PARENT=  1.000E+02
+ PERCENT ERROR =  0.000E+00                      
+
+
+ TOTAL INTENSITY FROM PARENT =  1.000E+02
+ VALUE IS WITHIN   0.00E+00% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  2.833E-01 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  2.833E-01 MEV
+ PERCENT ERROR =  0.000E+00                      
+%%%%  87 RB  37    B-           1.55358E+18 4.923E10 Y 02-11-2005       BALAEND 
+%%%%  87 RB  37    B-           1.55358E+18 4.923E10 Y 02-11-2005       INPUSTAR
+1                                      **INPUT DATA**
+              87-RUBIDIUM-37
++                                    HALFLIFE = 0.4923E+11 YEARS   
++                                                                  02-11-2005
+
+            MODE OF DECAY: BETA MINUS
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+               BETA MINUS   1   1.00E+00   2.833E-01*  THIRD FORBIDDEN                          
+ 
+           * ENDPOINT ENERGY (MEV)
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: May-2002
+%%%%  87 RB  37    B-           1.55358E+18 4.923E10 Y 02-11-2005       INPUEND 
+%%%%  87 RB  37    B-           1.55358E+18 4.923E10 Y 02-11-2005       OUTPSTAR
+1                                      **OUTPUT DATA**
+              87-RUBIDIUM-37
++                                    HALFLIFE = 0.4923E+11 YEARS   
++                                                                  02-11-2005
+
+            MODE OF DECAY: BETA MINUS
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           BETA MINUS                     1   1.00E+00    1.154E-01*   1.15E-01
+ 
+           ALL LISTED BETAS, INTERNAL CONVERSION AND AUGER ELECTRONS   1.15E-01
+           ALL LISTED RADIATIONS                                       1.15E-01
+ 
+           *  AVERAGE ENERGY (MEV)
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 87-STRONTIUM
+             DAUGHTER IS 1.0000E+00 PER TRANSFORMATION OF  87-RUBIDIUM.
+             THIS DAUGHTER GROUND STATE IS STABLE.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: May-2002
+%%%%  87 RB  37    B-           1.55358E+18 4.923E10 Y 02-11-2005       OUTPEND 
+%%%%  87 RB  37    B-           1.55358E+18 4.923E10 Y 02-11-2005       BETASTAR
+1
+              87-RUBIDIUM-37
++                                    HALFLIFE = 0.4923E+11 YEARS   
++                                                                  02-11-2005
+
+            BETA SPECTRUM DATA FOR ALL DECAY BRANCHES
+
+                      BETAS PER                BETAS PER                BETAS PER
+            ENERGY    MEV            ENERGY    MEV            ENERGY    MEV
+            (MEV)     PER DECAY      (MEV)     PER DECAY      (MEV)     PER DECAY
+
+            0.00000   3.711E+00      0.00140   3.627E+00      0.02200   3.846E+00
+            0.00010   3.705E+00      0.00150   3.621E+00      0.02400   3.894E+00
+            0.00011   3.704E+00      0.00160   3.615E+00      0.02600   3.941E+00
+            0.00012   3.704E+00      0.00180   3.604E+00      0.02800   3.987E+00
+            0.00013   3.703E+00      0.00200   3.592E+00      0.03000   4.032E+00
+            0.00014   3.703E+00      0.00220   3.580E+00      0.03200   4.076E+00
+            0.00015   3.702E+00      0.00240   3.568E+00      0.03600   4.162E+00
+            0.00016   3.701E+00      0.00260   3.557E+00      0.04000   4.243E+00
+            0.00018   3.700E+00      0.00280   3.545E+00      0.04500   4.339E+00
+            0.00020   3.699E+00      0.00300   3.533E+00      0.05000   4.429E+00
+            0.00022   3.698E+00      0.00320   3.522E+00      0.05500   4.513E+00
+            0.00024   3.697E+00      0.00360   3.499E+00      0.06000   4.590E+00
+            0.00026   3.695E+00      0.00400   3.476E+00      0.06500   4.661E+00
+            0.00028   3.694E+00      0.00450   3.447E+00      0.07000   4.725E+00
+            0.00030   3.693E+00      0.00500   3.419E+00      0.07500   4.782E+00
+            0.00032   3.692E+00      0.00550   3.390E+00      0.08000   4.832E+00
+            0.00036   3.689E+00      0.00600   3.421E+00      0.08500   4.875E+00
+            0.00040   3.687E+00      0.00650   3.436E+00      0.09000   4.911E+00
+            0.00045   3.684E+00      0.00700   3.450E+00      0.10000   4.960E+00
+            0.00050   3.681E+00      0.00750   3.464E+00      0.11000   4.978E+00
+            0.00055   3.678E+00      0.00800   3.479E+00      0.12000   4.961E+00
+            0.00060   3.675E+00      0.00850   3.493E+00      0.13000   4.907E+00
+            0.00065   3.672E+00      0.00900   3.507E+00      0.14000   4.814E+00
+            0.00070   3.669E+00      0.01000   3.535E+00      0.15000   4.677E+00
+            0.00075   3.666E+00      0.01100   3.563E+00      0.16000   4.495E+00
+            0.00080   3.663E+00      0.01200   3.590E+00      0.18000   3.983E+00
+            0.00085   3.660E+00      0.01300   3.617E+00      0.20000   3.271E+00
+            0.00090   3.657E+00      0.01400   3.643E+00      0.22000   2.385E+00
+            0.00100   3.651E+00      0.01500   3.670E+00      0.24000   1.407E+00
+            0.00110   3.645E+00      0.01600   3.696E+00      0.26000   5.122E-01
+            0.00120   3.639E+00      0.01800   3.747E+00      0.28000   1.288E-02
+            0.00130   3.633E+00      0.02000   3.797E+00      0.28330   0.000E+00
+
+            AVERAGE BETA ENERGY =   1.154E-01
+
+            TOTAL BETAS PER DECAY FOR ALL BRANCHES =   1.000E+00
+%%%%  87 RB  37    B-           1.55358E+18 4.923E10 Y 02-11-2005       BETAEND 
+%%%%  87 RB  37    B-           1.55358E+18 4.923E10 Y 02-11-2005       SEEISTAR
+ 87.  RUBIDIUM     37.  4.923E+10 YEARS      1 B-                    87.RB 37.   0
+ 5 1  1.00000E+02  1.15400E-01  2.83300E-01  2.00000E+00             87.RB 37.   1   1
+%%%%  87 RB  37    B-           1.55358E+18 4.923E10 Y 02-11-2005       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   0.00000E+00
+    X-ray                           (MeV) =   0.00000E+00
+    Free-bound X-ray                (MeV) =   0.00000E+00
+    Annihilation photon             (MeV) =   0.00000E+00
+    Beta+ particle                  (MeV) =   0.00000E+00
+    Neutrino                        (MeV) =   0.00000E+00
+    Beta- particle                  (MeV) =   1.15400E-01
+    Neutrino-                       (MeV) =   1.67900E-01
+    Internal conv. electron         (MeV) =   0.00000E+00
+    Auger and CK electron           (MeV) =   0.00000E+00
+    Alpha particle                  (MeV) =   0.00000E+00
+    Recoil nucleus                  (MeV) =   0.00000E+00
+  E-total (except unplaced radiat.) (MeV) =   2.83300E-01
+  E-unplaced radiation              (MeV) =   0.00000E+00
+  Q-value from ENSDF data           (MeV) =   2.83300E-01
+  Ratio of E-total/Q-value          ( % ) =   1.00000E+02
+  Ratio of E-unplaced radi./Q-value ( % ) =   0.00000E+00
+
+ 
+  Total yield of
+    Gamma-ray                             =   0.00000E+00
+    X-ray                                 =   0.00000E+00
+    Free-bound X-ray                      =   0.00000E+00
+    Annihilation photon                   =   0.00000E+00
+    Beta+ particle                        =   0.00000E+00
+    Beta- particle                        =   1.00000E+00
+    Internal conv. electron               =   0.00000E+00
+    Auger and CK electron                 =   0.00000E+00
+    Alpha particle                        =   0.00000E+00
+  Yield of unplaced radiation             =   0.00000E+00
+
+

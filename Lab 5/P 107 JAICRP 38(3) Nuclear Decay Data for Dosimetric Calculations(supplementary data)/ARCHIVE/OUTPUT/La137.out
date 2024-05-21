@@ -1,0 +1,212 @@
+%%%% 137 LA  57    EC           1.89346E+12 6.0E+4 Y   02-11-2005       BALASTAR
+1 137   LA  57 6.0E+4 Y        EC         
+1INTENSITY AND ENERGY BALANCE DATA
+
+              137-LANTHANUM-57
++                                    HALFLIFE = 60000 YEARS   
++                                                                  02-11-2005
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  1.0000E+02
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  1.000E+02
+ TOTAL INTENSITY FROM PARENT=  1.000E+02
+ PERCENT ERROR =  0.000E+00                      
+
+
+ TOTAL INTENSITY FROM PARENT =  1.000E+02
+ VALUE IS WITHIN   0.00E+00% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  6.220E-01 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  6.220E-01 MEV
+ PERCENT ERROR =  0.000E+00                      
+%%%% 137 LA  57    EC           1.89346E+12 6.0E+4 Y   02-11-2005       BALAEND 
+%%%% 137 LA  57    EC           1.89346E+12 6.0E+4 Y   02-11-2005       INPUSTAR
+1                                      **INPUT DATA**
+              137-LANTHANUM-57
++                                    HALFLIFE = 60000 YEARS   
++                                                                  02-11-2005
+
+            MODE OF DECAY: ELECTRON CAPTURE
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+           ELECT. CAPTURE   1   1.00E+00   6.220E-01   SECOND FORBIDDEN                         
+ 
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: Aug-1997
+%%%% 137 LA  57    EC           1.89346E+12 6.0E+4 Y   02-11-2005       INPUEND 
+%%%% 137 LA  57    EC           1.89346E+12 6.0E+4 Y   02-11-2005       OUTPSTAR
+1                                      **OUTPUT DATA**
+              137-LANTHANUM-57
++                                    HALFLIFE = 60000 YEARS   
++                                                                  02-11-2005
+
+            MODE OF DECAY: ELECTRON CAPTURE
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           K -L2 X-RAY                        2.12E-01    3.182E-02    6.74E-03
+           K -L3 X-RAY                        3.90E-01    3.221E-02    1.26E-02
+           K -M2 X-RAY                        3.73E-02    3.632E-02    1.35E-03
+           K -M3 X-RAY                        7.23E-02    3.639E-02    2.63E-03
+           K -N2 X-RAY                        7.88E-03    3.724E-02    2.93E-04
+           K -N3 X-RAY                        1.53E-02    3.726E-02    5.72E-04
+           K -O2 X-RAY                        1.11E-03    3.742E-02    4.14E-05
+           K -O3 X-RAY                        2.12E-03    3.743E-02    7.94E-05
+           L2-M4 X-RAY                        2.43E-02    4.824E-03    1.17E-04
+           L3-M5 X-RAY                        4.16E-02    4.453E-03    1.85E-04
+           L3-N5 X-RAY                        6.57E-03    5.144E-03    3.38E-05
+           Free-Bound X-RAY                   1.34E+01    1.860E-05*   2.49E-04
+           AUGER KLL                          5.20E-02    2.634E-02*   1.37E-03
+           AUGER KLX                          2.40E-02    3.096E-02*   7.42E-04
+           AUGER KXY                          2.65E-03    3.557E-02*   9.42E-05
+           CK LLX                             1.41E-01    3.475E-04*   4.91E-05
+           AUGER LMM                          5.77E-01    3.573E-03*   2.06E-03
+           AUGER LMX                          1.84E-01    4.340E-03*   8.00E-04
+           AUGER LXY                          1.44E-02    5.138E-03*   7.41E-05
+           CK MMX                             6.60E-01    1.144E-04*   7.55E-05
+           AUGER MNN                          1.47E+00    5.525E-04*   8.13E-04
+           AUGER MNX                          1.08E-01    6.912E-04*   7.50E-05
+           CK NNX                             1.66E+00    4.700E-05*   7.81E-05
+           AUGER NXY                          4.53E+00    4.884E-05*   2.21E-04
+           CK OOX                             2.86E+00    1.086E-05*   3.10E-05
+ 
+           ALL LISTED X-RAYS, GAMMA-RAYS AND ANNIHILATION RADIATION    2.49E-02
+           ALL NEGLECTED X-RAYS, GAMMA-RAYS AND ANNIH. RADIATION**     1.62E-04
+           ALL LISTED BETAS, INTERNAL CONVERSION AND AUGER ELECTRONS   6.48E-03
+           ALL NEGLECTED BETAS, INT. CONVERSION AND AUGER ELECTRONS**  1.63E-06
+           ALL LISTED RADIATIONS                                       3.13E-02
+           ALL NEGLECTED RADIATIONS**                                  1.64E-04
+ 
+           *  AVERAGE ENERGY (MEV)
+           ** EACH NEGLECTED TRANSITION CONTRIBUTES LESS THAN  0.100%
+              TO THE TOTAL MEV/TRANSFORMATION FOR THIS CATEGORY.
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 137-BARIUM
+             DAUGHTER IS 1.0000E+00 PER TRANSFORMATION OF 137-LANTHANUM.
+             THIS DAUGHTER GROUND STATE IS STABLE.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: Aug-1997
+%%%% 137 LA  57    EC           1.89346E+12 6.0E+4 Y   02-11-2005       OUTPEND 
+%%%% 137 LA  57    EC           1.89346E+12 6.0E+4 Y   02-11-2005       SEEISTAR
+137.  LANTHANUM    57.  6.000E+04 YEARS     65 EC                   137.LA 57.   0
+ 2 1  2.11919E+01  3.18187E-02  3.18187E-02  0.00000E+00            137.LA 57.   1   1
+ 2 2  3.90225E+01  3.22056E-02  3.22056E-02  0.00000E+00            137.LA 57.   2   2
+ 2 3  3.72951E+00  3.63167E-02  3.63167E-02  0.00000E+00            137.LA 57.   3   3
+ 2 4  7.22634E+00  3.63920E-02  3.63920E-02  0.00000E+00            137.LA 57.   4   4
+ 2 5  4.04472E-02  3.66424E-02  3.66424E-02  0.00000E+00            137.LA 57.   5   5
+ 2 6  5.48999E-02  3.66586E-02  3.66586E-02  0.00000E+00            137.LA 57.   6   6
+ 2 7  7.87917E-01  3.72447E-02  3.72447E-02  0.00000E+00            137.LA 57.   7   7
+ 2 8  1.53491E+00  3.72607E-02  3.72607E-02  0.00000E+00            137.LA 57.   8   8
+ 2 9  8.21722E-03  3.73469E-02  3.73469E-02  0.00000E+00            137.LA 57.   9   9
+ 210  1.11444E-02  3.73496E-02  3.73496E-02  0.00000E+00            137.LA 57.  10  10
+ 211  1.10553E-01  3.74247E-02  3.74247E-02  0.00000E+00            137.LA 57.  11  11
+ 212  2.12042E-01  3.74270E-02  3.74270E-02  0.00000E+00            137.LA 57.  12  12
+ 221  3.33161E-04  3.30500E-04  3.30500E-04  0.00000E+00            137.LA 57.  13  21
+ 222  7.47649E-03  7.17401E-04  7.17401E-04  0.00000E+00            137.LA 57.  14  22
+ 223  2.62856E-01  4.82860E-03  4.82860E-03  0.00000E+00            137.LA 57.  15  23
+ 224  4.06792E-01  4.90381E-03  4.90381E-03  0.00000E+00            137.LA 57.  16  24
+ 225  4.22828E-03  5.15417E-03  5.15417E-03  0.00000E+00            137.LA 57.  17  25
+ 226  6.31667E-03  5.17030E-03  5.17030E-03  0.00000E+00            137.LA 57.  18  26
+ 227  5.90683E-02  5.75658E-03  5.75658E-03  0.00000E+00            137.LA 57.  19  27
+ 228  9.43068E-02  5.77244E-03  5.77244E-03  0.00000E+00            137.LA 57.  20  28
+ 229  5.49714E-04  5.85863E-03  5.85863E-03  0.00000E+00            137.LA 57.  21  29
+ 230  8.39053E-04  5.86135E-03  5.86135E-03  0.00000E+00            137.LA 57.  22  30
+ 231  8.74873E-03  5.93650E-03  5.93650E-03  0.00000E+00            137.LA 57.  23  31
+ 232  1.37786E-02  5.93880E-03  5.93880E-03  0.00000E+00            137.LA 57.  24  32
+ 241  3.06693E-06  3.86901E-04  3.86901E-04  0.00000E+00            137.LA 57.  25  41
+ 242  1.20838E-01  4.35689E-03  4.35689E-03  0.00000E+00            137.LA 57.  26  42
+ 243  1.85493E-03  4.57329E-03  4.57329E-03  0.00000E+00            137.LA 57.  27  43
+ 244  2.42848E+00  4.82366E-03  4.82366E-03  0.00000E+00            137.LA 57.  28  44
+ 245  1.84678E-02  5.37394E-03  5.37394E-03  0.00000E+00            137.LA 57.  29  45
+ 246  2.65373E-04  5.44193E-03  5.44193E-03  0.00000E+00            137.LA 57.  30  46
+ 247  3.92192E-01  5.52814E-03  5.52814E-03  0.00000E+00            137.LA 57.  31  47
+ 249  2.49413E-03  5.59191E-03  5.59191E-03  0.00000E+00            137.LA 57.  32  49
+ 250  3.87919E-05  5.60829E-03  5.60829E-03  0.00000E+00            137.LA 57.  33  50
+ 261  4.31928E-01  3.97001E-03  3.97001E-03  0.00000E+00            137.LA 57.  34  61
+ 262  2.47684E-03  4.11121E-03  4.11121E-03  0.00000E+00            137.LA 57.  35  62
+ 263  2.29929E-03  4.18639E-03  4.18639E-03  0.00000E+00            137.LA 57.  36  63
+ 264  4.69184E-01  4.43676E-03  4.43676E-03  0.00000E+00            137.LA 57.  37  64
+ 265  4.15601E+00  4.45292E-03  4.45292E-03  0.00000E+00            137.LA 57.  38  65
+ 266  4.16038E-02  4.98704E-03  4.98704E-03  0.00000E+00            137.LA 57.  39  66
+ 267  2.51809E-04  5.03920E-03  5.03920E-03  0.00000E+00            137.LA 57.  40  67
+ 268  2.42528E-04  5.05505E-03  5.05505E-03  0.00000E+00            137.LA 57.  41  68
+ 269  7.35424E-02  5.14124E-03  5.14124E-03  0.00000E+00            137.LA 57.  42  69
+ 270  6.57175E-01  5.14394E-03  5.14394E-03  0.00000E+00            137.LA 57.  43  70
+ 273  6.50514E-03  5.20501E-03  5.20501E-03  0.00000E+00            137.LA 57.  44  73
+ 274  3.70728E-05  5.21911E-03  5.21911E-03  0.00000E+00            137.LA 57.  45  74
+ 275  3.52621E-05  5.22140E-03  5.22140E-03  0.00000E+00            137.LA 57.  46  75
+ 291  6.04509E-01  6.87298E-04  6.87298E-04  0.00000E+00            137.LA 57.  47  91
+ 292  1.57436E-02  1.08888E-04  1.08888E-04  0.00000E+00            137.LA 57.  48  92
+ 293  8.33729E-08  1.58399E-05  1.58399E-05  0.00000E+00            137.LA 57.  49  93
+ 294  1.33841E+03  1.85994E-05  1.85994E-05  0.00000E+00            137.LA 57.  50  94
+ 7 1  5.19559E+00  2.63448E-02  2.63448E-02  0.00000E+00            137.LA 57.  51   1
+ 7 2  2.39691E+00  3.09583E-02  3.09583E-02  0.00000E+00            137.LA 57.  52   2
+ 7 3  2.64812E-01  3.55723E-02  3.55723E-02  0.00000E+00            137.LA 57.  53   3
+ 7 4  1.41308E+01  3.47540E-04  3.47540E-04  0.00000E+00            137.LA 57.  54   4
+ 7 5  5.76642E+01  3.57310E-03  3.57310E-03  0.00000E+00            137.LA 57.  55   5
+ 7 6  1.84349E+01  4.34019E-03  4.34019E-03  0.00000E+00            137.LA 57.  56   6
+ 7 7  1.44126E+00  5.13793E-03  5.13793E-03  0.00000E+00            137.LA 57.  57   7
+ 7 8  6.59899E+01  1.14428E-04  1.14428E-04  0.00000E+00            137.LA 57.  58   8
+ 7 9  1.47162E+02  5.52520E-04  5.52520E-04  0.00000E+00            137.LA 57.  59   9
+ 710  1.08471E+01  6.91243E-04  6.91243E-04  0.00000E+00            137.LA 57.  60  10
+ 711  1.08860E-01  8.61051E-04  8.61051E-04  0.00000E+00            137.LA 57.  61  11
+ 712  1.66245E+02  4.69964E-05  4.69964E-05  0.00000E+00            137.LA 57.  62  12
+ 713  4.52550E+02  4.88385E-05  4.88385E-05  0.00000E+00            137.LA 57.  63  13
+ 714  2.85599E+02  1.08630E-05  1.08630E-05  0.00000E+00            137.LA 57.  64  14
+ 715  2.36748E+00  2.91100E-05  2.91100E-05  0.00000E+00            137.LA 57.  65  15
+%%%% 137 LA  57    EC           1.89346E+12 6.0E+4 Y   02-11-2005       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   0.00000E+00
+    X-ray                           (MeV) =   2.47792E-02
+    Free-bound X-ray                (MeV) =   2.48935E-04
+    Annihilation photon             (MeV) =   0.00000E+00
+    Beta+ particle                  (MeV) =   0.00000E+00
+    Neutrino                        (MeV) =   5.89224E-01
+    Beta- particle                  (MeV) =   0.00000E+00
+    Neutrino-                       (MeV) =   0.00000E+00
+    Internal conv. electron         (MeV) =   0.00000E+00
+    Auger and CK electron           (MeV) =   6.48408E-03
+    Alpha particle                  (MeV) =   0.00000E+00
+    Recoil nucleus                  (MeV) =   0.00000E+00
+  E-total (except unplaced radiat.) (MeV) =   6.20736E-01
+  E-unplaced radiation              (MeV) =   0.00000E+00
+  Q-value from ENSDF data           (MeV) =   6.22000E-01
+  Ratio of E-total/Q-value          ( % ) =   9.97967E+01
+  Ratio of E-unplaced radi./Q-value ( % ) =   0.00000E+00
+
+ 
+  Total yield of
+    Gamma-ray                             =   0.00000E+00
+    X-ray                                 =   8.42219E-01
+    Free-bound X-ray                      =   1.33841E+01
+    Annihilation photon                   =   0.00000E+00
+    Beta+ particle                        =   0.00000E+00
+    Beta- particle                        =   0.00000E+00
+    Internal conv. electron               =   0.00000E+00
+    Auger and CK electron                 =   1.23040E+01
+    Alpha particle                        =   0.00000E+00
+  Yield of unplaced radiation             =   0.00000E+00
+
+

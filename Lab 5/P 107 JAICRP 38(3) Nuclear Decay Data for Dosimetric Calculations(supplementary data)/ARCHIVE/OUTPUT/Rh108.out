@@ -1,0 +1,322 @@
+%%%% 108 RH  45    B-           1.68000E+01 16.8 S     18-10-2007       BALASTAR
+1 108   RH  45 16.8 S          B-         
+           WARNING:                                                                             
+ 108 PD 46  GAMMA-RAY ENERGY =   0.60950 MEV                                                    
+           HALF-LIFE OF INITIAL LEVEL ASSOCIATED WITH GAMMA-RAY TOO SHORT TO BE                 
+           CONSIDERED ISOMERIC, AND INTENSITY = 0.0                                             
+           TRANSITION IGNORED                                                                   
+           WARNING:                                                                             
+ 108 PD 46  GAMMA-RAY ENERGY =   0.89190 MEV                                                    
+           HALF-LIFE OF INITIAL LEVEL ASSOCIATED WITH GAMMA-RAY TOO SHORT TO BE                 
+           CONSIDERED ISOMERIC, AND INTENSITY = 0.0                                             
+           TRANSITION IGNORED                                                                   
+           WARNING:                                                                             
+ 108 PD 46  GAMMA-RAY ENERGY =   1.00730 MEV                                                    
+           HALF-LIFE OF INITIAL LEVEL ASSOCIATED WITH GAMMA-RAY TOO SHORT TO BE                 
+           CONSIDERED ISOMERIC, AND INTENSITY = 0.0                                             
+           TRANSITION IGNORED                                                                   
+           WARNING:                                                                             
+ 108 PD 46  GAMMA-RAY ENERGY =   1.10590 MEV                                                    
+           HALF-LIFE OF INITIAL LEVEL ASSOCIATED WITH GAMMA-RAY TOO SHORT TO BE                 
+           CONSIDERED ISOMERIC, AND INTENSITY = 0.0                                             
+           TRANSITION IGNORED                                                                   
+           WARNING:                                                                             
+ 108 PD 46  GAMMA-RAY ENERGY =   1.44140 MEV                                                    
+           HALF-LIFE OF INITIAL LEVEL ASSOCIATED WITH GAMMA-RAY TOO SHORT TO BE                 
+           CONSIDERED ISOMERIC, AND INTENSITY = 0.0                                             
+           TRANSITION IGNORED                                                                   
+           WARNING:                                                                             
+ 108 PD 46  GAMMA-RAY ENERGY =   1.50080 MEV                                                    
+           HALF-LIFE OF INITIAL LEVEL ASSOCIATED WITH GAMMA-RAY TOO SHORT TO BE                 
+           CONSIDERED ISOMERIC, AND INTENSITY = 0.0                                             
+           TRANSITION IGNORED                                                                   
+1INTENSITY AND ENERGY BALANCE DATA
+
+              108-RHODIUM-45
++                                    HALFLIFE = 16.8 SECONDS 
++                                                                  18-10-2007
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  1.0047E+02
+   4.3410E-01  4.3222E+01  4.3393E+01  3.9489E-01                      
+   9.3140E-01  6.2812E+00  6.4398E+00  2.4946E+00                      
+   1.0530E+00  1.4955E+01  1.5100E+01  9.6269E-01                      
+   1.4414E+00  0.0000E+00  0.0000E+00  2.0000E+02  ********************
+   1.5400E+00  0.0000E+00  0.0000E+00  2.0000E+02  ********************
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  1.005E+02
+ TOTAL INTENSITY FROM PARENT=  1.000E+02
+ PERCENT ERROR =  4.721E-01                      
+
+
+ TOTAL INTENSITY FROM PARENT =  1.000E+02
+ VALUE IS WITHIN   7.63E-06% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  4.510E+00 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  4.514E+00 MEV
+ PERCENT ERROR =  8.302E-02                      
+%%%% 108 RH  45    B-           1.68000E+01 16.8 S     18-10-2007       BALAEND 
+%%%% 108 RH  45    B-           1.68000E+01 16.8 S     18-10-2007       INPUSTAR
+1                                      **INPUT DATA**
+              108-RHODIUM-45
++                                    HALFLIFE = 16.8 SECONDS 
++                                                                  18-10-2007
+
+            MODE OF DECAY: BETA MINUS
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+               BETA MINUS   3   1.50E-01   3.457E+00*  ALLOWED                                  
+               BETA MINUS   4   6.28E-02   3.579E+00*  ALLOWED                                  
+               BETA MINUS   5   2.29E-01   4.076E+00*  ALLOWED                                  
+               BETA MINUS   6   5.58E-01   4.510E+00*  ALLOWED                                  
+           I.C.E. + GAMMA   1   4.34E-01   4.341E-01   E2 MULTIPOLE                             
++                                                                    AK= 0.00788                
+           I.C.E. + GAMMA   2   5.19E-02   4.973E-01   M1+E2 MULTIPOLE                          
+                                                       MRS=9.61      AK= 0.00526                
+           I.C.E. + GAMMA   4   1.51E-01   6.189E-01   E2 MULTIPOLE                             
++                                                                    AK= 0.00287                
+           I.C.E. + GAMMA   6   1.25E-02   9.317E-01   E2 MULTIPOLE                             
++                                                                    AK= 0.00104                
+ 
+           * ENDPOINT ENERGY (MEV)
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: Dec-2000
+%%%% 108 RH  45    B-           1.68000E+01 16.8 S     18-10-2007       INPUEND 
+%%%% 108 RH  45    B-           1.68000E+01 16.8 S     18-10-2007       OUTPSTAR
+1                                      **OUTPUT DATA**
+              108-RHODIUM-45
++                                    HALFLIFE = 16.8 SECONDS 
++                                                                  18-10-2007
+
+            MODE OF DECAY: BETA MINUS
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           BETA MINUS                     3   1.50E-01    1.469E+00*   2.20E-01
+           BETA MINUS                     4   6.28E-02    1.526E+00*   9.59E-02
+           BETA MINUS                     5   2.29E-01    1.762E+00*   4.04E-01
+           BETA MINUS                     6   5.58E-01    1.969E+00*   1.10E+00
+           GAMMA-RAY                      1   4.30E-01    4.341E-01    1.87E-01
+           K CONV. ELECTRON, GAMMA-RAY    1   3.39E-03    4.098E-01    1.39E-03
+           GAMMA-RAY                      2   5.16E-02    4.973E-01    2.57E-02
+           GAMMA-RAY                      4   1.50E-01    6.189E-01    9.31E-02
+           K CONV. ELECTRON, GAMMA-RAY    4   4.32E-04    5.946E-01    2.57E-04
+           GAMMA-RAY                      6   1.25E-02    9.317E-01    1.16E-02
+           K -L3 X-RAY                        1.84E-03    2.115E-02    3.88E-05
+ 
+           ALL LISTED X-RAYS, GAMMA-RAYS AND ANNIHILATION RADIATION    3.17E-01
+           ALL NEGLECTED X-RAYS, GAMMA-RAYS AND ANNIH. RADIATION**     3.48E-05
+           ALL LISTED BETAS, INTERNAL CONVERSION AND AUGER ELECTRONS   1.82E+00
+           ALL NEGLECTED BETAS, INT. CONVERSION AND AUGER ELECTRONS**  4.66E-04
+           ALL LISTED RADIATIONS                                       2.14E+00
+           ALL NEGLECTED RADIATIONS**                                  5.00E-04
+ 
+           *  AVERAGE ENERGY (MEV)
+           ** EACH NEGLECTED TRANSITION CONTRIBUTES LESS THAN  0.010%
+              TO THE TOTAL MEV/TRANSFORMATION FOR THIS CATEGORY.
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 108-PALLADIUM
+             DAUGHTER IS 1.0000E+00 PER TRANSFORMATION OF 108-RHODIUM.
+             THIS DAUGHTER GROUND STATE IS STABLE.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: Dec-2000
+%%%% 108 RH  45    B-           1.68000E+01 16.8 S     18-10-2007       OUTPEND 
+%%%% 108 RH  45    B-           1.68000E+01 16.8 S     18-10-2007       BETASTAR
+1
+              108-RHODIUM-45
++                                    HALFLIFE = 16.8 SECONDS 
++                                                                  18-10-2007
+
+            BETA SPECTRUM DATA FOR ALL DECAY BRANCHES
+
+                      BETAS PER                BETAS PER                BETAS PER
+            ENERGY    MEV            ENERGY    MEV            ENERGY    MEV
+            (MEV)     PER DECAY      (MEV)     PER DECAY      (MEV)     PER DECAY
+
+            0.00000   7.218E-02      0.00360   7.256E-02      0.14000   1.052E-01
+            0.00010   7.219E-02      0.00400   7.261E-02      0.15000   1.079E-01
+            0.00011   7.219E-02      0.00450   7.266E-02      0.16000   1.106E-01
+            0.00012   7.219E-02      0.00500   7.271E-02      0.18000   1.160E-01
+            0.00013   7.219E-02      0.00550   7.277E-02      0.20000   1.215E-01
+            0.00014   7.219E-02      0.00600   7.282E-02      0.22000   1.271E-01
+            0.00015   7.219E-02      0.00650   7.287E-02      0.24000   1.326E-01
+            0.00016   7.219E-02      0.00700   7.293E-02      0.26000   1.382E-01
+            0.00018   7.220E-02      0.00750   7.304E-02      0.28000   1.439E-01
+            0.00020   7.220E-02      0.00800   7.315E-02      0.30000   1.495E-01
+            0.00022   7.220E-02      0.00850   7.325E-02      0.32000   1.552E-01
+            0.00024   7.220E-02      0.00900   7.336E-02      0.36000   1.665E-01
+            0.00026   7.221E-02      0.01000   7.357E-02      0.40000   1.779E-01
+            0.00028   7.221E-02      0.01100   7.378E-02      0.45000   1.920E-01
+            0.00030   7.221E-02      0.01200   7.399E-02      0.50000   2.060E-01
+            0.00032   7.221E-02      0.01300   7.420E-02      0.55000   2.198E-01
+            0.00036   7.222E-02      0.01400   7.441E-02      0.60000   2.333E-01
+            0.00040   7.222E-02      0.01500   7.463E-02      0.65000   2.466E-01
+            0.00045   7.223E-02      0.01600   7.484E-02      0.70000   2.595E-01
+            0.00050   7.223E-02      0.01800   7.526E-02      0.75000   2.721E-01
+            0.00055   7.224E-02      0.02000   7.569E-02      0.80000   2.842E-01
+            0.00060   7.224E-02      0.02200   7.611E-02      0.85000   2.959E-01
+            0.00065   7.225E-02      0.02400   7.654E-02      0.90000   3.071E-01
+            0.00070   7.225E-02      0.02600   7.697E-02      1.00000   3.278E-01
+            0.00075   7.226E-02      0.02800   7.740E-02      1.10000   3.462E-01
+            0.00080   7.226E-02      0.03000   7.784E-02      1.20000   3.621E-01
+            0.00085   7.227E-02      0.03200   7.828E-02      1.30000   3.753E-01
+            0.00090   7.227E-02      0.03600   7.917E-02      1.40000   3.856E-01
+            0.00100   7.229E-02      0.04000   8.006E-02      1.50000   3.931E-01
+            0.00110   7.230E-02      0.04500   8.120E-02      1.60000   3.976E-01
+            0.00120   7.231E-02      0.05000   8.236E-02      1.80000   3.978E-01
+            0.00130   7.232E-02      0.05500   8.354E-02      2.00000   3.865E-01
+            0.00140   7.233E-02      0.06000   8.473E-02      2.20000   3.645E-01
+            0.00150   7.234E-02      0.06500   8.593E-02      2.40000   3.332E-01
+            0.00160   7.235E-02      0.07000   8.715E-02      2.60000   2.944E-01
+            0.00180   7.237E-02      0.07500   8.838E-02      2.80000   2.503E-01
+            0.00200   7.239E-02      0.08000   8.962E-02      3.00000   2.036E-01
+            0.00220   7.241E-02      0.08500   9.088E-02      3.20000   1.574E-01
+            0.00240   7.244E-02      0.09000   9.214E-02      3.60000   8.002E-02
+            0.00260   7.246E-02      0.10000   9.469E-02      4.00000   2.568E-02
+            0.00280   7.248E-02      0.11000   9.728E-02      4.50000   1.177E-05
+            0.00300   7.250E-02      0.12000   9.989E-02      4.51000   0.000E+00
+            0.00320   7.252E-02      0.13000   1.025E-01
+
+            AVERAGE BETA ENERGY =   1.819E+00
+
+            TOTAL BETAS PER DECAY FOR ALL BRANCHES =   1.000E+00
+%%%% 108 RH  45    B-           1.68000E+01 16.8 S     18-10-2007       BETAEND 
+%%%% 108 RH  45    B-           1.68000E+01 16.8 S     18-10-2007       SEEISTAR
+108.  RHODIUM      45.  1.680E+01 SECONDS   82 B-                   108.RH 45.   0
+ 5 3  1.49551E+01  1.46869E+00  3.45700E+00  0.00000E+00            108.RH 45.   1   3
+ 5 4  6.28116E+00  1.52623E+00  3.57860E+00  0.00000E+00            108.RH 45.   2   4
+ 5 5  2.29312E+01  1.76220E+00  4.07590E+00  0.00000E+00            108.RH 45.   3   5
+ 5 6  5.58325E+01  1.96880E+00  4.51000E+00  0.00000E+00            108.RH 45.   4   6
+ 1 1  4.30000E+01  4.34100E-01  4.34100E-01  0.00000E+00            108.RH 45.   5   1
+ 6 1  3.39036E-01  4.09779E-01  4.09779E-01  1.00000E+00            108.RH 45.   6   1
+ 6 5  3.63340E-02  4.30520E-01  4.30520E-01  1.00000E+00            108.RH 45.   7   5
+ 6 6  4.36338E-03  4.30767E-01  4.30767E-01  1.00000E+00            108.RH 45.   8   6
+ 6 7  3.68249E-03  4.30929E-01  4.30929E-01  1.00000E+00            108.RH 45.   9   7
+ 6 3  8.40685E-03  4.33573E-01  4.33573E-01  1.00000E+00            108.RH 45.  10   3
+ 6 4  1.54397E-03  4.34100E-01  4.34100E-01  1.00000E+00            108.RH 45.  11   4
+ 1 2  5.16000E+00  4.97300E-01  4.97300E-01  0.00000E+00            108.RH 45.  12   2
+ 6 1  2.71217E-02  4.72979E-01  4.72979E-01  2.00000E+00            108.RH 45.  13   1
+ 6 5  2.94082E-03  4.93720E-01  4.93720E-01  2.00000E+00            108.RH 45.  14   5
+ 6 6  2.81804E-04  4.93967E-01  4.93967E-01  2.00000E+00            108.RH 45.  15   6
+ 6 7  2.26146E-04  4.94129E-01  4.94129E-01  2.00000E+00            108.RH 45.  16   7
+ 6 3  6.52418E-04  4.96773E-01  4.96773E-01  2.00000E+00            108.RH 45.  17   3
+ 6 4  1.20263E-04  4.97300E-01  4.97300E-01  2.00000E+00            108.RH 45.  18   4
+ 1 4  1.50500E+01  6.18900E-01  6.18900E-01  0.00000E+00            108.RH 45.  19   4
+ 6 1  4.32244E-02  5.94579E-01  5.94579E-01  4.00000E+00            108.RH 45.  20   1
+ 6 5  4.71326E-03  6.15320E-01  6.15320E-01  4.00000E+00            108.RH 45.  21   5
+ 6 6  3.69518E-04  6.15567E-01  6.15567E-01  4.00000E+00            108.RH 45.  22   6
+ 6 7  2.90806E-04  6.15729E-01  6.15729E-01  4.00000E+00            108.RH 45.  23   7
+ 6 3  1.01720E-03  6.18373E-01  6.18373E-01  4.00000E+00            108.RH 45.  24   3
+ 6 4  1.87618E-04  6.18900E-01  6.18900E-01  4.00000E+00            108.RH 45.  25   4
+ 1 6  1.24700E+00  9.31700E-01  9.31700E-01  0.00000E+00            108.RH 45.  26   6
+ 6 1  1.29480E-03  9.07379E-01  9.07379E-01  6.00000E+00            108.RH 45.  27   1
+ 6 5  1.42295E-04  9.28120E-01  9.28120E-01  6.00000E+00            108.RH 45.  28   5
+ 6 6  6.67707E-06  9.28367E-01  9.28367E-01  6.00000E+00            108.RH 45.  29   6
+ 6 7  5.13482E-06  9.28529E-01  9.28529E-01  6.00000E+00            108.RH 45.  30   7
+ 6 3  2.91829E-05  9.31173E-01  9.31173E-01  6.00000E+00            108.RH 45.  31   3
+ 6 4  5.40323E-06  9.31700E-01  9.31700E-01  6.00000E+00            108.RH 45.  32   4
+ 2 1  9.72236E-02  2.09884E-02  2.09884E-02  0.00000E+00            108.RH 45.  33   1
+ 2 2  1.83651E-01  2.11504E-02  2.11504E-02  0.00000E+00            108.RH 45.  34   2
+ 2 3  1.58193E-02  2.37657E-02  2.37657E-02  0.00000E+00            108.RH 45.  35   3
+ 2 4  3.07458E-02  2.37942E-02  2.37942E-02  0.00000E+00            108.RH 45.  36   4
+ 2 5  1.00575E-04  2.39728E-02  2.39728E-02  0.00000E+00            108.RH 45.  37   5
+ 2 6  1.40727E-04  2.39785E-02  2.39785E-02  0.00000E+00            108.RH 45.  38   6
+ 2 7  3.19675E-03  2.42613E-02  2.42613E-02  0.00000E+00            108.RH 45.  39   7
+ 2 8  6.19465E-03  2.42659E-02  2.42659E-02  0.00000E+00            108.RH 45.  40   8
+ 2 9  1.00180E-05  2.43129E-02  2.43129E-02  0.00000E+00            108.RH 45.  41   9
+ 210  1.37737E-05  2.43133E-02  2.43133E-02  0.00000E+00            108.RH 45.  42  10
+ 221  1.18559E-06  2.47400E-04  2.47400E-04  0.00000E+00            108.RH 45.  43  21
+ 222  9.25909E-06  4.09400E-04  4.09400E-04  0.00000E+00            108.RH 45.  44  22
+ 223  2.71400E-04  3.02474E-03  3.02474E-03  0.00000E+00            108.RH 45.  45  23
+ 224  4.54768E-04  3.05320E-03  3.05320E-03  0.00000E+00            108.RH 45.  46  24
+ 225  2.86162E-06  3.23176E-03  3.23176E-03  0.00000E+00            108.RH 45.  47  25
+ 226  4.26746E-06  3.23749E-03  3.23749E-03  0.00000E+00            108.RH 45.  48  26
+ 227  4.70973E-05  3.52032E-03  3.52032E-03  0.00000E+00            108.RH 45.  49  27
+ 228  7.95880E-05  3.52491E-03  3.52491E-03  0.00000E+00            108.RH 45.  50  28
+ 229  2.04558E-07  3.57186E-03  3.57186E-03  0.00000E+00            108.RH 45.  51  29
+ 230  3.03220E-07  3.57233E-03  3.57233E-03  0.00000E+00            108.RH 45.  52  30
+ 241  1.75831E-09  1.62000E-04  1.62000E-04  0.00000E+00            108.RH 45.  53  41
+ 242  4.73354E-04  2.67765E-03  2.67765E-03  0.00000E+00            108.RH 45.  54  42
+ 243  5.44453E-06  2.80581E-03  2.80581E-03  0.00000E+00            108.RH 45.  55  43
+ 244  6.12623E-03  2.98437E-03  2.98437E-03  0.00000E+00            108.RH 45.  56  44
+ 245  4.75226E-05  3.24160E-03  3.24160E-03  0.00000E+00            108.RH 45.  57  45
+ 246  3.26706E-07  3.27751E-03  3.27751E-03  0.00000E+00            108.RH 45.  58  46
+ 247  5.09292E-04  3.32446E-03  3.32446E-03  0.00000E+00            108.RH 45.  59  47
+ 261  1.80750E-03  2.51566E-03  2.51566E-03  0.00000E+00            108.RH 45.  60  61
+ 262  8.44160E-06  2.61534E-03  2.61534E-03  0.00000E+00            108.RH 45.  61  62
+ 263  7.96046E-06  2.64380E-03  2.64380E-03  0.00000E+00            108.RH 45.  62  63
+ 264  1.41802E-03  2.82236E-03  2.82236E-03  0.00000E+00            108.RH 45.  63  64
+ 265  1.25890E-02  2.82809E-03  2.82809E-03  0.00000E+00            108.RH 45.  64  65
+ 266  1.11950E-04  3.07959E-03  3.07959E-03  0.00000E+00            108.RH 45.  65  66
+ 267  3.82669E-07  3.11093E-03  3.11093E-03  0.00000E+00            108.RH 45.  66  67
+ 268  3.64006E-07  3.11551E-03  3.11551E-03  0.00000E+00            108.RH 45.  67  68
+ 269  1.16170E-04  3.16246E-03  3.16246E-03  0.00000E+00            108.RH 45.  68  69
+ 270  1.01830E-03  3.16293E-03  3.16293E-03  0.00000E+00            108.RH 45.  69  70
+ 291  7.46875E-04  3.36224E-04  3.36224E-04  0.00000E+00            108.RH 45.  70  91
+ 292  1.38684E-05  4.30968E-05  4.30968E-05  0.00000E+00            108.RH 45.  71  92
+ 294  3.80066E+00  7.85955E-06  7.85955E-06  0.00000E+00            108.RH 45.  72  94
+ 7 1  5.12816E-02  1.76856E-02  1.76856E-02  0.00000E+00            108.RH 45.  73   1
+ 7 2  2.03541E-02  2.05196E-02  2.05196E-02  0.00000E+00            108.RH 45.  74   2
+ 7 3  1.94501E-03  2.33566E-02  2.33566E-02  0.00000E+00            108.RH 45.  75   3
+ 7 4  8.22444E-02  1.21716E-04  1.21716E-04  0.00000E+00            108.RH 45.  76   4
+ 7 5  3.55942E-01  2.38216E-03  2.38216E-03  0.00000E+00            108.RH 45.  77   5
+ 7 6  7.21874E-02  2.75671E-03  2.75671E-03  0.00000E+00            108.RH 45.  78   6
+ 7 7  3.91760E-03  3.15000E-03  3.15000E-03  0.00000E+00            108.RH 45.  79   7
+ 7 8  3.76121E-01  1.26236E-04  1.26236E-04  0.00000E+00            108.RH 45.  80   8
+ 7 9  9.29764E-01  2.92829E-04  2.92829E-04  0.00000E+00            108.RH 45.  81   9
+ 712  1.43091E+00  3.82071E-05  3.82071E-05  0.00000E+00            108.RH 45.  82  12
+%%%% 108 RH  45    B-           1.68000E+01 16.8 S     18-10-2007       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   3.17086E-01
+    X-ray                           (MeV) =   7.33911E-05
+    Free-bound X-ray                (MeV) =   2.98715E-07
+    Annihilation photon             (MeV) =   0.00000E+00
+    Beta+ particle                  (MeV) =   0.00000E+00
+    Neutrino                        (MeV) =   0.00000E+00
+    Beta- particle                  (MeV) =   1.81883E+00
+    Neutrino-                       (MeV) =   2.37564E+00
+    Internal conv. electron         (MeV) =   2.08371E-03
+    Auger and CK electron           (MeV) =   2.81371E-05
+    Alpha particle                  (MeV) =   0.00000E+00
+    Recoil nucleus                  (MeV) =   0.00000E+00
+  E-total (except unplaced radiat.) (MeV) =   4.51375E+00
+  E-unplaced radiation              (MeV) =   0.00000E+00
+  Q-value from ENSDF data           (MeV) =   4.51000E+00
+  Ratio of E-total/Q-value          ( % ) =   1.00083E+02
+  Ratio of E-unplaced radi./Q-value ( % ) =   0.00000E+00
+
+ 
+  Total yield of
+    Gamma-ray                             =   6.44570E-01
+    X-ray                                 =   3.62968E-03
+    Free-bound X-ray                      =   3.80066E-02
+    Annihilation photon                   =   0.00000E+00
+    Beta+ particle                        =   0.00000E+00
+    Beta- particle                        =   1.00000E+00
+    Internal conv. electron               =   4.75996E-03
+    Auger and CK electron                 =   3.32467E-02
+    Alpha particle                        =   0.00000E+00
+  Yield of unplaced radiation             =   0.00000E+00
+
+

@@ -1,0 +1,167 @@
+%%%%  60 FE  26    B-           4.73364E+13 1.5E+6 Y   02-11-2005       BALASTAR
+1  60   FE  26 1.5E+6 Y        B-         
+1INTENSITY AND ENERGY BALANCE DATA
+
+              60-IRON-26
++                                    HALFLIFE = 0.15E+07 YEARS   
++                                                                  02-11-2005
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  0.0000E+00
+   5.8600E-02  1.0000E+02  0.0000E+00  2.0000E+02  ********************
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  1.000E+02
+ TOTAL INTENSITY FROM PARENT=  1.000E+02
+ PERCENT ERROR =  0.000E+00                      
+
+
+ TOTAL INTENSITY FROM PARENT =  1.000E+02
+ VALUE IS WITHIN   0.00E+00% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  2.360E-01 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  2.360E-01 MEV
+ PERCENT ERROR =  6.314E-06                      
+%%%%  60 FE  26    B-           4.73364E+13 1.5E+6 Y   02-11-2005       BALAEND 
+%%%%  60 FE  26    B-           4.73364E+13 1.5E+6 Y   02-11-2005       INPUSTAR
+1                                      **INPUT DATA**
+              60-IRON-26
++                                    HALFLIFE = 0.15E+07 YEARS   
++                                                                  02-11-2005
+
+            MODE OF DECAY: BETA MINUS
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+               BETA MINUS   1   1.00E+00   1.774E-01*  SECOND FORBIDDEN                         
+ 
+           * ENDPOINT ENERGY (MEV)
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: Jul-1993
+%%%%  60 FE  26    B-           4.73364E+13 1.5E+6 Y   02-11-2005       INPUEND 
+%%%%  60 FE  26    B-           4.73364E+13 1.5E+6 Y   02-11-2005       OUTPSTAR
+1                                      **OUTPUT DATA**
+              60-IRON-26
++                                    HALFLIFE = 0.15E+07 YEARS   
++                                                                  02-11-2005
+
+            MODE OF DECAY: BETA MINUS
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           BETA MINUS                     1   1.00E+00    6.473E-02*   6.47E-02
+ 
+           ALL LISTED BETAS, INTERNAL CONVERSION AND AUGER ELECTRONS   6.47E-02
+           ALL LISTED RADIATIONS                                       6.47E-02
+ 
+           *  AVERAGE ENERGY (MEV)
+           TOTAL FEEDING OF 0.058600 MEV ISOMERIC LEVEL IN  60-COBALT      
+             DAUGHTER IS 1.0000E+00 PER TRANSFORMATION OF  60-IRON.
+             DECAY OF THIS 10.467 MINUTES HALFLIFE LEVEL WILL CONTRIBUTE TO DOSE.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: Jul-1993
+%%%%  60 FE  26    B-           4.73364E+13 1.5E+6 Y   02-11-2005       OUTPEND 
+%%%%  60 FE  26    B-           4.73364E+13 1.5E+6 Y   02-11-2005       BETASTAR
+1
+              60-IRON-26
++                                    HALFLIFE = 0.15E+07 YEARS   
++                                                                  02-11-2005
+
+            BETA SPECTRUM DATA FOR ALL DECAY BRANCHES
+
+                      BETAS PER                BETAS PER                BETAS PER
+            ENERGY    MEV            ENERGY    MEV            ENERGY    MEV
+            (MEV)     PER DECAY      (MEV)     PER DECAY      (MEV)     PER DECAY
+
+            0.00000   7.635E+00      0.00120   7.471E+00      0.01500   7.705E+00
+            0.00010   7.622E+00      0.00130   7.458E+00      0.01600   7.747E+00
+            0.00011   7.620E+00      0.00140   7.444E+00      0.01800   7.828E+00
+            0.00012   7.619E+00      0.00150   7.431E+00      0.02000   7.906E+00
+            0.00013   7.617E+00      0.00160   7.417E+00      0.02200   7.981E+00
+            0.00014   7.616E+00      0.00180   7.390E+00      0.02400   8.053E+00
+            0.00015   7.615E+00      0.00200   7.363E+00      0.02600   8.121E+00
+            0.00016   7.613E+00      0.00220   7.336E+00      0.02800   8.184E+00
+            0.00018   7.611E+00      0.00240   7.310E+00      0.03000   8.243E+00
+            0.00020   7.608E+00      0.00260   7.283E+00      0.03200   8.298E+00
+            0.00022   7.605E+00      0.00280   7.256E+00      0.03600   8.391E+00
+            0.00024   7.602E+00      0.00300   7.230E+00      0.04000   8.463E+00
+            0.00026   7.600E+00      0.00320   7.203E+00      0.04500   8.519E+00
+            0.00028   7.597E+00      0.00360   7.194E+00      0.05000   8.536E+00
+            0.00030   7.594E+00      0.00400   7.214E+00      0.05500   8.511E+00
+            0.00032   7.591E+00      0.00450   7.238E+00      0.06000   8.444E+00
+            0.00036   7.586E+00      0.00500   7.262E+00      0.06500   8.333E+00
+            0.00040   7.580E+00      0.00550   7.286E+00      0.07000   8.178E+00
+            0.00045   7.574E+00      0.00600   7.310E+00      0.07500   7.979E+00
+            0.00050   7.567E+00      0.00650   7.333E+00      0.08000   7.736E+00
+            0.00055   7.560E+00      0.00700   7.356E+00      0.08500   7.450E+00
+            0.00060   7.553E+00      0.00750   7.379E+00      0.09000   7.123E+00
+            0.00065   7.546E+00      0.00800   7.402E+00      0.10000   6.355E+00
+            0.00070   7.539E+00      0.00850   7.424E+00      0.11000   5.455E+00
+            0.00075   7.532E+00      0.00900   7.447E+00      0.12000   4.459E+00
+            0.00080   7.526E+00      0.01000   7.491E+00      0.13000   3.412E+00
+            0.00085   7.519E+00      0.01100   7.535E+00      0.14000   2.375E+00
+            0.00090   7.512E+00      0.01200   7.578E+00      0.15000   1.420E+00
+            0.00100   7.498E+00      0.01300   7.621E+00      0.16000   6.355E-01
+            0.00110   7.485E+00      0.01400   7.663E+00      0.17740   0.000E+00
+
+            AVERAGE BETA ENERGY =   6.473E-02
+
+            TOTAL BETAS PER DECAY FOR ALL BRANCHES =   1.000E+00
+%%%%  60 FE  26    B-           4.73364E+13 1.5E+6 Y   02-11-2005       BETAEND 
+%%%%  60 FE  26    B-           4.73364E+13 1.5E+6 Y   02-11-2005       SEEISTAR
+ 60.  IRON         26.  1.500E+06 YEARS      1 B-                    60.FE 26.   0
+ 5 1  1.00000E+02  6.47278E-02  1.77400E-01  1.00000E+00             60.FE 26.   1   1
+%%%%  60 FE  26    B-           4.73364E+13 1.5E+6 Y   02-11-2005       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   0.00000E+00
+    X-ray                           (MeV) =   0.00000E+00
+    Free-bound X-ray                (MeV) =   0.00000E+00
+    Annihilation photon             (MeV) =   0.00000E+00
+    Beta+ particle                  (MeV) =   0.00000E+00
+    Neutrino                        (MeV) =   0.00000E+00
+    Beta- particle                  (MeV) =   6.47278E-02
+    Neutrino-                       (MeV) =   1.12672E-01
+    Internal conv. electron         (MeV) =   0.00000E+00
+    Auger and CK electron           (MeV) =   0.00000E+00
+    Alpha particle                  (MeV) =   0.00000E+00
+    Recoil nucleus                  (MeV) =   0.00000E+00
+  E-total (except unplaced radiat.) (MeV) =   1.77400E-01
+  E-unplaced radiation              (MeV) =   0.00000E+00
+  Q-value from ENSDF data           (MeV) =   2.36000E-01
+  Ratio of E-total/Q-value          ( % ) =   7.51695E+01
+  Ratio of E-unplaced radi./Q-value ( % ) =   0.00000E+00
+
+ 
+  Total yield of
+    Gamma-ray                             =   0.00000E+00
+    X-ray                                 =   0.00000E+00
+    Free-bound X-ray                      =   0.00000E+00
+    Annihilation photon                   =   0.00000E+00
+    Beta+ particle                        =   0.00000E+00
+    Beta- particle                        =   1.00000E+00
+    Internal conv. electron               =   0.00000E+00
+    Auger and CK electron                 =   0.00000E+00
+    Alpha particle                        =   0.00000E+00
+  Yield of unplaced radiation             =   0.00000E+00
+
+

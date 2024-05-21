@@ -1,0 +1,242 @@
+%%%%  84 SE  34    B-           1.86000E+02 3.1 M      18-07-2007       BALASTAR
+1  84   SE  34 3.1 M           B-         
+1INTENSITY AND ENERGY BALANCE DATA
+
+              84-SELENIUM-34
++                                    HALFLIFE = 3.1 MINUTES 
++                                                                  18-07-2007
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  1.0025E+02
+   3.2000E-01  0.0000E+00  0.0000E+00  2.0000E+02  ********************
+   4.0820E-01  9.9900E+01  1.0015E+02  2.5110E-01                      
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  1.003E+02
+ TOTAL INTENSITY FROM PARENT=  1.000E+02
+ PERCENT ERROR =  2.505E-01                      
+
+
+ TOTAL INTENSITY FROM PARENT =  1.000E+02
+ VALUE IS WITHIN   7.63E-06% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  1.848E+00 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  1.849E+00 MEV
+ PERCENT ERROR =  5.544E-02                      
+%%%%  84 SE  34    B-           1.86000E+02 3.1 M      18-07-2007       BALAEND 
+%%%%  84 SE  34    B-           1.86000E+02 3.1 M      18-07-2007       INPUSTAR
+1                                      **INPUT DATA**
+              84-SELENIUM-34
++                                    HALFLIFE = 3.1 MINUTES 
++                                                                  18-07-2007
+
+            MODE OF DECAY: BETA MINUS
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+               BETA MINUS   1   9.99E-01   1.440E+00*  ALLOWED                                  
+               BETA MINUS   2   9.99E-04   1.848E+00*  UNIQUE FIRST FORBIDDEN                   
+           I.C.E. + GAMMA   1   1.00E+00   4.082E-01   E1 MULTIPOLE                             
++                                                                    AK= 0.00135                
+           I.C.E. + GAMMA   2   2.40E-02   4.985E-01   UNPLACED GAMMA                           
+ 
+           * ENDPOINT ENERGY (MEV)
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: Jun-1997
+%%%%  84 SE  34    B-           1.86000E+02 3.1 M      18-07-2007       INPUEND 
+%%%%  84 SE  34    B-           1.86000E+02 3.1 M      18-07-2007       OUTPSTAR
+1                                      **OUTPUT DATA**
+              84-SELENIUM-34
++                                    HALFLIFE = 3.1 MINUTES 
++                                                                  18-07-2007
+
+            MODE OF DECAY: BETA MINUS
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           BETA MINUS                     1   9.99E-01    5.491E-01*   5.49E-01
+           BETA MINUS                     2   9.99E-04    7.480E-01*   7.47E-04
+           GAMMA-RAY                      1   1.00E+00    4.082E-01    4.08E-01
+           K CONV. ELECTRON, GAMMA-RAY    1   1.35E-03    3.948E-01    5.31E-04
+           GAMMA-RAY                      2   2.40E-02    4.985E-01    1.20E-02
+ 
+           ALL LISTED X-RAYS, GAMMA-RAYS AND ANNIHILATION RADIATION    4.20E-01
+           ALL NEGLECTED X-RAYS, GAMMA-RAYS AND ANNIH. RADIATION**     1.02E-05
+           ALL LISTED BETAS, INTERNAL CONVERSION AND AUGER ELECTRONS   5.50E-01
+           ALL NEGLECTED BETAS, INT. CONVERSION AND AUGER ELECTRONS**  7.63E-05
+           ALL LISTED RADIATIONS                                       9.70E-01
+           ALL NEGLECTED RADIATIONS**                                  8.65E-05
+ 
+           *  AVERAGE ENERGY (MEV)
+           ** EACH NEGLECTED TRANSITION CONTRIBUTES LESS THAN  0.010%
+              TO THE TOTAL MEV/TRANSFORMATION FOR THIS CATEGORY.
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 84-BROMINE
+             DAUGHTER IS 1.0000E+00 PER TRANSFORMATION OF  84-SELENIUM.
+             DECAY OF THIS 31.8 MINUTES HALFLIFE LEVEL WILL CONTRIBUTE TO DOSE.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: Jun-1997
+%%%%  84 SE  34    B-           1.86000E+02 3.1 M      18-07-2007       OUTPEND 
+%%%%  84 SE  34    B-           1.86000E+02 3.1 M      18-07-2007       BETASTAR
+1
+              84-SELENIUM-34
++                                    HALFLIFE = 3.1 MINUTES 
++                                                                  18-07-2007
+
+            BETA SPECTRUM DATA FOR ALL DECAY BRANCHES
+
+                      BETAS PER                BETAS PER                BETAS PER
+            ENERGY    MEV            ENERGY    MEV            ENERGY    MEV
+            (MEV)     PER DECAY      (MEV)     PER DECAY      (MEV)     PER DECAY
+
+            0.00000   6.132E-01      0.00280   6.142E-01      0.08500   7.404E-01
+            0.00010   6.132E-01      0.00300   6.143E-01      0.09000   7.489E-01
+            0.00011   6.132E-01      0.00320   6.143E-01      0.10000   7.656E-01
+            0.00012   6.132E-01      0.00360   6.145E-01      0.11000   7.821E-01
+            0.00013   6.133E-01      0.00400   6.146E-01      0.12000   7.983E-01
+            0.00014   6.133E-01      0.00450   6.148E-01      0.13000   8.142E-01
+            0.00015   6.133E-01      0.00500   6.152E-01      0.14000   8.298E-01
+            0.00016   6.133E-01      0.00550   6.158E-01      0.15000   8.451E-01
+            0.00018   6.133E-01      0.00600   6.165E-01      0.16000   8.600E-01
+            0.00020   6.133E-01      0.00650   6.171E-01      0.18000   8.887E-01
+            0.00022   6.133E-01      0.00700   6.177E-01      0.20000   9.157E-01
+            0.00024   6.133E-01      0.00750   6.184E-01      0.22000   9.411E-01
+            0.00026   6.133E-01      0.00800   6.190E-01      0.24000   9.647E-01
+            0.00028   6.133E-01      0.00850   6.196E-01      0.26000   9.866E-01
+            0.00030   6.133E-01      0.00900   6.203E-01      0.28000   1.007E+00
+            0.00032   6.133E-01      0.01000   6.215E-01      0.30000   1.025E+00
+            0.00036   6.133E-01      0.01100   6.228E-01      0.32000   1.041E+00
+            0.00040   6.133E-01      0.01200   6.241E-01      0.36000   1.068E+00
+            0.00045   6.134E-01      0.01300   6.253E-01      0.40000   1.086E+00
+            0.00050   6.134E-01      0.01400   6.266E-01      0.45000   1.099E+00
+            0.00055   6.134E-01      0.01500   6.279E-01      0.50000   1.098E+00
+            0.00060   6.134E-01      0.01600   6.292E-01      0.55000   1.086E+00
+            0.00065   6.134E-01      0.01800   6.319E-01      0.60000   1.061E+00
+            0.00070   6.135E-01      0.02000   6.346E-01      0.65000   1.026E+00
+            0.00075   6.135E-01      0.02200   6.374E-01      0.70000   9.791E-01
+            0.00080   6.135E-01      0.02400   6.402E-01      0.75000   9.227E-01
+            0.00085   6.135E-01      0.02600   6.431E-01      0.80000   8.576E-01
+            0.00090   6.135E-01      0.02800   6.461E-01      0.85000   7.850E-01
+            0.00100   6.136E-01      0.03000   6.491E-01      0.90000   7.062E-01
+            0.00110   6.136E-01      0.03200   6.521E-01      1.00000   5.366E-01
+            0.00120   6.136E-01      0.03600   6.584E-01      1.10000   3.634E-01
+            0.00130   6.137E-01      0.04000   6.648E-01      1.20000   2.038E-01
+            0.00140   6.137E-01      0.04500   6.729E-01      1.30000   7.767E-02
+            0.00150   6.137E-01      0.05000   6.812E-01      1.40000   7.341E-03
+            0.00160   6.138E-01      0.05500   6.896E-01      1.50000   2.878E-04
+            0.00180   6.138E-01      0.06000   6.980E-01      1.60000   1.752E-04
+            0.00200   6.139E-01      0.06500   7.065E-01      1.80000   9.363E-06
+            0.00220   6.140E-01      0.07000   7.150E-01      1.84800   0.000E+00
+            0.00240   6.141E-01      0.07500   7.235E-01
+            0.00260   6.141E-01      0.08000   7.320E-01
+
+            AVERAGE BETA ENERGY =   5.493E-01
+
+            TOTAL BETAS PER DECAY FOR ALL BRANCHES =   1.000E+00
+%%%%  84 SE  34    B-           1.86000E+02 3.1 M      18-07-2007       BETAEND 
+%%%%  84 SE  34    B-           1.86000E+02 3.1 M      18-07-2007       SEEISTAR
+ 84.  SELENIUM     34.  3.100E+00 MINUTES   51 B-                    84.SE 34.   0
+ 5 1  9.99001E+01  5.49137E-01  1.43980E+00  0.00000E+00             84.SE 34.   1   1
+ 5 2  9.99001E-02  7.48015E-01  1.84800E+00  1.00000E+00             84.SE 34.   2   2
+ 1 1  1.00000E+02  4.08200E-01  4.08200E-01  0.00000E+00             84.SE 34.   3   1
+ 6 1  1.34515E-01  3.94765E-01  3.94765E-01  1.00000E+00             84.SE 34.   4   1
+ 6 5  1.35298E-02  4.06431E-01  4.06431E-01  1.00000E+00             84.SE 34.   5   5
+ 6 6  2.45836E-04  4.06598E-01  4.06598E-01  1.00000E+00             84.SE 34.   6   6
+ 6 7  4.15124E-04  4.06646E-01  4.06646E-01  1.00000E+00             84.SE 34.   7   7
+ 6 3  2.30295E-03  4.08015E-01  4.08015E-01  1.00000E+00             84.SE 34.   8   3
+ 6 4  2.63647E-04  4.08200E-01  4.08200E-01  1.00000E+00             84.SE 34.   9   4
+ 1 2  2.40000E+00  4.98500E-01  4.98500E-01  0.00000E+00             84.SE 34.  10   2
+ 2 1  2.44914E-02  1.18329E-02  1.18329E-02  0.00000E+00             84.SE 34.  11   1
+ 2 2  4.72865E-02  1.18814E-02  1.18814E-02  0.00000E+00             84.SE 34.  12   2
+ 2 3  3.37811E-03  1.32432E-02  1.32432E-02  0.00000E+00             84.SE 34.  13   3
+ 2 4  6.59117E-03  1.32502E-02  1.32502E-02  0.00000E+00             84.SE 34.  14   4
+ 2 5  8.88400E-06  1.33554E-02  1.33554E-02  0.00000E+00             84.SE 34.  15   5
+ 2 6  1.27549E-05  1.33565E-02  1.33565E-02  0.00000E+00             84.SE 34.  16   6
+ 2 7  2.25221E-04  1.34234E-02  1.34234E-02  0.00000E+00             84.SE 34.  17   7
+ 2 8  4.33439E-04  1.34240E-02  1.34240E-02  0.00000E+00             84.SE 34.  18   8
+ 221  4.91929E-07  1.67100E-04  1.67100E-04  0.00000E+00             84.SE 34.  19  21
+ 222  2.77249E-06  2.15600E-04  2.15600E-04  0.00000E+00             84.SE 34.  20  22
+ 223  3.53665E-05  1.57738E-03  1.57738E-03  0.00000E+00             84.SE 34.  21  23
+ 224  6.32437E-05  1.58442E-03  1.58442E-03  0.00000E+00             84.SE 34.  22  24
+ 225  1.92755E-07  1.68961E-03  1.68961E-03  0.00000E+00             84.SE 34.  23  25
+ 226  2.86702E-07  1.69075E-03  1.69075E-03  0.00000E+00             84.SE 34.  24  26
+ 227  2.51208E-06  1.75761E-03  1.75761E-03  0.00000E+00             84.SE 34.  25  27
+ 228  4.46131E-06  1.75817E-03  1.75817E-03  0.00000E+00             84.SE 34.  26  28
+ 241  8.33400E-11  4.85000E-05  4.85000E-05  0.00000E+00             84.SE 34.  27  41
+ 242  1.92893E-04  1.35061E-03  1.35061E-03  0.00000E+00             84.SE 34.  28  42
+ 243  1.24125E-06  1.41732E-03  1.41732E-03  0.00000E+00             84.SE 34.  29  43
+ 244  8.33292E-04  1.52251E-03  1.52251E-03  0.00000E+00             84.SE 34.  30  44
+ 245  8.74316E-06  1.57792E-03  1.57792E-03  0.00000E+00             84.SE 34.  31  45
+ 246  1.36743E-08  1.59107E-03  1.59107E-03  0.00000E+00             84.SE 34.  32  46
+ 261  4.89602E-04  1.30211E-03  1.30211E-03  0.00000E+00             84.SE 34.  33  61
+ 262  1.56796E-06  1.36178E-03  1.36178E-03  0.00000E+00             84.SE 34.  34  62
+ 263  1.50006E-06  1.36881E-03  1.36881E-03  0.00000E+00             84.SE 34.  35  63
+ 264  1.68572E-04  1.47401E-03  1.47401E-03  0.00000E+00             84.SE 34.  36  64
+ 265  1.65087E-03  1.47515E-03  1.47515E-03  0.00000E+00             84.SE 34.  37  65
+ 266  1.72634E-05  1.52943E-03  1.52943E-03  0.00000E+00             84.SE 34.  38  66
+ 267  1.44621E-08  1.54201E-03  1.54201E-03  0.00000E+00             84.SE 34.  39  67
+ 268  1.37254E-08  1.54257E-03  1.54257E-03  0.00000E+00             84.SE 34.  40  68
+ 291  2.83911E-05  1.15461E-04  1.15461E-04  0.00000E+00             84.SE 34.  41  91
+ 294  1.08646E+00  1.75888E-05  1.75888E-05  0.00000E+00             84.SE 34.  42  94
+ 7 1  3.91814E-02  1.02029E-02  1.02029E-02  0.00000E+00             84.SE 34.  43   1
+ 7 2  1.19860E-02  1.16354E-02  1.16354E-02  0.00000E+00             84.SE 34.  44   2
+ 7 3  9.19824E-04  1.30708E-02  1.30708E-02  0.00000E+00             84.SE 34.  45   3
+ 7 4  3.26056E-02  9.04189E-05  9.04189E-05  0.00000E+00             84.SE 34.  46   4
+ 7 5  1.62959E-01  1.32067E-03  1.32067E-03  0.00000E+00             84.SE 34.  47   5
+ 7 6  9.66552E-03  1.41143E-03  1.41143E-03  0.00000E+00             84.SE 34.  48   6
+ 7 7  2.21066E-04  1.55353E-03  1.55353E-03  0.00000E+00             84.SE 34.  49   7
+ 7 8  1.88682E-01  5.76848E-05  5.76848E-05  0.00000E+00             84.SE 34.  50   8
+ 7 9  4.89227E-01  4.38516E-05  4.38516E-05  0.00000E+00             84.SE 34.  51   9
+%%%%  84 SE  34    B-           1.86000E+02 3.1 M      18-07-2007       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   4.08200E-01
+    X-ray                           (MeV) =   9.97906E-06
+    Free-bound X-ray                (MeV) =   1.91094E-07
+    Annihilation photon             (MeV) =   0.00000E+00
+    Beta+ particle                  (MeV) =   0.00000E+00
+    Neutrino                        (MeV) =   0.00000E+00
+    Beta- particle                  (MeV) =   5.49336E-01
+    Neutrino-                       (MeV) =   8.90872E-01
+    Internal conv. electron         (MeV) =   5.99166E-04
+    Auger and CK electron           (MeV) =   8.15737E-06
+    Alpha particle                  (MeV) =   0.00000E+00
+    Recoil nucleus                  (MeV) =   0.00000E+00
+  E-total (except unplaced radiat.) (MeV) =   1.84903E+00
+  E-unplaced radiation              (MeV) =   1.19640E-02
+  Q-value from ENSDF data           (MeV) =   1.84800E+00
+  Ratio of E-total/Q-value          ( % ) =   1.00055E+02
+  Ratio of E-unplaced radi./Q-value ( % ) =   6.47403E-01
+
+ 
+  Total yield of
+    Gamma-ray                             =   1.00000E+00
+    X-ray                                 =   8.59307E-04
+    Free-bound X-ray                      =   1.08646E-02
+    Annihilation photon                   =   0.00000E+00
+    Beta+ particle                        =   0.00000E+00
+    Beta- particle                        =   1.00000E+00
+    Internal conv. electron               =   1.51272E-03
+    Auger and CK electron                 =   9.35447E-03
+    Alpha particle                        =   0.00000E+00
+  Yield of unplaced radiation             =   2.40000E-02
+
+

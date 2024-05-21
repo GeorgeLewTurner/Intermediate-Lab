@@ -1,0 +1,118 @@
+%%%% 219 AT  85    A            5.60000E+01  56 S      02-11-2005       BALASTAR
+1 219   AT  85  56 S           A          
+1INTENSITY AND ENERGY BALANCE DATA
+
+              219-ASTATINE-85
++                                    HALFLIFE = 56 SECONDS 
++                                                                  02-11-2005
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  9.7000E+01
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  9.700E+01
+ TOTAL INTENSITY FROM PARENT=  9.700E+01
+ PERCENT ERROR =  0.000E+00                      
+
+
+ TOTAL INTENSITY FROM PARENT =  9.700E+01
+ VALUE IS WITHIN   3.00E+00% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  6.134E+00 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  6.134E+00 MEV
+ PERCENT ERROR =  0.000E+00                      
+%%%% 219 AT  85    A            5.60000E+01  56 S      02-11-2005       BALAEND 
+%%%% 219 AT  85    A            5.60000E+01  56 S      02-11-2005       INPUSTAR
+1                                      **INPUT DATA**
+              219-ASTATINE-85
++                                    HALFLIFE = 56 SECONDS 
++                                                                  02-11-2005
+
+            MODE OF DECAY: ALPHA
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+                    ALPHA   1   9.70E-01   6.324E+00                                            
+ 
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: Oct-2001
+%%%% 219 AT  85    A            5.60000E+01  56 S      02-11-2005       INPUEND 
+%%%% 219 AT  85    A            5.60000E+01  56 S      02-11-2005       OUTPSTAR
+1                                      **OUTPUT DATA**
+              219-ASTATINE-85
++                                    HALFLIFE = 56 SECONDS 
++                                                                  02-11-2005
+
+            MODE OF DECAY: ALPHA
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           ALPHA                          1   9.70E-01    6.208E+00    6.02E+00
+           RECOIL ATOM                        9.70E-01    1.156E-01    1.12E-01
+ 
+           ALL LISTED ALPHA PARTICLES AND  RECOIL NUCLEI               6.13E+00
+           ALL LISTED RADIATIONS                                       6.13E+00
+ 
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 215-BISMUTH
+             DAUGHTER IS 9.7000E-01 PER TRANSFORMATION OF 219-ASTATINE.
+             DECAY OF THIS 7.6 MINUTES HALFLIFE LEVEL WILL CONTRIBUTE TO DOSE.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: Oct-2001
+%%%% 219 AT  85    A            5.60000E+01  56 S      02-11-2005       OUTPEND 
+%%%% 219 AT  85    A            5.60000E+01  56 S      02-11-2005       SEEISTAR
+219.  ASTATINE     85.  5.600E+01 SECONDS    1 A                    219.AT 85.   0
+ 8 1  9.70000E+01  6.20842E+00  1.15581E-01  0.00000E+00            219.AT 85.   1   1
+%%%% 219 AT  85    A            5.60000E+01  56 S      02-11-2005       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   0.00000E+00
+    X-ray                           (MeV) =   0.00000E+00
+    Free-bound X-ray                (MeV) =   0.00000E+00
+    Annihilation photon             (MeV) =   0.00000E+00
+    Beta+ particle                  (MeV) =   0.00000E+00
+    Neutrino                        (MeV) =   0.00000E+00
+    Beta- particle                  (MeV) =   0.00000E+00
+    Neutrino-                       (MeV) =   0.00000E+00
+    Internal conv. electron         (MeV) =   0.00000E+00
+    Auger and CK electron           (MeV) =   0.00000E+00
+    Alpha particle                  (MeV) =   6.02217E+00
+    Recoil nucleus                  (MeV) =   1.12113E-01
+  E-total (except unplaced radiat.) (MeV) =   6.13428E+00
+  E-unplaced radiation              (MeV) =   0.00000E+00
+  Q-value from ENSDF data           (MeV) =   6.13428E+00
+  Ratio of E-total/Q-value          ( % ) =   1.00000E+02
+  Ratio of E-unplaced radi./Q-value ( % ) =   0.00000E+00
+
+ 
+  Total yield of
+    Gamma-ray                             =   0.00000E+00
+    X-ray                                 =   0.00000E+00
+    Free-bound X-ray                      =   0.00000E+00
+    Annihilation photon                   =   0.00000E+00
+    Beta+ particle                        =   0.00000E+00
+    Beta- particle                        =   0.00000E+00
+    Internal conv. electron               =   0.00000E+00
+    Auger and CK electron                 =   0.00000E+00
+    Alpha particle                        =   9.70000E-01
+  Yield of unplaced radiation             =   0.00000E+00
+
+

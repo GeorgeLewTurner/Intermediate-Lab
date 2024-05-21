@@ -1,0 +1,246 @@
+%%%% 119 SN  50 M  IT           2.53238E+07 293.1 D    02-11-2005       BALASTAR
+1 119M  SN  50 293.1 D         IT         
+1INTENSITY AND ENERGY BALANCE DATA
+
+              119M-TIN-50
++                                    HALFLIFE = 293.1 DAYS    
++                                                                  02-11-2005
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  1.0000E+02
+   2.3875E-02  1.0000E+02  1.0000E+02  0.0000E+00                      
+   8.9535E-02  1.0000E+02  1.0000E+02  0.0000E+00                      
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  1.000E+02
+ TOTAL INTENSITY FROM PARENT=  1.000E+02
+ PERCENT ERROR =  0.000E+00                      
+
+
+ TOTAL INTENSITY FROM PARENT =  1.000E+02
+ VALUE IS WITHIN   0.00E+00% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  8.954E-02 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  8.954E-02 MEV
+ PERCENT ERROR =  0.000E+00                      
+%%%% 119 SN  50 M  IT           2.53238E+07 293.1 D    02-11-2005       BALAEND 
+%%%% 119 SN  50 M  IT           2.53238E+07 293.1 D    02-11-2005       INPUSTAR
+1                                      **INPUT DATA**
+              119M-TIN-50
++                                    HALFLIFE = 293.1 DAYS    
++                                                                  02-11-2005
+
+            MODE OF DECAY: ISOMERIC LEVEL
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+           I.C.E. + GAMMA   1   1.00E+00   2.388E-02   M1+E2 MULTIPOLE                          
+                                                       MRS=3.60E-05  AK= 0.0                    
+                                                       AL1=3.81      AL2=0.316                  
+                                                       AL3=0.0883    AM= 0.831                  
+                                                       AN+=0.187                                
+           I.C.E. + GAMMA   2   1.43E-01   2.527E-02   UNPLACED GAMMA                           
+           I.C.E. + GAMMA   3   1.00E+00   6.566E-02   M4 MULTIPOLE                             
++                                                                    AK= 1.62E+03               
+                                                       AL1=795.      AL2=174.                   
+                                                       AL3=1.77E+03  AM= 662.                   
+                                                       AN+=134.                                 
+ 
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: Feb-2000
+%%%% 119 SN  50 M  IT           2.53238E+07 293.1 D    02-11-2005       INPUEND 
+%%%% 119 SN  50 M  IT           2.53238E+07 293.1 D    02-11-2005       OUTPSTAR
+1                                      **OUTPUT DATA**
+              119M-TIN-50
++                                    HALFLIFE = 293.1 DAYS    
++                                                                  02-11-2005
+
+            MODE OF DECAY: ISOMERIC LEVEL
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           GAMMA-RAY                      1   1.60E-01    2.388E-02    3.83E-03
+           L1 CONV. ELECTRON, GAMMA-RAY   1   6.11E-01    1.943E-02    1.19E-02
+           L2 CONV. ELECTRON, GAMMA-RAY   1   5.07E-02    1.971E-02    1.00E-03
+           L3 CONV. ELECTRON, GAMMA-RAY   1   1.42E-02    1.995E-02    2.83E-04
+           M CONV. ELECTRON, GAMMA-RAY    1   1.33E-01    2.316E-02*   3.09E-03
+           N+ CONV. ELECTRON, GAMMA-RAY   1   3.00E-02    2.388E-02*   7.15E-04
+           GAMMA-RAY                      2   1.43E-01    2.527E-02    3.61E-03
+           K CONV. ELECTRON, GAMMA-RAY    3   3.14E-01    3.648E-02    1.14E-02
+           L1 CONV. ELECTRON, GAMMA-RAY   3   1.54E-01    6.122E-02    9.43E-03
+           L2 CONV. ELECTRON, GAMMA-RAY   3   3.38E-02    6.150E-02    2.08E-03
+           L3 CONV. ELECTRON, GAMMA-RAY   3   3.44E-01    6.173E-02    2.12E-02
+           M CONV. ELECTRON, GAMMA-RAY    3   1.28E-01    6.495E-02*   8.34E-03
+           N+ CONV. ELECTRON, GAMMA-RAY   3   2.60E-02    6.566E-02*   1.71E-03
+           K -L2 X-RAY                        7.79E-02    2.502E-02    1.95E-03
+           K -L3 X-RAY                        1.46E-01    2.526E-02    3.68E-03
+           K -M2 X-RAY                        1.31E-02    2.843E-02    3.74E-04
+           K -M3 X-RAY                        2.55E-02    2.847E-02    7.27E-04
+           K -N2 X-RAY                        2.69E-03    2.908E-02    7.83E-05
+           K -N3 X-RAY                        5.26E-03    2.909E-02    1.53E-04
+           L1-M2 X-RAY                        8.61E-03    3.687E-03    3.17E-05
+           L1-M3 X-RAY                        1.40E-02    3.730E-03    5.22E-05
+           L2-M4 X-RAY                        1.92E-02    3.657E-03    7.02E-05
+           L3-M1 X-RAY                        5.42E-03    3.058E-03    1.66E-05
+           L3-M4 X-RAY                        4.87E-03    3.423E-03    1.67E-05
+           L3-M5 X-RAY                        4.32E-02    3.432E-03    1.48E-04
+           L3-N5 X-RAY                        5.12E-03    3.894E-03    1.99E-05
+           Free-Bound X-RAY                   2.45E+01    1.086E-05*   2.66E-04
+           AUGER KLL                          2.94E-02    2.093E-02*   6.14E-04
+           AUGER KLX                          1.25E-02    2.442E-02*   3.05E-04
+           CK LLX                             4.61E-01    3.167E-04*   1.46E-04
+           AUGER LMM                          1.09E+00    2.894E-03*   3.15E-03
+           AUGER LMX                          2.84E-01    3.419E-03*   9.70E-04
+           CK MMX                             1.45E+00    1.203E-04*   1.74E-04
+           AUGER MNN                          2.80E+00    3.993E-04*   1.12E-03
+           CK NNX                             4.33E+00    3.013E-05*   1.31E-04
+           AUGER NXY                          1.21E+01    1.135E-05*   1.37E-04
+ 
+           ALL LISTED X-RAYS, GAMMA-RAYS AND ANNIHILATION RADIATION    1.50E-02
+           ALL NEGLECTED X-RAYS, GAMMA-RAYS AND ANNIH. RADIATION**     6.73E-05
+           ALL LISTED BETAS, INTERNAL CONVERSION AND AUGER ELECTRONS   7.79E-02
+           ALL NEGLECTED BETAS, INT. CONVERSION AND AUGER ELECTRONS**  1.43E-04
+           ALL LISTED RADIATIONS                                       9.30E-02
+           ALL NEGLECTED RADIATIONS**                                  2.10E-04
+ 
+           *  AVERAGE ENERGY (MEV)
+           ** EACH NEGLECTED TRANSITION CONTRIBUTES LESS THAN  0.100%
+              TO THE TOTAL MEV/TRANSFORMATION FOR THIS CATEGORY.
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 119-TIN
+             DAUGHTER IS 1.0000E+00  PER TRANSFORMATION OF 119M-TIN.
+             THIS DAUGHTER GROUND STATE IS STABLE.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: Feb-2000
+%%%% 119 SN  50 M  IT           2.53238E+07 293.1 D    02-11-2005       OUTPEND 
+%%%% 119 SN  50 M  IT           2.53238E+07 293.1 D    02-11-2005       SEEISTAR
+119.M TIN          50.  2.931E+02 DAYS      76 IT                   119.SN 50.   0
+ 1 1  1.60385E+01  2.38750E-02  2.38750E-02  0.00000E+00            119.SN 50.   1   1
+ 6 5  6.11456E+01  1.94347E-02  1.94347E-02  1.00000E+00            119.SN 50.   2   5
+ 6 6  5.07285E+00  1.97142E-02  1.97142E-02  1.00000E+00            119.SN 50.   3   6
+ 6 7  1.41691E+00  1.99482E-02  1.99482E-02  1.00000E+00            119.SN 50.   4   7
+ 6 3  1.33293E+01  2.31647E-02  2.31647E-02  1.00000E+00            119.SN 50.   5   3
+ 6 4  2.99679E+00  2.38750E-02  2.38750E-02  1.00000E+00            119.SN 50.   6   4
+ 1 2  1.43000E+01  2.52710E-02  2.52710E-02  0.00000E+00            119.SN 50.   7   2
+ 1 3  1.93911E-02  6.56600E-02  6.56600E-02  0.00000E+00            119.SN 50.   8   3
+ 6 1  3.13696E+01  3.64760E-02  3.64760E-02  3.00000E+00            119.SN 50.   9   1
+ 6 5  1.54085E+01  6.12197E-02  6.12197E-02  3.00000E+00            119.SN 50.  10   5
+ 6 6  3.37985E+00  6.14992E-02  6.14992E-02  3.00000E+00            119.SN 50.  11   6
+ 6 7  3.43803E+01  6.17332E-02  6.17332E-02  3.00000E+00            119.SN 50.  12   7
+ 6 3  1.28423E+01  6.49497E-02  6.49497E-02  3.00000E+00            119.SN 50.  13   3
+ 6 4  2.60007E+00  6.56600E-02  6.56600E-02  3.00000E+00            119.SN 50.  14   4
+ 2 1  7.78534E+00  2.50232E-02  2.50232E-02  0.00000E+00            119.SN 50.  15   1
+ 2 2  1.45662E+01  2.52572E-02  2.52572E-02  0.00000E+00            119.SN 50.  16   2
+ 2 3  1.31414E+00  2.84307E-02  2.84307E-02  0.00000E+00            119.SN 50.  17   3
+ 2 4  2.55165E+00  2.84736E-02  2.84736E-02  0.00000E+00            119.SN 50.  18   4
+ 2 5  1.05468E-02  2.86804E-02  2.86804E-02  0.00000E+00            119.SN 50.  19   5
+ 2 6  1.45913E-02  2.86893E-02  2.86893E-02  0.00000E+00            119.SN 50.  20   6
+ 2 7  2.69297E-01  2.90803E-02  2.90803E-02  0.00000E+00            119.SN 50.  21   7
+ 2 8  5.25946E-01  2.90882E-02  2.90882E-02  0.00000E+00            119.SN 50.  22   8
+ 2 9  1.56055E-03  2.91506E-02  2.91506E-02  0.00000E+00            119.SN 50.  23   9
+ 210  2.14597E-03  2.91516E-02  2.91516E-02  0.00000E+00            119.SN 50.  24  10
+ 211  5.39121E-03  2.91777E-02  2.91777E-02  0.00000E+00            119.SN 50.  25  11
+ 212  9.78861E-03  2.91782E-02  2.91782E-02  0.00000E+00            119.SN 50.  26  12
+ 221  1.58902E-03  2.79500E-04  2.79500E-04  0.00000E+00            119.SN 50.  27  21
+ 222  2.12530E-02  5.13499E-04  5.13499E-04  0.00000E+00            119.SN 50.  28  22
+ 223  8.60682E-01  3.68694E-03  3.68694E-03  0.00000E+00            119.SN 50.  29  23
+ 224  1.40074E+00  3.72998E-03  3.72998E-03  0.00000E+00            119.SN 50.  30  24
+ 225  1.08764E-02  3.93673E-03  3.93673E-03  0.00000E+00            119.SN 50.  31  25
+ 226  1.62322E-02  3.94568E-03  3.94568E-03  0.00000E+00            119.SN 50.  32  26
+ 227  1.68136E-01  4.33666E-03  4.33666E-03  0.00000E+00            119.SN 50.  33  27
+ 228  2.78256E-01  4.34449E-03  4.34449E-03  0.00000E+00            119.SN 50.  34  28
+ 229  1.09768E-03  4.40681E-03  4.40681E-03  0.00000E+00            119.SN 50.  35  29
+ 230  1.65366E-03  4.40791E-03  4.40791E-03  0.00000E+00            119.SN 50.  36  30
+ 231  3.84502E-03  4.43402E-03  4.43402E-03  0.00000E+00            119.SN 50.  37  31
+ 232  5.98405E-03  4.43453E-03  4.43453E-03  0.00000E+00            119.SN 50.  38  32
+ 241  9.86826E-07  2.34000E-04  2.34000E-04  0.00000E+00            119.SN 50.  39  41
+ 242  1.23049E-01  3.29176E-03  3.29176E-03  0.00000E+00            119.SN 50.  40  42
+ 243  1.58900E-03  3.45048E-03  3.45048E-03  0.00000E+00            119.SN 50.  41  43
+ 244  1.91954E+00  3.65723E-03  3.65723E-03  0.00000E+00            119.SN 50.  42  44
+ 245  1.49063E-02  4.01799E-03  4.01799E-03  0.00000E+00            119.SN 50.  43  45
+ 246  1.39581E-04  4.06501E-03  4.06501E-03  0.00000E+00            119.SN 50.  44  46
+ 247  2.31717E-01  4.12731E-03  4.12731E-03  0.00000E+00            119.SN 50.  45  47
+ 249  1.27387E-03  4.14741E-03  4.14741E-03  0.00000E+00            119.SN 50.  46  49
+ 250  3.00360E-06  4.15503E-03  4.15503E-03  0.00000E+00            119.SN 50.  47  50
+ 261  5.42368E-01  3.05775E-03  3.05775E-03  0.00000E+00            119.SN 50.  48  61
+ 262  2.76324E-03  3.17344E-03  3.17344E-03  0.00000E+00            119.SN 50.  49  62
+ 263  2.58847E-03  3.21648E-03  3.21648E-03  0.00000E+00            119.SN 50.  50  63
+ 264  4.87303E-01  3.42323E-03  3.42323E-03  0.00000E+00            119.SN 50.  51  64
+ 265  4.32068E+00  3.43218E-03  3.43218E-03  0.00000E+00            119.SN 50.  52  65
+ 266  4.03231E-02  3.78399E-03  3.78399E-03  0.00000E+00            119.SN 50.  53  66
+ 267  1.77394E-04  3.82316E-03  3.82316E-03  0.00000E+00            119.SN 50.  54  67
+ 268  1.69344E-04  3.83100E-03  3.83100E-03  0.00000E+00            119.SN 50.  55  68
+ 269  5.76409E-02  3.89331E-03  3.89331E-03  0.00000E+00            119.SN 50.  56  69
+ 270  5.11655E-01  3.89441E-03  3.89441E-03  0.00000E+00            119.SN 50.  57  70
+ 273  4.09668E-03  3.91341E-03  3.91341E-03  0.00000E+00            119.SN 50.  58  73
+ 274  4.04456E-06  3.92052E-03  3.92052E-03  0.00000E+00            119.SN 50.  59  74
+ 275  3.63352E-06  3.92103E-03  3.92103E-03  0.00000E+00            119.SN 50.  60  75
+ 291  4.75198E-01  4.70075E-04  4.70075E-04  0.00000E+00            119.SN 50.  61  91
+ 292  1.17242E-02  6.18491E-05  6.18491E-05  0.00000E+00            119.SN 50.  62  92
+ 294  2.44729E+03  1.08559E-05  1.08559E-05  0.00000E+00            119.SN 50.  63  94
+ 7 1  2.93528E+00  2.09334E-02  2.09334E-02  0.00000E+00            119.SN 50.  64   1
+ 7 2  1.25010E+00  2.44171E-02  2.44171E-02  0.00000E+00            119.SN 50.  65   2
+ 7 3  1.27629E-01  2.79029E-02  2.79029E-02  0.00000E+00            119.SN 50.  66   3
+ 7 4  4.60907E+01  3.16710E-04  3.16710E-04  0.00000E+00            119.SN 50.  67   4
+ 7 5  1.08999E+02  2.89382E-03  2.89382E-03  0.00000E+00            119.SN 50.  68   5
+ 7 6  2.83637E+01  3.41883E-03  3.41883E-03  0.00000E+00            119.SN 50.  69   6
+ 7 7  1.90377E+00  3.96689E-03  3.96689E-03  0.00000E+00            119.SN 50.  70   7
+ 7 8  1.44810E+02  1.20339E-04  1.20339E-04  0.00000E+00            119.SN 50.  71   8
+ 7 9  2.80371E+02  3.99305E-04  3.99305E-04  0.00000E+00            119.SN 50.  72   9
+ 710  6.56097E+00  4.81348E-04  4.81348E-04  0.00000E+00            119.SN 50.  73  10
+ 711  1.33953E-02  6.79760E-04  6.79760E-04  0.00000E+00            119.SN 50.  74  11
+ 712  4.33215E+02  3.01297E-05  3.01297E-05  0.00000E+00            119.SN 50.  75  12
+ 713  1.20908E+03  1.13520E-05  1.13520E-05  0.00000E+00            119.SN 50.  76  13
+%%%% 119 SN  50 M  IT           2.53238E+07 293.1 D    02-11-2005       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   3.84193E-03
+    X-ray                           (MeV) =   7.36882E-03
+    Free-bound X-ray                (MeV) =   2.65675E-04
+    Annihilation photon             (MeV) =   0.00000E+00
+    Beta+ particle                  (MeV) =   0.00000E+00
+    Neutrino                        (MeV) =   0.00000E+00
+    Beta- particle                  (MeV) =   0.00000E+00
+    Neutrino-                       (MeV) =   0.00000E+00
+    Internal conv. electron         (MeV) =   7.11956E-02
+    Auger and CK electron           (MeV) =   6.89401E-03
+    Alpha particle                  (MeV) =   0.00000E+00
+    Recoil nucleus                  (MeV) =   0.00000E+00
+  E-total (except unplaced radiat.) (MeV) =   8.95661E-02
+  E-unplaced radiation              (MeV) =   3.61375E-03
+  Q-value from ENSDF data           (MeV) =   8.95350E-02
+  Ratio of E-total/Q-value          ( % ) =   1.00035E+02
+  Ratio of E-unplaced radi./Q-value ( % ) =   4.03613E+00
+
+ 
+  Total yield of
+    Gamma-ray                             =   1.60579E-01
+    X-ray                                 =   3.85759E-01
+    Free-bound X-ray                      =   2.44729E+01
+    Annihilation photon                   =   0.00000E+00
+    Beta+ particle                        =   0.00000E+00
+    Beta- particle                        =   0.00000E+00
+    Internal conv. electron               =   1.83942E+00
+    Auger and CK electron                 =   2.26373E+01
+    Alpha particle                        =   0.00000E+00
+  Yield of unplaced radiation             =   1.43000E-01
+
+

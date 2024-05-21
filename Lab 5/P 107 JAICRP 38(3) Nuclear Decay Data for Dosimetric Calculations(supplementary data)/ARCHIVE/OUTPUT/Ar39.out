@@ -1,0 +1,171 @@
+%%%%  39 AR  18    B-           8.48899E+09 269 Y      02-11-2005       BALASTAR
+1  39   AR  18 269 Y           B-         
+1INTENSITY AND ENERGY BALANCE DATA
+
+              39-ARGON-18
++                                    HALFLIFE = 269 YEARS   
++                                                                  02-11-2005
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  1.0000E+02
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  1.000E+02
+ TOTAL INTENSITY FROM PARENT=  1.000E+02
+ PERCENT ERROR =  0.000E+00                      
+
+
+ TOTAL INTENSITY FROM PARENT =  1.000E+02
+ VALUE IS WITHIN   0.00E+00% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  5.650E-01 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  5.650E-01 MEV
+ PERCENT ERROR =  0.000E+00                      
+%%%%  39 AR  18    B-           8.48899E+09 269 Y      02-11-2005       BALAEND 
+%%%%  39 AR  18    B-           8.48899E+09 269 Y      02-11-2005       INPUSTAR
+1                                      **INPUT DATA**
+              39-ARGON-18
++                                    HALFLIFE = 269 YEARS   
++                                                                  02-11-2005
+
+            MODE OF DECAY: BETA MINUS
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+               BETA MINUS   1   1.00E+00   5.650E-01*  UNIQUE FIRST FORBIDDEN                   
+ 
+           * ENDPOINT ENERGY (MEV)
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: Mar-2001
+%%%%  39 AR  18    B-           8.48899E+09 269 Y      02-11-2005       INPUEND 
+%%%%  39 AR  18    B-           8.48899E+09 269 Y      02-11-2005       OUTPSTAR
+1                                      **OUTPUT DATA**
+              39-ARGON-18
++                                    HALFLIFE = 269 YEARS   
++                                                                  02-11-2005
+
+            MODE OF DECAY: BETA MINUS
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           BETA MINUS                     1   1.00E+00    2.188E-01*   2.19E-01
+ 
+           ALL LISTED BETAS, INTERNAL CONVERSION AND AUGER ELECTRONS   2.19E-01
+           ALL LISTED RADIATIONS                                       2.19E-01
+ 
+           *  AVERAGE ENERGY (MEV)
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 39-POTASSIUM
+             DAUGHTER IS 1.0000E+00 PER TRANSFORMATION OF  39-ARGON.
+             THIS DAUGHTER GROUND STATE IS STABLE.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: Mar-2001
+%%%%  39 AR  18    B-           8.48899E+09 269 Y      02-11-2005       OUTPEND 
+%%%%  39 AR  18    B-           8.48899E+09 269 Y      02-11-2005       BETASTAR
+1
+              39-ARGON-18
++                                    HALFLIFE = 269 YEARS   
++                                                                  02-11-2005
+
+            BETA SPECTRUM DATA FOR ALL DECAY BRANCHES
+
+                      BETAS PER                BETAS PER                BETAS PER
+            ENERGY    MEV            ENERGY    MEV            ENERGY    MEV
+            (MEV)     PER DECAY      (MEV)     PER DECAY      (MEV)     PER DECAY
+
+            0.00000   2.016E+00      0.00180   1.997E+00      0.03600   2.138E+00
+            0.00010   2.015E+00      0.00200   1.995E+00      0.04000   2.160E+00
+            0.00011   2.015E+00      0.00220   1.994E+00      0.04500   2.186E+00
+            0.00012   2.014E+00      0.00240   1.994E+00      0.05000   2.212E+00
+            0.00013   2.014E+00      0.00260   1.994E+00      0.05500   2.236E+00
+            0.00014   2.014E+00      0.00280   1.994E+00      0.06000   2.259E+00
+            0.00015   2.014E+00      0.00300   1.994E+00      0.06500   2.281E+00
+            0.00016   2.014E+00      0.00320   1.993E+00      0.07000   2.302E+00
+            0.00018   2.014E+00      0.00360   1.993E+00      0.07500   2.322E+00
+            0.00020   2.014E+00      0.00400   1.993E+00      0.08000   2.341E+00
+            0.00022   2.013E+00      0.00450   1.992E+00      0.08500   2.359E+00
+            0.00024   2.013E+00      0.00500   1.992E+00      0.09000   2.376E+00
+            0.00026   2.013E+00      0.00550   1.992E+00      0.10000   2.407E+00
+            0.00028   2.013E+00      0.00600   1.992E+00      0.11000   2.434E+00
+            0.00030   2.013E+00      0.00650   1.992E+00      0.12000   2.458E+00
+            0.00032   2.012E+00      0.00700   1.993E+00      0.13000   2.479E+00
+            0.00036   2.012E+00      0.00750   1.994E+00      0.14000   2.497E+00
+            0.00040   2.012E+00      0.00800   1.994E+00      0.15000   2.511E+00
+            0.00045   2.011E+00      0.00850   1.996E+00      0.16000   2.522E+00
+            0.00050   2.011E+00      0.00900   1.997E+00      0.18000   2.533E+00
+            0.00055   2.010E+00      0.01000   2.000E+00      0.20000   2.530E+00
+            0.00060   2.010E+00      0.01100   2.003E+00      0.22000   2.511E+00
+            0.00065   2.009E+00      0.01200   2.007E+00      0.24000   2.475E+00
+            0.00070   2.009E+00      0.01300   2.011E+00      0.26000   2.420E+00
+            0.00075   2.008E+00      0.01400   2.015E+00      0.28000   2.344E+00
+            0.00080   2.007E+00      0.01500   2.020E+00      0.30000   2.248E+00
+            0.00085   2.007E+00      0.01600   2.025E+00      0.32000   2.130E+00
+            0.00090   2.006E+00      0.01800   2.035E+00      0.36000   1.828E+00
+            0.00100   2.005E+00      0.02000   2.046E+00      0.40000   1.446E+00
+            0.00110   2.004E+00      0.02200   2.058E+00      0.45000   8.958E-01
+            0.00120   2.003E+00      0.02400   2.069E+00      0.50000   3.621E-01
+            0.00130   2.002E+00      0.02600   2.081E+00      0.55000   2.420E-02
+            0.00140   2.001E+00      0.02800   2.092E+00      0.56500   0.000E+00
+            0.00150   2.000E+00      0.03000   2.104E+00
+            0.00160   1.999E+00      0.03200   2.115E+00
+
+            AVERAGE BETA ENERGY =   2.188E-01
+
+            TOTAL BETAS PER DECAY FOR ALL BRANCHES =   1.000E+00
+%%%%  39 AR  18    B-           8.48899E+09 269 Y      02-11-2005       BETAEND 
+%%%%  39 AR  18    B-           8.48899E+09 269 Y      02-11-2005       SEEISTAR
+ 39.  ARGON        18.  2.690E+02 YEARS      1 B-                    39.AR 18.   0
+ 5 1  1.00000E+02  2.18788E-01  5.65000E-01  1.00000E+00             39.AR 18.   1   1
+%%%%  39 AR  18    B-           8.48899E+09 269 Y      02-11-2005       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   0.00000E+00
+    X-ray                           (MeV) =   0.00000E+00
+    Free-bound X-ray                (MeV) =   0.00000E+00
+    Annihilation photon             (MeV) =   0.00000E+00
+    Beta+ particle                  (MeV) =   0.00000E+00
+    Neutrino                        (MeV) =   0.00000E+00
+    Beta- particle                  (MeV) =   2.18788E-01
+    Neutrino-                       (MeV) =   3.46212E-01
+    Internal conv. electron         (MeV) =   0.00000E+00
+    Auger and CK electron           (MeV) =   0.00000E+00
+    Alpha particle                  (MeV) =   0.00000E+00
+    Recoil nucleus                  (MeV) =   0.00000E+00
+  E-total (except unplaced radiat.) (MeV) =   5.65000E-01
+  E-unplaced radiation              (MeV) =   0.00000E+00
+  Q-value from ENSDF data           (MeV) =   5.65000E-01
+  Ratio of E-total/Q-value          ( % ) =   1.00000E+02
+  Ratio of E-unplaced radi./Q-value ( % ) =   0.00000E+00
+
+ 
+  Total yield of
+    Gamma-ray                             =   0.00000E+00
+    X-ray                                 =   0.00000E+00
+    Free-bound X-ray                      =   0.00000E+00
+    Annihilation photon                   =   0.00000E+00
+    Beta+ particle                        =   0.00000E+00
+    Beta- particle                        =   1.00000E+00
+    Internal conv. electron               =   0.00000E+00
+    Auger and CK electron                 =   0.00000E+00
+    Alpha particle                        =   0.00000E+00
+  Yield of unplaced radiation             =   0.00000E+00
+
+

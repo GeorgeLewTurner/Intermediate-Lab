@@ -1,0 +1,231 @@
+%%%%  31 SI  14    B-           9.43800E+03 157.3 M    02-11-2005       BALASTAR
+1  31   SI  14 157.3 M         B-         
+1INTENSITY AND ENERGY BALANCE DATA
+
+              31-SILICON-14
++                                    HALFLIFE = 157.3 MINUTES 
++                                                                  02-11-2005
+
+
+    LEVEL       INTENSITY   INTENSITY
+    ENERGY      ENTERING    LEAVING     PERCENT
+    (MEV)       LEVEL       LEVEL       ERROR
+
+   0.0000E+00  1.0000E+02
+   1.2662E+00  7.0000E-02  7.0001E-02  1.7988E-03                      
+
+
+ INTENSITY TO GROUND AND ISOMERIC STATE(S) OF DAUGHTER(S)=  1.000E+02
+ TOTAL INTENSITY FROM PARENT=  1.000E+02
+ PERCENT ERROR =  0.000E+00                      
+
+
+ TOTAL INTENSITY FROM PARENT =  1.000E+02
+ VALUE IS WITHIN   0.00E+00% OF 100                      
+
+
+ TOTAL ENERGY AVAILABLE =  1.491E+00 MEV
+ TOTAL ENERGY CONTENT OF ALL RADIATIONS =  1.491E+00 MEV
+ PERCENT ERROR =  0.000E+00                      
+%%%%  31 SI  14    B-           9.43800E+03 157.3 M    02-11-2005       BALAEND 
+%%%%  31 SI  14    B-           9.43800E+03 157.3 M    02-11-2005       INPUSTAR
+1                                      **INPUT DATA**
+              31-SILICON-14
++                                    HALFLIFE = 157.3 MINUTES 
++                                                                  02-11-2005
+
+            MODE OF DECAY: BETA MINUS
+ 
+                                MEAN
+                                NUMBER/    TRANSITION
+                TYPE OF    ID   TRANSFOR-  ENERGY
+              TRANSITION   NO.  MATION     (MEV)       OTHER NUCLEAR PARAMETERS
+
+               BETA MINUS   1   7.00E-04   2.243E-01*  ALLOWED                                  
+               BETA MINUS   2   9.99E-01   1.491E+00*  ALLOWED                                  
+           I.C.E. + GAMMA   1   7.00E-04   1.266E+00   M1 MULTIPOLE                             
+ 
+           * ENDPOINT ENERGY (MEV)
+           - - - - - - - - - -
+           Reference: Evaluated Nuclear Structure Data File (ENSDF)
+                DATE DATA WERE ENTERED INTO ENSDF: Mar-2001
+%%%%  31 SI  14    B-           9.43800E+03 157.3 M    02-11-2005       INPUEND 
+%%%%  31 SI  14    B-           9.43800E+03 157.3 M    02-11-2005       OUTPSTAR
+1                                      **OUTPUT DATA**
+              31-SILICON-14
++                                    HALFLIFE = 157.3 MINUTES 
++                                                                  02-11-2005
+
+            MODE OF DECAY: BETA MINUS
+ 
+                                              MEAN
+                                              NUMBER/                  MEV/
+                                         ID   TRANSFOR-   ENERGY       TRANSFOR-
+                  TYPE OF RADIATION      NO.  MATION      (MEV)        MATION
+
+           BETA MINUS                     1   7.00E-04    6.857E-02*   4.80E-05
+           BETA MINUS                     2   9.99E-01    5.952E-01*   5.95E-01
+           GAMMA-RAY                      1   7.00E-04    1.266E+00    8.86E-04
+           K CONV. ELECTRON, GAMMA-RAY    1   1.17E-08    1.264E+00    1.48E-08
+           L1 CONV. ELECTRON, GAMMA-RAY   1   8.78E-10    1.266E+00    1.11E-09
+           L2 CONV. ELECTRON, GAMMA-RAY   1   1.19E-12    1.266E+00    1.51E-12
+           L3 CONV. ELECTRON, GAMMA-RAY   1   1.47E-12    1.266E+00    1.87E-12
+           K -L2 X-RAY                        2.35E-10    1.991E-03    4.69E-13
+           K -L3 X-RAY                        4.67E-10    1.992E-03    9.30E-13
+           K -M2 X-RAY                        7.27E-12    2.122E-03    1.54E-14
+           K -M3 X-RAY                        1.44E-11    2.122E-03    3.06E-14
+           L1-L2 X-RAY                        6.50E-13    4.801E-05    3.12E-17
+           L1-L3 X-RAY                        1.53E-12    4.897E-05    7.47E-17
+           L1-M2 X-RAY                        7.82E-14    1.788E-04    1.40E-17
+           L1-M3 X-RAY                        1.37E-13    1.788E-04    2.45E-17
+           L2-L3 X-RAY                        5.68E-22    9.600E-07    5.45E-28
+           L2-M1 X-RAY                        8.07E-13    1.219E-04    9.84E-17
+           L2-M3 X-RAY                        7.16E-17    1.308E-04    9.37E-21
+           L3-M1 X-RAY                        1.49E-12    1.210E-04    1.81E-16
+           L3-M2 X-RAY                        6.59E-17    1.298E-04    8.56E-21
+           L3-M3 X-RAY                        6.50E-17    1.299E-04    8.44E-21
+           Free-Bound X-RAY                   5.14E-08    1.108E-05*   5.69E-13
+           AUGER KLL                          9.97E-09    1.832E-03*   1.83E-11
+           AUGER KLX                          9.84E-10    1.966E-03*   1.94E-12
+           AUGER KXY                          2.48E-11    2.104E-03*   5.22E-14
+           CK LLX                             5.30E-09    3.402E-05*   1.80E-13
+           AUGER LMM                          2.25E-08    1.176E-04*   2.65E-12
+ 
+           ALL LISTED X-RAYS, GAMMA-RAYS AND ANNIHILATION RADIATION    8.86E-04
+           ALL LISTED BETAS, INTERNAL CONVERSION AND AUGER ELECTRONS   5.95E-01
+           ALL LISTED RADIATIONS                                       5.96E-01
+ 
+           *  AVERAGE ENERGY (MEV)
+           TOTAL FEEDING OF GROUND STATE LEVEL IN 31-PHOSPHORUS
+             DAUGHTER IS 1.0000E+00 PER TRANSFORMATION OF  31-SILICON.
+             THIS DAUGHTER GROUND STATE IS STABLE.
+           - - - - - - - - - -
+           INPUT DATA SOURCE: EVALUATED NUCLEAR STRUCTURE DATA FILE (ENSDF)
+             DATE INPUT DATA WERE ENTERED INTO ENSDF: Mar-2001
+%%%%  31 SI  14    B-           9.43800E+03 157.3 M    02-11-2005       OUTPEND 
+%%%%  31 SI  14    B-           9.43800E+03 157.3 M    02-11-2005       BETASTAR
+1
+              31-SILICON-14
++                                    HALFLIFE = 157.3 MINUTES 
++                                                                  02-11-2005
+
+            BETA SPECTRUM DATA FOR ALL DECAY BRANCHES
+
+                      BETAS PER                BETAS PER                BETAS PER
+            ENERGY    MEV            ENERGY    MEV            ENERGY    MEV
+            (MEV)     PER DECAY      (MEV)     PER DECAY      (MEV)     PER DECAY
+
+            0.00000   3.598E-01      0.00260   3.609E-01      0.07500   5.498E-01
+            0.00010   3.598E-01      0.00280   3.610E-01      0.08000   5.616E-01
+            0.00011   3.598E-01      0.00300   3.612E-01      0.08500   5.733E-01
+            0.00012   3.598E-01      0.00320   3.614E-01      0.09000   5.847E-01
+            0.00013   3.598E-01      0.00360   3.618E-01      0.10000   6.070E-01
+            0.00014   3.598E-01      0.00400   3.622E-01      0.11000   6.287E-01
+            0.00015   3.598E-01      0.00450   3.629E-01      0.12000   6.498E-01
+            0.00016   3.598E-01      0.00500   3.636E-01      0.13000   6.702E-01
+            0.00018   3.598E-01      0.00550   3.644E-01      0.14000   6.901E-01
+            0.00020   3.598E-01      0.00600   3.653E-01      0.15000   7.095E-01
+            0.00022   3.598E-01      0.00650   3.663E-01      0.16000   7.283E-01
+            0.00024   3.598E-01      0.00700   3.673E-01      0.18000   7.646E-01
+            0.00026   3.598E-01      0.00750   3.684E-01      0.20000   7.990E-01
+            0.00028   3.598E-01      0.00800   3.695E-01      0.22000   8.317E-01
+            0.00030   3.598E-01      0.00850   3.707E-01      0.24000   8.626E-01
+            0.00032   3.598E-01      0.00900   3.719E-01      0.26000   8.916E-01
+            0.00036   3.599E-01      0.01000   3.745E-01      0.28000   9.186E-01
+            0.00040   3.599E-01      0.01100   3.771E-01      0.30000   9.436E-01
+            0.00045   3.599E-01      0.01200   3.799E-01      0.32000   9.666E-01
+            0.00050   3.599E-01      0.01300   3.827E-01      0.36000   1.007E+00
+            0.00055   3.599E-01      0.01400   3.855E-01      0.40000   1.038E+00
+            0.00060   3.599E-01      0.01500   3.884E-01      0.45000   1.067E+00
+            0.00065   3.599E-01      0.01600   3.913E-01      0.50000   1.082E+00
+            0.00070   3.599E-01      0.01800   3.971E-01      0.55000   1.085E+00
+            0.00075   3.599E-01      0.02000   4.030E-01      0.60000   1.075E+00
+            0.00080   3.599E-01      0.02200   4.089E-01      0.65000   1.053E+00
+            0.00085   3.599E-01      0.02400   4.148E-01      0.70000   1.019E+00
+            0.00090   3.599E-01      0.02600   4.206E-01      0.75000   9.743E-01
+            0.00100   3.600E-01      0.02800   4.265E-01      0.80000   9.196E-01
+            0.00110   3.600E-01      0.03000   4.322E-01      0.85000   8.560E-01
+            0.00120   3.600E-01      0.03200   4.379E-01      0.90000   7.846E-01
+            0.00130   3.600E-01      0.03600   4.492E-01      1.00000   6.241E-01
+            0.00140   3.600E-01      0.04000   4.603E-01      1.10000   4.516E-01
+            0.00150   3.601E-01      0.04500   4.739E-01      1.20000   2.828E-01
+            0.00160   3.601E-01      0.05000   4.872E-01      1.30000   1.366E-01
+            0.00180   3.603E-01      0.05500   5.002E-01      1.40000   3.440E-02
+            0.00200   3.604E-01      0.06000   5.130E-01      1.49050   0.000E+00
+            0.00220   3.606E-01      0.06500   5.255E-01
+            0.00240   3.607E-01      0.07000   5.378E-01
+
+            AVERAGE BETA ENERGY =   5.949E-01
+
+            TOTAL BETAS PER DECAY FOR ALL BRANCHES =   1.000E+00
+%%%%  31 SI  14    B-           9.43800E+03 157.3 M    02-11-2005       BETAEND 
+%%%%  31 SI  14    B-           9.43800E+03 157.3 M    02-11-2005       SEEISTAR
+ 31.  SILICON      14.  1.573E+02 MINUTES   27 B-                    31.SI 14.   0
+ 5 1  7.00000E-02  6.85745E-02  2.24350E-01  0.00000E+00             31.SI 14.   1   1
+ 5 2  9.99300E+01  5.95227E-01  1.49050E+00  0.00000E+00             31.SI 14.   2   2
+ 1 1  7.00000E-02  1.26615E+00  1.26615E+00  0.00000E+00             31.SI 14.   3   1
+ 6 1  1.17024E-06  1.26402E+00  1.26402E+00  1.00000E+00             31.SI 14.   4   1
+ 6 5  8.78398E-08  1.26596E+00  1.26596E+00  1.00000E+00             31.SI 14.   5   5
+ 6 6  1.18912E-10  1.26601E+00  1.26601E+00  1.00000E+00             31.SI 14.   6   6
+ 6 7  1.47371E-10  1.26601E+00  1.26601E+00  1.00000E+00             31.SI 14.   7   7
+ 2 1  2.35475E-08  1.99126E-03  1.99126E-03  0.00000E+00             31.SI 14.   8   1
+ 2 2  4.66631E-08  1.99222E-03  1.99222E-03  0.00000E+00             31.SI 14.   9   2
+ 2 3  7.27267E-10  2.12202E-03  2.12202E-03  0.00000E+00             31.SI 14.  10   3
+ 2 4  1.44185E-09  2.12207E-03  2.12207E-03  0.00000E+00             31.SI 14.  11   4
+ 221  6.50029E-11  4.80100E-05  4.80100E-05  0.00000E+00             31.SI 14.  12  21
+ 222  1.52587E-10  4.89702E-05  4.89702E-05  0.00000E+00             31.SI 14.  13  22
+ 223  7.82278E-12  1.78770E-04  1.78770E-04  0.00000E+00             31.SI 14.  14  23
+ 224  1.37059E-11  1.78820E-04  1.78820E-04  0.00000E+00             31.SI 14.  15  24
+ 241  5.67516E-20  9.59999E-07  9.59999E-07  0.00000E+00             31.SI 14.  16  41
+ 242  8.07190E-11  1.21930E-04  1.21930E-04  0.00000E+00             31.SI 14.  17  42
+ 243  7.15972E-15  1.30810E-04  1.30810E-04  0.00000E+00             31.SI 14.  18  43
+ 261  1.49266E-10  1.20969E-04  1.20969E-04  0.00000E+00             31.SI 14.  19  61
+ 262  6.59247E-15  1.29800E-04  1.29800E-04  0.00000E+00             31.SI 14.  20  62
+ 263  6.49851E-15  1.29850E-04  1.29850E-04  0.00000E+00             31.SI 14.  21  63
+ 294  5.13709E-06  1.10815E-05  1.10815E-05  0.00000E+00             31.SI 14.  22  94
+ 7 1  9.96960E-07  1.83231E-03  1.83231E-03  0.00000E+00             31.SI 14.  23   1
+ 7 2  9.84160E-08  1.96638E-03  1.96638E-03  0.00000E+00             31.SI 14.  24   2
+ 7 3  2.48239E-09  2.10436E-03  2.10436E-03  0.00000E+00             31.SI 14.  25   3
+ 7 4  5.30485E-07  3.40177E-05  3.40177E-05  0.00000E+00             31.SI 14.  26   4
+ 7 5  2.25040E-06  1.17573E-04  1.17573E-04  0.00000E+00             31.SI 14.  27   5
+%%%%  31 SI  14    B-           9.43800E+03 157.3 M    02-11-2005       SEEIEND 
+ 
+
+
+   ***************************************************** 
+   *                 Radiation Summary                 * 
+   ***************************************************** 
+ 
+  Energy released by
+    Gamma-ray                       (MeV) =   8.86305E-04
+    X-ray                           (MeV) =   1.44498E-12
+    Free-bound X-ray                (MeV) =   5.69269E-13
+    Annihilation photon             (MeV) =   0.00000E+00
+    Beta+ particle                  (MeV) =   0.00000E+00
+    Neutrino                        (MeV) =   0.00000E+00
+    Beta- particle                  (MeV) =   5.94859E-01
+    Neutrino-                       (MeV) =   8.94755E-01
+    Internal conv. electron         (MeV) =   1.59074E-08
+    Auger and CK electron           (MeV) =   2.30812E-11
+    Alpha particle                  (MeV) =   0.00000E+00
+    Recoil nucleus                  (MeV) =   0.00000E+00
+  E-total (except unplaced radiat.) (MeV) =   1.49050E+00
+  E-unplaced radiation              (MeV) =   0.00000E+00
+  Q-value from ENSDF data           (MeV) =   1.49050E+00
+  Ratio of E-total/Q-value          ( % ) =   1.00000E+02
+  Ratio of E-unplaced radi./Q-value ( % ) =   0.00000E+00
+
+ 
+  Total yield of
+    Gamma-ray                             =   7.00000E-04
+    X-ray                                 =   7.28489E-10
+    Free-bound X-ray                      =   5.13709E-08
+    Annihilation photon                   =   0.00000E+00
+    Beta+ particle                        =   0.00000E+00
+    Beta- particle                        =   1.00000E+00
+    Internal conv. electron               =   1.25834E-08
+    Auger and CK electron                 =   3.87874E-08
+    Alpha particle                        =   0.00000E+00
+  Yield of unplaced radiation             =   0.00000E+00
+
+
